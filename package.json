@@ -1,0 +1,16 @@
+{
+  "name": "ottawa-new-build-map",
+  "version": "1.0.0",
+  "description": "Interactive map of new build communities in Ottawa with price history and model comparison",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper/index.js",
+    "scrape:source": "node --input-type=module",
+    "start": "http-server public -p 8080 -c-1 --cors",
+    "scrape:start": "npm run scrape && npm start"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0"
+  }
+}

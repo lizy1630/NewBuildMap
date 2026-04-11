@@ -1,0 +1,78 @@
+{
+  "minto-arcadia": [
+    { "date": "2025-10-15", "priceFrom": 349900, "models": { "Metro Townhome": 349900, "Avenue Townhome": 459900, "Executive Townhome": 589900 } },
+    { "date": "2026-01-10", "priceFrom": 369900, "models": { "Metro Townhome": 369900, "Avenue Townhome": 479900, "Executive Townhome": 609900, "The Westport": 829900 } },
+    { "date": "2026-04-10", "priceFrom": 379900, "models": { "Metro Townhome": 379900, "Avenue Townhome": 489900, "Executive Townhome": 629900, "The Westport": 849900, "The Stratford": 1049900 } }
+  ],
+  "minto-brookline": [
+    { "date": "2025-09-01", "priceFrom": 489900, "models": { "The Berne Townhome": 489900, "The Geneva": 729900 } },
+    { "date": "2026-01-15", "priceFrom": 509900, "models": { "The Berne Townhome": 509900, "The Geneva": 749900, "The Alpine": 909900 } },
+    { "date": "2026-04-10", "priceFrom": 519900, "models": { "The Berne Townhome": 519900, "The Geneva": 769900, "The Alpine": 939900 } }
+  ],
+  "minto-abbotts-run": [
+    { "date": "2025-11-01", "priceFrom": 549900, "models": { "Urban Townhome": 549900, "Executive Townhome": 669900 } },
+    { "date": "2026-02-01", "priceFrom": 569900, "models": { "Urban Townhome": 569900, "Executive Townhome": 689900, "The Fairmont": 859900 } },
+    { "date": "2026-04-10", "priceFrom": 579900, "models": { "Urban Townhome": 579900, "Executive Townhome": 699900, "The Fairmont": 879900, "The Rideau Grand": 1129900 } }
+  ],
+  "mattamy-northwoods": [
+    { "date": "2025-08-15", "priceFrom": 479990, "models": { "The Ashbury B2B": 479990, "The Birchwood": 589990 } },
+    { "date": "2025-12-01", "priceFrom": 499990, "models": { "The Ashbury B2B": 499990, "The Birchwood": 599990, "The Cypress Bungalow": 759990 } },
+    { "date": "2026-04-10", "priceFrom": 509990, "models": { "The Ashbury B2B": 509990, "The Birchwood": 619990, "The Cypress Bungalow": 789990, "The Douglas Two-Storey": 949990, "The Everett Grande": 1399990 } }
+  ],
+  "cardel-blackstone": [
+    { "date": "2025-06-01", "priceFrom": 669000, "models": { "The Bungalow 1611": 669000, "The Two-Storey 2124": 799000 } },
+    { "date": "2025-10-01", "priceFrom": 699000, "models": { "The Bungalow 1611": 699000, "The Two-Storey 2124": 829000, "The Executive 2660": 1079000 } },
+    { "date": "2026-04-10", "priceFrom": 719000, "models": { "The Bungalow 1611": 719000, "The Two-Storey 2124": 859000, "The Executive 2660": 1117000 } }
+  ],
+  "cardel-edenwylde": [
+    { "date": "2025-09-15", "priceFrom": 499000, "models": { "Terrace Town 2064": 499000, "Terrace Town 2257": 539000 } },
+    { "date": "2026-01-20", "priceFrom": 519000, "models": { "Terrace Town 2064": 519000, "Terrace Town 2257": 549000, "Semi-Detached 1850": 679000 } },
+    { "date": "2026-04-10", "priceFrom": 529000, "models": { "Terrace Town 2064": 529000, "Terrace Town 2257": 569000, "Semi-Detached 1850": 699000, "Single Family 2400": 829000, "Executive Bungalow": 939000 } }
+  ],
+  "richcraft-kanata-lakes": [
+    { "date": "2025-10-01", "priceFrom": 789900, "models": { "Townhome Series A": 789900, "The Elm Bungalow": 969900 } },
+    { "date": "2026-02-15", "priceFrom": 809900, "models": { "Townhome Series A": 809900, "The Elm Bungalow": 989900, "The Oak Two-Storey": 1159900 } },
+    { "date": "2026-04-10", "priceFrom": 814900, "models": { "Townhome Series A": 814900, "The Elm Bungalow": 999900, "The Oak Two-Storey": 1189900, "The Maple Grande": 1489900, "Tandem Dual-Unit": 1637900 } }
+  ],
+  "hn-homes-kanata-lakes": [
+    { "date": "2026-01-10", "priceFrom": 749900, "models": { "Town Series T1": 749900, "Town Series T2": 849900 } },
+    { "date": "2026-04-10", "priceFrom": 779900, "models": { "Town Series T1": 779900, "Town Series T2": 879900, "Single Detached S1": 1099900 } }
+  ],
+  "glenview-union-west": [
+    { "date": "2025-11-15", "priceFrom": 549000, "models": { "Townhome 1740": 549000, "Single 30ft Lot": 749000 } },
+    { "date": "2026-04-10", "priceFrom": 569000, "models": { "Townhome 1740": 569000, "Single 30ft Lot": 769000, "Single 36ft Lot": 899000 } }
+  ],
+  "tamarack-westwood": [
+    { "date": "2025-08-01", "priceFrom": 469900, "models": { "The Birch Town": 469900, "The Cedar Single": 729900 } },
+    { "date": "2025-12-15", "priceFrom": 489900, "models": { "The Birch Town": 489900, "The Cedar Single": 749900, "The Spruce Bungalow": 809900 } },
+    { "date": "2026-04-10", "priceFrom": 499900, "models": { "The Birch Town": 499900, "The Cedar Single": 769900, "The Spruce Bungalow": 829900 } }
+  ],
+  "claridge-wateridge": [
+    { "date": "2025-07-01", "priceFrom": 609900, "models": { "The Rideau Town": 609900, "The Gatineau Semi": 729900 } },
+    { "date": "2025-11-01", "priceFrom": 629900, "models": { "The Rideau Town": 629900, "The Gatineau Semi": 749900, "The Ottawa Single": 999900 } },
+    { "date": "2026-04-10", "priceFrom": 649900, "models": { "The Rideau Town": 649900, "The Gatineau Semi": 769900, "The Ottawa Single": 1029900 } }
+  ],
+  "richcraft-westboro-station": [
+    { "date": "2025-10-01", "priceFrom": 369900, "models": { "Studio 480": 369900, "1-Bed 620": 449900, "2-Bed 890": 639900 } },
+    { "date": "2026-02-01", "priceFrom": 389900, "models": { "Studio 480": 389900, "1-Bed 620": 469900, "2-Bed 890": 659900, "2-Bed Den 1050": 779900 } },
+    { "date": "2026-04-10", "priceFrom": 399900, "models": { "Studio 480": 399900, "1-Bed 620": 479900, "2-Bed 890": 679900, "2-Bed Den 1050": 799900, "Penthouse 1420": 1189900 } }
+  ],
+  "minto-central-park": [
+    { "date": "2025-09-01", "priceFrom": 449900, "models": { "The Avon Town": 449900, "The Eden Single": 629900 } },
+    { "date": "2026-01-01", "priceFrom": 459900, "models": { "The Avon Town": 459900, "The Eden Single": 639900, "The Hampton Grande": 939900 } },
+    { "date": "2026-04-10", "priceFrom": 469900, "models": { "The Avon Town": 469900, "The Eden Single": 659900, "The Hampton Grande": 959900 } }
+  ],
+  "caivan-half-moon-bay": [
+    { "date": "2025-12-01", "priceFrom": 479900, "models": { "Town Classic 1540": 479900, "Semi 1920": 649900 } },
+    { "date": "2026-04-10", "priceFrom": 499900, "models": { "Town Classic 1540": 499900, "Semi 1920": 669900, "Single 2200": 829900 } }
+  ],
+  "claridge-findlay-creek": [
+    { "date": "2025-08-01", "priceFrom": 449900, "models": { "Alley Town 1390": 449900, "Traditional Town 1690": 559900 } },
+    { "date": "2025-12-01", "priceFrom": 469900, "models": { "Alley Town 1390": 469900, "Traditional Town 1690": 579900, "The Summit Single": 829900 } },
+    { "date": "2026-04-10", "priceFrom": 479900, "models": { "Alley Town 1390": 479900, "Traditional Town 1690": 589900, "The Summit Single": 849900 } }
+  ],
+  "mattamy-avalon-west": [
+    { "date": "2025-11-01", "priceFrom": 499990, "models": { "The Harmony Town": 499990, "The Juniper Single": 729990 } },
+    { "date": "2026-04-10", "priceFrom": 519990, "models": { "The Harmony Town": 519990, "The Juniper Single": 749990, "The Hawthorne Grande": 1099990 } }
+  ]
+}

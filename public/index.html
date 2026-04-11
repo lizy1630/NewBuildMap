@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ottawa New Build Map</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- Top Bar -->
+    <header id="topbar">
+      <div id="brand">
+        <div class="dot"></div>
+        Ottawa New Builds
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Type</span>
+        <select id="filter-type" class="filter-select">
+          <option value="">All Types</option>
+          <option value="single-family">Single Family</option>
+          <option value="townhouse">Townhouse</option>
+          <option value="semi-detached">Semi-Detached</option>
+          <option value="condo">Condo</option>
+          <option value="mixed">Mixed</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Builder</span>
+        <select id="filter-builder" class="filter-select">
+          <option value="">All Builders</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Status</span>
+        <select id="filter-status" class="filter-select">
+          <option value="">All Status</option>
+          <option value="selling">Selling</option>
+          <option value="limited">Limited</option>
+          <option value="upcoming">Upcoming</option>
+          <option value="sold-out">Sold Out</option>
+        </select>
+      </div>
+
+      <div class="topbar-spacer"></div>
+
+      <div id="count-label"><span id="count-num">–</span> builds</div>
+
+      <button class="icon-btn" id="btn-theme" title="Toggle dark/light mode" aria-label="Toggle theme">
+        &#9788;
+      </button>
+    </header>
+
+    <!-- Main content -->
+    <div id="main">
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <button id="sidebar-close" title="Close sidebar">&#10005;</button>
+
+        <!-- Tabs -->
+        <nav id="sidebar-tabs">
+          <div class="sidebar-tab active" data-tab="detail">Detail</div>
+          <div class="sidebar-tab" data-tab="compare">Compare</div>
+          <div class="sidebar-tab" data-tab="history">History</div>
+        </nav>
+
+        <!-- Tab content -->
+        <div id="sidebar-content">
+          <div id="tab-detail"></div>
+          <div id="tab-compare" style="display:none"></div>
+          <div id="tab-history" style="display:none"></div>
+        </div>
+      </aside>
+
+      <!-- Map -->
+      <div id="map"></div>
+
+      <!-- Legend -->
+      <div id="legend">
+        <div class="legend-row"><div class="legend-dot" style="background:#00d4ff"></div> Mixed</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#22c55e"></div> Single Family</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#3b82f6"></div> Townhouse</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#a855f7"></div> Semi-Detached</div>
+        <div class="legend-row"><div class="legend-dot" style="background:#f59e0b"></div> Condo</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast container -->
+  <div id="toast-container"></div>
+
+  <!-- App modules -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
