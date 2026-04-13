@@ -1,17 +1,149 @@
 [
-  { "date": "2026-04-10", "type": "new_build", "buildId": "caivan-half-moon-bay", "name": "Half Moon Bay", "builder": "Caivan Communities", "community": "Barrhaven", "priceFrom": 499900 },
-  { "date": "2026-04-10", "type": "new_build", "buildId": "hn-homes-kanata-lakes", "name": "Kanata Lakes — The Pond", "builder": "HN Homes", "community": "Kanata North", "priceFrom": 779900 },
-  { "date": "2026-04-10", "type": "new_model", "buildId": "minto-arcadia", "name": "Arcadia", "builder": "Minto Communities", "model": "The Stratford", "priceFrom": 1049900 },
-  { "date": "2026-04-10", "type": "price_change", "buildId": "minto-abbotts-run", "name": "Abbott's Run", "builder": "Minto Communities", "oldPrice": 569900, "newPrice": 579900, "delta": 10000 },
-  { "date": "2026-02-15", "type": "new_model", "buildId": "richcraft-kanata-lakes", "name": "Kanata Lakes", "builder": "Richcraft Homes", "model": "The Oak Two-Storey", "priceFrom": 1159900 },
-  { "date": "2026-02-01", "type": "new_model", "buildId": "richcraft-westboro-station", "name": "Westboro Station", "builder": "Richcraft Homes", "model": "2-Bed Den 1050", "priceFrom": 779900 },
-  { "date": "2026-01-20", "type": "new_model", "buildId": "cardel-edenwylde", "name": "EdenWylde", "builder": "Cardel Homes", "model": "Semi-Detached 1850", "priceFrom": 679000 },
-  { "date": "2026-01-15", "type": "price_change", "buildId": "minto-brookline", "name": "Brookline", "builder": "Minto Communities", "oldPrice": 489900, "newPrice": 509900, "delta": 20000 },
-  { "date": "2026-01-10", "type": "new_build", "buildId": "hn-homes-kanata-lakes", "name": "Kanata Lakes — The Pond", "builder": "HN Homes", "community": "Kanata North", "priceFrom": 749900 },
-  { "date": "2025-12-15", "type": "new_model", "buildId": "tamarack-westwood", "name": "Westwood", "builder": "Tamarack Homes", "model": "The Spruce Bungalow", "priceFrom": 809900 },
-  { "date": "2025-12-01", "type": "new_model", "buildId": "minto-central-park", "name": "Central Park", "builder": "Minto Communities", "model": "The Hampton Grande", "priceFrom": 939900 },
-  { "date": "2025-12-01", "type": "new_model", "buildId": "mattamy-northwoods", "name": "Northwoods", "builder": "Mattamy Homes", "model": "The Cypress Bungalow", "priceFrom": 759990 },
-  { "date": "2025-11-15", "type": "new_build", "buildId": "glenview-union-west", "name": "Union West", "builder": "Glenview Homes", "community": "Stittsville", "priceFrom": 549000 },
-  { "date": "2025-11-01", "type": "new_model", "buildId": "claridge-wateridge", "name": "Wateridge Village", "builder": "Claridge Homes", "model": "The Ottawa Single", "priceFrom": 999900 },
-  { "date": "2025-10-15", "type": "price_change", "buildId": "minto-arcadia", "name": "Arcadia", "builder": "Minto Communities", "oldPrice": 349900, "newPrice": 369900, "delta": 20000 }
+  {
+    "date": "2026-04-13",
+    "type": "new_build",
+    "buildId": "richcraft-trailsedge",
+    "name": "TrailsEdge",
+    "builder": "Richcraft Homes",
+    "community": "Orléans",
+    "priceFrom": 521265
+  },
+  {
+    "date": "2026-04-10",
+    "type": "new_build",
+    "buildId": "caivan-half-moon-bay",
+    "name": "Half Moon Bay",
+    "builder": "Caivan Communities",
+    "community": "Barrhaven",
+    "priceFrom": 499900
+  },
+  {
+    "date": "2026-04-10",
+    "type": "new_build",
+    "buildId": "hn-homes-kanata-lakes",
+    "name": "Kanata Lakes — The Pond",
+    "builder": "HN Homes",
+    "community": "Kanata North",
+    "priceFrom": 779900
+  },
+  {
+    "date": "2026-04-10",
+    "type": "new_model",
+    "buildId": "minto-arcadia",
+    "name": "Arcadia",
+    "builder": "Minto Communities",
+    "model": "The Stratford",
+    "priceFrom": 1049900
+  },
+  {
+    "date": "2026-04-10",
+    "type": "price_change",
+    "buildId": "minto-abbotts-run",
+    "name": "Abbott's Run",
+    "builder": "Minto Communities",
+    "oldPrice": 569900,
+    "newPrice": 579900,
+    "delta": 10000
+  },
+  {
+    "date": "2026-02-15",
+    "type": "new_model",
+    "buildId": "richcraft-kanata-lakes",
+    "name": "Kanata Lakes",
+    "builder": "Richcraft Homes",
+    "model": "The Oak Two-Storey",
+    "priceFrom": 1159900
+  },
+  {
+    "date": "2026-02-01",
+    "type": "new_model",
+    "buildId": "richcraft-westboro-station",
+    "name": "Westboro Station",
+    "builder": "Richcraft Homes",
+    "model": "2-Bed Den 1050",
+    "priceFrom": 779900
+  },
+  {
+    "date": "2026-01-20",
+    "type": "new_model",
+    "buildId": "cardel-edenwylde",
+    "name": "EdenWylde",
+    "builder": "Cardel Homes",
+    "model": "Semi-Detached 1850",
+    "priceFrom": 679000
+  },
+  {
+    "date": "2026-01-15",
+    "type": "price_change",
+    "buildId": "minto-brookline",
+    "name": "Brookline",
+    "builder": "Minto Communities",
+    "oldPrice": 489900,
+    "newPrice": 509900,
+    "delta": 20000
+  },
+  {
+    "date": "2026-01-10",
+    "type": "new_build",
+    "buildId": "hn-homes-kanata-lakes",
+    "name": "Kanata Lakes — The Pond",
+    "builder": "HN Homes",
+    "community": "Kanata North",
+    "priceFrom": 749900
+  },
+  {
+    "date": "2025-12-15",
+    "type": "new_model",
+    "buildId": "tamarack-westwood",
+    "name": "Westwood",
+    "builder": "Tamarack Homes",
+    "model": "The Spruce Bungalow",
+    "priceFrom": 809900
+  },
+  {
+    "date": "2025-12-01",
+    "type": "new_model",
+    "buildId": "minto-central-park",
+    "name": "Central Park",
+    "builder": "Minto Communities",
+    "model": "The Hampton Grande",
+    "priceFrom": 939900
+  },
+  {
+    "date": "2025-12-01",
+    "type": "new_model",
+    "buildId": "mattamy-northwoods",
+    "name": "Northwoods",
+    "builder": "Mattamy Homes",
+    "model": "The Cypress Bungalow",
+    "priceFrom": 759990
+  },
+  {
+    "date": "2025-11-15",
+    "type": "new_build",
+    "buildId": "glenview-union-west",
+    "name": "Union West",
+    "builder": "Glenview Homes",
+    "community": "Stittsville",
+    "priceFrom": 549000
+  },
+  {
+    "date": "2025-11-01",
+    "type": "new_model",
+    "buildId": "claridge-wateridge",
+    "name": "Wateridge Village",
+    "builder": "Claridge Homes",
+    "model": "The Ottawa Single",
+    "priceFrom": 999900
+  },
+  {
+    "date": "2025-10-15",
+    "type": "price_change",
+    "buildId": "minto-arcadia",
+    "name": "Arcadia",
+    "builder": "Minto Communities",
+    "oldPrice": 349900,
+    "newPrice": 369900,
+    "delta": 20000
+  }
 ]
