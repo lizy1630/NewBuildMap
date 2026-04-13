@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Ottawa New Build Map</title>
 
   <!-- Leaflet -->
@@ -17,81 +17,71 @@
 
     <!-- Top Bar -->
     <header id="topbar">
-      <div id="brand">
-        <div class="dot"></div>
-        Ottawa New Builds
+      <!-- Always-visible slim row -->
+      <div id="topbar-main">
+        <div id="brand">
+          <div class="dot"></div>
+          Ottawa New Builds
+        </div>
+        <div class="topbar-spacer"></div>
+        <div id="count-label"><span id="count-num">–</span> builds</div>
+        <button class="icon-btn" id="btn-theme" title="Toggle dark/light mode" aria-label="Toggle theme">&#9788;</button>
+        <button class="icon-btn" id="btn-filters-toggle" title="Toggle filters" aria-label="Toggle filters">&#9776;</button>
       </div>
 
-      <div class="filter-group">
-        <span class="filter-label">Community</span>
-        <select id="filter-community" class="filter-select">
-          <option value="">All Communities</option>
-        </select>
+      <!-- Collapsible filters row -->
+      <div id="topbar-filters">
+        <div class="filter-group">
+          <span class="filter-label">Community</span>
+          <select id="filter-community" class="filter-select">
+            <option value="">All Communities</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Home Type</span>
+          <select id="filter-hometype" class="filter-select">
+            <option value="">All Types</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Beds</span>
+          <select id="filter-beds" class="filter-select">
+            <option value="">Any</option>
+            <option value="2">2+</option>
+            <option value="3">3+</option>
+            <option value="4">4+</option>
+            <option value="5">5+</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Baths</span>
+          <select id="filter-baths" class="filter-select">
+            <option value="">Any</option>
+            <option value="2">2+</option>
+            <option value="3">3+</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Sqft</span>
+          <select id="filter-sqft" class="filter-select">
+            <option value="">Any</option>
+            <option value="1000">1,000+</option>
+            <option value="1500">1,500+</option>
+            <option value="2000">2,000+</option>
+            <option value="2500">2,500+</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Lot</span>
+          <select id="filter-lot" class="filter-select">
+            <option value="">Any</option>
+            <option value="31">31ft+</option>
+            <option value="35">35ft+</option>
+            <option value="44">44ft+</option>
+            <option value="50">50ft+</option>
+          </select>
+        </div>
       </div>
-
-      <div class="filter-group">
-        <span class="filter-label">Builder</span>
-        <select id="filter-builder" class="filter-select">
-          <option value="">All Builders</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <span class="filter-label">Home Type</span>
-        <select id="filter-hometype" class="filter-select">
-          <option value="">All Types</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <span class="filter-label">Beds</span>
-        <select id="filter-beds" class="filter-select">
-          <option value="">Any</option>
-          <option value="2">2+</option>
-          <option value="3">3+</option>
-          <option value="4">4+</option>
-          <option value="5">5+</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <span class="filter-label">Baths</span>
-        <select id="filter-baths" class="filter-select">
-          <option value="">Any</option>
-          <option value="2">2+</option>
-          <option value="3">3+</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <span class="filter-label">Sqft</span>
-        <select id="filter-sqft" class="filter-select">
-          <option value="">Any</option>
-          <option value="1000">1,000+</option>
-          <option value="1500">1,500+</option>
-          <option value="2000">2,000+</option>
-          <option value="2500">2,500+</option>
-        </select>
-      </div>
-
-      <div class="filter-group">
-        <span class="filter-label">Lot</span>
-        <select id="filter-lot" class="filter-select">
-          <option value="">Any</option>
-          <option value="31">31ft+</option>
-          <option value="35">35ft+</option>
-          <option value="44">44ft+</option>
-          <option value="50">50ft+</option>
-        </select>
-      </div>
-
-      <div class="topbar-spacer"></div>
-
-      <div id="count-label"><span id="count-num">–</span> builds</div>
-
-      <button class="icon-btn" id="btn-theme" title="Toggle dark/light mode" aria-label="Toggle theme">
-        &#9788;
-      </button>
     </header>
 
     <!-- Main content -->
@@ -117,16 +107,10 @@
       </aside>
 
       <!-- Map -->
-      <div id="map"></div>
-
-      <!-- Legend -->
-      <div id="legend">
-        <div class="legend-row"><div class="legend-dot" style="background:#00d4ff"></div> Mixed</div>
-        <div class="legend-row"><div class="legend-dot" style="background:#22c55e"></div> Single Family</div>
-        <div class="legend-row"><div class="legend-dot" style="background:#3b82f6"></div> Townhouse</div>
-        <div class="legend-row"><div class="legend-dot" style="background:#a855f7"></div> Semi-Detached</div>
-        <div class="legend-row"><div class="legend-dot" style="background:#f59e0b"></div> Condo</div>
+      <div id="map">
+        <div id="builder-legend"></div>
       </div>
+
     </div>
   </div>
 

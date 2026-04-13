@@ -1,6 +1,6 @@
 {
   "generated": "2026-04-13T13:01:55.761Z",
-  "count": 17,
+  "count": 22,
   "geocodeFailed": 0,
   "builds": [
     {
@@ -331,60 +331,53 @@
       "name": "Kanata Lakes",
       "builder": "Richcraft Homes",
       "community": "Kanata North",
-      "address": "558 Bobolink Ridge, Ottawa, ON",
-      "lat": 45.3318,
-      "lng": -75.9005,
+      "address": "1215 Tamworth Lane, Kanata, Ottawa, ON",
+      "lat": 45.334798,
+      "lng": -75.922468,
+      "status": "upcoming",
       "type": "mixed",
+      "homeTypes": [
+        "Townhomes",
+        "Single Family Homes"
+      ],
+      "priceFrom": 743492,
+      "priceFromFormatted": "$743,492",
+      "completionYear": null,
+      "description": null,
       "models": [
         {
-          "name": "Townhome Series A",
-          "sqft": 1780,
-          "beds": 3,
-          "baths": 2.5,
-          "priceFrom": 814900
+          "name": "Townhomes",
+          "type": "Townhouse",
+          "priceFrom": 743492,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/kanata-lakes/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
         },
         {
-          "name": "The Elm Bungalow",
-          "sqft": 1950,
-          "beds": 3,
-          "baths": 2,
-          "priceFrom": 999900
-        },
-        {
-          "name": "The Oak Two-Storey",
-          "sqft": 2460,
-          "beds": 4,
-          "baths": 3,
-          "priceFrom": 1189900
-        },
-        {
-          "name": "The Maple Grande",
-          "sqft": 3020,
-          "beds": 5,
-          "baths": 4,
-          "priceFrom": 1489900
-        },
-        {
-          "name": "Tandem Dual-Unit",
-          "sqft": 3400,
-          "beds": 6,
-          "baths": 4,
-          "priceFrom": 1637900
+          "name": "Single Family Homes",
+          "type": "Single Family",
+          "priceFrom": 834900,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/kanata-lakes/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
         }
       ],
-      "priceFrom": 814900,
-      "priceFromFormatted": "$814,900",
-      "status": "selling",
-      "completionYear": 2027,
-      "description": "2,600 homes planned across 3 phases. Multi-builder project with Richcraft, HN Homes, and Urbandale. Premium community with greenspace near Beaver Pond.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/kanata-lakes/",
-      "sourceName": "richcraft.com",
-      "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z",
-      "homeTypes": [
-        "Bungalows",
-        "Townhomes"
-      ]
+      "sourceName": "Richcraft Homes",
+      "scrapedAt": "2026-04-13",
+      "priceSource": "community-page",
+      "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/kanata-lakes/",
+      "priceNote": "Category-level starting prices from community landing page. Individual model pages may differ."
     },
     {
       "id": "hn-homes-kanata-lakes",
@@ -569,65 +562,6 @@
         "Semi-Detached",
         "Single Family",
         "Townhomes"
-      ]
-    },
-    {
-      "id": "richcraft-westboro-station",
-      "name": "Westboro Station",
-      "builder": "Richcraft Homes",
-      "community": "Westboro",
-      "address": "478 Richmond Rd, Ottawa, ON",
-      "lat": 45.3988,
-      "lng": -75.748,
-      "type": "condo",
-      "models": [
-        {
-          "name": "Studio 480",
-          "sqft": 480,
-          "beds": 0,
-          "baths": 1,
-          "priceFrom": 399900
-        },
-        {
-          "name": "1-Bed 620",
-          "sqft": 620,
-          "beds": 1,
-          "baths": 1,
-          "priceFrom": 479900
-        },
-        {
-          "name": "2-Bed 890",
-          "sqft": 890,
-          "beds": 2,
-          "baths": 2,
-          "priceFrom": 679900
-        },
-        {
-          "name": "2-Bed Den 1050",
-          "sqft": 1050,
-          "beds": 2,
-          "baths": 2,
-          "priceFrom": 799900
-        },
-        {
-          "name": "Penthouse 1420",
-          "sqft": 1420,
-          "beds": 3,
-          "baths": 2,
-          "priceFrom": 1189900
-        }
-      ],
-      "priceFrom": 399900,
-      "priceFromFormatted": "$399,900",
-      "status": "selling",
-      "completionYear": 2027,
-      "description": "Urban mid-rise condo steps from the O-Train and Westboro Village. Rooftop terrace, concierge, underground parking. Walk Score 95.",
-      "sourceUrl": "https://www.richcraft.com/community/westboro-station/",
-      "sourceName": "richcraft.com",
-      "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z",
-      "homeTypes": [
-        "Condo"
       ]
     },
     {
@@ -819,9 +753,9 @@
       "name": "TrailsEdge",
       "builder": "Richcraft Homes",
       "community": "Orl\u00e9ans",
-      "address": "5397 Renaud Rd, Orleans, Ottawa, ON",
-      "lat": 45.4727,
-      "lng": -75.5115,
+      "address": "Renaud Road & Page Road, Orl\u00e9ans, ON",
+      "lat": 45.4279,
+      "lng": -75.5257,
       "homeTypes": [
         "Bungalows",
         "Urban Towns",
@@ -844,7 +778,11 @@
           "garages": 1,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/waterton/",
-          "localImageUrl": "/images/richcraft/waterton-WATERTON_C_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/waterton-WATERTON_C_V2_low-res-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Kitsilano C/D",
@@ -856,7 +794,11 @@
           "garages": 1,
           "priceFrom": 521265,
           "modelUrl": "https://www.richcraft.com/home/kitsilano-c-d/",
-          "localImageUrl": "/images/richcraft/kitsilano-c-d-D3_0288-363x224.jpg"
+          "localImageUrl": "/images/richcraft/kitsilano-c-d-D3_0288-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Urban Towns from community page"
         },
         {
           "name": "Shelby",
@@ -868,7 +810,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/shelby/",
-          "localImageUrl": "/images/richcraft/shelby-Shelby-Elevation-C-363x224.jpg"
+          "localImageUrl": "/images/richcraft/shelby-Shelby-Elevation-C-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Cambie C/D",
@@ -880,7 +826,11 @@
           "garages": 1,
           "priceFrom": 521265,
           "modelUrl": "https://www.richcraft.com/home/cambie-c-d/",
-          "localImageUrl": "/images/richcraft/cambie-c-d-Cambie_Mid-363x224.jpg"
+          "localImageUrl": "/images/richcraft/cambie-c-d-Cambie_Mid-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Urban Towns from community page"
         },
         {
           "name": "Cambie A",
@@ -892,7 +842,11 @@
           "garages": 1,
           "priceFrom": 521265,
           "modelUrl": "https://www.richcraft.com/home/cambie-a/",
-          "localImageUrl": "/images/richcraft/cambie-a-RC_TrailsEdgeUT_853-0073-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/cambie-a-RC_TrailsEdgeUT_853-0073-1-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Urban Towns from community page"
         },
         {
           "name": "Carson",
@@ -904,7 +858,11 @@
           "garages": 1,
           "priceFrom": 602848,
           "modelUrl": "https://www.richcraft.com/home/carson/",
-          "localImageUrl": "/images/richcraft/carson-Streetscape_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/carson-Streetscape_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Thrive Towns from community page"
         },
         {
           "name": "Gaines",
@@ -916,7 +874,11 @@
           "garages": 1,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/gaines/",
-          "localImageUrl": "/images/richcraft/gaines-BUNGALOW_Gaines_ELEV_F_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/gaines-BUNGALOW_Gaines_ELEV_F_Web_Master-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Granville A",
@@ -928,7 +890,11 @@
           "garages": 1,
           "priceFrom": 521265,
           "modelUrl": "https://www.richcraft.com/home/granville-a/",
-          "localImageUrl": "/images/richcraft/granville-a-Granville4_dark-363x224.jpg"
+          "localImageUrl": "/images/richcraft/granville-a-Granville4_dark-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Urban Towns from community page"
         },
         {
           "name": "Granville C/D",
@@ -940,7 +906,11 @@
           "garages": 1,
           "priceFrom": 521265,
           "modelUrl": "https://www.richcraft.com/home/granville-c-d/",
-          "localImageUrl": "/images/richcraft/granville-c-d-Granville4_dark-363x224.jpg"
+          "localImageUrl": "/images/richcraft/granville-c-d-Granville4_dark-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Urban Towns from community page"
         },
         {
           "name": "Hastings C/D",
@@ -952,7 +922,11 @@
           "garages": 1,
           "priceFrom": 521265,
           "modelUrl": "https://www.richcraft.com/home/hastings-c-d/",
-          "localImageUrl": "/images/richcraft/hastings-c-d-20251010_25015_ELEVATION_C_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/hastings-c-d-20251010_25015_ELEVATION_C_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Urban Towns from community page"
         },
         {
           "name": "Gilroy",
@@ -964,7 +938,11 @@
           "garages": 1,
           "priceFrom": 602848,
           "modelUrl": "https://www.richcraft.com/home/gilroy/",
-          "localImageUrl": "/images/richcraft/gilroy-20240327_24015_Streetscape_V2_low-res-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/gilroy-20240327_24015_Streetscape_V2_low-res-1-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Thrive Towns from community page"
         },
         {
           "name": "Jameson End C/D",
@@ -976,7 +954,11 @@
           "garages": 1,
           "priceFrom": 521265,
           "modelUrl": "https://www.richcraft.com/home/jameson-end-c-d/",
-          "localImageUrl": "/images/richcraft/jameson-end-c-d-81R0011-363x224.jpg"
+          "localImageUrl": "/images/richcraft/jameson-end-c-d-81R0011-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Urban Towns from community page"
         },
         {
           "name": "Patterson",
@@ -988,7 +970,11 @@
           "garages": 1,
           "priceFrom": 602848,
           "modelUrl": "https://www.richcraft.com/home/patterson/",
-          "localImageUrl": "/images/richcraft/patterson-Streetscape_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/patterson-Streetscape_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Thrive Towns from community page"
         },
         {
           "name": "Bernett",
@@ -1000,7 +986,11 @@
           "garages": 1,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/bernett/",
-          "localImageUrl": "/images/richcraft/bernett-B_Bernett_ELEV_C-363x224.jpg"
+          "localImageUrl": "/images/richcraft/bernett-B_Bernett_ELEV_C-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Jameson Corner C/D",
@@ -1012,7 +1002,11 @@
           "garages": 1,
           "priceFrom": 521265,
           "modelUrl": "https://www.richcraft.com/home/jameson-corner-c-d/",
-          "localImageUrl": "/images/richcraft/jameson-corner-c-d-81R0011-363x224.jpg"
+          "localImageUrl": "/images/richcraft/jameson-corner-c-d-81R0011-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Urban Towns from community page"
         },
         {
           "name": "Monterey",
@@ -1024,7 +1018,11 @@
           "garages": 1,
           "priceFrom": 720342,
           "modelUrl": "https://www.richcraft.com/home/monterey/",
-          "localImageUrl": "/images/richcraft/monterey-Screen-Shot-2023-04-21-at-3.21.23-PM-363x224.png"
+          "localImageUrl": "/images/richcraft/monterey-Screen-Shot-2023-04-21-at-3.21.23-PM-363x224.png",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Bungalow Towns from community page"
         },
         {
           "name": "Monterey Corner",
@@ -1036,7 +1034,11 @@
           "garages": 1,
           "priceFrom": 720342,
           "modelUrl": "https://www.richcraft.com/home/monterey-corner/",
-          "localImageUrl": "/images/richcraft/monterey-corner-Screen-Shot-2023-04-21-at-3.21.34-PM-363x224.png"
+          "localImageUrl": "/images/richcraft/monterey-corner-Screen-Shot-2023-04-21-at-3.21.34-PM-363x224.png",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Bungalow Towns from community page"
         },
         {
           "name": "Fontana",
@@ -1048,7 +1050,11 @@
           "garages": 1,
           "priceFrom": 602848,
           "modelUrl": "https://www.richcraft.com/home/fontana/",
-          "localImageUrl": "/images/richcraft/fontana-Streetscape_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/fontana-Streetscape_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Thrive Towns from community page"
         },
         {
           "name": "Laguna",
@@ -1060,7 +1066,11 @@
           "garages": 1,
           "priceFrom": 720342,
           "modelUrl": "https://www.richcraft.com/home/laguna/",
-          "localImageUrl": "/images/richcraft/laguna-Screen-Shot-2023-04-21-at-3.21.04-PM-363x224.png"
+          "localImageUrl": "/images/richcraft/laguna-Screen-Shot-2023-04-21-at-3.21.04-PM-363x224.png",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Bungalow Towns from community page"
         },
         {
           "name": "Catalina",
@@ -1072,7 +1082,11 @@
           "garages": 1,
           "priceFrom": 720342,
           "modelUrl": "https://www.richcraft.com/home/catalina/",
-          "localImageUrl": "/images/richcraft/catalina-Screen-Shot-2023-04-21-at-3.21.12-PM-363x224.png"
+          "localImageUrl": "/images/richcraft/catalina-Screen-Shot-2023-04-21-at-3.21.12-PM-363x224.png",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Bungalow Towns from community page"
         },
         {
           "name": "Edward",
@@ -1084,7 +1098,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/edward/",
-          "localImageUrl": "/images/richcraft/edward-35_Edward_ELEV_C_Web_Master-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/edward-35_Edward_ELEV_C_Web_Master-1-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Stanton",
@@ -1096,7 +1114,11 @@
           "garages": 1,
           "priceFrom": 602848,
           "modelUrl": "https://www.richcraft.com/home/stanton/",
-          "localImageUrl": "/images/richcraft/stanton-Streetscape_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/stanton-Streetscape_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Thrive Towns from community page"
         },
         {
           "name": "Auburn",
@@ -1108,7 +1130,11 @@
           "garages": 1,
           "priceFrom": 602848,
           "modelUrl": "https://www.richcraft.com/home/auburn/",
-          "localImageUrl": "/images/richcraft/auburn-20240327_24015_Streetscape_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/auburn-20240327_24015_Streetscape_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Thrive Towns from community page"
         },
         {
           "name": "Addison",
@@ -1120,7 +1146,11 @@
           "garages": 1,
           "priceFrom": 677032,
           "modelUrl": "https://www.richcraft.com/home/addison/",
-          "localImageUrl": "/images/richcraft/addison-Addison-3-363x224.jpg"
+          "localImageUrl": "/images/richcraft/addison-Addison-3-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Townhomes from community page"
         },
         {
           "name": "Echo",
@@ -1132,7 +1162,11 @@
           "garages": 1,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/echo/",
-          "localImageUrl": "/images/richcraft/echo-ECHO_D_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/echo-ECHO_D_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Watson",
@@ -1144,7 +1178,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/watson/",
-          "localImageUrl": "/images/richcraft/watson-35_WatsonLaurence_ELEV_C_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/watson-35_WatsonLaurence_ELEV_C_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Laurence",
@@ -1156,7 +1194,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/laurence/",
-          "localImageUrl": "/images/richcraft/laurence-35_WatsonLaurence_ELEV_C_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/laurence-35_WatsonLaurence_ELEV_C_Web_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Oakbay",
@@ -1168,7 +1210,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/oakbay/",
-          "localImageUrl": "/images/richcraft/oakbay-44_Oakbay_ELEV_C_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/oakbay-44_Oakbay_ELEV_C_Master-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Grafton",
@@ -1180,7 +1226,11 @@
           "garages": 1,
           "priceFrom": 677032,
           "modelUrl": "https://www.richcraft.com/home/grafton/",
-          "localImageUrl": "/images/richcraft/grafton-Graphton-363x224.jpg"
+          "localImageUrl": "/images/richcraft/grafton-Graphton-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Townhomes from community page"
         },
         {
           "name": "Cobalt",
@@ -1192,7 +1242,11 @@
           "garages": 1,
           "priceFrom": 677032,
           "modelUrl": "https://www.richcraft.com/home/cobalt/",
-          "localImageUrl": "/images/richcraft/cobalt-Cobalt-5-363x224.jpg"
+          "localImageUrl": "/images/richcraft/cobalt-Cobalt-5-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Townhomes from community page"
         },
         {
           "name": "Pratt",
@@ -1204,7 +1258,11 @@
           "garages": 1,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/pratt/",
-          "localImageUrl": "/images/richcraft/pratt-PRATT_F_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/pratt-PRATT_F_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Mapleview",
@@ -1216,7 +1274,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/mapleview/",
-          "localImageUrl": "/images/richcraft/mapleview-44_Mapleview_ELEV_C_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/mapleview-44_Mapleview_ELEV_C_Web_Master-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Sonoma",
@@ -1228,7 +1290,11 @@
           "garages": 2,
           "priceFrom": 677032,
           "modelUrl": "https://www.richcraft.com/home/sonoma/",
-          "localImageUrl": "/images/richcraft/sonoma-Sonoma2-363x224.jpg"
+          "localImageUrl": "/images/richcraft/sonoma-Sonoma2-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Townhomes from community page"
         },
         {
           "name": "Silverpine",
@@ -1240,7 +1306,11 @@
           "garages": 1,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/silverpine/",
-          "localImageUrl": "/images/richcraft/silverpine-31_Silverpine_ELEV_C_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/silverpine-31_Silverpine_ELEV_C_Web_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Hudson",
@@ -1252,7 +1322,11 @@
           "garages": 1,
           "priceFrom": 677032,
           "modelUrl": "https://www.richcraft.com/home/hudson/",
-          "localImageUrl": "/images/richcraft/hudson-hudson_elev-9-363x224.jpg"
+          "localImageUrl": "/images/richcraft/hudson-hudson_elev-9-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Townhomes from community page"
         },
         {
           "name": "Cole",
@@ -1264,7 +1338,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/cole/",
-          "localImageUrl": "/images/richcraft/cole-35_Cole_ELEV_C_Web_Master-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/cole-35_Cole_ELEV_C_Web_Master-1-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Kenora",
@@ -1276,7 +1354,11 @@
           "garages": 1,
           "priceFrom": 677032,
           "modelUrl": "https://www.richcraft.com/home/kenora/",
-          "localImageUrl": "/images/richcraft/kenora-Kenora-363x224.jpg"
+          "localImageUrl": "/images/richcraft/kenora-Kenora-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Townhomes from community page"
         },
         {
           "name": "Bateman",
@@ -1288,7 +1370,11 @@
           "garages": 1,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/bateman/",
-          "localImageUrl": "/images/richcraft/bateman-BATEMAN_D_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/bateman-BATEMAN_D_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Birchstone",
@@ -1300,7 +1386,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/birchstone/",
-          "localImageUrl": "/images/richcraft/birchstone-50_Birchstone_ELEV_F_Web_Master-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/birchstone-50_Birchstone_ELEV_F_Web_Master-1-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Hobart",
@@ -1312,7 +1402,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/hobart/",
-          "localImageUrl": "/images/richcraft/hobart-31_Hobary_ELEV_F_Master-white-363x224.jpg"
+          "localImageUrl": "/images/richcraft/hobart-31_Hobary_ELEV_F_Master-white-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Arden",
@@ -1324,7 +1418,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/arden/",
-          "localImageUrl": "/images/richcraft/arden-Arden_Elev_c_Test-1-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/arden-Arden_Elev_c_Test-1-1-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Gladstone",
@@ -1336,7 +1434,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/gladstone/",
-          "localImageUrl": "/images/richcraft/gladstone-50_Gladstone_ELEV_F_Web_Master-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/gladstone-50_Gladstone_ELEV_F_Web_Master-1-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Fairhaven",
@@ -1348,7 +1450,11 @@
           "garages": 1,
           "priceFrom": 677032,
           "modelUrl": "https://www.richcraft.com/home/fairhaven/",
-          "localImageUrl": "/images/richcraft/fairhaven-Fairhaven-4-363x224.jpg"
+          "localImageUrl": "/images/richcraft/fairhaven-Fairhaven-4-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Townhomes from community page"
         },
         {
           "name": "Spencer",
@@ -1360,7 +1466,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/spencer/",
-          "localImageUrl": "/images/richcraft/spencer-35_Spencer_ELEV_F_Web_Master_White-363x224.jpg"
+          "localImageUrl": "/images/richcraft/spencer-35_Spencer_ELEV_F_Web_Master_White-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Hobart Multi-Gen",
@@ -1372,7 +1482,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/hobart-multi-gen/",
-          "localImageUrl": "/images/richcraft/hobart-multi-gen-31_Hobary_ELEV_F_Master-white-363x224.jpg"
+          "localImageUrl": "/images/richcraft/hobart-multi-gen-31_Hobary_ELEV_F_Master-white-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Spruceriver",
@@ -1384,7 +1498,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/spruceriver/",
-          "localImageUrl": "/images/richcraft/spruceriver-44_Spruceriver_ELEV_C_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/spruceriver-44_Spruceriver_ELEV_C_Web_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Spruceriver Multi-Gen",
@@ -1396,7 +1514,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/spruceriver-multi-gen/",
-          "localImageUrl": "/images/richcraft/spruceriver-multi-gen-44_Spruceriver_ELEV_C_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/spruceriver-multi-gen-44_Spruceriver_ELEV_C_Web_Master-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Baldwin",
@@ -1408,7 +1530,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/baldwin/",
-          "localImageUrl": "/images/richcraft/baldwin-35_Baldwin_ELEV_D_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/baldwin-35_Baldwin_ELEV_D_Web_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Madrid",
@@ -1420,7 +1546,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/madrid/",
-          "localImageUrl": "/images/richcraft/madrid-44_Oakbay_ELEV_C_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/madrid-44_Oakbay_ELEV_C_Master-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Marathon",
@@ -1432,7 +1562,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/marathon/",
-          "localImageUrl": "/images/richcraft/marathon-35_Marathon_ELEV_C_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/marathon-35_Marathon_ELEV_C_Web_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Wingate",
@@ -1444,7 +1578,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/wingate/",
-          "localImageUrl": "/images/richcraft/wingate-35_Wingate_ELEV_F_Web_Master_White-363x224.jpg"
+          "localImageUrl": "/images/richcraft/wingate-35_Wingate_ELEV_F_Web_Master_White-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Venice",
@@ -1456,7 +1594,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/venice/",
-          "localImageUrl": "/images/richcraft/venice-35_Wingate_ELEV_F_Web_Master_White-363x224.jpg"
+          "localImageUrl": "/images/richcraft/venice-35_Wingate_ELEV_F_Web_Master_White-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Beechside",
@@ -1468,7 +1610,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/beechside/",
-          "localImageUrl": "/images/richcraft/beechside-44_Beechside_ELEV_C_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/beechside-44_Beechside_ELEV_C_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Barcelona",
@@ -1480,7 +1626,11 @@
           "garages": 1,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/barcelona-tandem/",
-          "localImageUrl": "/images/richcraft/barcelona-BATEMAN_D_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/barcelona-BATEMAN_D_V2_low-res-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Milan",
@@ -1492,7 +1642,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/milan/",
-          "localImageUrl": "/images/richcraft/milan-31_Hobart_ELEV_F_Web_Master_White-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/milan-31_Hobart_ELEV_F_Web_Master_White-1-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Cedarbreeze",
@@ -1504,7 +1658,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/cedarbreeze/",
-          "localImageUrl": "/images/richcraft/cedarbreeze-44_Cedarbreeze_ELEV_C_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/cedarbreeze-44_Cedarbreeze_ELEV_C_Web_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Ashmore",
@@ -1516,7 +1674,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/ashmore/",
-          "localImageUrl": "/images/richcraft/ashmore-44_Ashmore_ELEV_C_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/ashmore-44_Ashmore_ELEV_C_Web_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Norwood",
@@ -1528,7 +1690,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/norwood/",
-          "localImageUrl": "/images/richcraft/norwood-44_Norwood_ELEV_C_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/norwood-44_Norwood_ELEV_C_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Norwood Multi-Gen",
@@ -1540,7 +1706,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/norwood-multi-gen/",
-          "localImageUrl": "/images/richcraft/norwood-multi-gen-44_Norwood_ELEV_C_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/norwood-multi-gen-44_Norwood_ELEV_C_Master-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Athens",
@@ -1552,7 +1722,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/athens-tandem/",
-          "localImageUrl": "/images/richcraft/athens-Arden_Elev_c_Test-1-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/athens-Arden_Elev_c_Test-1-1-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Millwood II Multi-Gen",
@@ -1564,7 +1738,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/millwood-ii-multi-gen/",
-          "localImageUrl": "/images/richcraft/millwood-ii-multi-gen-Revised_MILLWOOD_FRONTON_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/millwood-ii-multi-gen-Revised_MILLWOOD_FRONTON_V2_low-res-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Millwood II",
@@ -1576,7 +1754,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/millwood-ii/",
-          "localImageUrl": "/images/richcraft/millwood-ii-Revised_MILLWOOD_FRONTON_V2_low-res-363x224.jpg"
+          "localImageUrl": "/images/richcraft/millwood-ii-Revised_MILLWOOD_FRONTON_V2_low-res-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Wingate Multi-Gen",
@@ -1588,7 +1770,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/wingate-multi-gen/",
-          "localImageUrl": "/images/richcraft/wingate-multi-gen-35_Wingate_ELEV_F_Web_Master_White-363x224.jpg"
+          "localImageUrl": "/images/richcraft/wingate-multi-gen-35_Wingate_ELEV_F_Web_Master_White-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Austin",
@@ -1600,7 +1786,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/austin/",
-          "localImageUrl": "/images/richcraft/austin-50_Austin_ELEV_F_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/austin-50_Austin_ELEV_F_Web_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Pinefield Multi-Gen",
@@ -1612,7 +1802,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/pinefield-multi-gen/",
-          "localImageUrl": "/images/richcraft/pinefield-multi-gen-44_Pinefield_ELEV_C_Print_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/pinefield-multi-gen-44_Pinefield_ELEV_C_Print_Master-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Pinefield",
@@ -1624,7 +1818,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/pinefield/",
-          "localImageUrl": "/images/richcraft/pinefield-44_Pinefield_ELEV_C_Print_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/pinefield-44_Pinefield_ELEV_C_Print_Master-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Westbrook Multi-Gen",
@@ -1636,7 +1834,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/westbrook-multi-gen/",
-          "localImageUrl": "/images/richcraft/westbrook-multi-gen-44_Westbrook_ELEV_F_Web_Master_Grey-363x224.jpg"
+          "localImageUrl": "/images/richcraft/westbrook-multi-gen-44_Westbrook_ELEV_F_Web_Master_Grey-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Westbrook",
@@ -1648,7 +1850,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/westbrook/",
-          "localImageUrl": "/images/richcraft/westbrook-44_Westbrook_ELEV_F_Web_Master_Grey-363x224.jpg"
+          "localImageUrl": "/images/richcraft/westbrook-44_Westbrook_ELEV_F_Web_Master_Grey-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Florence",
@@ -1660,7 +1866,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/florence/",
-          "localImageUrl": "/images/richcraft/florence-44_Cedarbreeze_ELEV_C_Web_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/florence-44_Cedarbreeze_ELEV_C_Web_Master-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Barton",
@@ -1672,7 +1882,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/barton/",
-          "localImageUrl": "/images/richcraft/barton-50_Barton_ELEV_F_Web_Master-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/barton-50_Barton_ELEV_F_Web_Master-1-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Rainey",
@@ -1684,7 +1898,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/rainey/",
-          "localImageUrl": "/images/richcraft/rainey-50_Rainey_ELEV_F_Web_Master-2-363x224.jpg"
+          "localImageUrl": "/images/richcraft/rainey-50_Rainey_ELEV_F_Web_Master-2-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Palermo",
@@ -1696,7 +1914,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/palermo/",
-          "localImageUrl": "/images/richcraft/palermo-44_Pinefield_ELEV_C_Print_Master-363x224.jpg"
+          "localImageUrl": "/images/richcraft/palermo-44_Pinefield_ELEV_C_Print_Master-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Haywood",
@@ -1708,7 +1930,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/haywood/",
-          "localImageUrl": "/images/richcraft/haywood-44_Haywood_Elev_C-Edited-363x224.jpg"
+          "localImageUrl": "/images/richcraft/haywood-44_Haywood_Elev_C-Edited-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Wildwood II Multi-Gen",
@@ -1720,7 +1946,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/wildwood-ii-multi-gen/",
-          "localImageUrl": "/images/richcraft/wildwood-ii-multi-gen-50_WILDWOOD-2-EDITED-363x224.jpg"
+          "localImageUrl": "/images/richcraft/wildwood-ii-multi-gen-50_WILDWOOD-2-EDITED-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Wildwood II",
@@ -1732,7 +1962,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/wildwood-ii/",
-          "localImageUrl": "/images/richcraft/wildwood-ii-50_WILDWOOD-2-EDITED-363x224.jpg"
+          "localImageUrl": "/images/richcraft/wildwood-ii-50_WILDWOOD-2-EDITED-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         },
         {
           "name": "Geneva",
@@ -1744,7 +1978,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/geneva/",
-          "localImageUrl": "/images/richcraft/geneva-50_Barton_ELEV_F_Web_Master-1-363x224.jpg"
+          "localImageUrl": "/images/richcraft/geneva-50_Barton_ELEV_F_Web_Master-1-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Spoke Multi-Gen",
@@ -1756,7 +1994,11 @@
           "garages": 2,
           "priceFrom": null,
           "modelUrl": "https://www.richcraft.com/home/spoke-multi-gen/",
-          "localImageUrl": "/images/richcraft/spoke-multi-gen-50_Spoke_ELEV_F_gray-363x224.jpg"
+          "localImageUrl": "/images/richcraft/spoke-multi-gen-50_Spoke_ELEV_F_gray-363x224.jpg",
+          "priceSource": "not-listed",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "No price listed on community page at time of scrape"
         },
         {
           "name": "Spoke",
@@ -1768,7 +2010,11 @@
           "garages": 2,
           "priceFrom": 719900,
           "modelUrl": "https://www.richcraft.com/home/spoke/",
-          "localImageUrl": "/images/richcraft/spoke-50_Spoke_ELEV_F_gray-363x224.jpg"
+          "localImageUrl": "/images/richcraft/spoke-50_Spoke_ELEV_F_gray-363x224.jpg",
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price for Single Family from community page"
         }
       ],
       "priceFrom": 521265,
@@ -1780,6 +2026,408 @@
       "sourceName": "richcraft.com",
       "imageUrl": "",
       "scrapedAt": "2026-04-13T13:01:55.761Z"
+    },
+    {
+      "id": "richcraft-pathways",
+      "name": "Pathways",
+      "builder": "Richcraft Homes",
+      "community": "Findlay Creek",
+      "address": "126 Dun Skipper Drive, Findlay Creek, Ottawa, ON",
+      "lat": 45.30959,
+      "lng": -75.590555,
+      "status": "upcoming",
+      "type": "mixed",
+      "homeTypes": [
+        "Thrive Towns",
+        "Townhomes",
+        "Single Family Homes"
+      ],
+      "priceFrom": 574660,
+      "priceFromFormatted": "$574,660",
+      "completionYear": null,
+      "description": null,
+      "models": [
+        {
+          "name": "Thrive Towns",
+          "type": "Townhouse",
+          "priceFrom": 574660,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/pathways/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Townhomes",
+          "type": "Townhouse",
+          "priceFrom": 638900,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/pathways/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Single Family Homes",
+          "type": "Single Family",
+          "priceFrom": 980900,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/pathways/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        }
+      ],
+      "sourceUrl": "https://www.richcraft.com/community/ottawa-south/pathways/",
+      "sourceName": "Richcraft Homes",
+      "scrapedAt": "2026-04-13",
+      "priceSource": "community-page",
+      "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/pathways/",
+      "priceNote": "Category-level starting prices from community landing page. Individual model pages may differ."
+    },
+    {
+      "id": "richcraft-riverside-south",
+      "name": "Riverside South",
+      "builder": "Richcraft Homes",
+      "community": "Riverside South",
+      "address": "821 Atrium Ridge, Riverside South, Ottawa, ON",
+      "lat": 45.260657,
+      "lng": -75.698711,
+      "status": "upcoming",
+      "type": "mixed",
+      "homeTypes": [
+        "Urban Towns",
+        "Thrive Towns",
+        "Townhomes",
+        "Bungalow Towns",
+        "Single Family Homes"
+      ],
+      "priceFrom": 569925,
+      "priceFromFormatted": "$569,925",
+      "completionYear": null,
+      "description": null,
+      "models": [
+        {
+          "name": "Urban Towns",
+          "type": "Townhouse",
+          "priceFrom": 569925,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Thrive Towns",
+          "type": "Townhouse",
+          "priceFrom": 600603,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Townhomes",
+          "type": "Townhouse",
+          "priceFrom": 657900,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Bungalow Towns",
+          "type": "Townhouse",
+          "priceFrom": 717255,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Single Family Homes",
+          "type": "Single Family",
+          "priceFrom": 724900,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        }
+      ],
+      "sourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
+      "sourceName": "Richcraft Homes",
+      "scrapedAt": "2026-04-13",
+      "priceSource": "community-page",
+      "priceSourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
+      "priceNote": "Category-level starting prices from community landing page. Individual model pages may differ."
+    },
+    {
+      "id": "richcraft-bradley-commons",
+      "name": "Bradley Commons",
+      "builder": "Richcraft Homes",
+      "community": "Stittsville",
+      "address": "558 Bobolink Ridge, Stittsville, Ottawa, ON",
+      "lat": 45.268927,
+      "lng": -75.895341,
+      "status": "upcoming",
+      "type": "mixed",
+      "homeTypes": [
+        "Townhomes",
+        "Single Family Homes"
+      ],
+      "priceFrom": 665658,
+      "priceFromFormatted": "$665,658",
+      "completionYear": null,
+      "description": null,
+      "models": [
+        {
+          "name": "Townhomes",
+          "type": "Townhouse",
+          "priceFrom": 665658,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/bradley_commons/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Single Family Homes",
+          "type": "Single Family",
+          "priceFrom": 973900,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/bradley_commons/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        }
+      ],
+      "sourceUrl": "https://www.richcraft.com/community/ottawa-west/bradley_commons/",
+      "sourceName": "Richcraft Homes",
+      "scrapedAt": "2026-04-13",
+      "priceSource": "community-page",
+      "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/bradley_commons/",
+      "priceNote": "Category-level starting prices from community landing page. Individual model pages may differ."
+    },
+    {
+      "id": "richcraft-mapleton",
+      "name": "Mapleton",
+      "builder": "Richcraft Homes",
+      "community": "Kanata",
+      "address": "201 Hampshire Place, Kanata, Ottawa, ON",
+      "lat": 45.292857,
+      "lng": -75.909849,
+      "status": "upcoming",
+      "type": "mixed",
+      "homeTypes": [
+        "Flats",
+        "Thrive Towns",
+        "Townhomes",
+        "Bungalow Towns"
+      ],
+      "priceFrom": 399900,
+      "priceFromFormatted": "$399,900",
+      "completionYear": null,
+      "description": null,
+      "models": [
+        {
+          "name": "Flats",
+          "type": "Condo",
+          "priceFrom": 399900,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/mapleton/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Thrive Towns",
+          "type": "Townhouse",
+          "priceFrom": 587016,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/mapleton/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Townhomes",
+          "type": "Townhouse",
+          "priceFrom": 656078,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/mapleton/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Bungalow Towns",
+          "type": "Townhouse",
+          "priceFrom": 731681,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/mapleton/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        }
+      ],
+      "sourceUrl": "https://www.richcraft.com/community/ottawa-west/mapleton/",
+      "sourceName": "Richcraft Homes",
+      "scrapedAt": "2026-04-13",
+      "priceSource": "community-page",
+      "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/mapleton/",
+      "priceNote": "Category-level starting prices from community landing page. Individual model pages may differ."
+    },
+    {
+      "id": "richcraft-westwood",
+      "name": "Westwood",
+      "builder": "Richcraft Homes",
+      "community": "Stittsville",
+      "address": "Westwood Drive, Stittsville, Ottawa, ON",
+      "lat": 45.263117,
+      "lng": -75.891442,
+      "status": "upcoming",
+      "type": "mixed",
+      "homeTypes": [
+        "Urban Towns",
+        "Townhomes",
+        "Single Family Homes"
+      ],
+      "priceFrom": 521265,
+      "priceFromFormatted": "$521,265",
+      "completionYear": null,
+      "description": null,
+      "models": [
+        {
+          "name": "Urban Towns",
+          "type": "Townhouse",
+          "priceFrom": 521265,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/westwood/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Townhomes",
+          "type": "Townhouse",
+          "priceFrom": 675160,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/westwood/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        },
+        {
+          "name": "Single Family Homes",
+          "type": "Single Family",
+          "priceFrom": 699900,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/westwood/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        }
+      ],
+      "sourceUrl": "https://www.richcraft.com/community/ottawa-west/westwood/",
+      "sourceName": "Richcraft Homes",
+      "scrapedAt": "2026-04-13",
+      "priceSource": "community-page",
+      "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/westwood/",
+      "priceNote": "Category-level starting prices from community landing page. Individual model pages may differ."
+    },
+    {
+      "id": "richcraft-gateway-flats",
+      "name": "Gateway Flats",
+      "builder": "Richcraft Homes",
+      "community": "Kanata",
+      "address": "201 Hampshire Place, Kanata, Ottawa, ON",
+      "lat": 45.2932,
+      "lng": -75.9092,
+      "status": "upcoming",
+      "type": "condo",
+      "homeTypes": [
+        "Flats"
+      ],
+      "priceFrom": 399900,
+      "priceFromFormatted": "$399,900",
+      "completionYear": null,
+      "description": null,
+      "models": [
+        {
+          "name": "Flats",
+          "type": "Condo",
+          "priceFrom": 399900,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "lotWidth": null,
+          "priceSource": "community-page",
+          "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/gateway-flats/",
+          "priceScrapedAt": "2026-04-13",
+          "priceNote": "Category starting price from community page (2026-04-13)"
+        }
+      ],
+      "sourceUrl": "https://www.richcraft.com/community/ottawa-west/gateway-flats/",
+      "sourceName": "Richcraft Homes",
+      "scrapedAt": "2026-04-13",
+      "priceSource": "community-page",
+      "priceSourceUrl": "https://www.richcraft.com/community/ottawa-west/gateway-flats/",
+      "priceNote": "Category-level starting prices from community landing page. Individual model pages may differ."
     }
   ]
 }

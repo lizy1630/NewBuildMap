@@ -300,38 +300,6 @@
       }
     }
   ],
-  "richcraft-westboro-station": [
-    {
-      "date": "2025-10-01",
-      "priceFrom": 369900,
-      "models": {
-        "Studio 480": 369900,
-        "1-Bed 620": 449900,
-        "2-Bed 890": 639900
-      }
-    },
-    {
-      "date": "2026-02-01",
-      "priceFrom": 389900,
-      "models": {
-        "Studio 480": 389900,
-        "1-Bed 620": 469900,
-        "2-Bed 890": 659900,
-        "2-Bed Den 1050": 779900
-      }
-    },
-    {
-      "date": "2026-04-10",
-      "priceFrom": 399900,
-      "models": {
-        "Studio 480": 399900,
-        "1-Bed 620": 479900,
-        "2-Bed 890": 679900,
-        "2-Bed Den 1050": 799900,
-        "Penthouse 1420": 1189900
-      }
-    }
-  ],
   "minto-central-park": [
     {
       "date": "2025-09-01",

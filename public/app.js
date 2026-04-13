@@ -2,7 +2,7 @@
  * Ottawa New Build Map — Main App
  */
 import { initSidebar, openSidebar, closeSidebar, switchTab, renderDetail, setPriceHistory } from './components/sidebar.js';
-import { initFilters, getFilters, updateCount, matchesFilters, setCommunityFilter } from './components/filters.js';
+import { initFilters, initLegend, getFilters, updateCount, matchesFilters } from './components/filters.js';
 import { showRecentReleases } from './components/toast.js';
 import { initCompare, startCompare, setCompareB, isSelectingB, renderCompare } from './compare.js';
 import { setHistoryData, renderHistory } from './history.js';
@@ -19,14 +19,27 @@ const TILES = {
   },
 };
 
-const TYPE_COLORS = {
-  'single-family': '#22c55e',
-  townhouse: '#3b82f6',
-  'semi-detached': '#a855f7',
-  condo: '#f59e0b',
-  mixed: '#00d4ff',
-  unknown: '#9090b0',
+const BUILDER_COLORS = {
+  'Minto Communities':       '#00d4ff',
+  'Mattamy Homes':           '#f59e0b',
+  'Cardel Homes':            '#22c55e',
+  'Richcraft Homes':         '#f43f5e',
+  'HN Homes':                '#a855f7',
+  'Urbandale Construction':  '#fb923c',
+  'Glenview Homes':          '#06b6d4',
+  'Tamarack Homes':          '#84cc16',
+  'Tartan Homes':            '#e879f9',
+  'Valecraft Homes':         '#facc15',
+  'Patten Homes':            '#34d399',
+  'Caivan':                  '#60a5fa',
+  'eQ Homes':                '#f472b6',
+  'Phoenix Homes':           '#38bdf8',
+  'Brigil':                  '#a3e635',
 };
+
+function builderColor(builder) {
+  return BUILDER_COLORS[builder] || '#9090b0';
+}
 
 const STATUS_OPACITY = {
   selling: 1,
@@ -41,10 +54,28 @@ let map;
 let tileLayer;
 let markers = [];   // { build, marker, visible }
 let activeId = null;
-let isDark = true;
+let isDark = false;
 let allBuilds = [];
 let priceHistory = {};
 let releases = [];
+let _blockMapClick = false;
+
+function blockMapClick() {
+  _blockMapClick = true;
+  setTimeout(() => { _blockMapClick = false; }, 400);
+}
+
+function deselectActive() {
+  if (activeId) {
+    const prev = markers.find((m) => m.build.id === activeId);
+    if (prev) {
+      const c = builderColor(prev.build.builder);
+      const op = STATUS_OPACITY[prev.build.status] ?? 0.9;
+      prev.marker.setStyle({ radius: 9, fillOpacity: 0.25 * op, weight: 2, color: c, fillColor: c });
+    }
+    activeId = null;
+  }
+}
 
 // ===== Init =====
 async function init() {
@@ -74,12 +105,13 @@ async function init() {
     zoom: 11,
     zoomControl: true,
     attributionControl: true,
+    doubleClickZoom: false,
   });
 
   map.zoomControl.setPosition('bottomright');
 
-  tileLayer = L.tileLayer(TILES.dark.url, {
-    attribution: TILES.dark.attr,
+  tileLayer = L.tileLayer(TILES.light.url, {
+    attribution: TILES.light.attr,
     maxZoom: 19,
     subdomains: 'abcd',
   }).addTo(map);
@@ -93,7 +125,7 @@ async function init() {
   allBuilds.forEach((build) => {
     if (!build.lat || !build.lng) return;
 
-    const color = TYPE_COLORS[build.type] || TYPE_COLORS.unknown;
+    const color = builderColor(build.builder);
     const opacity = STATUS_OPACITY[build.status] ?? 0.9;
 
     const marker = L.circleMarker([build.lat, build.lng], {
@@ -113,8 +145,17 @@ async function init() {
       className: 'map-popup-wrapper',
     });
 
-    // Hover effects
+    // Hover effects — delay close so cursor can move into popup without it disappearing
+    let _hoverTimer = null;
+    const cancelClose = () => clearTimeout(_hoverTimer);
+    const scheduleClose = () => {
+      _hoverTimer = setTimeout(() => {
+        if (activeId !== build.id) marker.closePopup();
+      }, 250);
+    };
+
     marker.on('mouseover', () => {
+      cancelClose();
       if (activeId !== build.id) {
         marker.setStyle({ radius: 12, fillOpacity: 0.5 * opacity, weight: 2.5 });
       }
@@ -125,29 +166,61 @@ async function init() {
       if (activeId !== build.id) {
         marker.setStyle({ radius: 9, fillOpacity: 0.25 * opacity, weight: 2 });
       }
-      marker.closePopup();
+      scheduleClose();
     });
 
-    marker.on('click', () => handleMarkerClick(build, marker, color, opacity));
+    marker.on('popupopen', () => {
+      const popupEl = marker.getPopup()?.getElement();
+      if (popupEl) {
+        popupEl.addEventListener('mouseenter', cancelClose);
+        popupEl.addEventListener('mouseleave', scheduleClose);
+        // Prevent popup clicks bubbling to map (fixes "View Details" closing immediately)
+        L.DomEvent.disableClickPropagation(popupEl);
+      }
+    });
+
+    marker.on('click', (e) => { L.DomEvent.stopPropagation(e); handleMarkerClick(build, marker, color, opacity); });
 
     marker.addTo(map);
     markers.push({ build, marker, visible: true });
   });
+
+  // Builder legend (after markers so builderColor is defined)
+  initLegend(allBuilds, builderColor);
 
   // Viewport count
   map.on('moveend zoomend', updateViewportCount);
   updateViewportCount();
   applyFilters();
 
+  // Close sidebar on map background click (desktop and mobile)
+  map.on('click', () => {
+    if (_blockMapClick) return;
+    deselectActive();
+    closeSidebar();
+  });
+
   // Theme toggle
   document.getElementById('btn-theme').addEventListener('click', toggleTheme);
+
+  // Mobile filter toggle
+  const btnFilters = document.getElementById('btn-filters-toggle');
+  const filtersRow = document.getElementById('topbar-filters');
+  if (btnFilters && filtersRow) {
+    btnFilters.addEventListener('click', () => {
+      const open = filtersRow.classList.toggle('open');
+      btnFilters.style.color = open ? 'var(--accent)' : '';
+      btnFilters.style.borderColor = open ? 'var(--accent)' : '';
+    });
+  }
 
   // Recent releases toasts (delayed so map loads first)
   setTimeout(() => showRecentReleases(releases, 7), 1500);
 
   // Handle compare button in detail panel (delegated)
   document.getElementById('tab-detail').addEventListener('click', (e) => {
-    if (e.target.id === 'btn-compare-from-detail') {
+    const btn = e.target.closest('#btn-compare-from-detail');
+    if (btn) {
       const build = allBuilds.find((b) => b.id === activeId);
       if (build) startCompare(build);
     }
@@ -157,30 +230,28 @@ async function init() {
   handleHash();
 }
 
-// ===== Marker click =====
+// ===== Marker click — highlight marker and show popup only =====
 function handleMarkerClick(build, marker, color, opacity) {
+  blockMapClick();
+
   // Compare B selection mode
   if (isSelectingB()) {
     setCompareB(build);
     return;
   }
 
-  // Deselect previous
-  if (activeId && activeId !== build.id) {
-    const prev = markers.find((m) => m.build.id === activeId);
-    if (prev) {
-      const c = TYPE_COLORS[prev.build.type] || TYPE_COLORS.unknown;
-      const op = STATUS_OPACITY[prev.build.status] ?? 0.9;
-      prev.marker.setStyle({ radius: 9, fillOpacity: 0.25 * op, weight: 2, color: c, fillColor: c });
-    }
-  }
+  // Deselect previous marker
+  if (activeId !== build.id) deselectActive();
 
   activeId = build.id;
   marker.setStyle({ radius: 11, fillOpacity: 0.6 * opacity, weight: 3, color: '#ffffff', fillColor: color });
-  marker.closePopup();
 
-  // Pre-fill community filter to the clicked community
-  setCommunityFilter(build.community);
+  // Don't open sidebar here — only "View Details" opens it
+}
+
+// ===== Open detail sidebar (called by "View Details" button) =====
+function openDetailForBuild(build) {
+  blockMapClick();
 
   renderDetail(build);
   renderHistory(build);
@@ -191,7 +262,7 @@ function handleMarkerClick(build, marker, color, opacity) {
 
 // ===== Popup HTML =====
 function buildPopupHTML(build) {
-  const color = TYPE_COLORS[build.type] || TYPE_COLORS.unknown;
+  const color = builderColor(build.builder);
   return `
     <div class="map-popup">
       <div class="popup-header" style="border-left:3px solid ${color}">
@@ -217,15 +288,18 @@ window.__mapShowDetail = (id) => {
   const item = markers.find((m) => m.build.id === id);
   if (item) {
     item.marker.closePopup();
-    const color = TYPE_COLORS[item.build.type] || TYPE_COLORS.unknown;
-    const opacity = STATUS_OPACITY[item.build.status] ?? 0.9;
-    handleMarkerClick(item.build, item.marker, color, opacity);
+    openDetailForBuild(item.build);
   }
 };
 
 // ===== Filters =====
 function handleFiltersChange(filters) {
   applyFilters(filters);
+  // Collapse sidebar when community filter is cleared
+  if (!filters.community) {
+    deselectActive();
+    closeSidebar();
+  }
 }
 
 function applyFilters(filters) {
@@ -234,12 +308,13 @@ function applyFilters(filters) {
 
   markers.forEach(({ build, marker }) => {
     const show = matchesFilters(build, filters);
+    const opacity = STATUS_OPACITY[build.status] ?? 0.9;
     if (show) {
-      marker.setOpacity(1);
+      marker.setStyle({ opacity: opacity, fillOpacity: 0.25 * opacity });
       marker.getElement()?.style.setProperty('pointer-events', 'auto');
       visible++;
     } else {
-      marker.setOpacity(0);
+      marker.setStyle({ opacity: 0, fillOpacity: 0 });
       marker.getElement()?.style.setProperty('pointer-events', 'none');
     }
   });
@@ -301,9 +376,11 @@ function handleHash() {
       const item = markers.find((m) => m.build.id === build.id);
       if (item) {
         map.setView([build.lat, build.lng], 14);
-        const color = TYPE_COLORS[build.type] || TYPE_COLORS.unknown;
+        const color = builderColor(build.builder);
         const opacity = STATUS_OPACITY[build.status] ?? 0.9;
-        handleMarkerClick(build, item.marker, color, opacity);
+        item.marker.setStyle({ radius: 11, fillOpacity: 0.6 * opacity, weight: 3, color: '#ffffff', fillColor: color });
+        activeId = build.id;
+        openDetailForBuild(build);
       }
     }
   }
