@@ -2,7 +2,7 @@
  * Ottawa New Build Map — Main App
  */
 import { initSidebar, openSidebar, closeSidebar, switchTab, renderDetail, setPriceHistory } from './components/sidebar.js';
-import { initFilters, getFilters, updateCount, matchesFilters } from './components/filters.js';
+import { initFilters, getFilters, updateCount, matchesFilters, setCommunityFilter } from './components/filters.js';
 import { showRecentReleases } from './components/toast.js';
 import { initCompare, startCompare, setCompareB, isSelectingB, renderCompare } from './compare.js';
 import { setHistoryData, renderHistory } from './history.js';
@@ -179,6 +179,9 @@ function handleMarkerClick(build, marker, color, opacity) {
   marker.setStyle({ radius: 11, fillOpacity: 0.6 * opacity, weight: 3, color: '#ffffff', fillColor: color });
   marker.closePopup();
 
+  // Pre-fill community filter to the clicked community
+  setCommunityFilter(build.community);
+
   renderDetail(build);
   renderHistory(build);
 
@@ -198,8 +201,8 @@ function buildPopupHTML(build) {
       <div class="popup-body">
         <div class="popup-price">${build.priceFromFormatted || '—'}</div>
         <div class="popup-meta">
-          <span class="badge badge-${build.status || 'selling'}">${fmtStatus(build.status)}</span>
-          <span class="badge badge-type">${fmtType(build.type)}</span>
+          ${build.completionYear ? `<span class="badge badge-year">${build.completionYear}</span>` : ''}
+          ${homeTypeBadges(build)}
         </div>
         ${build.models?.length ? `<div style="font-size:11px;color:var(--text-3)">${build.models.length} floor plan${build.models.length > 1 ? 's' : ''} available</div>` : ''}
       </div>
@@ -307,6 +310,21 @@ function handleHash() {
 }
 
 // ===== Helpers =====
+function homeTypeBadges(build) {
+  const types = getHomeTypes(build);
+  return types.map(t => `<span class="badge badge-type">${esc(t)}</span>`).join('');
+}
+
+function getHomeTypes(build) {
+  if (build.homeTypes && build.homeTypes.length) return build.homeTypes;
+  const t = build.type;
+  if (t === 'single-family') return ['Single Family'];
+  if (t === 'townhouse') return ['Townhomes'];
+  if (t === 'semi-detached') return ['Semi-Detached'];
+  if (t === 'condo') return ['Condo'];
+  return ['Mixed'];
+}
+
 function fmtStatus(s) {
   const m = { selling: 'Selling', limited: 'Limited', 'sold-out': 'Sold Out', upcoming: 'Upcoming', construction: 'Under Const.' };
   return m[s] || s || '';

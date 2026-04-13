@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-10T06:00:00Z",
-  "count": 16,
+  "generated": "2026-04-13T13:01:55.761Z",
+  "count": 17,
   "geocodeFailed": 0,
   "builds": [
     {
@@ -13,11 +13,41 @@
       "lng": -75.9128,
       "type": "mixed",
       "models": [
-        { "name": "Metro Townhome", "sqft": 1340, "beds": 2, "baths": 2, "priceFrom": 379900 },
-        { "name": "Avenue Townhome", "sqft": 1680, "beds": 3, "baths": 2.5, "priceFrom": 489900 },
-        { "name": "Executive Townhome", "sqft": 2050, "beds": 4, "baths": 3, "priceFrom": 629900 },
-        { "name": "The Westport", "sqft": 2340, "beds": 4, "baths": 3.5, "priceFrom": 849900 },
-        { "name": "The Stratford", "sqft": 2860, "beds": 5, "baths": 4, "priceFrom": 1049900 }
+        {
+          "name": "Metro Townhome",
+          "sqft": 1340,
+          "beds": 2,
+          "baths": 2,
+          "priceFrom": 379900
+        },
+        {
+          "name": "Avenue Townhome",
+          "sqft": 1680,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 489900
+        },
+        {
+          "name": "Executive Townhome",
+          "sqft": 2050,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 629900
+        },
+        {
+          "name": "The Westport",
+          "sqft": 2340,
+          "beds": 4,
+          "baths": 3.5,
+          "priceFrom": 849900
+        },
+        {
+          "name": "The Stratford",
+          "sqft": 2860,
+          "beds": 5,
+          "baths": 4,
+          "priceFrom": 1049900
+        }
       ],
       "priceFrom": 379900,
       "priceFromFormatted": "$379,900",
@@ -27,7 +57,10 @@
       "sourceUrl": "https://www.minto.com/ottawa/Kanata-new-homes/Arcadia/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Townhomes"
+      ]
     },
     {
       "id": "minto-brookline",
@@ -36,12 +69,30 @@
       "community": "Kanata",
       "address": "Palladium Dr & Huntmar Dr, Kanata, ON",
       "lat": 45.3305,
-      "lng": -75.8960,
+      "lng": -75.896,
       "type": "mixed",
       "models": [
-        { "name": "The Berne Townhome", "sqft": 1580, "beds": 3, "baths": 2.5, "priceFrom": 519900 },
-        { "name": "The Geneva", "sqft": 2080, "beds": 4, "baths": 3, "priceFrom": 769900 },
-        { "name": "The Alpine", "sqft": 2420, "beds": 4, "baths": 3.5, "priceFrom": 939900 }
+        {
+          "name": "The Berne Townhome",
+          "sqft": 1580,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 519900
+        },
+        {
+          "name": "The Geneva",
+          "sqft": 2080,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 769900
+        },
+        {
+          "name": "The Alpine",
+          "sqft": 2420,
+          "beds": 4,
+          "baths": 3.5,
+          "priceFrom": 939900
+        }
       ],
       "priceFrom": 519900,
       "priceFromFormatted": "$519,900",
@@ -51,7 +102,10 @@
       "sourceUrl": "https://www.minto.com/ottawa/Kanata-new-homes/Brookline/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Townhomes"
+      ]
     },
     {
       "id": "minto-abbotts-run",
@@ -63,10 +117,34 @@
       "lng": -75.9218,
       "type": "mixed",
       "models": [
-        { "name": "Urban Townhome", "sqft": 1490, "beds": 3, "baths": 2.5, "priceFrom": 579900 },
-        { "name": "Executive Townhome", "sqft": 1920, "beds": 4, "baths": 3, "priceFrom": 699900 },
-        { "name": "The Fairmont", "sqft": 2310, "beds": 4, "baths": 3.5, "priceFrom": 879900 },
-        { "name": "The Rideau Grand", "sqft": 2890, "beds": 5, "baths": 4, "priceFrom": 1129900 }
+        {
+          "name": "Urban Townhome",
+          "sqft": 1490,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 579900
+        },
+        {
+          "name": "Executive Townhome",
+          "sqft": 1920,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 699900
+        },
+        {
+          "name": "The Fairmont",
+          "sqft": 2310,
+          "beds": 4,
+          "baths": 3.5,
+          "priceFrom": 879900
+        },
+        {
+          "name": "The Rideau Grand",
+          "sqft": 2890,
+          "beds": 5,
+          "baths": 4,
+          "priceFrom": 1129900
+        }
       ],
       "priceFrom": 579900,
       "priceFromFormatted": "$579,900",
@@ -76,7 +154,11 @@
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Abbotts-Run/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Townhomes",
+        "Urban Towns"
+      ]
     },
     {
       "id": "mattamy-northwoods",
@@ -88,11 +170,41 @@
       "lng": -75.8836,
       "type": "mixed",
       "models": [
-        { "name": "The Ashbury B2B", "sqft": 1390, "beds": 3, "baths": 2.5, "priceFrom": 509990 },
-        { "name": "The Birchwood", "sqft": 1720, "beds": 3, "baths": 2.5, "priceFrom": 619990 },
-        { "name": "The Cypress Bungalow", "sqft": 1950, "beds": 3, "baths": 2, "priceFrom": 789990 },
-        { "name": "The Douglas Two-Storey", "sqft": 2580, "beds": 4, "baths": 3, "priceFrom": 949990 },
-        { "name": "The Everett Grande", "sqft": 3930, "beds": 5, "baths": 4.5, "priceFrom": 1399990 }
+        {
+          "name": "The Ashbury B2B",
+          "sqft": 1390,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 509990
+        },
+        {
+          "name": "The Birchwood",
+          "sqft": 1720,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 619990
+        },
+        {
+          "name": "The Cypress Bungalow",
+          "sqft": 1950,
+          "beds": 3,
+          "baths": 2,
+          "priceFrom": 789990
+        },
+        {
+          "name": "The Douglas Two-Storey",
+          "sqft": 2580,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 949990
+        },
+        {
+          "name": "The Everett Grande",
+          "sqft": 3930,
+          "beds": 5,
+          "baths": 4.5,
+          "priceFrom": 1399990
+        }
       ],
       "priceFrom": 509990,
       "priceFromFormatted": "$509,990",
@@ -102,7 +214,10 @@
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/kanata/northwoods",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Bungalows"
+      ]
     },
     {
       "id": "cardel-blackstone",
@@ -114,19 +229,40 @@
       "lng": -75.8975,
       "type": "mixed",
       "models": [
-        { "name": "The Bungalow 1611", "sqft": 1611, "beds": 3, "baths": 2, "priceFrom": 719000 },
-        { "name": "The Two-Storey 2124", "sqft": 2124, "beds": 4, "baths": 3, "priceFrom": 859000 },
-        { "name": "The Executive 2660", "sqft": 2660, "beds": 5, "baths": 3.5, "priceFrom": 1117000 }
+        {
+          "name": "The Bungalow 1611",
+          "sqft": 1611,
+          "beds": 3,
+          "baths": 2,
+          "priceFrom": 719000
+        },
+        {
+          "name": "The Two-Storey 2124",
+          "sqft": 2124,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 859000
+        },
+        {
+          "name": "The Executive 2660",
+          "sqft": 2660,
+          "beds": 5,
+          "baths": 3.5,
+          "priceFrom": 1117000
+        }
       ],
       "priceFrom": 719000,
       "priceFromFormatted": "$719,000",
       "status": "sold-out",
       "completionYear": 2025,
-      "description": "341-unit community with bungalows, townhomes, and single-family homes. Only 1 home remaining. Sizes 1,611–2,660 sq ft.",
+      "description": "341-unit community with bungalows, townhomes, and single-family homes. Only 1 home remaining. Sizes 1,611\u20132,660 sq ft.",
       "sourceUrl": "https://www.cardelhomes.com/ottawa/communities/blackstone-in-kanata-south",
       "sourceName": "cardelhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Bungalows"
+      ]
     },
     {
       "id": "cardel-edenwylde",
@@ -134,15 +270,45 @@
       "builder": "Cardel Homes",
       "community": "Stittsville",
       "address": "Fernbank Rd & Shea Rd, Stittsville, ON",
-      "lat": 45.2570,
+      "lat": 45.257,
       "lng": -75.9302,
       "type": "mixed",
       "models": [
-        { "name": "Terrace Town 2064", "sqft": 2064, "beds": 3, "baths": 2.5, "priceFrom": 529000 },
-        { "name": "Terrace Town 2257", "sqft": 2257, "beds": 4, "baths": 3, "priceFrom": 569000 },
-        { "name": "Semi-Detached 1850", "sqft": 1850, "beds": 3, "baths": 2.5, "priceFrom": 699000 },
-        { "name": "Single Family 2400", "sqft": 2400, "beds": 4, "baths": 3, "priceFrom": 829000 },
-        { "name": "Executive Bungalow", "sqft": 2100, "beds": 3, "baths": 2, "priceFrom": 939000 }
+        {
+          "name": "Terrace Town 2064",
+          "sqft": 2064,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 529000
+        },
+        {
+          "name": "Terrace Town 2257",
+          "sqft": 2257,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 569000
+        },
+        {
+          "name": "Semi-Detached 1850",
+          "sqft": 1850,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 699000
+        },
+        {
+          "name": "Single Family 2400",
+          "sqft": 2400,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 829000
+        },
+        {
+          "name": "Executive Bungalow",
+          "sqft": 2100,
+          "beds": 3,
+          "baths": 2,
+          "priceFrom": 939000
+        }
       ],
       "priceFrom": 529000,
       "priceFromFormatted": "$529,000",
@@ -152,7 +318,13 @@
       "sourceUrl": "https://www.cardelhomes.com/ottawa/communities/edenwylde",
       "sourceName": "cardelhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Bungalows",
+        "Semi-Detached",
+        "Single Family",
+        "Townhomes"
+      ]
     },
     {
       "id": "richcraft-kanata-lakes",
@@ -164,11 +336,41 @@
       "lng": -75.9005,
       "type": "mixed",
       "models": [
-        { "name": "Townhome Series A", "sqft": 1780, "beds": 3, "baths": 2.5, "priceFrom": 814900 },
-        { "name": "The Elm Bungalow", "sqft": 1950, "beds": 3, "baths": 2, "priceFrom": 999900 },
-        { "name": "The Oak Two-Storey", "sqft": 2460, "beds": 4, "baths": 3, "priceFrom": 1189900 },
-        { "name": "The Maple Grande", "sqft": 3020, "beds": 5, "baths": 4, "priceFrom": 1489900 },
-        { "name": "Tandem Dual-Unit", "sqft": 3400, "beds": 6, "baths": 4, "priceFrom": 1637900 }
+        {
+          "name": "Townhome Series A",
+          "sqft": 1780,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 814900
+        },
+        {
+          "name": "The Elm Bungalow",
+          "sqft": 1950,
+          "beds": 3,
+          "baths": 2,
+          "priceFrom": 999900
+        },
+        {
+          "name": "The Oak Two-Storey",
+          "sqft": 2460,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 1189900
+        },
+        {
+          "name": "The Maple Grande",
+          "sqft": 3020,
+          "beds": 5,
+          "baths": 4,
+          "priceFrom": 1489900
+        },
+        {
+          "name": "Tandem Dual-Unit",
+          "sqft": 3400,
+          "beds": 6,
+          "baths": 4,
+          "priceFrom": 1637900
+        }
       ],
       "priceFrom": 814900,
       "priceFromFormatted": "$814,900",
@@ -178,11 +380,15 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/kanata-lakes/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Bungalows",
+        "Townhomes"
+      ]
     },
     {
       "id": "hn-homes-kanata-lakes",
-      "name": "Kanata Lakes — The Pond",
+      "name": "Kanata Lakes \u2014 The Pond",
       "builder": "HN Homes",
       "community": "Kanata North",
       "address": "Walden Drive Extension, Kanata, ON",
@@ -190,9 +396,27 @@
       "lng": -75.9038,
       "type": "mixed",
       "models": [
-        { "name": "Town Series T1", "sqft": 1620, "beds": 3, "baths": 2.5, "priceFrom": 779900 },
-        { "name": "Town Series T2", "sqft": 1890, "beds": 4, "baths": 3, "priceFrom": 879900 },
-        { "name": "Single Detached S1", "sqft": 2200, "beds": 4, "baths": 3, "priceFrom": 1099900 }
+        {
+          "name": "Town Series T1",
+          "sqft": 1620,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 779900
+        },
+        {
+          "name": "Town Series T2",
+          "sqft": 1890,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 879900
+        },
+        {
+          "name": "Single Detached S1",
+          "sqft": 2200,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 1099900
+        }
       ],
       "priceFrom": 779900,
       "priceFromFormatted": "$779,900",
@@ -202,7 +426,10 @@
       "sourceUrl": "https://hnhomes.com/communities/kanata-lakes/",
       "sourceName": "hnhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Single Family"
+      ]
     },
     {
       "id": "glenview-union-west",
@@ -214,9 +441,27 @@
       "lng": -75.9405,
       "type": "mixed",
       "models": [
-        { "name": "Townhome 1740", "sqft": 1740, "beds": 3, "baths": 2.5, "priceFrom": 569000 },
-        { "name": "Single 30ft Lot", "sqft": 2100, "beds": 4, "baths": 3, "priceFrom": 769000 },
-        { "name": "Single 36ft Lot", "sqft": 2550, "beds": 4, "baths": 3.5, "priceFrom": 899000 }
+        {
+          "name": "Townhome 1740",
+          "sqft": 1740,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 569000
+        },
+        {
+          "name": "Single 30ft Lot",
+          "sqft": 2100,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 769000
+        },
+        {
+          "name": "Single 36ft Lot",
+          "sqft": 2550,
+          "beds": 4,
+          "baths": 3.5,
+          "priceFrom": 899000
+        }
       ],
       "priceFrom": 569000,
       "priceFromFormatted": "$569,000",
@@ -226,7 +471,11 @@
       "sourceUrl": "https://www.glenviewhomes.com/communities/union-west/",
       "sourceName": "glenviewhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Single Family",
+        "Townhomes"
+      ]
     },
     {
       "id": "tamarack-westwood",
@@ -238,9 +487,27 @@
       "lng": -75.9422,
       "type": "mixed",
       "models": [
-        { "name": "The Birch Town", "sqft": 1580, "beds": 3, "baths": 2.5, "priceFrom": 499900 },
-        { "name": "The Cedar Single", "sqft": 2080, "beds": 4, "baths": 3, "priceFrom": 769900 },
-        { "name": "The Spruce Bungalow", "sqft": 1840, "beds": 3, "baths": 2, "priceFrom": 829900 }
+        {
+          "name": "The Birch Town",
+          "sqft": 1580,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 499900
+        },
+        {
+          "name": "The Cedar Single",
+          "sqft": 2080,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 769900
+        },
+        {
+          "name": "The Spruce Bungalow",
+          "sqft": 1840,
+          "beds": 3,
+          "baths": 2,
+          "priceFrom": 829900
+        }
       ],
       "priceFrom": 499900,
       "priceFromFormatted": "$499,900",
@@ -250,7 +517,12 @@
       "sourceUrl": "https://www.tamarackhomes.com/westwood-single-family-homes.php",
       "sourceName": "tamarackhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Bungalows",
+        "Single Family",
+        "Townhomes"
+      ]
     },
     {
       "id": "claridge-wateridge",
@@ -259,12 +531,30 @@
       "community": "Rockcliffe",
       "address": "750 Aviation Pkwy, Ottawa, ON",
       "lat": 45.4638,
-      "lng": -75.6430,
+      "lng": -75.643,
       "type": "mixed",
       "models": [
-        { "name": "The Rideau Town", "sqft": 1480, "beds": 3, "baths": 2.5, "priceFrom": 649900 },
-        { "name": "The Gatineau Semi", "sqft": 1920, "beds": 4, "baths": 3, "priceFrom": 769900 },
-        { "name": "The Ottawa Single", "sqft": 2380, "beds": 4, "baths": 3.5, "priceFrom": 1029900 }
+        {
+          "name": "The Rideau Town",
+          "sqft": 1480,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 649900
+        },
+        {
+          "name": "The Gatineau Semi",
+          "sqft": 1920,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 769900
+        },
+        {
+          "name": "The Ottawa Single",
+          "sqft": 2380,
+          "beds": 4,
+          "baths": 3.5,
+          "priceFrom": 1029900
+        }
       ],
       "priceFrom": 649900,
       "priceFromFormatted": "$649,900",
@@ -274,7 +564,12 @@
       "sourceUrl": "https://claridgehomes.com/communities/wateridge-village/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Semi-Detached",
+        "Single Family",
+        "Townhomes"
+      ]
     },
     {
       "id": "richcraft-westboro-station",
@@ -283,14 +578,44 @@
       "community": "Westboro",
       "address": "478 Richmond Rd, Ottawa, ON",
       "lat": 45.3988,
-      "lng": -75.7480,
+      "lng": -75.748,
       "type": "condo",
       "models": [
-        { "name": "Studio 480", "sqft": 480, "beds": 0, "baths": 1, "priceFrom": 399900 },
-        { "name": "1-Bed 620", "sqft": 620, "beds": 1, "baths": 1, "priceFrom": 479900 },
-        { "name": "2-Bed 890", "sqft": 890, "beds": 2, "baths": 2, "priceFrom": 679900 },
-        { "name": "2-Bed Den 1050", "sqft": 1050, "beds": 2, "baths": 2, "priceFrom": 799900 },
-        { "name": "Penthouse 1420", "sqft": 1420, "beds": 3, "baths": 2, "priceFrom": 1189900 }
+        {
+          "name": "Studio 480",
+          "sqft": 480,
+          "beds": 0,
+          "baths": 1,
+          "priceFrom": 399900
+        },
+        {
+          "name": "1-Bed 620",
+          "sqft": 620,
+          "beds": 1,
+          "baths": 1,
+          "priceFrom": 479900
+        },
+        {
+          "name": "2-Bed 890",
+          "sqft": 890,
+          "beds": 2,
+          "baths": 2,
+          "priceFrom": 679900
+        },
+        {
+          "name": "2-Bed Den 1050",
+          "sqft": 1050,
+          "beds": 2,
+          "baths": 2,
+          "priceFrom": 799900
+        },
+        {
+          "name": "Penthouse 1420",
+          "sqft": 1420,
+          "beds": 3,
+          "baths": 2,
+          "priceFrom": 1189900
+        }
       ],
       "priceFrom": 399900,
       "priceFromFormatted": "$399,900",
@@ -300,7 +625,10 @@
       "sourceUrl": "https://www.richcraft.com/community/westboro-station/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Condo"
+      ]
     },
     {
       "id": "minto-central-park",
@@ -312,9 +640,27 @@
       "lng": -75.7315,
       "type": "mixed",
       "models": [
-        { "name": "The Avon Town", "sqft": 1380, "beds": 3, "baths": 2.5, "priceFrom": 469900 },
-        { "name": "The Eden Single", "sqft": 1820, "beds": 3, "baths": 3, "priceFrom": 659900 },
-        { "name": "The Hampton Grande", "sqft": 2540, "beds": 5, "baths": 4, "priceFrom": 959900 }
+        {
+          "name": "The Avon Town",
+          "sqft": 1380,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 469900
+        },
+        {
+          "name": "The Eden Single",
+          "sqft": 1820,
+          "beds": 3,
+          "baths": 3,
+          "priceFrom": 659900
+        },
+        {
+          "name": "The Hampton Grande",
+          "sqft": 2540,
+          "beds": 5,
+          "baths": 4,
+          "priceFrom": 959900
+        }
       ],
       "priceFrom": 469900,
       "priceFromFormatted": "$469,900",
@@ -324,7 +670,11 @@
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/central-park/",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Single Family",
+        "Townhomes"
+      ]
     },
     {
       "id": "caivan-half-moon-bay",
@@ -336,9 +686,27 @@
       "lng": -75.7512,
       "type": "mixed",
       "models": [
-        { "name": "Town Classic 1540", "sqft": 1540, "beds": 3, "baths": 2.5, "priceFrom": 499900 },
-        { "name": "Semi 1920", "sqft": 1920, "beds": 4, "baths": 3, "priceFrom": 669900 },
-        { "name": "Single 2200", "sqft": 2200, "beds": 4, "baths": 3, "priceFrom": 829900 }
+        {
+          "name": "Town Classic 1540",
+          "sqft": 1540,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 499900
+        },
+        {
+          "name": "Semi 1920",
+          "sqft": 1920,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 669900
+        },
+        {
+          "name": "Single 2200",
+          "sqft": 2200,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 829900
+        }
       ],
       "priceFrom": 499900,
       "priceFromFormatted": "$499,900",
@@ -348,7 +716,11 @@
       "sourceUrl": "https://caivan.com/community/half-moon-bay/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Semi-Detached",
+        "Single Family"
+      ]
     },
     {
       "id": "claridge-findlay-creek",
@@ -360,9 +732,27 @@
       "lng": -75.5985,
       "type": "mixed",
       "models": [
-        { "name": "Alley Town 1390", "sqft": 1390, "beds": 3, "baths": 2.5, "priceFrom": 479900 },
-        { "name": "Traditional Town 1690", "sqft": 1690, "beds": 3, "baths": 3, "priceFrom": 589900 },
-        { "name": "The Summit Single", "sqft": 2310, "beds": 4, "baths": 3.5, "priceFrom": 849900 }
+        {
+          "name": "Alley Town 1390",
+          "sqft": 1390,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 479900
+        },
+        {
+          "name": "Traditional Town 1690",
+          "sqft": 1690,
+          "beds": 3,
+          "baths": 3,
+          "priceFrom": 589900
+        },
+        {
+          "name": "The Summit Single",
+          "sqft": 2310,
+          "beds": 4,
+          "baths": 3.5,
+          "priceFrom": 849900
+        }
       ],
       "priceFrom": 479900,
       "priceFromFormatted": "$479,900",
@@ -372,21 +762,43 @@
       "sourceUrl": "https://claridgehomes.com/communities/findlay-creek/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Single Family",
+        "Townhomes"
+      ]
     },
     {
       "id": "mattamy-avalon-west",
       "name": "Avalon West",
       "builder": "Mattamy Homes",
-      "community": "Orléans",
-      "address": "Tenth Line Rd & Innes Rd, Orléans, ON",
+      "community": "Orl\u00e9ans",
+      "address": "Tenth Line Rd & Innes Rd, Orl\u00e9ans, ON",
       "lat": 45.4705,
       "lng": -75.5118,
       "type": "mixed",
       "models": [
-        { "name": "The Harmony Town", "sqft": 1490, "beds": 3, "baths": 2.5, "priceFrom": 519990 },
-        { "name": "The Juniper Single", "sqft": 2020, "beds": 4, "baths": 3, "priceFrom": 749990 },
-        { "name": "The Hawthorne Grande", "sqft": 2780, "beds": 5, "baths": 4, "priceFrom": 1099990 }
+        {
+          "name": "The Harmony Town",
+          "sqft": 1490,
+          "beds": 3,
+          "baths": 2.5,
+          "priceFrom": 519990
+        },
+        {
+          "name": "The Juniper Single",
+          "sqft": 2020,
+          "beds": 4,
+          "baths": 3,
+          "priceFrom": 749990
+        },
+        {
+          "name": "The Hawthorne Grande",
+          "sqft": 2780,
+          "beds": 5,
+          "baths": 4,
+          "priceFrom": 1099990
+        }
       ],
       "priceFrom": 519990,
       "priceFromFormatted": "$519,990",
@@ -396,7 +808,978 @@
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/orleans/avalon-west",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-10T06:00:00Z"
+      "scrapedAt": "2026-04-10T06:00:00Z",
+      "homeTypes": [
+        "Single Family",
+        "Townhomes"
+      ]
+    },
+    {
+      "id": "richcraft-trailsedge",
+      "name": "TrailsEdge",
+      "builder": "Richcraft Homes",
+      "community": "Orl\u00e9ans",
+      "address": "5397 Renaud Rd, Orleans, Ottawa, ON",
+      "lat": 45.4727,
+      "lng": -75.5115,
+      "homeTypes": [
+        "Bungalows",
+        "Urban Towns",
+        "Thrive Towns",
+        "Bungalow Towns",
+        "Single Family",
+        "Townhomes",
+        "Multi-Gen",
+        "Tandem"
+      ],
+      "type": "mixed",
+      "models": [
+        {
+          "name": "Waterton",
+          "type": "Bungalows",
+          "sqft": 1185,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": 31,
+          "garages": 1,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/waterton/",
+          "localImageUrl": "/images/richcraft/waterton-WATERTON_C_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Kitsilano C/D",
+          "type": "Urban Towns",
+          "sqft": 1258,
+          "beds": 2,
+          "baths": 1.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 521265,
+          "modelUrl": "https://www.richcraft.com/home/kitsilano-c-d/",
+          "localImageUrl": "/images/richcraft/kitsilano-c-d-D3_0288-363x224.jpg"
+        },
+        {
+          "name": "Shelby",
+          "type": "Bungalows",
+          "sqft": 1284,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/shelby/",
+          "localImageUrl": "/images/richcraft/shelby-Shelby-Elevation-C-363x224.jpg"
+        },
+        {
+          "name": "Cambie C/D",
+          "type": "Urban Towns",
+          "sqft": 1350,
+          "beds": 2,
+          "baths": 1.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 521265,
+          "modelUrl": "https://www.richcraft.com/home/cambie-c-d/",
+          "localImageUrl": "/images/richcraft/cambie-c-d-Cambie_Mid-363x224.jpg"
+        },
+        {
+          "name": "Cambie A",
+          "type": "Urban Towns",
+          "sqft": 1350,
+          "beds": 2,
+          "baths": 1.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 521265,
+          "modelUrl": "https://www.richcraft.com/home/cambie-a/",
+          "localImageUrl": "/images/richcraft/cambie-a-RC_TrailsEdgeUT_853-0073-1-363x224.jpg"
+        },
+        {
+          "name": "Carson",
+          "type": "Thrive Towns",
+          "sqft": 1360,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 602848,
+          "modelUrl": "https://www.richcraft.com/home/carson/",
+          "localImageUrl": "/images/richcraft/carson-Streetscape_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Gaines",
+          "type": "Bungalows",
+          "sqft": 1400,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": 35,
+          "garages": 1,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/gaines/",
+          "localImageUrl": "/images/richcraft/gaines-BUNGALOW_Gaines_ELEV_F_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Granville A",
+          "type": "Urban Towns",
+          "sqft": 1445,
+          "beds": 2,
+          "baths": 1.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 521265,
+          "modelUrl": "https://www.richcraft.com/home/granville-a/",
+          "localImageUrl": "/images/richcraft/granville-a-Granville4_dark-363x224.jpg"
+        },
+        {
+          "name": "Granville C/D",
+          "type": "Urban Towns",
+          "sqft": 1445,
+          "beds": 2,
+          "baths": 1.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 521265,
+          "modelUrl": "https://www.richcraft.com/home/granville-c-d/",
+          "localImageUrl": "/images/richcraft/granville-c-d-Granville4_dark-363x224.jpg"
+        },
+        {
+          "name": "Hastings C/D",
+          "type": "Urban Towns",
+          "sqft": 1450,
+          "beds": 2,
+          "baths": 1.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 521265,
+          "modelUrl": "https://www.richcraft.com/home/hastings-c-d/",
+          "localImageUrl": "/images/richcraft/hastings-c-d-20251010_25015_ELEVATION_C_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Gilroy",
+          "type": "Thrive Towns",
+          "sqft": 1465,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 602848,
+          "modelUrl": "https://www.richcraft.com/home/gilroy/",
+          "localImageUrl": "/images/richcraft/gilroy-20240327_24015_Streetscape_V2_low-res-1-363x224.jpg"
+        },
+        {
+          "name": "Jameson End C/D",
+          "type": "Urban Towns",
+          "sqft": 1555,
+          "beds": 3,
+          "baths": 3.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 521265,
+          "modelUrl": "https://www.richcraft.com/home/jameson-end-c-d/",
+          "localImageUrl": "/images/richcraft/jameson-end-c-d-81R0011-363x224.jpg"
+        },
+        {
+          "name": "Patterson",
+          "type": "Thrive Towns",
+          "sqft": 1560,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 602848,
+          "modelUrl": "https://www.richcraft.com/home/patterson/",
+          "localImageUrl": "/images/richcraft/patterson-Streetscape_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Bernett",
+          "type": "Bungalows",
+          "sqft": 1565,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": 35,
+          "garages": 1,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/bernett/",
+          "localImageUrl": "/images/richcraft/bernett-B_Bernett_ELEV_C-363x224.jpg"
+        },
+        {
+          "name": "Jameson Corner C/D",
+          "type": "Urban Towns",
+          "sqft": 1585,
+          "beds": 3,
+          "baths": 3.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 521265,
+          "modelUrl": "https://www.richcraft.com/home/jameson-corner-c-d/",
+          "localImageUrl": "/images/richcraft/jameson-corner-c-d-81R0011-363x224.jpg"
+        },
+        {
+          "name": "Monterey",
+          "type": "Bungalow Towns",
+          "sqft": 1605,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 720342,
+          "modelUrl": "https://www.richcraft.com/home/monterey/",
+          "localImageUrl": "/images/richcraft/monterey-Screen-Shot-2023-04-21-at-3.21.23-PM-363x224.png"
+        },
+        {
+          "name": "Monterey Corner",
+          "type": "Bungalow Towns",
+          "sqft": 1650,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 720342,
+          "modelUrl": "https://www.richcraft.com/home/monterey-corner/",
+          "localImageUrl": "/images/richcraft/monterey-corner-Screen-Shot-2023-04-21-at-3.21.34-PM-363x224.png"
+        },
+        {
+          "name": "Fontana",
+          "type": "Thrive Towns",
+          "sqft": 1660,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 602848,
+          "modelUrl": "https://www.richcraft.com/home/fontana/",
+          "localImageUrl": "/images/richcraft/fontana-Streetscape_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Laguna",
+          "type": "Bungalow Towns",
+          "sqft": 1695,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 720342,
+          "modelUrl": "https://www.richcraft.com/home/laguna/",
+          "localImageUrl": "/images/richcraft/laguna-Screen-Shot-2023-04-21-at-3.21.04-PM-363x224.png"
+        },
+        {
+          "name": "Catalina",
+          "type": "Bungalow Towns",
+          "sqft": 1695,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 720342,
+          "modelUrl": "https://www.richcraft.com/home/catalina/",
+          "localImageUrl": "/images/richcraft/catalina-Screen-Shot-2023-04-21-at-3.21.12-PM-363x224.png"
+        },
+        {
+          "name": "Edward",
+          "type": "Single Family",
+          "sqft": 1754,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/edward/",
+          "localImageUrl": "/images/richcraft/edward-35_Edward_ELEV_C_Web_Master-1-363x224.jpg"
+        },
+        {
+          "name": "Stanton",
+          "type": "Thrive Towns",
+          "sqft": 1760,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 602848,
+          "modelUrl": "https://www.richcraft.com/home/stanton/",
+          "localImageUrl": "/images/richcraft/stanton-Streetscape_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Auburn",
+          "type": "Thrive Towns",
+          "sqft": 1780,
+          "beds": 4,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 602848,
+          "modelUrl": "https://www.richcraft.com/home/auburn/",
+          "localImageUrl": "/images/richcraft/auburn-20240327_24015_Streetscape_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Addison",
+          "type": "Townhomes",
+          "sqft": 1820,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 677032,
+          "modelUrl": "https://www.richcraft.com/home/addison/",
+          "localImageUrl": "/images/richcraft/addison-Addison-3-363x224.jpg"
+        },
+        {
+          "name": "Echo",
+          "type": "Single Family",
+          "sqft": 1830,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 31,
+          "garages": 1,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/echo/",
+          "localImageUrl": "/images/richcraft/echo-ECHO_D_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Watson",
+          "type": "Single Family",
+          "sqft": 1852,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/watson/",
+          "localImageUrl": "/images/richcraft/watson-35_WatsonLaurence_ELEV_C_Master-363x224.jpg"
+        },
+        {
+          "name": "Laurence",
+          "type": "Single Family",
+          "sqft": 1921,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/laurence/",
+          "localImageUrl": "/images/richcraft/laurence-35_WatsonLaurence_ELEV_C_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Oakbay",
+          "type": "Bungalows",
+          "sqft": 1940,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/oakbay/",
+          "localImageUrl": "/images/richcraft/oakbay-44_Oakbay_ELEV_C_Master-363x224.jpg"
+        },
+        {
+          "name": "Grafton",
+          "type": "Townhomes",
+          "sqft": 1940,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 677032,
+          "modelUrl": "https://www.richcraft.com/home/grafton/",
+          "localImageUrl": "/images/richcraft/grafton-Graphton-363x224.jpg"
+        },
+        {
+          "name": "Cobalt",
+          "type": "Townhomes",
+          "sqft": 1965,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 677032,
+          "modelUrl": "https://www.richcraft.com/home/cobalt/",
+          "localImageUrl": "/images/richcraft/cobalt-Cobalt-5-363x224.jpg"
+        },
+        {
+          "name": "Pratt",
+          "type": "Single Family",
+          "sqft": 1970,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 31,
+          "garages": 1,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/pratt/",
+          "localImageUrl": "/images/richcraft/pratt-PRATT_F_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Mapleview",
+          "type": "Bungalows",
+          "sqft": 2035,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/mapleview/",
+          "localImageUrl": "/images/richcraft/mapleview-44_Mapleview_ELEV_C_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Sonoma",
+          "type": "Townhomes",
+          "sqft": 2065,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 2,
+          "priceFrom": 677032,
+          "modelUrl": "https://www.richcraft.com/home/sonoma/",
+          "localImageUrl": "/images/richcraft/sonoma-Sonoma2-363x224.jpg"
+        },
+        {
+          "name": "Silverpine",
+          "type": "Single Family",
+          "sqft": 2139,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 31,
+          "garages": 1,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/silverpine/",
+          "localImageUrl": "/images/richcraft/silverpine-31_Silverpine_ELEV_C_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Hudson",
+          "type": "Townhomes",
+          "sqft": 2165,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 677032,
+          "modelUrl": "https://www.richcraft.com/home/hudson/",
+          "localImageUrl": "/images/richcraft/hudson-hudson_elev-9-363x224.jpg"
+        },
+        {
+          "name": "Cole",
+          "type": "Single Family",
+          "sqft": 2170,
+          "beds": 4,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/cole/",
+          "localImageUrl": "/images/richcraft/cole-35_Cole_ELEV_C_Web_Master-1-363x224.jpg"
+        },
+        {
+          "name": "Kenora",
+          "type": "Townhomes",
+          "sqft": 2175,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 677032,
+          "modelUrl": "https://www.richcraft.com/home/kenora/",
+          "localImageUrl": "/images/richcraft/kenora-Kenora-363x224.jpg"
+        },
+        {
+          "name": "Bateman",
+          "type": "Single Family",
+          "sqft": 2266,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 31,
+          "garages": 1,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/bateman/",
+          "localImageUrl": "/images/richcraft/bateman-BATEMAN_D_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Birchstone",
+          "type": "Bungalows",
+          "sqft": 2290,
+          "beds": 2,
+          "baths": 2,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/birchstone/",
+          "localImageUrl": "/images/richcraft/birchstone-50_Birchstone_ELEV_F_Web_Master-1-363x224.jpg"
+        },
+        {
+          "name": "Hobart",
+          "type": "Single Family",
+          "sqft": 2343,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 31,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/hobart/",
+          "localImageUrl": "/images/richcraft/hobart-31_Hobary_ELEV_F_Master-white-363x224.jpg"
+        },
+        {
+          "name": "Arden",
+          "type": "Single Family",
+          "sqft": 2384,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/arden/",
+          "localImageUrl": "/images/richcraft/arden-Arden_Elev_c_Test-1-1-363x224.jpg"
+        },
+        {
+          "name": "Gladstone",
+          "type": "Bungalows",
+          "sqft": 2430,
+          "beds": 2,
+          "baths": 2.5,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/gladstone/",
+          "localImageUrl": "/images/richcraft/gladstone-50_Gladstone_ELEV_F_Web_Master-1-363x224.jpg"
+        },
+        {
+          "name": "Fairhaven",
+          "type": "Townhomes",
+          "sqft": 2500,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": null,
+          "garages": 1,
+          "priceFrom": 677032,
+          "modelUrl": "https://www.richcraft.com/home/fairhaven/",
+          "localImageUrl": "/images/richcraft/fairhaven-Fairhaven-4-363x224.jpg"
+        },
+        {
+          "name": "Spencer",
+          "type": "Single Family",
+          "sqft": 2608,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/spencer/",
+          "localImageUrl": "/images/richcraft/spencer-35_Spencer_ELEV_F_Web_Master_White-363x224.jpg"
+        },
+        {
+          "name": "Hobart Multi-Gen",
+          "type": "Multi-Gen",
+          "sqft": 2635,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 31,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/hobart-multi-gen/",
+          "localImageUrl": "/images/richcraft/hobart-multi-gen-31_Hobary_ELEV_F_Master-white-363x224.jpg"
+        },
+        {
+          "name": "Spruceriver",
+          "type": "Single Family",
+          "sqft": 2640,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/spruceriver/",
+          "localImageUrl": "/images/richcraft/spruceriver-44_Spruceriver_ELEV_C_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Spruceriver Multi-Gen",
+          "type": "Multi-Gen",
+          "sqft": 2640,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/spruceriver-multi-gen/",
+          "localImageUrl": "/images/richcraft/spruceriver-multi-gen-44_Spruceriver_ELEV_C_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Baldwin",
+          "type": "Single Family",
+          "sqft": 2699,
+          "beds": 4,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/baldwin/",
+          "localImageUrl": "/images/richcraft/baldwin-35_Baldwin_ELEV_D_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Madrid",
+          "type": "Tandem",
+          "sqft": 2712,
+          "beds": 4,
+          "baths": 3,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/madrid/",
+          "localImageUrl": "/images/richcraft/madrid-44_Oakbay_ELEV_C_Master-363x224.jpg"
+        },
+        {
+          "name": "Marathon",
+          "type": "Single Family",
+          "sqft": 2758,
+          "beds": 4,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/marathon/",
+          "localImageUrl": "/images/richcraft/marathon-35_Marathon_ELEV_C_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Wingate",
+          "type": "Single Family",
+          "sqft": 2829,
+          "beds": 4,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/wingate/",
+          "localImageUrl": "/images/richcraft/wingate-35_Wingate_ELEV_F_Web_Master_White-363x224.jpg"
+        },
+        {
+          "name": "Venice",
+          "type": "Tandem",
+          "sqft": 2840,
+          "beds": 6,
+          "baths": 3.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/venice/",
+          "localImageUrl": "/images/richcraft/venice-35_Wingate_ELEV_F_Web_Master_White-363x224.jpg"
+        },
+        {
+          "name": "Beechside",
+          "type": "Single Family",
+          "sqft": 2885,
+          "beds": 3,
+          "baths": 2.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/beechside/",
+          "localImageUrl": "/images/richcraft/beechside-44_Beechside_ELEV_C_Master-363x224.jpg"
+        },
+        {
+          "name": "Barcelona",
+          "type": "Tandem",
+          "sqft": 2953,
+          "beds": 5,
+          "baths": 3.5,
+          "lotWidth": 31,
+          "garages": 1,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/barcelona-tandem/",
+          "localImageUrl": "/images/richcraft/barcelona-BATEMAN_D_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Milan",
+          "type": "Tandem",
+          "sqft": 3018,
+          "beds": 5,
+          "baths": 4.5,
+          "lotWidth": 31,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/milan/",
+          "localImageUrl": "/images/richcraft/milan-31_Hobart_ELEV_F_Web_Master_White-1-363x224.jpg"
+        },
+        {
+          "name": "Cedarbreeze",
+          "type": "Single Family",
+          "sqft": 3040,
+          "beds": 3,
+          "baths": 3.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/cedarbreeze/",
+          "localImageUrl": "/images/richcraft/cedarbreeze-44_Cedarbreeze_ELEV_C_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Ashmore",
+          "type": "Single Family",
+          "sqft": 3055,
+          "beds": 3,
+          "baths": 3.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/ashmore/",
+          "localImageUrl": "/images/richcraft/ashmore-44_Ashmore_ELEV_C_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Norwood",
+          "type": "Single Family",
+          "sqft": 3200,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/norwood/",
+          "localImageUrl": "/images/richcraft/norwood-44_Norwood_ELEV_C_Master-363x224.jpg"
+        },
+        {
+          "name": "Norwood Multi-Gen",
+          "type": "Multi-Gen",
+          "sqft": 3200,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/norwood-multi-gen/",
+          "localImageUrl": "/images/richcraft/norwood-multi-gen-44_Norwood_ELEV_C_Master-363x224.jpg"
+        },
+        {
+          "name": "Athens",
+          "type": "Tandem",
+          "sqft": 3212,
+          "beds": 5,
+          "baths": 3.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/athens-tandem/",
+          "localImageUrl": "/images/richcraft/athens-Arden_Elev_c_Test-1-1-363x224.jpg"
+        },
+        {
+          "name": "Millwood II Multi-Gen",
+          "type": "Multi-Gen",
+          "sqft": 3295,
+          "beds": 4,
+          "baths": 4,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/millwood-ii-multi-gen/",
+          "localImageUrl": "/images/richcraft/millwood-ii-multi-gen-Revised_MILLWOOD_FRONTON_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Millwood II",
+          "type": "Single Family",
+          "sqft": 3295,
+          "beds": 4,
+          "baths": 4,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/millwood-ii/",
+          "localImageUrl": "/images/richcraft/millwood-ii-Revised_MILLWOOD_FRONTON_V2_low-res-363x224.jpg"
+        },
+        {
+          "name": "Wingate Multi-Gen",
+          "type": "Multi-Gen",
+          "sqft": 3330,
+          "beds": 4,
+          "baths": 2.5,
+          "lotWidth": 35,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/wingate-multi-gen/",
+          "localImageUrl": "/images/richcraft/wingate-multi-gen-35_Wingate_ELEV_F_Web_Master_White-363x224.jpg"
+        },
+        {
+          "name": "Austin",
+          "type": "Single Family",
+          "sqft": 3435,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/austin/",
+          "localImageUrl": "/images/richcraft/austin-50_Austin_ELEV_F_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Pinefield Multi-Gen",
+          "type": "Multi-Gen",
+          "sqft": 3460,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/pinefield-multi-gen/",
+          "localImageUrl": "/images/richcraft/pinefield-multi-gen-44_Pinefield_ELEV_C_Print_Master-363x224.jpg"
+        },
+        {
+          "name": "Pinefield",
+          "type": "Single Family",
+          "sqft": 3460,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/pinefield/",
+          "localImageUrl": "/images/richcraft/pinefield-44_Pinefield_ELEV_C_Print_Master-363x224.jpg"
+        },
+        {
+          "name": "Westbrook Multi-Gen",
+          "type": "Multi-Gen",
+          "sqft": 3475,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/westbrook-multi-gen/",
+          "localImageUrl": "/images/richcraft/westbrook-multi-gen-44_Westbrook_ELEV_F_Web_Master_Grey-363x224.jpg"
+        },
+        {
+          "name": "Westbrook",
+          "type": "Single Family",
+          "sqft": 3475,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/westbrook/",
+          "localImageUrl": "/images/richcraft/westbrook-44_Westbrook_ELEV_F_Web_Master_Grey-363x224.jpg"
+        },
+        {
+          "name": "Florence",
+          "type": "Tandem",
+          "sqft": 3643,
+          "beds": 5,
+          "baths": 4.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/florence/",
+          "localImageUrl": "/images/richcraft/florence-44_Cedarbreeze_ELEV_C_Web_Master-363x224.jpg"
+        },
+        {
+          "name": "Barton",
+          "type": "Single Family",
+          "sqft": 3830,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/barton/",
+          "localImageUrl": "/images/richcraft/barton-50_Barton_ELEV_F_Web_Master-1-363x224.jpg"
+        },
+        {
+          "name": "Rainey",
+          "type": "Single Family",
+          "sqft": 3845,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/rainey/",
+          "localImageUrl": "/images/richcraft/rainey-50_Rainey_ELEV_F_Web_Master-2-363x224.jpg"
+        },
+        {
+          "name": "Palermo",
+          "type": "Tandem",
+          "sqft": 4002,
+          "beds": 6,
+          "baths": 4.5,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/palermo/",
+          "localImageUrl": "/images/richcraft/palermo-44_Pinefield_ELEV_C_Print_Master-363x224.jpg"
+        },
+        {
+          "name": "Haywood",
+          "type": "Single Family",
+          "sqft": 4160,
+          "beds": 4,
+          "baths": 4,
+          "lotWidth": 44,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/haywood/",
+          "localImageUrl": "/images/richcraft/haywood-44_Haywood_Elev_C-Edited-363x224.jpg"
+        },
+        {
+          "name": "Wildwood II Multi-Gen",
+          "type": "Multi-Gen",
+          "sqft": 4245,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/wildwood-ii-multi-gen/",
+          "localImageUrl": "/images/richcraft/wildwood-ii-multi-gen-50_WILDWOOD-2-EDITED-363x224.jpg"
+        },
+        {
+          "name": "Wildwood II",
+          "type": "Single Family",
+          "sqft": 4245,
+          "beds": 4,
+          "baths": 3.5,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/wildwood-ii/",
+          "localImageUrl": "/images/richcraft/wildwood-ii-50_WILDWOOD-2-EDITED-363x224.jpg"
+        },
+        {
+          "name": "Geneva",
+          "type": "Tandem",
+          "sqft": 4427,
+          "beds": 6,
+          "baths": 4.5,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/geneva/",
+          "localImageUrl": "/images/richcraft/geneva-50_Barton_ELEV_F_Web_Master-1-363x224.jpg"
+        },
+        {
+          "name": "Spoke Multi-Gen",
+          "type": "Multi-Gen",
+          "sqft": 4460,
+          "beds": 4,
+          "baths": 4,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": null,
+          "modelUrl": "https://www.richcraft.com/home/spoke-multi-gen/",
+          "localImageUrl": "/images/richcraft/spoke-multi-gen-50_Spoke_ELEV_F_gray-363x224.jpg"
+        },
+        {
+          "name": "Spoke",
+          "type": "Single Family",
+          "sqft": 4460,
+          "beds": 4,
+          "baths": 4,
+          "lotWidth": 50,
+          "garages": 2,
+          "priceFrom": 719900,
+          "modelUrl": "https://www.richcraft.com/home/spoke/",
+          "localImageUrl": "/images/richcraft/spoke-50_Spoke_ELEV_F_gray-363x224.jpg"
+        }
+      ],
+      "priceFrom": 521265,
+      "priceFromFormatted": "$521,265",
+      "status": "selling",
+      "completionYear": null,
+      "description": "A master-planned community in Orl\u00e9ans offering a diverse range of home types from urban towns to large single-family homes, built by Richcraft Homes.",
+      "sourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
+      "sourceName": "richcraft.com",
+      "imageUrl": "",
+      "scrapedAt": "2026-04-13T13:01:55.761Z"
     }
   ]
 }

@@ -11,6 +11,7 @@ import { scrape as scrapeNewInHomes } from './sources/newinhomes.js';
 import { scrape as scrapeMinto } from './sources/minto.js';
 import { scrape as scrapeMattamy } from './sources/mattamy.js';
 import { scrape as scrapeTartan } from './sources/tartan.js';
+import { scrape as scrapeRichcraft } from './sources/richcraft.js';
 import { geocode } from './geocode.js';
 import { runHistoryDiff } from './history.js';
 import { slugify } from './utils.js';
@@ -26,6 +27,7 @@ const SOURCES = [
   { name: 'minto', fn: scrapeMinto },
   { name: 'mattamy', fn: scrapeMattamy },
   { name: 'tartan', fn: scrapeTartan },
+  { name: 'richcraft', fn: scrapeRichcraft },
 ];
 
 async function run() {
