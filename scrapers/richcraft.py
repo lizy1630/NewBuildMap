@@ -306,7 +306,19 @@ def update_builds_json(scraped: List[dict]) -> None:
     added = updated = 0
     for build in scraped:
         if build["id"] in existing:
-            builds[existing[build["id"]]] = build
+            eb = builds[existing[build["id"]]]
+            # Preserve detailed per-model data from /homes/ scraper if it exists.
+            # Community-page models are only category stubs (2-4 entries, no sqft/beds/baths).
+            # /homes/ models are rich (sqft, beds, baths, lot, garages, modelUrl, etc.).
+            # We detect /homes/ data by checking for sqft on the first model.
+            existing_models = eb.get("models", [])
+            homes_scraped = any(m.get("sqft") for m in existing_models)
+            if homes_scraped:
+                build["models"] = existing_models
+            # Merge: update community-level fields, keep detailed models
+            eb.update({k: v for k, v in build.items() if k != "models"})
+            if not homes_scraped:
+                eb["models"] = build.get("models", [])
             updated += 1
         else:
             builds.append(build)

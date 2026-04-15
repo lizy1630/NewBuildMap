@@ -38,9 +38,12 @@
           </select>
         </div>
         <div class="filter-group">
-          <span class="filter-label">Home Type</span>
+          <span class="filter-label">Category</span>
           <select id="filter-hometype" class="filter-select">
-            <option value="">All Types</option>
+            <option value="">All</option>
+            <option value="Single Family">Single Family</option>
+            <option value="Townhomes">Townhomes</option>
+            <option value="Condo">Condo</option>
           </select>
         </div>
         <div class="filter-group">
@@ -116,6 +119,30 @@
 
   <!-- Toast container -->
   <div id="toast-container"></div>
+
+  <!-- Lead capture modal -->
+  <div id="lead-modal-backdrop">
+    <div id="lead-modal">
+      <h2>Unlock Pricing</h2>
+      <p>Enter your details to see real prices for all Ottawa new build communities — free, no spam.</p>
+      <div class="lead-field">
+        <label>Name</label>
+        <input type="text" id="lead-name" placeholder="Your name" autocomplete="name" />
+      </div>
+      <div class="lead-field">
+        <label>Email</label>
+        <input type="email" id="lead-email" placeholder="you@email.com" autocomplete="email" />
+      </div>
+      <div class="lead-field">
+        <label>Phone (optional)</label>
+        <input type="tel" id="lead-phone" placeholder="613-555-0100" autocomplete="tel" />
+      </div>
+      <div class="lead-actions">
+        <button id="lead-modal-close">Cancel</button>
+        <button id="lead-modal-submit">Get Prices →</button>
+      </div>
+    </div>
+  </div>
 
   <!-- App modules -->
   <script type="module" src="app.js"></script>

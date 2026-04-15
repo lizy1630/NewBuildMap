@@ -12,6 +12,11 @@ import { scrape as scrapeMinto } from './sources/minto.js';
 import { scrape as scrapeMattamy } from './sources/mattamy.js';
 import { scrape as scrapeTartan } from './sources/tartan.js';
 import { scrape as scrapeRichcraft } from './sources/richcraft.js';
+import { scrape as scrapeCaivan } from './sources/caivan.js';
+import { scrape as scrapeHN } from './sources/hn.js';
+import { scrape as scrapeUniform } from './sources/uniform.js';
+import { scrape as scrapeCardel } from './sources/cardel.js';
+import { scrape as scrapeUrbandale } from './sources/urbandale.js';
 import { geocode } from './geocode.js';
 import { runHistoryDiff } from './history.js';
 import { slugify } from './utils.js';
@@ -28,6 +33,11 @@ const SOURCES = [
   { name: 'mattamy', fn: scrapeMattamy },
   { name: 'tartan', fn: scrapeTartan },
   { name: 'richcraft', fn: scrapeRichcraft },
+  { name: 'caivan', fn: scrapeCaivan },
+  { name: 'hn', fn: scrapeHN },
+  { name: 'uniform', fn: scrapeUniform },
+  { name: 'cardel', fn: scrapeCardel },
+  { name: 'urbandale', fn: scrapeUrbandale },
 ];
 
 async function run() {
@@ -70,6 +80,10 @@ async function run() {
     }
   }
   console.log(`  Merged: ${merged.length} unique builds (${allBuilds.length - merged.length} duplicates removed)`);
+
+  // Tag tax-included builders (price shown includes HST — can show tax-free equivalent)
+  const TAX_INCLUDED_BUILDERS = new Set(['Richcraft Homes', 'Minto Communities', 'Mattamy Homes', 'HN Homes']);
+  merged.forEach(b => { b.taxIncluded = TAX_INCLUDED_BUILDERS.has(b.builder); });
 
   // Geocode any builds still missing coordinates
   let geocodedCount = 0;

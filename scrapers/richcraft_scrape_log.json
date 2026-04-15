@@ -14,6 +14,13 @@
     "date": "2026-04-13"
   },
   {
+    "id": "richcraft-bradley-commons",
+    "url": "https://www.richcraft.com/community/ottawa-west/bradley_commons/",
+    "status": "ok",
+    "priceFrom": 665658,
+    "date": "2026-04-13"
+  },
+  {
     "id": "richcraft-gateway-flats",
     "url": "https://www.richcraft.com/community/ottawa-west/gateway-flats/",
     "status": "ok",
@@ -25,6 +32,20 @@
     "url": "https://www.richcraft.com/community/ottawa-west/gateway-flats/",
     "status": "ok",
     "priceFrom": 399900,
+    "date": "2026-04-13"
+  },
+  {
+    "id": "richcraft-gateway-flats",
+    "url": "https://www.richcraft.com/community/ottawa-west/gateway-flats/",
+    "status": "ok",
+    "priceFrom": 399900,
+    "date": "2026-04-13"
+  },
+  {
+    "id": "richcraft-kanata-lakes",
+    "url": "https://www.richcraft.com/community/ottawa-west/kanata-lakes/",
+    "status": "ok",
+    "priceFrom": 743492,
     "date": "2026-04-13"
   },
   {
@@ -56,6 +77,20 @@
     "date": "2026-04-13"
   },
   {
+    "id": "richcraft-mapleton",
+    "url": "https://www.richcraft.com/community/ottawa-west/mapleton/",
+    "status": "ok",
+    "priceFrom": 399900,
+    "date": "2026-04-13"
+  },
+  {
+    "id": "richcraft-pathways",
+    "url": "https://www.richcraft.com/community/ottawa-south/pathways/",
+    "status": "ok",
+    "priceFrom": 574660,
+    "date": "2026-04-13"
+  },
+  {
     "id": "richcraft-pathways",
     "url": "https://www.richcraft.com/community/ottawa-south/pathways/",
     "status": "ok",
@@ -81,6 +116,20 @@
     "url": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
     "status": "ok",
     "priceFrom": 569925,
+    "date": "2026-04-13"
+  },
+  {
+    "id": "richcraft-riverside-south",
+    "url": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
+    "status": "ok",
+    "priceFrom": 569925,
+    "date": "2026-04-13"
+  },
+  {
+    "id": "richcraft-westwood",
+    "url": "https://www.richcraft.com/community/ottawa-west/westwood/",
+    "status": "ok",
+    "priceFrom": 521265,
     "date": "2026-04-13"
   },
   {
