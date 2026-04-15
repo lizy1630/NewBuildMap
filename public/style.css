@@ -608,11 +608,8 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
 
 /* ===== Request Info section in sidebar ===== */
 .request-info-section {
-  padding: 14px 20px 6px;
+  padding: 14px 20px 14px;
   border-top: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
 }
 
 .btn-request-info {
@@ -643,18 +640,12 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
   border-radius: var(--radius);
   cursor: default;
   width: 100%;
+  letter-spacing: 0.03em;
 }
 [data-theme="dark"] .btn-request-sent {
   background: #1b3a1f;
   border-color: #2e7d32;
   color: #81c784;
-}
-
-.request-info-hint {
-  font-size: 10px;
-  color: var(--text-3);
-  line-height: 1.5;
-  margin: 0;
 }
 
 .price-change-note {

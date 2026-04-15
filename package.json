@@ -6,11 +6,13 @@
   "scripts": {
     "scrape": "node scraper/index.js",
     "scrape:source": "node --input-type=module",
-    "start": "http-server public -p 8080 -c-1 --cors",
+    "start": "node server.js",
     "scrape:start": "npm run scrape && npm start"
   },
   "dependencies": {
+    "@playwright/browser-chromium": "^1.59.1",
     "axios": "^1.6.0",
-    "cheerio": "^1.0.0"
+    "cheerio": "^1.0.0",
+    "playwright-core": "^1.59.1"
   }
 }

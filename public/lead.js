@@ -195,15 +195,28 @@ async function _handleSubmit() {
 
   await sendNotification(user, build, type);
 
+  // Log lead to server (fire-and-forget — fails silently on static hosts)
+  fetch('/api/leads', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      name, email, phone,
+      community: build ? `${build.name} · ${build.community}` : '—',
+      type,
+      ts: new Date().toISOString(),
+    }),
+  }).catch(() => {});
+
   // Success screen
+  const successMsg = build
+    ? `Price request for <strong>${esc(build.name)}</strong> sent.<br>You will receive a price sheet at your email.`
+    : 'You are now registered. Prices are unlocked.';
+
   document.getElementById('lead-modal').innerHTML = `
     <div class="lead-success">
       <div class="lead-checkmark">✓</div>
       <h3>${build ? 'Request Sent!' : "You're In!"}</h3>
-      <p>${build
-        ? `We'll be in touch about <strong>${esc(build.name)}</strong>.`
-        : 'All prices are now unlocked.'
-      }</p>
+      <p>${successMsg}</p>
       <p class="lead-success-email">📧 ${esc(email)}</p>
     </div>`;
 

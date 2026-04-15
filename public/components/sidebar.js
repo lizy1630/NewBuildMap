@@ -128,9 +128,9 @@ function featureSheetsHTML(build) {
 }
 
 // ─────────────────────────────────────────────
-// Request Info section
+// Request section
 // Hidden for communities that already have price sheets.
-// Shows "Request Sent" if the user already requested this community.
+// Shows "Requested ✓" if the user already requested this community.
 // ─────────────────────────────────────────────
 function requestInfoHTML(build) {
   const hasSheets = build.featureSheets && build.featureSheets.length > 0;
@@ -140,10 +140,9 @@ function requestInfoHTML(build) {
   return `
   <div class="request-info-section" id="request-info-section">
     ${sent
-      ? `<button class="btn-request-sent" disabled>✓ Request Sent</button>`
-      : `<button class="btn-request-info" id="btn-request-info">📋 Request Info</button>`
+      ? `<button class="btn-request-sent" disabled>Requested ✓</button>`
+      : `<button class="btn-request-info" id="btn-request-info">Request</button>`
     }
-    <p class="request-info-hint">Interested? An agent will reach out with details.</p>
   </div>`;
 }
 
@@ -248,14 +247,12 @@ window.addEventListener('lead-unlocked', () => {
   if (_currentBuild) renderDetail(_currentBuild);
 });
 
-// Flip Request Info button → "✓ Request Sent" without full re-render
+// Flip Request button → "Requested ✓" without full re-render
 window.addEventListener('request-sent', (e) => {
   if (_currentBuild && e.detail?.buildId === _currentBuild.id) {
     const section = document.getElementById('request-info-section');
     if (section) {
-      section.innerHTML = `
-        <button class="btn-request-sent" disabled>✓ Request Sent</button>
-        <p class="request-info-hint">Interested? An agent will reach out with details.</p>`;
+      section.innerHTML = `<button class="btn-request-sent" disabled>Requested ✓</button>`;
     }
   }
 });
@@ -310,16 +307,12 @@ function modelCardHTML(m) {
 
   const sqftLine = m.sqft ? `<div class="model-card-sqft">${m.sqft.toLocaleString()} sqft</div>` : '';
 
-  // Per-model price is locked — prompt for sign-up code
-  const priceLock = `<button class="model-price-lock" onclick="(function(){import('./lead.js').then(function(m){m.openLeadModal();})})()">🔒 Get price</button>`;
-
   return `
   <div class="model-card">
     ${hasImage ? `<img class="model-card-img" src="${esc(m.localImageUrl)}" alt="${esc(m.name)}" loading="lazy">` : ''}
     <div class="model-card-body">
       <div class="model-card-header">
         <div class="model-card-name">${name}</div>
-        ${priceLock}
       </div>
       ${m.type ? `<div class="model-card-type">${esc(m.type)}</div>` : ''}
       ${sqftLine}
