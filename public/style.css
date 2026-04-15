@@ -648,6 +648,50 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
   color: #81c784;
 }
 
+/* ===== Per-model blurred price + Request button ===== */
+.model-card-price {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 4px 0 2px;
+}
+
+.model-price-locked {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0 2px;
+}
+
+.model-price-blur {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-2);
+  filter: blur(5px);
+  user-select: none;
+  pointer-events: none;
+}
+
+.btn-model-request {
+  background: var(--accent);
+  border: none;
+  color: #000;
+  font-family: var(--font);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 4px 9px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: filter var(--transition);
+  flex-shrink: 0;
+}
+.btn-model-request:hover { filter: brightness(1.12); }
+
 .price-change-note {
   font-family: var(--mono);
   font-size: 10px;

@@ -1,7 +1,7 @@
 /**
  * Sidebar component — manages open/close, tab switching, and rendering detail view.
  */
-import { openLeadModal, requestInfo, hasRequested } from '../lead.js';
+import { openLeadModal, requestInfo, hasRequested, isUnlocked } from '../lead.js';
 
 const sidebar = document.getElementById('sidebar');
 const sidebarContent = document.getElementById('sidebar-content');
@@ -257,13 +257,10 @@ window.addEventListener('lead-unlocked', () => {
   if (_currentBuild) renderDetail(_currentBuild);
 });
 
-// Flip Request button → "Requested ✓" without full re-render
+// Re-render model cards when a request is sent or user registers
 window.addEventListener('request-sent', (e) => {
   if (_currentBuild && e.detail?.buildId === _currentBuild.id) {
-    const section = document.getElementById('request-info-section');
-    if (section) {
-      section.innerHTML = `<button class="btn-request-sent" disabled>Requested ✓</button>`;
-    }
+    renderModelCards();
   }
 });
 
@@ -299,23 +296,51 @@ function renderModelCards() {
     return;
   }
 
-  container.innerHTML = models.map((m) => modelCardHTML(m)).join('');
+  container.innerHTML = models.map((m) => modelCardHTML(m, _currentBuild)).join('');
+
+  // Delegate clicks on per-model request buttons
+  container.querySelectorAll('.btn-model-request').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      if (!_currentBuild) return;
+      requestInfo({ id: _currentBuild.id, name: _currentBuild.name, community: _currentBuild.community });
+    });
+  });
 }
 
-function modelCardHTML(m) {
+function modelCardHTML(m, build) {
+  const unlocked  = isUnlocked();
+  const requested = build ? hasRequested(build.id) : false;
+
   const hasImage = !!m.localImageUrl;
   const name = m.modelUrl
     ? `<a href="${esc(m.modelUrl)}" target="_blank" rel="noopener" class="model-card-name-link">${esc(m.name)}</a>`
     : `<span class="model-card-name-text">${esc(m.name)}</span>`;
 
   const specs = [
-    m.beds != null    ? `<span class="spec-chip">${m.beds} bd</span>` : '',
-    m.baths != null   ? `<span class="spec-chip">${m.baths} ba</span>` : '',
-    m.garages         ? `<span class="spec-chip">${m.garages} gar</span>` : '',
-    m.lotWidth        ? `<span class="spec-chip">${m.lotWidth}′ lot</span>` : '',
+    m.beds != null ? `<span class="spec-chip">${m.beds} bd</span>` : '',
+    m.baths != null ? `<span class="spec-chip">${m.baths} ba</span>` : '',
+    m.garages       ? `<span class="spec-chip">${m.garages} gar</span>` : '',
+    m.lotWidth      ? `<span class="spec-chip">${m.lotWidth}′ lot</span>` : '',
   ].filter(Boolean).join('');
 
   const sqftLine = m.sqft ? `<div class="model-card-sqft">${m.sqft.toLocaleString()} sqft</div>` : '';
+
+  // Price row: blurred + Request button if not yet unlocked
+  let priceHTML = '';
+  if (m.priceFrom || m.priceFromFormatted) {
+    const formatted = fmtPrice(m.priceFrom) || esc(m.priceFromFormatted);
+    if (unlocked) {
+      priceHTML = `<div class="model-card-price">${formatted}</div>`;
+    } else {
+      priceHTML = `
+        <div class="model-price-locked">
+          <span class="model-price-blur">${formatted}</span>
+          <button class="btn-model-request">
+            ${requested ? 'Requested ✓' : '🔒 Request'}
+          </button>
+        </div>`;
+    }
+  }
 
   return `
   <div class="model-card">
@@ -326,6 +351,7 @@ function modelCardHTML(m) {
       </div>
       ${m.type ? `<div class="model-card-type">${esc(m.type)}</div>` : ''}
       ${sqftLine}
+      ${priceHTML}
       <div class="spec-chips">${specs}</div>
     </div>
   </div>`;
