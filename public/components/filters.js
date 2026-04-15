@@ -39,9 +39,12 @@ let _activeBuilders = new Set();
 export function initFilters(builds, onChange) {
   _onChange = onChange;
 
-  // Populate community list — hide communities that already have price sheets
+  // Populate community list — hide communities that already have valid (non-null) price sheets
+  const hasValidSheets = (b) =>
+    Array.isArray(b.featureSheets) &&
+    b.featureSheets.some(fs => { const h = fs.localUrl || fs.url; return h && h.trim(); });
   const communitiesWithSheets = new Set(
-    builds.filter(b => b.featureSheets && b.featureSheets.length > 0).map(b => b.community)
+    builds.filter(hasValidSheets).map(b => b.community)
   );
   const communities = [...new Set(builds.map(b => b.community))]
     .filter(c => !communitiesWithSheets.has(c))

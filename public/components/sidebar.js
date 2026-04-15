@@ -110,13 +110,26 @@ function priceRows(build) {
 }
 
 // ─────────────────────────────────────────────
+// Helper — only sheets with a real URL
+// ─────────────────────────────────────────────
+function getValidSheets(build) {
+  if (!build.featureSheets) return [];
+  return build.featureSheets.filter(fs => {
+    const href = fs.localUrl || fs.url;
+    return href && typeof href === 'string' && href.trim() !== '';
+  });
+}
+
+// ─────────────────────────────────────────────
 // Feature sheets section
 // ─────────────────────────────────────────────
 function featureSheetsHTML(build) {
-  if (!build.featureSheets || !build.featureSheets.length) return '';
-  const links = build.featureSheets.map(fs => {
-    const label = fs.name.replace(/^[^-]+-\s*[^-]+-\s*/, ''); // strip "Caivan - Fox Run - "
-    return `<a class="feature-sheet-link" href="${esc(fs.localUrl || fs.url)}" target="_blank" rel="noopener">
+  const sheets = getValidSheets(build);
+  if (!sheets.length) return '';
+  const links = sheets.map(fs => {
+    const href = fs.localUrl || fs.url;
+    const label = (fs.name || href).replace(/^[^-]+-\s*[^-]+-\s*/, ''); // strip "Caivan - Fox Run - "
+    return `<a class="feature-sheet-link" href="${esc(href)}" target="_blank" rel="noopener">
       <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 2h5l3 3v7H2V2z" stroke="currentColor" stroke-width="1" fill="none"/><path d="M7 2v3h3" stroke="currentColor" stroke-width="1"/><path d="M4 7h4M4 9h3" stroke="currentColor" stroke-width="1" stroke-linecap="round"/></svg>
       ${esc(label)}
     </a>`;
@@ -129,11 +142,11 @@ function featureSheetsHTML(build) {
 
 // ─────────────────────────────────────────────
 // Request section
-// Hidden for communities that already have price sheets.
+// Hidden for communities that already have valid price sheets.
 // Shows "Requested ✓" if the user already requested this community.
 // ─────────────────────────────────────────────
 function requestInfoHTML(build) {
-  const hasSheets = build.featureSheets && build.featureSheets.length > 0;
+  const hasSheets = getValidSheets(build).length > 0;
   if (hasSheets) return ''; // price sheet already available — no request needed
 
   const sent = hasRequested(build.id);
