@@ -146,9 +146,6 @@ function featureSheetsHTML(build) {
 // Shows "Requested ✓" if the user already requested this community.
 // ─────────────────────────────────────────────
 function requestInfoHTML(build) {
-  const hasSheets = getValidSheets(build).length > 0;
-  if (hasSheets) return ''; // price sheet already available — no request needed
-
   const sent = hasRequested(build.id);
   return `
   <div class="request-info-section" id="request-info-section">
