@@ -1,0 +1,8 @@
+name = "ottawa-new-build-map"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "public"
+
+[[kv_namespaces]]
+binding = "LEADS_KV"
+id = "e24751eec4ef4103b549b9493673c9af"
+preview_id = "9ebc22261279424ea71f02d681b8928d"
