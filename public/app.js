@@ -1,9 +1,10 @@
 /**
  * Ottawa New Build Map — Main App
  */
-import { initSidebar, openSidebar, closeSidebar, switchTab, renderDetail, setPriceHistory } from './components/sidebar.js';
-import { initFilters, initLegend, getFilters, updateCount, matchesFilters } from './components/filters.js';
+import { initSidebar, openSidebar, closeSidebar, switchTab, renderDetail, setPriceHistory, setBuilderColorFn, setBuilderClickFn } from './components/sidebar.js';
+import { initFilters, initLegend, getFilters, updateCount, matchesFilters, activateBuilderFilter } from './components/filters.js';
 import { showRecentReleases } from './components/toast.js';
+import { initLeadModal } from './lead.js';
 import { initCompare, startCompare, setCompareB, isSelectingB, renderCompare } from './compare.js';
 import { setHistoryData, renderHistory } from './history.js';
 
@@ -118,6 +119,8 @@ async function init() {
 
   // Init modules
   initSidebar({ onTabChange: handleTabChange });
+  setBuilderColorFn(builderColor);
+  setBuilderClickFn((builder) => activateBuilderFilter(builder));
   initFilters(allBuilds, handleFiltersChange);
   initCompare(allBuilds, { onSelectingBChange: handleSelectingBChange });
 
@@ -200,6 +203,9 @@ async function init() {
     closeSidebar();
   });
 
+  // Lead modal
+  initLeadModal();
+
   // Theme toggle
   document.getElementById('btn-theme').addEventListener('click', toggleTheme);
 
@@ -263,6 +269,10 @@ function openDetailForBuild(build) {
 // ===== Popup HTML =====
 function buildPopupHTML(build) {
   const color = builderColor(build.builder);
+  const priceVal = build.priceFromFormatted;
+  const priceHtml = priceVal
+    ? `<span class="popup-price-from">From </span><span>${priceVal}</span>`
+    : `<span class="popup-price-na">Price not available</span>`;
   return `
     <div class="map-popup">
       <div class="popup-header" style="border-left:3px solid ${color}">
@@ -270,20 +280,23 @@ function buildPopupHTML(build) {
         <div class="popup-builder">${esc(build.builder)} · ${esc(build.community)}</div>
       </div>
       <div class="popup-body">
-        <div class="popup-price">${build.priceFromFormatted || '—'}</div>
+        <div class="popup-price">${priceHtml}</div>
         <div class="popup-meta">
           ${build.completionYear ? `<span class="badge badge-year">${build.completionYear}</span>` : ''}
           ${homeTypeBadges(build)}
         </div>
         ${build.models?.length ? `<div style="font-size:11px;color:var(--text-3)">${build.models.length} floor plan${build.models.length > 1 ? 's' : ''} available</div>` : ''}
       </div>
-      <button class="popup-detail-btn" onclick="window.__mapShowDetail('${build.id}')">
-        View Details →
-      </button>
+      ${build.status === 'upcoming'
+        ? `<div class="popup-coming-soon">Coming Soon</div>`
+        : `<button class="popup-detail-btn" onclick="window.__mapShowDetail('${build.id}')">View Details →</button>`
+      }
     </div>`;
 }
 
-// Global for popup button onclick
+// Globals for popup buttons
+window.__openLeadModal = () => { import('./lead.js').then(m => m.openLeadModal()); };
+
 window.__mapShowDetail = (id) => {
   const item = markers.find((m) => m.build.id === id);
   if (item) {
