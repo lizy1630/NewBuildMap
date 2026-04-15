@@ -2,6 +2,27 @@
  * Filters component — dropdowns + builder legend multi-select.
  */
 
+// Maps any fine-grained homeType label → one of the 3 big categories
+const BIG_CATEGORY = {
+  // Single Family
+  'Single Family':   'Single Family',
+  'Bungalows':       'Single Family',
+  // Townhomes
+  'Townhomes':                  'Townhomes',
+  'Urban Towns':                'Townhomes',
+  'Thrive Towns':               'Townhomes',
+  'Bungalow Towns':             'Townhomes',
+  'Semi-Detached':              'Townhomes',
+  'Multi-Gen':                  'Townhomes',
+  'Tandem':                     'Townhomes',
+  'Two-Storey Freehold Towns':  'Townhomes',
+  'Double Car Garage Towns':    'Townhomes',
+  'The Summit Series':          'Townhomes',
+  // Condo
+  'Flats':  'Condo',
+  'Condo':  'Condo',
+};
+
 const communityEl  = document.getElementById('filter-community');
 const homeTypeEl   = document.getElementById('filter-hometype');
 const bedsEl       = document.getElementById('filter-beds');
@@ -18,8 +39,13 @@ let _activeBuilders = new Set();
 export function initFilters(builds, onChange) {
   _onChange = onChange;
 
-  // Populate community list
-  const communities = [...new Set(builds.map((b) => b.community))].sort();
+  // Populate community list — hide communities that already have price sheets
+  const communitiesWithSheets = new Set(
+    builds.filter(b => b.featureSheets && b.featureSheets.length > 0).map(b => b.community)
+  );
+  const communities = [...new Set(builds.map(b => b.community))]
+    .filter(c => !communitiesWithSheets.has(c))
+    .sort();
   communities.forEach((c) => {
     const opt = document.createElement('option');
     opt.value = c;
@@ -27,16 +53,7 @@ export function initFilters(builds, onChange) {
     communityEl.appendChild(opt);
   });
 
-  // Populate home types
-  const allTypes = new Set();
-  builds.forEach((b) => (b.homeTypes || []).forEach((t) => allTypes.add(t)));
-  [...allTypes].sort().forEach((t) => {
-    const opt = document.createElement('option');
-    opt.value = t;
-    opt.textContent = t;
-    homeTypeEl.appendChild(opt);
-  });
-
+  // homeType options are static in HTML (3 big categories)
   [communityEl, homeTypeEl, bedsEl, bathsEl, sqftEl, lotEl].forEach((el) =>
     el.addEventListener('change', () => _onChange && _onChange(getFilters()))
   );
@@ -94,10 +111,32 @@ export function updateCount(n) {
   countEl.textContent = n;
 }
 
+/**
+ * Programmatically activate a builder filter — same effect as clicking the legend item.
+ * Toggles the builder into the active set (or activates it exclusively if not yet active).
+ */
+export function activateBuilderFilter(builder) {
+  // If already the only active builder, deactivate (show all)
+  if (_activeBuilders.size === 1 && _activeBuilders.has(builder)) {
+    _activeBuilders.delete(builder);
+    document.querySelector(`.legend-item[data-builder="${builder.replace(/"/g, '&quot;')}"]`)?.classList.remove('active');
+  } else {
+    // Clear others, activate this one
+    _activeBuilders.clear();
+    document.querySelectorAll('.legend-item').forEach((item) => item.classList.remove('active'));
+    _activeBuilders.add(builder);
+    document.querySelector(`.legend-item[data-builder="${builder.replace(/"/g, '&quot;')}"]`)?.classList.add('active');
+  }
+  if (_onChange) _onChange(getFilters());
+}
+
 export function matchesFilters(build, filters) {
   if (filters.community && build.community !== filters.community) return false;
   if (filters.builders  && !filters.builders.has(build.builder))  return false;
-  if (filters.homeType  && !(build.homeTypes || []).includes(filters.homeType)) return false;
+  if (filters.homeType) {
+    const cats = (build.homeTypes || []).map(t => BIG_CATEGORY[t] || 'Single Family');
+    if (!cats.includes(filters.homeType)) return false;
+  }
 
   const needsModelFilter = filters.beds || filters.baths || filters.sqft || filters.lot;
   if (needsModelFilter) {

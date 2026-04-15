@@ -518,7 +518,8 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
   margin-top: 16px;
 }
 
-#lead-modal-close {
+/* dynamic buttons (rendered via innerHTML so use class selectors) */
+.lead-btn-cancel {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text-3);
@@ -529,9 +530,9 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
   cursor: pointer;
   transition: all var(--transition);
 }
-#lead-modal-close:hover { border-color: var(--border-2); color: var(--text); }
+.lead-btn-cancel:hover { border-color: var(--border-2); color: var(--text); }
 
-#lead-modal-submit {
+.lead-btn-submit {
   flex: 1;
   background: var(--accent);
   border: 1px solid var(--accent);
@@ -546,18 +547,115 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
   cursor: pointer;
   transition: filter var(--transition);
 }
-#lead-modal-submit:hover { filter: brightness(1.1); }
+.lead-btn-submit:hover:not(:disabled) { filter: brightness(1.1); }
+.lead-btn-submit:disabled { opacity: 0.6; cursor: default; }
 
+/* keep legacy IDs working for old wired elements */
+#lead-modal-close  { background:transparent; border:1px solid var(--border); color:var(--text-3);
+  font-family:var(--font); font-size:12px; padding:9px 14px; border-radius:var(--radius);
+  cursor:pointer; transition:all var(--transition); }
+#lead-modal-close:hover { border-color:var(--border-2); color:var(--text); }
+#lead-modal-submit { flex:1; background:var(--accent); border:1px solid var(--accent); color:#000;
+  font-family:var(--font); font-size:12px; font-weight:700; text-transform:uppercase;
+  letter-spacing:0.05em; padding:9px 14px; border-radius:var(--radius);
+  cursor:pointer; transition:filter var(--transition); }
+#lead-modal-submit:hover { filter:brightness(1.1); }
+
+/* Community badge inside modal */
+.lead-community-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+.lead-badge-icon { font-size: 14px; }
+.lead-badge-area {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-3);
+  margin-left: 2px;
+}
+
+/* Required / optional labels */
+.lead-required { color: #e53935; font-weight: 700; }
+.lead-optional  { color: var(--text-3); font-weight: 400; font-style: italic; }
+.lead-subtitle  { font-size: 12px; color: var(--text-3); line-height: 1.6; margin-bottom: 14px; }
+
+/* Success screen */
 .lead-success {
   text-align: center;
   padding: 12px 0 4px;
 }
 .lead-success .lead-checkmark {
-  font-size: 32px;
+  font-size: 36px;
+  color: #43a047;
   margin-bottom: 10px;
 }
 .lead-success h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
 .lead-success p { font-size: 12px; color: var(--text-3); }
+.lead-success-email {
+  margin-top: 8px !important;
+  font-size: 11px !important;
+  color: var(--accent) !important;
+}
+
+/* ===== Request Info section in sidebar ===== */
+.request-info-section {
+  padding: 14px 20px 6px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.btn-request-info {
+  background: var(--accent);
+  border: none;
+  color: #000;
+  font-family: var(--font);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: filter var(--transition);
+  width: 100%;
+}
+.btn-request-info:hover { filter: brightness(1.12); }
+
+.btn-request-sent {
+  background: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  color: #2e7d32;
+  font-family: var(--font);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  cursor: default;
+  width: 100%;
+}
+[data-theme="dark"] .btn-request-sent {
+  background: #1b3a1f;
+  border-color: #2e7d32;
+  color: #81c784;
+}
+
+.request-info-hint {
+  font-size: 10px;
+  color: var(--text-3);
+  line-height: 1.5;
+  margin: 0;
+}
 
 .price-change-note {
   font-family: var(--mono);

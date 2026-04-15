@@ -1,7 +1,7 @@
 /**
  * Sidebar component — manages open/close, tab switching, and rendering detail view.
  */
-import { openLeadModal } from '../lead.js';
+import { openLeadModal, requestInfo, hasRequested } from '../lead.js';
 
 const sidebar = document.getElementById('sidebar');
 const sidebarContent = document.getElementById('sidebar-content');
@@ -128,6 +128,26 @@ function featureSheetsHTML(build) {
 }
 
 // ─────────────────────────────────────────────
+// Request Info section
+// Hidden for communities that already have price sheets.
+// Shows "Request Sent" if the user already requested this community.
+// ─────────────────────────────────────────────
+function requestInfoHTML(build) {
+  const hasSheets = build.featureSheets && build.featureSheets.length > 0;
+  if (hasSheets) return ''; // price sheet already available — no request needed
+
+  const sent = hasRequested(build.id);
+  return `
+  <div class="request-info-section" id="request-info-section">
+    ${sent
+      ? `<button class="btn-request-sent" disabled>✓ Request Sent</button>`
+      : `<button class="btn-request-info" id="btn-request-info">📋 Request Info</button>`
+    }
+    <p class="request-info-hint">Interested? An agent will reach out with details.</p>
+  </div>`;
+}
+
+// ─────────────────────────────────────────────
 // renderDetail — main entry point
 // ─────────────────────────────────────────────
 export function renderDetail(build) {
@@ -196,6 +216,8 @@ export function renderDetail(build) {
 
     ${featureSheetsHTML(build)}
 
+    ${requestInfoHTML(build)}
+
     <div class="detail-actions">
       <button class="btn btn-secondary" id="btn-compare-from-detail">⇌ Compare</button>
       <a href="${esc(build.sourceUrl)}" target="_blank" rel="noopener" class="btn btn-primary">View Listing ↗</a>
@@ -215,11 +237,27 @@ export function renderDetail(build) {
     if (_builderClickFn) _builderClickFn(build.builder);
   });
 
+  // Request Info button
+  panel.querySelector('#btn-request-info')?.addEventListener('click', () => {
+    requestInfo({ id: build.id, name: build.name, community: build.community });
+  });
 }
 
-// Re-render current build after unlock
+// Re-render prices after unlock
 window.addEventListener('lead-unlocked', () => {
   if (_currentBuild) renderDetail(_currentBuild);
+});
+
+// Flip Request Info button → "✓ Request Sent" without full re-render
+window.addEventListener('request-sent', (e) => {
+  if (_currentBuild && e.detail?.buildId === _currentBuild.id) {
+    const section = document.getElementById('request-info-section');
+    if (section) {
+      section.innerHTML = `
+        <button class="btn-request-sent" disabled>✓ Request Sent</button>
+        <p class="request-info-hint">Interested? An agent will reach out with details.</p>`;
+    }
+  }
 });
 
 // ─────────────────────────────────────────────
