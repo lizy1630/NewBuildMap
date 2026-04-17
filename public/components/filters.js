@@ -168,12 +168,12 @@ export function clearFilter(key) {
 // ── Per-model match helpers (used by both matchesFilters and sidebar) ──
 export function modelMatchesBeds(m, beds) {
   if (!beds) return true;
-  const n = parseInt(beds);
+  const n = parseInt(beds.replace('=', ''));
   return beds.startsWith('=') ? m.beds === n : (m.beds || 0) >= n;
 }
 export function modelMatchesBaths(m, baths) {
   if (!baths) return true;
-  const n = parseInt(baths);
+  const n = parseInt(baths.replace('=', ''));
   return baths.startsWith('=') ? m.baths === n : (m.baths || 0) >= n;
 }
 export function modelMatchesSqft(m, sqft) {
