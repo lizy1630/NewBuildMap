@@ -2,6 +2,60 @@
  * Filters component — dropdowns + builder legend multi-select.
  */
 
+// ── Geographic area grouping ──────────────────────────────────────────────
+// Maps build.community → one of the user-facing area options
+const AREA_MAP = {
+  // Ottawa Urban (Nepean, East, West, South, Central)
+  'Alta Vista / East':    'Ottawa Urban',
+  'Rockcliffe Park':      'Ottawa Urban',
+  'Nepean':               'Ottawa Urban',
+  'Ottawa West':          'Ottawa Urban',
+  'Ottawa East':          'Ottawa Urban',
+  'Ottawa South':         'Ottawa Urban',
+  'Ottawa':               'Ottawa Urban',
+  'Centretown':           'Ottawa Urban',
+  // Barrhaven (incl. Half Moon Bay, Stonebridge, Riverside South)
+  'Barrhaven':            'Barrhaven',
+  'Riverside South':      'Barrhaven',
+  'Half Moon Bay':        'Barrhaven',
+  'Stonebridge':          'Barrhaven',
+  // Kanata
+  'Kanata':               'Kanata',
+  'Kanata North':         'Kanata',
+  'Kanata South':         'Kanata',
+  'Stittsville / Kanata': 'Kanata',
+  // Orléans
+  'Orléans':              'Orléans',
+  'Orleans':              'Orléans',
+  // Stittsville
+  'Stittsville':          'Stittsville',
+  // Richmond
+  'Richmond':             'Richmond',
+  'Richmond Village':     'Richmond',
+  'Kemptville':           'Richmond',
+  // Findlay Creek
+  'Findlay Creek':        'Findlay Creek',
+  'Leitrim / Findlay Creek': 'Findlay Creek',
+  'Leitrim':              'Findlay Creek',
+  // Manotick
+  'Manotick':             'Manotick',
+};
+
+const AREAS = [
+  'Ottawa Urban',
+  'Barrhaven',
+  'Kanata',
+  'Orléans',
+  'Stittsville',
+  'Richmond',
+  'Findlay Creek',
+  'Manotick',
+];
+
+export function getArea(build) {
+  return AREA_MAP[build.community] || null;
+}
+
 // Maps any fine-grained homeType label → one of the 3 big categories
 const BIG_CATEGORY = {
   // Single Family
@@ -39,20 +93,11 @@ let _activeBuilders = new Set();
 export function initFilters(builds, onChange) {
   _onChange = onChange;
 
-  // Populate community list — hide communities that already have valid (non-null) price sheets
-  const hasValidSheets = (b) =>
-    Array.isArray(b.featureSheets) &&
-    b.featureSheets.some(fs => { const h = fs.localUrl || fs.url; return h && h.trim(); });
-  const communitiesWithSheets = new Set(
-    builds.filter(hasValidSheets).map(b => b.community)
-  );
-  const communities = [...new Set(builds.map(b => b.community))]
-    .filter(c => !communitiesWithSheets.has(c))
-    .sort();
-  communities.forEach((c) => {
+  // Populate area filter with geographic sections
+  AREAS.forEach((area) => {
     const opt = document.createElement('option');
-    opt.value = c;
-    opt.textContent = c;
+    opt.value = area;
+    opt.textContent = area;
     communityEl.appendChild(opt);
   });
 
@@ -138,7 +183,7 @@ export function activateBuilderFilter(builder) {
 }
 
 export function matchesFilters(build, filters) {
-  if (filters.community && build.community !== filters.community) return false;
+  if (filters.community && getArea(build) !== filters.community) return false;
   if (filters.builders  && !filters.builders.has(build.builder))  return false;
   if (filters.homeType) {
     const cats = (build.homeTypes || []).map(t => BIG_CATEGORY[t] || 'Single Family');
