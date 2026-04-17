@@ -150,13 +150,46 @@ export function initLegend(builds, colorFn) {
 export function getFilters() {
   return {
     community:  communityEl.value,
-    builders:   _activeBuilders.size > 0 ? new Set(_activeBuilders) : null, // null = all
+    builders:   _activeBuilders.size > 0 ? new Set(_activeBuilders) : null,
     homeType:   homeTypeEl.value,
-    beds:       parseFloat(bedsEl.value) || 0,
-    baths:      parseFloat(bathsEl.value) || 0,
-    sqft:       parseInt(sqftEl.value, 10) || 0,
-    lot:        parseInt(lotEl.value, 10) || 0,
+    beds:       bedsEl.value,           // e.g. "=3", "3+", ""
+    baths:      bathsEl.value,          // e.g. "2+", ""
+    sqft:       sqftEl.value,           // e.g. "2000", "<1000", ""
+    lot:        lotEl.value,            // e.g. "35", ""
   };
+}
+
+// Clear a single filter by key and fire onChange
+export function clearFilter(key) {
+  const map = { community: communityEl, homeType: homeTypeEl, beds: bedsEl, baths: bathsEl, sqft: sqftEl, lot: lotEl };
+  if (map[key]) { map[key].value = ''; if (_onChange) _onChange(getFilters()); }
+}
+
+// ── Per-model match helpers (used by both matchesFilters and sidebar) ──
+export function modelMatchesBeds(m, beds) {
+  if (!beds) return true;
+  const n = parseInt(beds);
+  return beds.startsWith('=') ? m.beds === n : (m.beds || 0) >= n;
+}
+export function modelMatchesBaths(m, baths) {
+  if (!baths) return true;
+  const n = parseInt(baths);
+  return baths.startsWith('=') ? m.baths === n : (m.baths || 0) >= n;
+}
+export function modelMatchesSqft(m, sqft) {
+  if (!sqft) return true;
+  if (sqft.startsWith('<')) return m.sqft && m.sqft < parseInt(sqft.slice(1));
+  return (m.sqft || 0) >= parseInt(sqft);
+}
+export function modelMatchesLot(m, lot) {
+  if (!lot) return true;
+  return (m.lotWidth || 0) >= parseInt(lot);
+}
+export function modelMatchesFilters(m, filters) {
+  return modelMatchesBeds(m, filters.beds)
+    && modelMatchesBaths(m, filters.baths)
+    && modelMatchesSqft(m, filters.sqft)
+    && modelMatchesLot(m, filters.lot);
 }
 
 export function updateCount(n) {
@@ -194,14 +227,7 @@ export function matchesFilters(build, filters) {
   if (needsModelFilter) {
     const models = build.models || [];
     if (!models.length) return false;
-    const hasMatch = models.some((m) => {
-      if (filters.beds  && (m.beds     || 0) < filters.beds)  return false;
-      if (filters.baths && (m.baths    || 0) < filters.baths) return false;
-      if (filters.sqft  && (m.sqft     || 0) < filters.sqft)  return false;
-      if (filters.lot   && (m.lotWidth || 0) < filters.lot)   return false;
-      return true;
-    });
-    if (!hasMatch) return false;
+    if (!models.some(m => modelMatchesFilters(m, filters))) return false;
   }
 
   return true;

@@ -606,6 +606,33 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
   color: var(--accent) !important;
 }
 
+/* ===== Active filter tags in sidebar ===== */
+.active-filter-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px 20px 0;
+}
+
+.filter-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--accent);
+  color: #000;
+  font-family: var(--font);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  opacity: 0.88;
+  transition: opacity var(--transition);
+}
+.filter-tag:hover { opacity: 1; }
+
 /* ===== Request Info section in sidebar ===== */
 .request-info-section {
   padding: 14px 20px 14px;

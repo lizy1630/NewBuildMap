@@ -2,6 +2,7 @@
  * Sidebar component — manages open/close, tab switching, and rendering detail view.
  */
 import { openLeadModal, requestInfo, hasRequested, isUnlocked } from '../lead.js';
+import { getFilters, clearFilter, modelMatchesFilters, getArea } from './filters.js';
 
 const sidebar = document.getElementById('sidebar');
 const sidebarContent = document.getElementById('sidebar-content');
@@ -123,6 +124,24 @@ function priceRows(build) {
 }
 
 // ─────────────────────────────────────────────
+// Active filter tags strip
+// ─────────────────────────────────────────────
+function activeFilterTagsHTML() {
+  const f = getFilters();
+  const tags = [];
+  if (f.community) tags.push({ key: 'community', label: `📍 ${f.community}` });
+  if (f.homeType)  tags.push({ key: 'homeType',  label: `🏠 ${f.homeType}` });
+  if (f.beds)      tags.push({ key: 'beds',      label: `🛏 ${f.beds.replace('=', '')} bed${f.beds.startsWith('=') ? '' : '+'}` });
+  if (f.baths)     tags.push({ key: 'baths',     label: `🚿 ${f.baths.replace('=', '')} bath${f.baths.startsWith('=') ? '' : '+'}` });
+  if (f.sqft)      tags.push({ key: 'sqft',      label: `📐 ${f.sqft.startsWith('<') ? '< ' + f.sqft.slice(1) : f.sqft + '+'} sqft` });
+  if (f.lot)       tags.push({ key: 'lot',       label: `📏 ${f.lot}ft+ lot` });
+  if (!tags.length) return '';
+  return `<div class="active-filter-tags" id="active-filter-tags">
+    ${tags.map(t => `<button class="filter-tag" data-filter-key="${esc(t.key)}">${esc(t.label)} ×</button>`).join('')}
+  </div>`;
+}
+
+// ─────────────────────────────────────────────
 // Helper — only sheets with a real URL
 // ─────────────────────────────────────────────
 function getValidSheets(build) {
@@ -211,6 +230,8 @@ export function renderDetail(build) {
       ${build.description ? `<div class="detail-description">${esc(build.description)}</div>` : ''}
     </div>
 
+    ${activeFilterTagsHTML()}
+
     <div class="detail-price-rows" id="detail-price-rows">
       ${priceRows(build)}
       ${priceChange ? `<div class="price-change-note ${priceChange.dir}">
@@ -266,7 +287,30 @@ export function renderDetail(build) {
     if (_builderClickFn) _builderClickFn(build.builder);
   });
 
+  // Filter tag × — clear that filter and re-render
+  panel.querySelector('#active-filter-tags')?.addEventListener('click', (e) => {
+    const tag = e.target.closest('.filter-tag');
+    if (tag) {
+      clearFilter(tag.dataset.filterKey);
+      renderDetail(_currentBuild); // re-render tags + model cards
+    }
+  });
 }
+
+// Re-render sidebar when global filters change (updates tags + model list)
+window.addEventListener('filters-changed', () => {
+  if (_currentBuild && isSidebarOpen()) {
+    // Refresh tags and model cards without full re-render
+    const panel = tabPanels.detail;
+    const tagsEl = panel.querySelector('#active-filter-tags');
+    const newTagsHTML = activeFilterTagsHTML();
+    if (tagsEl) tagsEl.outerHTML = newTagsHTML || '';
+    else if (newTagsHTML) {
+      panel.querySelector('.detail-price-rows')?.insertAdjacentHTML('beforebegin', newTagsHTML);
+    }
+    renderModelCards();
+  }
+});
 
 // Re-render prices after unlock
 window.addEventListener('lead-unlocked', () => {
@@ -291,9 +335,16 @@ function renderModelCards() {
 
   let models = [...(_currentBuild.models || [])];
 
-  // Category filter
+  // Category filter (sidebar tab)
   if (_activeCategory !== 'All') {
     models = models.filter((m) => m.type === _activeCategory);
+  }
+
+  // Apply active global model-level filters (beds, baths, sqft, lot)
+  const f = getFilters();
+  const hasModelFilter = f.beds || f.baths || f.sqft || f.lot;
+  if (hasModelFilter) {
+    models = models.filter(m => modelMatchesFilters(m, f));
   }
 
   // Sort
@@ -308,7 +359,7 @@ function renderModelCards() {
   if (countEl) countEl.textContent = models.length;
 
   if (!models.length) {
-    container.innerHTML = '<div style="padding:16px 20px;color:var(--text-3);font-size:12px">No models in this category.</div>';
+    container.innerHTML = `<div style="padding:16px 20px;color:var(--text-3);font-size:12px">No models match the current filters.</div>`;
     return;
   }
 

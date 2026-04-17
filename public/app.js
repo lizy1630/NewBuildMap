@@ -349,11 +349,7 @@ window.__mapShowDetail = (id) => {
 // ===== Filters =====
 function handleFiltersChange(filters) {
   applyFilters(filters);
-  // Collapse sidebar when community filter is cleared
-  if (!filters.community) {
-    deselectActive();
-    closeSidebar();
-  }
+  window.dispatchEvent(new CustomEvent('filters-changed'));
 }
 
 function applyFilters(filters) {
