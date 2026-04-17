@@ -29,6 +29,16 @@
         "The Westport": 849900,
         "The Stratford": 1049900
       }
+    },
+    {
+      "date": "2026-04-17",
+      "priceFrom": 360327,
+      "models": {
+        "Lower Leaside": 360327,
+        "Lower End Leaside": 369153,
+        "Upper Union": 391219,
+        "Upper End Union": 406748
+      }
     }
   ],
   "minto-brookline": [
@@ -56,6 +66,42 @@
         "The Berne Townhome": 519900,
         "The Geneva": 769900,
         "The Alpine": 939900
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "priceFrom": 479900,
+      "models": {
+        "Jefferson Corner - 3 Bed": 769900,
+        "Jefferson Corner - 4 Bed": 774900,
+        "Talbot Corner - 3 Bed": 779900,
+        "Talbot Corner - 4 Bed": 784900,
+        "Jasper Corner": 809900,
+        "Stanley": 879900,
+        "Banff (Bungalow)": 849900,
+        "Frontenac": 869900,
+        "Mackenzie": 899900,
+        "Mapleton": 939900,
+        "Quinton": 944900,
+        "Oxford": 969900,
+        "Quinton w/Guest Suite": 994900,
+        "Ashbury": 569900,
+        "Cohen": 564900,
+        "Gladwell": 574900,
+        "Eagleridge": 574900,
+        "Montgomery": 579900,
+        "Lawrence": 579900,
+        "Rockcliffe - 3 Bed": 609900,
+        "Simcoe - 3 Bed": 609900,
+        "Simcoe - 4 Bed": 614900,
+        "Wynwood Corner": 669900,
+        "Rockcliffe - 4 Bed": 614900,
+        "Alder": 479900,
+        "Burnaby": 489900,
+        "Cambridge": 491900,
+        "Cambridge End": 509900,
+        "Dawson End": 512900,
+        "McKee Corner": 549900
       }
     }
   ],
@@ -174,6 +220,15 @@
         "Single Family 2400": 829000,
         "Executive Bungalow": 939000
       }
+    },
+    {
+      "date": "2026-04-17",
+      "priceFrom": 493806,
+      "models": {
+        "Azure": 493806,
+        "Sapphire 2 End": 524779,
+        "Sapphire 3 End": 533629
+      }
     }
   ],
   "richcraft-kanata-lakes": [
@@ -204,6 +259,11 @@
         "The Maple Grande": 1489900,
         "Tandem Dual-Unit": 1637900
       }
+    },
+    {
+      "date": "2026-04-17",
+      "priceFrom": 743492,
+      "models": {}
     }
   ],
   "hn-homes-kanata-lakes": [
@@ -269,6 +329,21 @@
         "The Birch Town": 499900,
         "The Cedar Single": 769900,
         "The Spruce Bungalow": 829900
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "priceFrom": 543099,
+      "models": {
+        "The Camden": 717256,
+        "The Abbey": 671900,
+        "The Samira": 687256,
+        "The Harmony": 740081,
+        "Type B - The Brockton": 543099,
+        "Type A - The Ashton": 545094,
+        "Type A End - The Ashton": 561099,
+        "Type B End - The Brockton": 567930,
+        "Type C - The Cardiff": 590065
       }
     }
   ],
@@ -452,6 +527,484 @@
         "Haywood": 719900,
         "Wildwood II": 719900,
         "Spoke": 719900
+      }
+    }
+  ],
+  "minto-harmony": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 474900,
+      "models": {
+        "Clairmont": 779900,
+        "Fairbank - 3 Bedroom": 789900,
+        "Fairbank - 4 Bedroom": 794900,
+        "Gladstone": 794900,
+        "Jasper Corner": 799900,
+        "Killarney - 3 Bedroom": 824900,
+        "Killarney - 4 Bedroom": 829900,
+        "Stanley": 804900,
+        "Waverley - 4 Bedroom": 834900,
+        "Waverley 4-Bedroom W/Guest Suite": 854900,
+        "Waverley - 5 Bedroom": 839900,
+        "Waverley 5-Bedroom W/Guest Suite": 859900,
+        "Jefferson Corner - 3 Bed": 759900,
+        "Jefferson Corner - 4 Bed": 764900,
+        "Talbot Corner - 3 Bed": 769900,
+        "Talbot Corner - 4 Bed": 774900,
+        "Banff (Bungalow)": 869900,
+        "Frontenac": 889900,
+        "Mackenzie": 919900,
+        "Mapleton": 959900,
+        "Quinton": 964900,
+        "Oxford": 989900,
+        "Quinton w/Guest Suite": 1014900,
+        "Cohen": 583900,
+        "Ashbury": 575900,
+        "Gladwell": 615900,
+        "Eagleridge": 589900,
+        "Montgomery": 602900,
+        "Lawrence": 619900,
+        "Rockcliffe - 3 Bed": 639900,
+        "Rockcliffe - 4 Bed": 710900,
+        "Simcoe - 3 Bed": 639900,
+        "Simcoe - 4 Bed": 677900,
+        "Wynwood Corner": 697900,
+        "Alder": 474900,
+        "Burnaby": 489900,
+        "Cambridge": 491900,
+        "Cambridge End": 509900,
+        "Dawson End": 512900,
+        "McKee Corner": 554900
+      }
+    }
+  ],
+  "minto-mahogany": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 759900,
+      "models": {
+        "Clairmont": 809900,
+        "Fairbank - 3 Bedroom": 849900,
+        "Fairbank - 4 Bedroom": 854900,
+        "Gladstone": 869900,
+        "Killarney - 3 Bedroom": 889900,
+        "Killarney - 4 Bedroom": 894900,
+        "Stanley": 879900,
+        "Waverley - 4 Bedroom": 919900,
+        "Waverley 4-Bedroom W/Guest Suite": 929900,
+        "Waverley - 5 Bedroom": 924900,
+        "Waverley 5-Bedroom W/Guest Suite": 934900,
+        "Angelica": 959900,
+        "Frontenac": 949900,
+        "Juno - 3 Bedroom": 959900,
+        "Juno - 4 Bedroom": 964900,
+        "Lexington": 989900,
+        "Mackenzie": 1009900,
+        "Noble II": 1079900,
+        "Quinton": 1409900,
+        "Quinton w/Guest Suite": 1459900,
+        "Dahlia II": 1394900,
+        "Orillia": 1119900,
+        "Redwood II - 4 Bedroom": 1509900,
+        "Redwood II - 5 Bedroom": 1514900,
+        "Sable - 4 Bedroom": 1519900,
+        "Sable - 5 Bedroom": 1524900,
+        "Southwood - 4 Bedroom": 1524900,
+        "Southwood - 5 Bedroom": 1529900,
+        "Charlotte": 1079900,
+        "Bellflower": 1119900,
+        "Caraway": 1419900,
+        "Silver Maple - 4 Bedroom W/Guest Suite": 999900,
+        "Birch": 994900,
+        "Fraser": 1069900,
+        "Magnolia": 1079900,
+        "Mulberry": 1119900,
+        "Cardinal": 759900,
+        "Banff II": 869900,
+        "Cashmere": 919900,
+        "Riverstone": 921900,
+        "Satinwood": 945900,
+        "Bay Willow": 959900,
+        "Stanley 38'": 1009900,
+        "Lexington 45'": 1129900
+      }
+    }
+  ],
+  "minto-anthem": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 364740,
+      "models": {
+        "Lower Leaside": 364740,
+        "Lower End Leaside": 378862,
+        "Upper Union": 406748,
+        "Upper End Union": 423513
+      }
+    }
+  ],
+  "minto-avalon": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 454900,
+      "models": {
+        "Jefferson Corner - 3 Bed": 739900,
+        "Jefferson Corner - 4 Bed": 744900,
+        "Talbot Corner - 3 Bed": 749900,
+        "Talbot Corner - 4 Bed": 754900,
+        "Jasper Corner": 779900,
+        "Clairmont": 759900,
+        "Fairbank - 3 Bedroom": 769900,
+        "Fairbank - 4 Bedroom": 774900,
+        "Gladstone": 774900,
+        "Killarney - 3 Bedroom": 804900,
+        "Killarney - 4 Bedroom": 809900,
+        "Stanley": 794900,
+        "Waverley - 4 Bedroom": 824900,
+        "Waverley 4-Bedroom W/Guest Suite": 844900,
+        "Waverley - 5 Bedroom": 829900,
+        "Waverley 5-Bedroom W/Guest Suite": 849900,
+        "Banff (Bungalow)": 854900,
+        "Frontenac": 869900,
+        "Mackenzie": 899900,
+        "Mapleton": 939900,
+        "Quinton": 949900,
+        "Oxford": 969900,
+        "Quinton w/Guest Suite": 999900,
+        "Burnaby": 474900,
+        "Cambridge End": 494900,
+        "Dawson End": 497900,
+        "McKee Corner": 524900,
+        "Alder": 454900,
+        "Cambridge": 476900,
+        "Cohen": 554900,
+        "Ashbury": 559900,
+        "Gladwell": 564900,
+        "Eagleridge": 564900,
+        "Montgomery": 569900,
+        "Lawrence": 569900,
+        "Rockcliffe - 3 Bed": 599900,
+        "Simcoe - 3 Bed": 599900,
+        "Wynwood Corner": 659900,
+        "Rockcliffe - 4 Bed": 604900,
+        "Simcoe - 4 Bed": 604900
+      }
+    }
+  ],
+  "mattamy-half-moon-bay": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 394990,
+      "models": {
+        "The Aster II": 394990,
+        "The Willow II": 404990,
+        "The Indigo II": 409990,
+        "The Boxwood End II": 419990
+      }
+    }
+  ],
+  "mattamy-locale": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 299990,
+      "models": {
+        "Begin": 299990,
+        "Arise A": 319990,
+        "Arise B": 319990
+      }
+    }
+  ],
+  "mattamy-richmond-meadows": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 849990,
+      "models": {
+        "Walnut II": 849990
+      }
+    }
+  ],
+  "mattamy-traditions-ii": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 369990,
+      "models": {
+        "The Aster": 369990,
+        "The Indigo": 379990,
+        "The Willow": 379990
+      }
+    }
+  ],
+  "mattamy-wateridge-village": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 544990,
+      "models": {
+        "Petal": 544990,
+        "Tendril": 554990,
+        "Bloom": 599990,
+        "Bloom II": 604990,
+        "Bellshore": 672990,
+        "Brentland": 677990,
+        "Rockcliffe": 687990,
+        "Rockcliffe End": 710990
+      }
+    }
+  ],
+  "richcraft-pathways": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 574660,
+      "models": {}
+    }
+  ],
+  "richcraft-riverside-south": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 569925,
+      "models": {}
+    }
+  ],
+  "richcraft-bradley_commons": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 665658,
+      "models": {}
+    }
+  ],
+  "richcraft-mapleton": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 399900,
+      "models": {}
+    }
+  ],
+  "richcraft-gateway-flats": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 399900,
+      "models": {}
+    }
+  ],
+  "richcraft-westwood": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 521265,
+      "models": {}
+    }
+  ],
+  "caivan-fox-run": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 481407,
+      "models": {}
+    }
+  ],
+  "caivan-the-ridge": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 640699,
+      "models": {}
+    }
+  ],
+  "caivan-the-conservancy": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 354342,
+      "models": {}
+    }
+  ],
+  "caivan-orleans-village": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 342196,
+      "models": {}
+    }
+  ],
+  "hn-kanata-lakes": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 925487,
+      "models": {}
+    }
+  ],
+  "hn-riverside-south": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 632566,
+      "models": {}
+    }
+  ],
+  "uniform-copperwood-estate": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 599000,
+      "models": {
+        "The Scotia": 889000,
+        "The Perry": 889000,
+        "The Ferris": 919000,
+        "The Mara": 919000,
+        "The Tory": 985000,
+        "The Ashby": 985000,
+        "The Sunbury": 1015000,
+        "The Cowan": 1005000,
+        "The Harding": 1005000,
+        "The Stirling": 1009000,
+        "The Mariposa": 1019000,
+        "The Irondale": 1025000,
+        "The Dorset": 1029000,
+        "The Odessa": 1039000,
+        "The Barrett": 859000,
+        "The Clayton": 859000,
+        "The Millwood": 1009000,
+        "The Eton": 1009000,
+        "The Griffith": 1045000,
+        "The Bancroft": 1095000,
+        "The Cameron": 1099000,
+        "The Emsdale": 1099000,
+        "The Madoc": 1105000,
+        "The Nobel": 1115000,
+        "The Brent": 1119000,
+        "The Esmonde": 1119000,
+        "The Hillcrest": 1125000,
+        "The Bronte": 599000,
+        "The Wheatley": 639000,
+        "The Ferguson": 699000,
+        "The Driftwood": 749000
+      }
+    }
+  ],
+  "cardel-ironwood": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 546902,
+      "models": {
+        "Cobalt": 546902,
+        "Indigo": 564601,
+        "Elm": 614159,
+        "Aspen": 620354,
+        "Nolan": 765486,
+        "Lyndon": 771681,
+        "Paxon": 789381,
+        "Caden": 815929,
+        "Alton": 781416,
+        "Emerson": 786723,
+        "Lucca": 808850,
+        "Grayson": 829204,
+        "Devon": 830973,
+        "Byron": 858407,
+        "Rowan": 867257
+      }
+    }
+  ],
+  "urbandale-riverside-south": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 649900,
+      "models": {
+        "Calypso": 676900,
+        "Discovery": 679900,
+        "Endeavour End": 739900,
+        "Dorchester End": 657900,
+        "Apollo": 649900,
+        "Hampstead End": 734900,
+        "Calypso End": 706900
+      }
+    }
+  ],
+  "urbandale-kanata-lakes": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 766900,
+      "models": {
+        "Atlantis End": 866900,
+        "Endeavour": 772900,
+        "Discovery": 766900
+      }
+    }
+  ],
+  "urbandale-bradley-commons": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 741900,
+      "models": {
+        "Atlantis II End": 854900,
+        "Calypso": 741900,
+        "Discovery End": 806900
+      }
+    }
+  ],
+  "urbandale-leitrim-flats": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 419900,
+      "models": {
+        "Highgate": 429900,
+        "Brixton": 419900,
+        "Brixton End": 444900,
+        "Highgate End": 449900,
+        "Knightsbridge End": 494900
+      }
+    }
+  ],
+  "urbandale-the-creek": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 589900,
+      "models": {
+        "Galileo": 596900,
+        "Newton": 589900,
+        "Hawking II End": 690900,
+        "Edison End": 654900,
+        "daVinci End": 664900
+      }
+    }
+  ],
+  "tamarack-the-meadows": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 606991,
+      "models": {
+        "The Camden": 622929,
+        "The Abbey": 606991,
+        "The Samira": 620580,
+        "The Harmony": 664828,
+        "The Whitney": 789337
+      }
+    }
+  ],
+  "tamarack-findlay-creek-village": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 682025,
+      "models": {
+        "The Camden": 734785,
+        "The Samira": 708318,
+        "The Harmony": 760920,
+        "The Hamilton": 1001304,
+        "The Abbey": 682025
+      }
+    }
+  ],
+  "tamarack-cardinal-creek-village": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 664293,
+      "models": {
+        "The Hartland II": 1127786,
+        "The Harmony": 738375,
+        "The Abbey": 664293,
+        "The Camden": 715975
+      }
+    }
+  ],
+  "tamarack-idylea": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 663831,
+      "models": {
+        "The Camden": 734639,
+        "The Abbey": 663831,
+        "The Samira": 693747,
+        "The Harmony": 805787
       }
     }
   ]

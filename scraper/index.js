@@ -17,6 +17,7 @@ import { scrape as scrapeHN } from './sources/hn.js';
 import { scrape as scrapeUniform } from './sources/uniform.js';
 import { scrape as scrapeCardel } from './sources/cardel.js';
 import { scrape as scrapeUrbandale } from './sources/urbandale.js';
+import { scrape as scrapeTamarack } from './sources/tamarack.js';
 import { geocode } from './geocode.js';
 import { runHistoryDiff } from './history.js';
 import { slugify } from './utils.js';
@@ -38,6 +39,7 @@ const SOURCES = [
   { name: 'uniform', fn: scrapeUniform },
   { name: 'cardel', fn: scrapeCardel },
   { name: 'urbandale', fn: scrapeUrbandale },
+  { name: 'tamarack', fn: scrapeTamarack },
 ];
 
 async function run() {

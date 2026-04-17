@@ -1,0 +1,47 @@
+{
+  "community": "Cardinal Creek Village",
+  "builder": "Tamarack Homes",
+  "date": "2026-04-17T15:03:15.379Z",
+  "models": [
+    {
+      "name": "The Hartland II",
+      "type": "Single Family",
+      "status": "Move-In Ready",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 3065,
+      "price": "$1,127,786",
+      "unitCount": 1
+    },
+    {
+      "name": "The Harmony",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2270,
+      "price": "$738,375",
+      "unitCount": 5
+    },
+    {
+      "name": "The Abbey",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1855,
+      "price": "$664,293",
+      "unitCount": 8
+    },
+    {
+      "name": "The Camden",
+      "type": "Townhomes",
+      "status": "Under Construction",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2160,
+      "price": "$715,975",
+      "unitCount": 2
+    }
+  ]
+}
