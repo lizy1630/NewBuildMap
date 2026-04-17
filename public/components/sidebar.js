@@ -24,6 +24,15 @@ export function initSidebar({ onTabChange }) {
     tab.addEventListener('click', () => switchTab(tab.dataset.tab));
   });
 
+  // Delegated: filter tag clicks anywhere in sidebar (survives DOM replacement)
+  sidebarContent.addEventListener('click', (e) => {
+    const tag = e.target.closest('.filter-tag');
+    if (!tag) return;
+    if (tag.dataset.filterKey === 'all') clearAllFilters();
+    else clearFilter(tag.dataset.filterKey);
+    if (_currentBuild) renderDetail(_currentBuild);
+  });
+
   // Delegated: tax-free checkbox anywhere in sidebar
   sidebarContent.addEventListener('change', (e) => {
     if (e.target.id === 'chk-tax-free' && _currentBuild) {
@@ -288,14 +297,7 @@ export function renderDetail(build) {
     if (_builderClickFn) _builderClickFn(build.builder);
   });
 
-  // Filter tag × — clear that filter and re-render
-  panel.querySelector('#active-filter-tags')?.addEventListener('click', (e) => {
-    const tag = e.target.closest('.filter-tag');
-    if (!tag) return;
-    if (tag.dataset.filterKey === 'all') clearAllFilters();
-    else clearFilter(tag.dataset.filterKey);
-    renderDetail(_currentBuild);
-  });
+  // (filter tag clicks handled by delegated listener in initSidebar)
 }
 
 // Re-render sidebar when global filters change (updates tags + model list)
