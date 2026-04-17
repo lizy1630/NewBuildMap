@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-17T15:23:59.224Z",
-  "count": 51,
+  "generated": "2026-04-17T20:36:51.942Z",
+  "count": 55,
   "geocodeFailed": 4,
   "builds": [
     {
@@ -545,14 +545,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/copperwood-estate-2026-04-17T14-38-18.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/copperwood-estate-2026-04-17T20-11-16.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Kanata North.",
       "sourceUrl": "https://www.claridgehomes.com/community/copperwood-estate/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:38:18.095Z"
+      "scrapedAt": "2026-04-17T20:11:16.229Z"
     },
     {
       "id": "claridge-westwood",
@@ -1044,14 +1044,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/westwood-2026-04-17T14-38-18.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/westwood-2026-04-17T20-11-16.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Stittsville.",
       "sourceUrl": "https://www.claridgehomes.com/community/westwood/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:38:18.095Z"
+      "scrapedAt": "2026-04-17T20:11:16.229Z"
     },
     {
       "id": "claridge-iron-valley",
@@ -1777,14 +1777,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/iron-valley-2026-04-17T14-38-18.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/iron-valley-2026-04-17T20-11-16.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Kanata South.",
       "sourceUrl": "https://www.claridgehomes.com/community/iron-valley/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:38:18.095Z"
+      "scrapedAt": "2026-04-17T20:11:16.229Z"
     },
     {
       "id": "claridge-bridlewood-trails",
@@ -2027,18 +2027,18 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/bridlewood-trails-2026-04-17T14-38-18.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/bridlewood-trails-2026-04-17T20-11-16.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Kanata South.",
       "sourceUrl": "https://www.claridgehomes.com/community/bridlewood-trails/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:38:18.095Z"
+      "scrapedAt": "2026-04-17T20:11:16.229Z"
     },
     {
       "id": "claridge-watters-pointe",
-      "name": "Watter’s Pointe",
+      "name": "Watter\u2019s Pointe",
       "builder": "Claridge Homes",
       "community": "Barrhaven",
       "address": "706 Hosta Drive, Riverside South, ON K4M 0N7",
@@ -2160,18 +2160,18 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/watter-s-pointe-2026-04-17T14-38-18.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/watter-s-pointe-2026-04-17T20-11-16.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Barrhaven.",
       "sourceUrl": "https://www.claridgehomes.com/community/watters-pointe/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:38:18.095Z"
+      "scrapedAt": "2026-04-17T20:11:16.229Z"
     },
     {
       "id": "claridge-rivers-edge",
-      "name": "River’s Edge",
+      "name": "River\u2019s Edge",
       "builder": "Claridge Homes",
       "community": "Riverside South",
       "address": "706 Hosta Drive, Riverside South, ON K4M 0N7",
@@ -2815,14 +2815,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/river-s-edge-2026-04-17T14-38-18.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/river-s-edge-2026-04-17T20-11-16.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Riverside South.",
       "sourceUrl": "https://www.claridgehomes.com/community/rivers-edge/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:38:18.095Z"
+      "scrapedAt": "2026-04-17T20:11:16.229Z"
     },
     {
       "id": "claridge-lilythorne",
@@ -3379,14 +3379,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/lilythorne-2026-04-17T14-38-18.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/lilythorne-2026-04-17T20-11-16.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Findlay Creek.",
       "sourceUrl": "https://www.claridgehomes.com/community/lilythorne/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:38:18.095Z"
+      "scrapedAt": "2026-04-17T20:11:16.229Z"
     },
     {
       "id": "claridge-alta-vista-quarters",
@@ -3415,7 +3415,7 @@
       "sourceUrl": "https://www.claridgehomes.com/community/alta-vista-quarters/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:38:18.095Z"
+      "scrapedAt": "2026-04-17T20:11:16.229Z"
     },
     {
       "id": "minto-harmony",
@@ -4032,14 +4032,14 @@
       "includedFeatures": [
         "$10,000 Design Centre Bonus, Minto Smarter Home Starter Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor in non-tiled areas, Quartz Countertop in Kitchen, Natural Gas Fireplace, and Potlights in Main Hallway.Eligible new-build homebuyers can save thousands with the new government HST Rebate."
       ],
-      "priceReportUrl": "/data/minto-price-reports/riversbend-at-harmony-2026-04-17T14-51-16.pdf",
+      "priceReportUrl": "/data/minto-price-reports/riversbend-at-harmony-2026-04-17T20-24-07.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Barrhaven, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Harmony/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:51:16.143Z"
+      "scrapedAt": "2026-04-17T20:24:07.130Z"
     },
     {
       "id": "minto-abbotts-run",
@@ -4397,22 +4397,22 @@
         },
         {
           "name": "Minto - Abbott's Run - Urban Townhomes - feature sheet",
-          "text": "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Smooth Ceilings on First and Second Floor, Laminate Flooring on Second Floor (excludes Powder Room), Quartz Countertop in Kitchen, and Minto Smarter Home Starter Package w/ecobee.",
+          "text": "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Smooth Ceilings on First and Second Floor, Laminate Flooring on Second Floor (excludes Powder Room), Quartz Countertop in Kitchen, and\u00a0Minto Smarter Home Starter Package w/ecobee.",
           "localUrl": null
         }
       ],
       "includedFeatures": [
         "$2,500 Design Centre Bonus, 9' Smooth Ceilings on Main Floor (excludes tiled areas), Quartz Countertop in Kitchen, and Minto Smarter Home Starter Package w/ecobee.",
-        "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Smooth Ceilings on First and Second Floor, Laminate Flooring on Second Floor (excludes Powder Room), Quartz Countertop in Kitchen, and Minto Smarter Home Starter Package w/ecobee."
+        "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Smooth Ceilings on First and Second Floor, Laminate Flooring on Second Floor (excludes Powder Room), Quartz Countertop in Kitchen, and\u00a0Minto Smarter Home Starter Package w/ecobee."
       ],
-      "priceReportUrl": "/data/minto-price-reports/abbott-s-run-2026-04-17T14-51-16.pdf",
+      "priceReportUrl": "/data/minto-price-reports/abbott-s-run-2026-04-17T20-24-07.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Stittsville, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Abbotts-Run/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:51:16.143Z"
+      "scrapedAt": "2026-04-17T20:24:07.130Z"
     },
     {
       "id": "minto-arcadia",
@@ -5079,14 +5079,14 @@
       "includedFeatures": [
         "Eligible new-build homebuyers can save thousands with the new government HST Rebate."
       ],
-      "priceReportUrl": "/data/minto-price-reports/arcadia-2026-04-17T14-51-16.pdf",
+      "priceReportUrl": "/data/minto-price-reports/arcadia-2026-04-17T20-24-07.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Kanata, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/Kanata-new-homes/Arcadia/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:51:16.143Z"
+      "scrapedAt": "2026-04-17T20:24:07.130Z"
     },
     {
       "id": "minto-mahogany",
@@ -5962,14 +5962,14 @@
       "includedFeatures": [
         "Eligible new-build homebuyers can save thousands with the new government HST Rebate."
       ],
-      "priceReportUrl": "/data/minto-price-reports/mahogany-2026-04-17T14-51-16.pdf",
+      "priceReportUrl": "/data/minto-price-reports/mahogany-2026-04-17T20-24-07.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Manotick, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/Manotick-new-homes/Mahogany/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:51:16.143Z"
+      "scrapedAt": "2026-04-17T20:24:07.130Z"
     },
     {
       "id": "minto-brookline",
@@ -6458,14 +6458,14 @@
         "$2,500 Design Centre Bonus, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in Kitchen, Minto Smarter Home Starter + ecobee Package, and Pot lights in Main Hallway.",
         "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Quartz Countertop in Kitchen, Smooth Ceilings on First and Second Floors, Minto Smarter Home Starter + ecobee Package."
       ],
-      "priceReportUrl": "/data/minto-price-reports/brookline-2026-04-17T14-51-16.pdf",
+      "priceReportUrl": "/data/minto-price-reports/brookline-2026-04-17T20-24-07.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Kanata, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/Kanata-new-homes/Brookline/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:51:16.143Z"
+      "scrapedAt": "2026-04-17T20:24:07.130Z"
     },
     {
       "id": "minto-anthem",
@@ -6549,14 +6549,14 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/minto-price-reports/anthem-2026-04-17T14-51-16.pdf",
+      "priceReportUrl": "/data/minto-price-reports/anthem-2026-04-17T20-24-07.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Barrhaven, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Anthem/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:51:16.143Z"
+      "scrapedAt": "2026-04-17T20:24:07.130Z"
     },
     {
       "id": "minto-quinn-s-pointe",
@@ -6581,14 +6581,14 @@
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Quinn-s-Pointe/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:51:16.143Z"
+      "scrapedAt": "2026-04-17T20:24:07.130Z"
     },
     {
       "id": "minto-avalon",
       "name": "Avalon Vista",
       "builder": "Minto Communities",
-      "community": "Orléans",
-      "address": "Avalon Vista, Orléans, Ottawa, ON",
+      "community": "Orl\u00e9ans",
+      "address": "Avalon Vista, Orl\u00e9ans, Ottawa, ON",
       "lat": 45.4494,
       "lng": -75.4818,
       "homeTypes": [
@@ -7186,7 +7186,7 @@
       "featureSheets": [
         {
           "name": "Minto - Avalon Vista - 36' Single Family Homes - feature sheet",
-          "text": "$10,000 Design Centre Bonus, Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.",
+          "text": "$10,000 Design Centre Bonus,\u00a0Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.",
           "localUrl": null
         },
         {
@@ -7196,7 +7196,7 @@
         },
         {
           "name": "Minto - Avalon Vista - Avenue Townhomes - feature sheet",
-          "text": "$2,500 Design Centre Bonus, 6 appliances, Minto Smarter Home Starter + ecobee Package, smooth ceilings on the first and second floor, and quartz countertops in the kitchen.",
+          "text": "$2,500 Design Centre Bonus, 6 appliances,\u00a0Minto Smarter Home Starter + ecobee Package, smooth ceilings on the first and second floor, and quartz countertops in the kitchen.",
           "localUrl": null
         },
         {
@@ -7206,19 +7206,19 @@
         }
       ],
       "includedFeatures": [
-        "$10,000 Design Centre Bonus, Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.",
+        "$10,000 Design Centre Bonus,\u00a0Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.",
         "$10,000 Design Centre Bonus, Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.On select lots receive $15,000 Design Centre Bonus. Contact us for more information.",
-        "$2,500 Design Centre Bonus, 6 appliances, Minto Smarter Home Starter + ecobee Package, smooth ceilings on the first and second floor, and quartz countertops in the kitchen.",
+        "$2,500 Design Centre Bonus, 6 appliances,\u00a0Minto Smarter Home Starter + ecobee Package, smooth ceilings on the first and second floor, and quartz countertops in the kitchen.",
         "$5,000 Design Centre Bonus, 6 appliances, Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in Kitchen, and Potlights in the Main Hallway.On select lots receive $8,000 Design Centre Bonus. Contact us for more information."
       ],
-      "priceReportUrl": "/data/minto-price-reports/avalon-vista-2026-04-17T14-51-16.pdf",
+      "priceReportUrl": "/data/minto-price-reports/avalon-vista-2026-04-17T20-24-07.pdf",
       "status": "selling",
       "completionYear": null,
-      "description": "A Minto Communities development in Orléans, Ottawa.",
+      "description": "A Minto Communities development in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/Orleans-new-homes/Avalon/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:51:16.143Z"
+      "scrapedAt": "2026-04-17T20:24:07.130Z"
     },
     {
       "id": "mattamy-half-moon-bay",
@@ -7298,21 +7298,21 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/half-moon-bay-2026-04-17T14-54-05.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/half-moon-bay-2026-04-17T20-26-53.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Mattamy Homes community in Barrhaven, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/barrhaven/half-moon-bay/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:54:05.243Z"
+      "scrapedAt": "2026-04-17T20:26:53.429Z"
     },
     {
       "id": "mattamy-locale",
       "name": "Locale",
       "builder": "Mattamy Homes",
-      "community": "Orléans",
-      "address": "2370 Tenth Line Road, Orléans, Ottawa, ON K4A 1C4",
+      "community": "Orl\u00e9ans",
+      "address": "2370 Tenth Line Road, Orl\u00e9ans, Ottawa, ON K4A 1C4",
       "lat": 45.4494,
       "lng": -75.4818,
       "homeTypes": [
@@ -7385,14 +7385,14 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/locale-2026-04-17T14-54-05.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/locale-2026-04-17T20-26-53.pdf",
       "status": "selling",
       "completionYear": null,
-      "description": "A Mattamy Homes community in Orléans, Ottawa.",
+      "description": "A Mattamy Homes community in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/orleans/locale/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:54:05.243Z"
+      "scrapedAt": "2026-04-17T20:26:53.429Z"
     },
     {
       "id": "mattamy-northwoods",
@@ -7634,14 +7634,14 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/northwoods-2026-04-17T14-54-05.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/northwoods-2026-04-17T20-26-53.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Mattamy Homes community in Kanata, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/kanata/northwoods/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:54:05.243Z"
+      "scrapedAt": "2026-04-17T20:26:53.429Z"
     },
     {
       "id": "mattamy-richmond-meadows",
@@ -7682,14 +7682,14 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/richmond-meadows-2026-04-17T14-54-05.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/richmond-meadows-2026-04-17T20-26-53.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Mattamy Homes community in Richmond, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/richmond/richmond-meadows/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:54:05.243Z"
+      "scrapedAt": "2026-04-17T20:26:53.429Z"
     },
     {
       "id": "mattamy-traditions-ii",
@@ -7769,173 +7769,21 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/traditions-ii-2026-04-17T14-54-05.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/traditions-ii-2026-04-17T20-26-53.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Mattamy Homes community in Stittsville, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/stittsville/traditions-ii/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:54:05.243Z"
-    },
-    {
-      "id": "mattamy-wateridge-village",
-      "name": "Wateridge Village at Rockcliffe",
-      "builder": "Mattamy Homes",
-      "community": "Rockcliffe Park",
-      "address": "895 Montréal Road, Ottawa, ON K1K 4B9",
-      "lat": 45.4469,
-      "lng": -75.6301,
-      "homeTypes": [
-        "Townhomes"
-      ],
-      "type": "townhouse",
-      "models": [
-        {
-          "name": "Petal",
-          "type": "Townhomes",
-          "sqft": 1568,
-          "beds": 2,
-          "baths": 1.5,
-          "garages": null,
-          "lotWidth": null,
-          "priceFrom": 544990,
-          "available": true,
-          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/petal.jpg",
-          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/petal"
-        },
-        {
-          "name": "Tendril",
-          "type": "Townhomes",
-          "sqft": 1708,
-          "beds": 2,
-          "baths": 1.5,
-          "garages": null,
-          "lotWidth": null,
-          "priceFrom": 554990,
-          "available": true,
-          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/tendril.jpg",
-          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/tendril"
-        },
-        {
-          "name": "Bloom",
-          "type": "Townhomes",
-          "sqft": 1840,
-          "beds": 3,
-          "baths": 2.5,
-          "garages": null,
-          "lotWidth": null,
-          "priceFrom": 599990,
-          "available": true,
-          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/bloom.jpg",
-          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/bloom"
-        },
-        {
-          "name": "Bloom II",
-          "type": "Townhomes",
-          "sqft": 1840,
-          "beds": 3,
-          "baths": 2.5,
-          "garages": null,
-          "lotWidth": null,
-          "priceFrom": 604990,
-          "available": true,
-          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/bloom-ii.jpg",
-          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/bloom-ii"
-        },
-        {
-          "name": "Bellshore",
-          "type": "Townhomes",
-          "sqft": 1875,
-          "beds": 3,
-          "baths": 2.5,
-          "garages": null,
-          "lotWidth": null,
-          "priceFrom": 672990,
-          "available": true,
-          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/bellshore.jpg",
-          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/bellshore"
-        },
-        {
-          "name": "Brentland",
-          "type": "Townhomes",
-          "sqft": 1875,
-          "beds": 3,
-          "baths": 2.5,
-          "garages": null,
-          "lotWidth": null,
-          "priceFrom": 677990,
-          "available": true,
-          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/brentland.jpg",
-          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/brentland"
-        },
-        {
-          "name": "Rockcliffe",
-          "type": "Townhomes",
-          "sqft": 2015,
-          "beds": 3,
-          "baths": 2.5,
-          "garages": null,
-          "lotWidth": null,
-          "priceFrom": 687990,
-          "available": true,
-          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/rockcliffe.jpg",
-          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/rockcliffe"
-        },
-        {
-          "name": "Rockcliffe End",
-          "type": "Townhomes",
-          "sqft": 2026,
-          "beds": 3,
-          "baths": 2.5,
-          "garages": null,
-          "lotWidth": null,
-          "priceFrom": 710990,
-          "available": true,
-          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/rockcliffe-end.jpg",
-          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/rockcliffe-end"
-        },
-        {
-          "name": "Fernvalley Corner",
-          "type": "Townhomes",
-          "sqft": 1843,
-          "beds": 3,
-          "baths": 2.5,
-          "garages": null,
-          "lotWidth": null,
-          "priceFrom": null,
-          "available": false,
-          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/fernvalley-corner.jpg",
-          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/fernvalley-corner"
-        }
-      ],
-      "typePrices": [
-        {
-          "type": "Townhomes",
-          "priceFrom": 544990,
-          "priceFromFormatted": "$544,990"
-        }
-      ],
-      "priceFrom": 544990,
-      "priceFromFormatted": "$544,990",
-      "taxIncluded": true,
-      "featureSheets": [],
-      "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/wateridge-village-at-rockcliffe-2026-04-17T14-54-05.pdf",
-      "status": "selling",
-      "completionYear": null,
-      "description": "A Mattamy Homes community in Rockcliffe Park, Ottawa.",
-      "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/",
-      "sourceName": "mattamyhomes.com",
-      "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:54:05.243Z"
+      "scrapedAt": "2026-04-17T20:26:53.429Z"
     },
     {
       "id": "richcraft-trailsedge",
       "name": "Trailsedge",
       "builder": "Richcraft Homes",
-      "community": "Orléans",
-      "address": "Trailsedge, Orléans, Ottawa, ON",
+      "community": "Orl\u00e9ans",
+      "address": "Trailsedge, Orl\u00e9ans, Ottawa, ON",
       "lat": 45.4387,
       "lng": -75.504,
       "homeTypes": [
@@ -8909,11 +8757,11 @@
       "priceFromFormatted": "$521,265",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orléans, Ottawa.",
+      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:56:05.768Z",
+      "scrapedAt": "2026-04-17T20:29:12.306Z",
       "taxIncluded": true
     },
     {
@@ -9757,11 +9605,11 @@
       "priceFromFormatted": "$574,660",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orléans, Ottawa.",
+      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-south/pathways/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:56:18.252Z",
+      "scrapedAt": "2026-04-17T20:29:23.079Z",
       "taxIncluded": true
     },
     {
@@ -10767,11 +10615,11 @@
       "priceFromFormatted": "$569,925",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orléans, Ottawa.",
+      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:56:31.162Z",
+      "scrapedAt": "2026-04-17T20:29:34.436Z",
       "taxIncluded": true
     },
     {
@@ -11285,11 +11133,11 @@
       "priceFromFormatted": "$665,658",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orléans, Ottawa.",
+      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/bradley_commons/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:56:38.414Z",
+      "scrapedAt": "2026-04-17T20:29:43.167Z",
       "taxIncluded": true
     },
     {
@@ -11545,11 +11393,11 @@
       "priceFromFormatted": "$399,900",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orléans, Ottawa.",
+      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/mapleton/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:56:44.713Z",
+      "scrapedAt": "2026-04-17T20:29:49.366Z",
       "taxIncluded": true
     },
     {
@@ -12295,7 +12143,7 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/kanata-lakes/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:56:53.789Z",
+      "scrapedAt": "2026-04-17T20:29:59.729Z",
       "taxIncluded": true
     },
     {
@@ -12359,11 +12207,11 @@
       "priceFromFormatted": "$399,900",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orléans, Ottawa.",
+      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/gateway-flats/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:57:00.348Z",
+      "scrapedAt": "2026-04-17T20:30:05.260Z",
       "taxIncluded": true
     },
     {
@@ -13183,11 +13031,11 @@
       "priceFromFormatted": "$521,265",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orléans, Ottawa.",
+      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/westwood/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:57:09.768Z",
+      "scrapedAt": "2026-04-17T20:30:17.138Z",
       "taxIncluded": true
     },
     {
@@ -13212,7 +13060,7 @@
       "sourceUrl": "https://caivan.com/ottawa/magnolia/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:57:17.740Z",
+      "scrapedAt": "2026-04-17T20:30:24.850Z",
       "taxIncluded": false
     },
     {
@@ -13385,8 +13233,8 @@
         },
         {
           "type": "Series III",
-          "priceFrom": 817690,
-          "priceFromFormatted": "$817,690"
+          "priceFrom": 799991,
+          "priceFromFormatted": "$799,991"
         }
       ],
       "priceFrom": 481407,
@@ -13429,7 +13277,7 @@
       "sourceUrl": "https://caivan.com/ottawa/fox-run/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:57:41.208Z",
+      "scrapedAt": "2026-04-17T20:30:48.232Z",
       "taxIncluded": false
     },
     {
@@ -13475,7 +13323,7 @@
       "sourceUrl": "https://caivan.com/ottawa/the-ridge/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:57:48.445Z",
+      "scrapedAt": "2026-04-17T20:30:55.645Z",
       "taxIncluded": false
     },
     {
@@ -13493,7 +13341,7 @@
       "type": "mixed",
       "models": [
         {
-          "name": "35′/The Ashland",
+          "name": "35\u2032/The Ashland",
           "type": "single-family",
           "sqft": 2159,
           "beds": 5,
@@ -13505,7 +13353,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Ashland.pdf"
         },
         {
-          "name": "35′/The Hemlock - Model Home",
+          "name": "35\u2032/The Hemlock - Model Home",
           "type": "single-family",
           "sqft": 2384,
           "beds": 5,
@@ -13517,7 +13365,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Hemlock.pdf"
         },
         {
-          "name": "35′/The Olive",
+          "name": "35\u2032/The Olive",
           "type": "single-family",
           "sqft": 2445,
           "beds": 5,
@@ -13529,7 +13377,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Olive-1.pdf"
         },
         {
-          "name": "35′/The Hemlock Loft",
+          "name": "35\u2032/The Hemlock Loft",
           "type": "single-family",
           "sqft": 2798,
           "beds": 6,
@@ -13541,7 +13389,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Hemlock_Loft.pdf"
         },
         {
-          "name": "35′/The Olive Loft",
+          "name": "35\u2032/The Olive Loft",
           "type": "single-family",
           "sqft": 2929,
           "beds": 6,
@@ -13553,7 +13401,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Olive_Loft-1.pdf"
         },
         {
-          "name": "41′/The Wray",
+          "name": "41\u2032/The Wray",
           "type": "single-family",
           "sqft": 2779,
           "beds": 5,
@@ -13565,7 +13413,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_41_Collection_The_Wray.pdf"
         },
         {
-          "name": "42′/The Chesley",
+          "name": "42\u2032/The Chesley",
           "type": "single-family",
           "sqft": 2831,
           "beds": 5,
@@ -13577,7 +13425,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_42_Collection_The_Chesley.pdf"
         },
         {
-          "name": "42′/The Newbury",
+          "name": "42\u2032/The Newbury",
           "type": "single-family",
           "sqft": 2572,
           "beds": 5,
@@ -13589,7 +13437,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_42_Collection_The_Newbury.pdf"
         },
         {
-          "name": "42′/The Paisley",
+          "name": "42\u2032/The Paisley",
           "type": "single-family",
           "sqft": 3067,
           "beds": 5,
@@ -13601,7 +13449,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_42_Collection_The_Paisley.pdf"
         },
         {
-          "name": "42′/The Paisley Loft",
+          "name": "42\u2032/The Paisley Loft",
           "type": "single-family",
           "sqft": 3417,
           "beds": 6,
@@ -13613,7 +13461,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_42_Collection_The_Paisley_Loft.pdf"
         },
         {
-          "name": "50′/The Copperstone",
+          "name": "50\u2032/The Copperstone",
           "type": "single-family",
           "sqft": 3119,
           "beds": 6,
@@ -13625,7 +13473,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_50_Collection_The_Copperstone.pdf"
         },
         {
-          "name": "50′/The Ironridge - Model Home",
+          "name": "50\u2032/The Ironridge - Model Home",
           "type": "single-family",
           "sqft": 3696,
           "beds": 7,
@@ -13637,7 +13485,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_50_Collection_The_Ironridge-1.pdf"
         },
         {
-          "name": "50′/The Stonehaven",
+          "name": "50\u2032/The Stonehaven",
           "type": "single-family",
           "sqft": 3885,
           "beds": 7,
@@ -13649,7 +13497,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_50_Collection_The_Stonehaven-1.pdf"
         },
         {
-          "name": "50′/The Stonehaven Loft - Model Home",
+          "name": "50\u2032/The Stonehaven Loft - Model Home",
           "type": "single-family",
           "sqft": 4379,
           "beds": 8,
@@ -13747,22 +13595,22 @@
       ],
       "typePrices": [
         {
-          "type": "35′ collection",
+          "type": "35\u2032 collection",
           "priceFrom": 684947,
           "priceFromFormatted": "$684,947"
         },
         {
-          "type": "41′ Collection",
+          "type": "41\u2032 Collection",
           "priceFrom": 773442,
           "priceFromFormatted": "$773,442"
         },
         {
-          "type": "42′ Collection",
+          "type": "42\u2032 Collection",
           "priceFrom": 791142,
           "priceFromFormatted": "$791,142"
         },
         {
-          "type": "50′ Collection",
+          "type": "50\u2032 Collection",
           "priceFrom": 888487,
           "priceFromFormatted": "$888,487"
         },
@@ -13796,15 +13644,15 @@
       "sourceUrl": "https://caivan.com/ottawa/the-conservancy/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:58:13.475Z",
+      "scrapedAt": "2026-04-17T20:31:20.520Z",
       "taxIncluded": false
     },
     {
       "id": "caivan-orleans-village",
-      "name": "Orléans Village",
+      "name": "Orl\u00e9ans Village",
       "builder": "Caivan",
-      "community": "Orléans",
-      "address": "806 Mercier Cres. Orléans, ON K1W 0N5",
+      "community": "Orl\u00e9ans",
+      "address": "806 Mercier Cres. Orl\u00e9ans, ON K1W 0N5",
       "lat": 45.4402,
       "lng": -75.52,
       "homeTypes": [
@@ -13898,11 +13746,11 @@
       "includedFeatures": [],
       "status": "selling",
       "completionYear": null,
-      "description": "A Caivan community in Orléans, Ottawa.",
+      "description": "A Caivan community in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://caivan.com/ottawa/orleans-village/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:58:23.683Z",
+      "scrapedAt": "2026-04-17T20:31:31.118Z",
       "taxIncluded": false
     },
     {
@@ -14236,7 +14084,7 @@
         },
         {
           "name": "HN Homes - Kanata Lakes - Singles Price Report",
-          "url": "/data/hn-price-reports/kanata-lakes-singles-2026-04-17T14-58-24.pdf"
+          "url": "/data/hn-price-reports/kanata-lakes-singles-2026-04-17T20-31-31.pdf"
         }
       ],
       "includedFeatures": [
@@ -14259,11 +14107,11 @@
         "3-1/4\" engineered, stained or natural oak hardwood with no VOC matte finish in all main floor areas, except for main floor bedrooms and tiled areas (as per plans)",
         "Tiled foyers, laundry rooms, mudrooms and bathrooms including a selection of 12\" X 24\" floor tiles (as per plans)",
         "Stained or natural oak hardwood stairs from the main floor to second floor with signature glass panels and oak handrails to match (single storey bungalows include stained or natural oak hardwood stairs to basement)",
-        "9’ ceilings on main floor, excluding dropped ceilings and bulkhead areas (model dependent)",
+        "9\u2019 ceilings on main floor, excluding dropped ceilings and bulkhead areas (model dependent)",
         "Smooth finished painted ceilings throughout (except for gypsum board finish in the garage)",
         "Raised ceiling detail in master bedroom (model dependent)",
         "Modern linear gas fireplace in architectural enclosure, complete with fan kit",
-        "3 ½” wood baseboards and 2 ½” wood casings with modern profile and modern flush panel interior doors",
+        "3 \u00bd\u201d wood baseboards and 2 \u00bd\u201d wood casings with modern profile and modern flush panel interior doors",
         "40 oz. carpet with high density underpad in all upper hallways, bedrooms and finished basement areas",
         "Laundry rooms on first or second floor include upper cabinetry and base cabinet with stainless steel undermount sink, single lever faucet and quartz or granite countertop (as per plan)",
         "Lever handle door hardware at all interior doors",
@@ -14271,9 +14119,9 @@
         "Finished basement space provides additional multi-purpose living area (as per plan)",
         "Choice from one of 4 standard designer paint colours with Benjamin Moore Regal wall paint throughout the home",
         "KITCHEN DESIGN AND FINISHES",
-        "1 ¼” thick quartz or granite countertops on lower cabinets and island from builder standard selections",
+        "1 \u00bc\u201d thick quartz or granite countertops on lower cabinets and island from builder standard selections",
         "Selection of kitchen door styles and no VOC stain finishes from extensive collection of builder standards",
-        "Custom designed kitchens with 41” upper cabinets built out over refrigerators with soft-close hardware throughout and a spacious family-sized island (Model dependent)",
+        "Custom designed kitchens with 41\u201d upper cabinets built out over refrigerators with soft-close hardware throughout and a spacious family-sized island (Model dependent)",
         "Pot drawer and under-counter microwave cabinet in all models",
         "Bank of drawers and pantry units (model dependent)",
         "LED Valance lighting and tiled kitchen backsplash",
@@ -14283,12 +14131,12 @@
         "Single lever chrome faucets in all bathrooms, powder rooms and ensuites",
         "Primary ensuite vanities to include quartz or granite countertops complete with under-mount sinks and a bank of drawers (as per plan)",
         "Main bathrooms and secondary ensuite vanities to include quartz or granite countertops complete with under-mount sinks and a bank of drawers (model dependant)",
-        "Primary ensuite to include 5’ soaker tub set in tiled tub deck with chrome tub filler, double sinks and molded shower base with sliding tempered glass doors and tiled shower walls (model dependent)",
+        "Primary ensuite to include 5\u2019 soaker tub set in tiled tub deck with chrome tub filler, double sinks and molded shower base with sliding tempered glass doors and tiled shower walls (model dependent)",
         "Main bathrooms and secondary ensuite to include acrylic bathtubs with tiled surrounds (as per plan)",
         "Pedestal sinks in powder rooms",
         "Pressure balancing mixing valves and upgraded chrome finish shower heads in all showers",
         "Low water consumption, two piece toilets with elongated bowls in the powder room, all bathrooms and secondary ensuite",
-        "Dual flush “Right Height” elongated bowl toilet in primary ensuite with slow close seat and cover",
+        "Dual flush \u201cRight Height\u201d elongated bowl toilet in primary ensuite with slow close seat and cover",
         "Floating mirrors and wall mounted linear LED vanity lights in all bathrooms and ensuites",
         "3 piece basement bathroom rough-in",
         "Shut off valves at all accessible plumbing fixtures",
@@ -14301,7 +14149,7 @@
         "LED lighting included throughout the entire home",
         "Draft protected electrical outlets at all exterior walls",
         "LED Recessed pot lights in foyer, stairwells, kitchen, upper hall, shower and tub enclosures (as per plans)",
-        "Decora light switches and electrical outlets throughout, with light switches installed at designer height of 43”",
+        "Decora light switches and electrical outlets throughout, with light switches installed at designer height of 43\u201d",
         "2 exterior weatherproof electrical outlets",
         "2 combined USB/electrical outlets (one at kitchen island, one at primary bedroom)",
         "Fiber optic cable service available to each home",
@@ -14330,7 +14178,7 @@
         "R22 wall insulation in all exterior ground and second floor framed walls with R5 laminated OSB/foam sheathing at all living areas",
         "Spray foam insulation at ground floor header locations and around all door and window openings",
         "R12 batt insulation and R12 rigid insulation at the interior side of all foundation walls except as required at interior stairs or other details",
-        "Fully insulated garage with R12 batt insulation in all exterior garage walls, R20 where exterior wall framing consists of 2” x 6” framing",
+        "Fully insulated garage with R12 batt insulation in all exterior garage walls, R20 where exterior wall framing consists of 2\u201d x 6\u201d framing",
         "R40 batt insulation at garage ceiling below heated plenum at underside of second floor finished areas and spray foam insulation at cantilevered floor areas",
         "R20 batt insulation above all unheated garage ceiling areas",
         "Air Barrier Membrane System complete with membrane protection at window and doors sill and jamb locations",
@@ -14341,14 +14189,14 @@
         "Sodded front and rear yards, wood rear step or stairs to patio stone landing (lot dependent)",
         "* Legal first and last name required to pre-register for releases"
       ],
-      "priceReportUrl": "/data/hn-price-reports/kanata-lakes-singles-2026-04-17T14-58-24.pdf",
+      "priceReportUrl": "/data/hn-price-reports/kanata-lakes-singles-2026-04-17T20-31-31.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "An HN Homes community in Kanata, Ottawa.",
       "sourceUrl": "https://hnhomes.com/communities/kanata-lakes/",
       "sourceName": "hnhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:58:24.408Z"
+      "scrapedAt": "2026-04-17T20:31:31.849Z"
     },
     {
       "id": "hn-riverside-south",
@@ -14686,11 +14534,11 @@
         },
         {
           "name": "HN Homes - Riverside South - Singles Price Report",
-          "url": "/data/hn-price-reports/riverside-south-singles-2026-04-17T14-58-24.pdf"
+          "url": "/data/hn-price-reports/riverside-south-singles-2026-04-17T20-31-31.pdf"
         },
         {
           "name": "HN Homes - Riverside South - Townhomes Price Report",
-          "url": "/data/hn-price-reports/riverside-south-townhomes-2026-04-17T14-58-24.pdf"
+          "url": "/data/hn-price-reports/riverside-south-townhomes-2026-04-17T20-31-31.pdf"
         }
       ],
       "includedFeatures": [
@@ -14713,11 +14561,11 @@
         "3-1/4\" engineered, stained or natural oak hardwood with no VOC matte finish in all main floor areas, except for main floor bedrooms and tiled areas (as per plans)",
         "Tiled foyers, laundry rooms, mudrooms and bathrooms including a selection of 12\" X 24\" floor tiles (as per plans)",
         "Stained or natural oak hardwood stairs from the main floor to second floor with signature glass panels and oak handrails to match (single storey bungalows include stained or natural oak hardwood stairs to basement)",
-        "9’ ceilings on main floor, excluding dropped ceilings and bulkhead areas (model dependent)",
+        "9\u2019 ceilings on main floor, excluding dropped ceilings and bulkhead areas (model dependent)",
         "Smooth finished painted ceilings throughout (except for gypsum board finish in the garage)",
         "Raised ceiling detail in master bedroom (model dependent)",
         "Modern linear gas fireplace in architectural enclosure, complete with fan kit",
-        "3 ½” wood baseboards and 2 ½” wood casings with modern profile and modern flush panel interior doors",
+        "3 \u00bd\u201d wood baseboards and 2 \u00bd\u201d wood casings with modern profile and modern flush panel interior doors",
         "40 oz. carpet with high density underpad in all upper hallways, bedrooms and finished basement areas",
         "Laundry rooms on first or second floor include upper cabinetry and base cabinet with stainless steel undermount sink, single lever faucet and quartz or granite countertop (as per plan)",
         "Lever handle door hardware at all interior doors",
@@ -14725,9 +14573,9 @@
         "Finished basement space provides additional multi-purpose living area (as per plan)",
         "Choice from one of 4 standard designer paint colours with Benjamin Moore Regal wall paint throughout the home",
         "KITCHEN DESIGN AND FINISHES",
-        "1 ¼” thick quartz or granite countertops on lower cabinets and island from builder standard selections",
+        "1 \u00bc\u201d thick quartz or granite countertops on lower cabinets and island from builder standard selections",
         "Selection of kitchen door styles and no VOC stain finishes from extensive collection of builder standards",
-        "Custom designed kitchens with 41” upper cabinets built out over refrigerators with soft-close hardware throughout and a spacious family-sized island (Model dependent)",
+        "Custom designed kitchens with 41\u201d upper cabinets built out over refrigerators with soft-close hardware throughout and a spacious family-sized island (Model dependent)",
         "Pot drawer and under-counter microwave cabinet in all models",
         "Bank of drawers and pantry units (model dependent)",
         "LED Valance lighting and tiled kitchen backsplash",
@@ -14737,12 +14585,12 @@
         "Single lever chrome faucets in all bathrooms, powder rooms and ensuites",
         "Primary ensuite vanities to include quartz or granite countertops complete with under-mount sinks and a bank of drawers (as per plan)",
         "Main bathrooms and secondary ensuite vanities to include quartz or granite countertops complete with under-mount sinks and a bank of drawers (model dependant)",
-        "Primary ensuite to include 5’ soaker tub set in tiled tub deck with chrome tub filler, double sinks and molded shower base with sliding tempered glass doors and tiled shower walls (model dependent)",
+        "Primary ensuite to include 5\u2019 soaker tub set in tiled tub deck with chrome tub filler, double sinks and molded shower base with sliding tempered glass doors and tiled shower walls (model dependent)",
         "Main bathrooms and secondary ensuite to include acrylic bathtubs with tiled surrounds (as per plan)",
         "Pedestal sinks in powder rooms",
         "Pressure balancing mixing valves and upgraded chrome finish shower heads in all showers",
         "Low water consumption, two piece toilets with elongated bowls in the powder room, all bathrooms and secondary ensuite",
-        "Dual flush “Right Height” elongated bowl toilet in primary ensuite with slow close seat and cover",
+        "Dual flush \u201cRight Height\u201d elongated bowl toilet in primary ensuite with slow close seat and cover",
         "Floating mirrors and wall mounted linear LED vanity lights in all bathrooms and ensuites",
         "3 piece basement bathroom rough-in",
         "Shut off valves at all accessible plumbing fixtures",
@@ -14755,7 +14603,7 @@
         "LED lighting included throughout the entire home",
         "Draft protected electrical outlets at all exterior walls",
         "LED Recessed pot lights in foyer, stairwells, kitchen, upper hall, shower and tub enclosures (as per plans)",
-        "Decora light switches and electrical outlets throughout, with light switches installed at designer height of 43”",
+        "Decora light switches and electrical outlets throughout, with light switches installed at designer height of 43\u201d",
         "2 exterior weatherproof electrical outlets",
         "2 combined USB/electrical outlets (one at kitchen island, one at primary bedroom)",
         "Fiber optic cable service available to each home",
@@ -14784,7 +14632,7 @@
         "R22 wall insulation in all exterior ground and second floor framed walls with R5 laminated OSB/foam sheathing at all living areas",
         "Spray foam insulation at ground floor header locations and around all door and window openings",
         "R12 batt insulation and R12 rigid insulation at the interior side of all foundation walls except as required at interior stairs or other details",
-        "Fully insulated garage with R12 batt insulation in all exterior garage walls, R20 where exterior wall framing consists of 2” x 6” framing",
+        "Fully insulated garage with R12 batt insulation in all exterior garage walls, R20 where exterior wall framing consists of 2\u201d x 6\u201d framing",
         "R40 batt insulation at garage ceiling below heated plenum at underside of second floor finished areas and spray foam insulation at cantilevered floor areas",
         "R20 batt insulation above all unheated garage ceiling areas",
         "Air Barrier Membrane System complete with membrane protection at window and doors sill and jamb locations",
@@ -14795,14 +14643,14 @@
         "Sodded front and rear yards, wood rear step or stairs to patio stone landing (lot dependent)",
         "* Legal first and last name required to pre-register for releases"
       ],
-      "priceReportUrl": "/data/hn-price-reports/riverside-south-singles-2026-04-17T14-58-24.pdf",
+      "priceReportUrl": "/data/hn-price-reports/riverside-south-singles-2026-04-17T20-31-31.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "An HN Homes community in Barrhaven, Ottawa.",
       "sourceUrl": "https://hnhomes.com/communities/riverside-south/",
       "sourceName": "hnhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:58:24.408Z"
+      "scrapedAt": "2026-04-17T20:31:31.849Z"
     },
     {
       "id": "uniform-copperwood-estate",
@@ -15431,14 +15279,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/uniform-price-reports/copperwood-estate-2026-04-17T14-58-53.pdf",
+      "priceReportUrl": "/data/uniform-price-reports/copperwood-estate-2026-04-17T20-32-00.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Uniform Developments community in Kanata.",
       "sourceUrl": "https://uniformdevelopments.com/community/copperwood-estate/",
       "sourceName": "uniformdevelopments.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:58:53.157Z"
+      "scrapedAt": "2026-04-17T20:32:00.665Z"
     },
     {
       "id": "cardel-ironwood",
@@ -15706,14 +15554,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/cardel-price-reports/ironwood-2026-04-17T14-59-22.pdf",
+      "priceReportUrl": "/data/cardel-price-reports/ironwood-2026-04-17T20-32-29.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Cardel Homes community in Riverside South, Ottawa.",
       "sourceUrl": "https://www.cardelhomes.com/ottawa/communities/ironwood",
       "sourceName": "cardelhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:59:22.098Z"
+      "scrapedAt": "2026-04-17T20:32:29.517Z"
     },
     {
       "id": "cardel-edenwylde",
@@ -15783,14 +15631,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/cardel-price-reports/edenwylde-2026-04-17T14-59-22.pdf",
+      "priceReportUrl": "/data/cardel-price-reports/edenwylde-2026-04-17T20-32-29.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Cardel Homes community in Stittsville, Ottawa.",
       "sourceUrl": "https://www.cardelhomes.com/ottawa/communities/edenwylde",
       "sourceName": "cardelhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T14:59:22.098Z"
+      "scrapedAt": "2026-04-17T20:32:29.517Z"
     },
     {
       "id": "urbandale-riverside-south",
@@ -16326,11 +16174,11 @@
       "priceFrom": 649900,
       "priceFromFormatted": "$649,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/riverside-south-2026-04-17T14-59-39.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/riverside-south-2026-04-17T20-32-46.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-riverside-south/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T14:59:39.241Z"
+      "scrapedAt": "2026-04-17T20:32:46.790Z"
     },
     {
       "id": "urbandale-kanata-lakes",
@@ -16784,11 +16632,11 @@
       "priceFrom": 766900,
       "priceFromFormatted": "$766,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/kanata-lakes-2026-04-17T14-59-39.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/kanata-lakes-2026-04-17T20-32-46.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-kanata-lakes/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T14:59:39.241Z"
+      "scrapedAt": "2026-04-17T20:32:46.790Z"
     },
     {
       "id": "urbandale-bradley-commons",
@@ -17166,11 +17014,11 @@
       "priceFrom": 741900,
       "priceFromFormatted": "$741,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/bradley-commons-2026-04-17T14-59-39.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/bradley-commons-2026-04-17T20-32-46.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-bradley-commons/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T14:59:39.241Z"
+      "scrapedAt": "2026-04-17T20:32:46.790Z"
     },
     {
       "id": "urbandale-leitrim-flats",
@@ -17266,11 +17114,11 @@
       "priceFrom": 419900,
       "priceFromFormatted": "$419,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/leitrim-flats-2026-04-17T14-59-39.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/leitrim-flats-2026-04-17T20-32-46.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-leitrim-flats/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T14:59:39.241Z"
+      "scrapedAt": "2026-04-17T20:32:46.790Z"
     },
     {
       "id": "urbandale-the-creek",
@@ -17647,15 +17495,15 @@
       "priceFrom": 589900,
       "priceFromFormatted": "$589,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/the-creek-2026-04-17T14-59-39.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/the-creek-2026-04-17T20-32-46.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-the-creek/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T14:59:39.241Z"
+      "scrapedAt": "2026-04-17T20:32:46.790Z"
     },
     {
       "id": "urbandale-cowans-grove",
-      "name": "Cowan’s Grove",
+      "name": "Cowan\u2019s Grove",
       "builder": "Urbandale",
       "community": "Cowan's Grove",
       "address": "138 Shuttleworth Drive, Ottawa, ON",
@@ -17707,7 +17555,7 @@
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-cowans-grove/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T14:59:39.241Z"
+      "scrapedAt": "2026-04-17T20:32:46.790Z"
     },
     {
       "id": "tamarack-the-meadows",
@@ -17809,7 +17657,7 @@
       "description": "The Meadows by Tamarack Homes in Nepean, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/the-meadows/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T15:03:15.379Z"
+      "scrapedAt": "2026-04-17T20:36:26.458Z"
     },
     {
       "id": "tamarack-westwood",
@@ -17958,7 +17806,7 @@
       "description": "Westwood by Tamarack Homes in Stittsville, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/westwood/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T15:03:15.379Z"
+      "scrapedAt": "2026-04-17T20:36:26.458Z"
     },
     {
       "id": "tamarack-findlay-creek-village",
@@ -18060,14 +17908,14 @@
       "description": "Findlay Creek Village by Tamarack Homes in Findlay Creek, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/findlay-creek-village/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T15:03:15.379Z"
+      "scrapedAt": "2026-04-17T20:36:26.458Z"
     },
     {
       "id": "tamarack-cardinal-creek-village",
       "name": "Cardinal Creek Village",
       "builder": "Tamarack Homes",
-      "community": "Orléans",
-      "address": "554 Avenue de la Famille Laporte, Orléans, Ottawa, ON",
+      "community": "Orl\u00e9ans",
+      "address": "554 Avenue de la Famille Laporte, Orl\u00e9ans, Ottawa, ON",
       "lat": 45.5016,
       "lng": -75.4635,
       "homeTypes": [
@@ -18146,10 +17994,10 @@
       "includedFeatures": [],
       "status": "selling",
       "completionYear": null,
-      "description": "Cardinal Creek Village by Tamarack Homes in Orléans, Ottawa.",
+      "description": "Cardinal Creek Village by Tamarack Homes in Orl\u00e9ans, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/cardinal-creek-village/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T15:03:15.379Z"
+      "scrapedAt": "2026-04-17T20:36:26.458Z"
     },
     {
       "id": "tamarack-idylea",
@@ -18233,7 +18081,1462 @@
       "description": "Idylea by Tamarack Homes in Stittsville, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/idylea/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T15:03:15.379Z"
+      "scrapedAt": "2026-04-17T20:36:26.458Z"
+    },
+    {
+      "id": "eq-tapestry",
+      "name": "Tapestry",
+      "builder": "EQ Homes",
+      "community": "Kemptville",
+      "address": "74 Equinelle Drive, Kemptville, ON K0G 1J0",
+      "lat": 45.0389,
+      "lng": -75.677,
+      "homeTypes": [
+        "Bungalows"
+      ],
+      "type": "single-family",
+      "models": [
+        {
+          "name": "The Leah 28",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1282,
+          "priceFrom": 923824,
+          "priceFromFormatted": "$923,824",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/tapestry-the-leah-28.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/tapestry/318-the-leah-28"
+        },
+        {
+          "name": "The Leah 25",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1282,
+          "priceFrom": 942468,
+          "priceFromFormatted": "$942,468",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/tapestry-the-leah-25.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/tapestry/320-the-leah-25"
+        },
+        {
+          "name": "The Lennon 30",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1462,
+          "priceFrom": 935622,
+          "priceFromFormatted": "$935,622",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/tapestry-the-lennon-30.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/tapestry/317-the-lennon-30"
+        },
+        {
+          "name": "The Lennon 27",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1462,
+          "priceFrom": 946831,
+          "priceFromFormatted": "$946,831",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/tapestry-the-lennon-27.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/tapestry/319-the-lennon-27"
+        },
+        {
+          "name": "The Firestone",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1878,
+          "priceFrom": 972478,
+          "priceFromFormatted": "$972,478",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/tapestry-the-firestone.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/tapestry/floor-plan/104-the-firestone"
+        },
+        {
+          "name": "The Leah",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1893,
+          "priceFrom": 790177,
+          "priceFromFormatted": "$790,177",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/tapestry-the-leah.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/tapestry/floor-plan/100-the-leah"
+        },
+        {
+          "name": "The Augusta",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1933,
+          "priceFrom": 939735,
+          "priceFromFormatted": "$939,735",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/tapestry-the-augusta.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/tapestry/floor-plan/102-the-augusta"
+        },
+        {
+          "name": "The Sawgrass",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 2105,
+          "priceFrom": 942389,
+          "priceFromFormatted": "$942,389",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/tapestry-the-sawgrass.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/tapestry/floor-plan/103-the-sawgrass"
+        },
+        {
+          "name": "The Lennon",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 2145,
+          "priceFrom": 790177,
+          "priceFromFormatted": "$790,177",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/tapestry-the-lennon.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/tapestry/floor-plan/101-the-lennon"
+        },
+        {
+          "name": "The Alexander",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 2157,
+          "priceFrom": 1099900,
+          "priceFromFormatted": "$1,099,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/tapestry-the-alexander.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/tapestry/floor-plan/106-the-alexander"
+        },
+        {
+          "name": "The William",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 2354,
+          "priceFrom": 979558,
+          "priceFromFormatted": "$979,558",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/tapestry-the-william.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/tapestry/floor-plan/290-the-william"
+        },
+        {
+          "name": "The Amelia",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 2581,
+          "priceFrom": 1126900,
+          "priceFromFormatted": "$1,126,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/tapestry-the-amelia.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/tapestry/floor-plan/107-the-amelia"
+        },
+        {
+          "name": "The Willow",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 3010,
+          "priceFrom": 1139900,
+          "priceFromFormatted": "$1,139,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/tapestry-the-willow.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/tapestry/floor-plan/108-the-willow"
+        }
+      ],
+      "typePrices": [],
+      "priceFrom": 790177,
+      "priceFromFormatted": "$790,177",
+      "taxIncluded": false,
+      "featureSheets": [],
+      "includedFeatures": [],
+      "status": "selling",
+      "completionYear": null,
+      "description": "Tapestry by EQ Homes in Kemptville, Ottawa.",
+      "sourceUrl": "https://eqhomes.ca/communities/tapestry",
+      "sourceName": "eqhomes.ca",
+      "scrapedAt": "2026-04-17T20:36:34.320Z"
+    },
+    {
+      "id": "eq-provence",
+      "name": "Provence",
+      "builder": "EQ Homes",
+      "community": "Orl\u00e9ans",
+      "address": "415 Ave. du Ventoux, Ottawa, ON K4A 3R4",
+      "lat": 45.4655,
+      "lng": -75.4544,
+      "homeTypes": [
+        "Multi-Gen",
+        "Single Family",
+        "Bungalows",
+        "Townhomes"
+      ],
+      "type": "mixed",
+      "models": [
+        {
+          "name": "The Madeline",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2569,
+          "priceFrom": 822920,
+          "priceFromFormatted": "$822,920",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-madeline.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/274-the-madeline"
+        },
+        {
+          "name": "The Lucy MG",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2799,
+          "priceFrom": 906991,
+          "priceFromFormatted": "$906,991",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-lucy-mg.jpeg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/276-the-lucy-mg"
+        },
+        {
+          "name": "The Oliver MG",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2822,
+          "priceFrom": 960088,
+          "priceFromFormatted": "$960,088",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-oliver-mg.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/228-the-oliver-mg"
+        },
+        {
+          "name": "The Ashton",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 2960,
+          "priceFrom": 906106,
+          "priceFromFormatted": "$906,106",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-ashton.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/37-the-ashton"
+        },
+        {
+          "name": "The Kinburn",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 6,
+          "baths": 3.5,
+          "sqft": 3219,
+          "priceFrom": 995487,
+          "priceFromFormatted": "$995,487",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-kinburn.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/39-the-kinburn"
+        },
+        {
+          "name": "The Riviera MG",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3400,
+          "priceFrom": 1318900,
+          "priceFromFormatted": "$1,318,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-riviera-mg.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/229-the-riviera-mg"
+        },
+        {
+          "name": "The Cooper MG",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 3519,
+          "priceFrom": 990177,
+          "priceFromFormatted": "$990,177",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-cooper-mg.jpeg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/278-the-cooper-mg"
+        },
+        {
+          "name": "The Hamilton",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1817,
+          "priceFrom": 737965,
+          "priceFromFormatted": "$737,965",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-hamilton.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/12-the-hamilton"
+        },
+        {
+          "name": "The Kai",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1878,
+          "priceFrom": 659204,
+          "priceFromFormatted": "$659,204",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-kai.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/280-the-kai"
+        },
+        {
+          "name": "The Bella",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1919,
+          "priceFrom": 662743,
+          "priceFromFormatted": "$662,743",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-bella.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/281-the-bella"
+        },
+        {
+          "name": "The Quentin",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1920,
+          "priceFrom": 741504,
+          "priceFromFormatted": "$741,504",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-quentin.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/8-the-quentin"
+        },
+        {
+          "name": "The Quentin 4-40",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1920,
+          "priceFrom": 838900,
+          "priceFromFormatted": "$838,900",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/provence-the-quentin-4-40.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/provence/288-the-quentin-4-40"
+        },
+        {
+          "name": "The Paisley",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 2023,
+          "priceFrom": 725575,
+          "priceFromFormatted": "$725,575",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-paisley.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/9-the-paisley"
+        },
+        {
+          "name": "The Asher",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2100,
+          "priceFrom": 734425,
+          "priceFromFormatted": "$734,425",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-asher.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/10-the-asher"
+        },
+        {
+          "name": "The Blackburn",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 2119,
+          "priceFrom": 787522,
+          "priceFromFormatted": "$787,522",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-blackburn.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/13-the-blackburn"
+        },
+        {
+          "name": "The Hudson",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2139,
+          "priceFrom": 743274,
+          "priceFromFormatted": "$743,274",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-hudson.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/11-the-hudson"
+        },
+        {
+          "name": "The Piper I",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2242,
+          "priceFrom": 808761,
+          "priceFromFormatted": "$808,761",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-piper-i.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/14-the-piper-i"
+        },
+        {
+          "name": "The Madeline",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2569,
+          "priceFrom": 822920,
+          "priceFromFormatted": "$822,920",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-madeline.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/275-the-madeline"
+        },
+        {
+          "name": "The Piper II",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 2653,
+          "priceFrom": 861858,
+          "priceFromFormatted": "$861,858",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-piper-ii.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/15-the-piper-ii"
+        },
+        {
+          "name": "The Elliot",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 2788,
+          "priceFrom": 959204,
+          "priceFromFormatted": "$959,204",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-elliot.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/18-the-elliot"
+        },
+        {
+          "name": "The Lucy",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2799,
+          "priceFrom": 906991,
+          "priceFromFormatted": "$906,991",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-lucy.jpeg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/277-the-lucy"
+        },
+        {
+          "name": "The Oliver",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2822,
+          "priceFrom": 960088,
+          "priceFromFormatted": "$960,088",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-oliver.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/19-the-oliver"
+        },
+        {
+          "name": "The Riviera",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3400,
+          "priceFrom": 1063900,
+          "priceFromFormatted": "$1,063,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-riviera.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/20-the-riviera"
+        },
+        {
+          "name": "The Cooper",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 3519,
+          "priceFrom": 990177,
+          "priceFromFormatted": "$990,177",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-cooper.jpeg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/279-the-cooper"
+        },
+        {
+          "name": "The Leah",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1282,
+          "priceFrom": 729115,
+          "priceFromFormatted": "$729,115",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-leah.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/22-the-leah"
+        },
+        {
+          "name": "The Augusta",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1379,
+          "priceFrom": 804336,
+          "priceFromFormatted": "$804,336",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-augusta.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/24-the-augusta"
+        },
+        {
+          "name": "The Lennon",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1462,
+          "priceFrom": 715841,
+          "priceFromFormatted": "$715,841",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-lennon.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/23-the-lennon"
+        },
+        {
+          "name": "The Sawgrass",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1465,
+          "priceFrom": 804336,
+          "priceFromFormatted": "$804,336",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-sawgrass.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/25-the-sawgrass"
+        },
+        {
+          "name": "The Firestone",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1532,
+          "priceFrom": 822035,
+          "priceFromFormatted": "$822,035",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-firestone.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/26-the-firestone"
+        },
+        {
+          "name": "The William",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1697,
+          "priceFrom": 830885,
+          "priceFromFormatted": "$830,885",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-william.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/282-the-william"
+        },
+        {
+          "name": "The Alexander",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1740,
+          "priceFrom": 1019900,
+          "priceFromFormatted": "$1,019,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-alexander.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/28-the-alexander"
+        },
+        {
+          "name": "The Amelia",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1833,
+          "priceFrom": 1037900,
+          "priceFromFormatted": "$1,037,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-amelia.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/29-the-amelia"
+        },
+        {
+          "name": "The Willow",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 2159,
+          "priceFrom": 1059900,
+          "priceFromFormatted": "$1,059,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-willow.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/30-the-willow"
+        },
+        {
+          "name": "The Abbey",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 1.5,
+          "sqft": 1635,
+          "priceFrom": 552124,
+          "priceFromFormatted": "$552,124",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-abbey.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/31-the-abbey"
+        },
+        {
+          "name": "The Mia",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1636,
+          "priceFrom": 568053,
+          "priceFromFormatted": "$568,053",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-mia.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/32-the-mia"
+        },
+        {
+          "name": "The Claudia",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1712,
+          "priceFrom": 574248,
+          "priceFromFormatted": "$574,248",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-claudia.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/33-the-claudia"
+        },
+        {
+          "name": "The Nova",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1781,
+          "priceFrom": 623805,
+          "priceFromFormatted": "$623,805",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-nova.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/34-the-nova"
+        },
+        {
+          "name": "The Benjamin",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1873,
+          "priceFrom": 591947,
+          "priceFromFormatted": "$591,947",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/provence-the-benjamin.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/provence/floor-plan/36-the-benjamin"
+        },
+        {
+          "name": "The Benjamin T23-8",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1873,
+          "priceFrom": 686900,
+          "priceFromFormatted": "$686,900",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/provence-the-benjamin-t23-8.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/provence/315-the-benjamin-t23-8"
+        },
+        {
+          "name": "The Mia T23-9",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2010,
+          "priceFrom": 663900,
+          "priceFromFormatted": "$663,900",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/provence-the-mia-t23-9.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/provence/314-the-mia-t23-9"
+        }
+      ],
+      "typePrices": [],
+      "priceFrom": 552124,
+      "priceFromFormatted": "$552,124",
+      "taxIncluded": false,
+      "featureSheets": [],
+      "includedFeatures": [],
+      "status": "selling",
+      "completionYear": null,
+      "description": "Provence by EQ Homes in Orl\u00e9ans, Ottawa.",
+      "sourceUrl": "https://eqhomes.ca/communities/provence",
+      "sourceName": "eqhomes.ca",
+      "scrapedAt": "2026-04-17T20:36:41.955Z"
+    },
+    {
+      "id": "eq-pathways",
+      "name": "Pathways",
+      "builder": "EQ Homes",
+      "community": "Findlay Creek",
+      "address": "122 Dun Skipper Drive, Ottawa, ON K1X 0G2",
+      "lat": 45.3089,
+      "lng": -75.5922,
+      "homeTypes": [
+        "Multi-Gen",
+        "Single Family",
+        "Bungalows",
+        "Townhomes"
+      ],
+      "type": "mixed",
+      "models": [
+        {
+          "name": "The Madeline MG",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2569,
+          "priceFrom": 818496,
+          "priceFromFormatted": "$818,496",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-madeline-mg.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/268-the-madeline"
+        },
+        {
+          "name": "The Lucy MG",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2799,
+          "priceFrom": 898142,
+          "priceFromFormatted": "$898,142",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-lucy-mg.jpeg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/270-the-lucy"
+        },
+        {
+          "name": "The Oliver MG",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2822,
+          "priceFrom": 955664,
+          "priceFromFormatted": "$955,664",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-oliver-mg.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/227-the-oliver-mg"
+        },
+        {
+          "name": "The Ashton",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 2960,
+          "priceFrom": 897257,
+          "priceFromFormatted": "$897,257",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-ashton.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/73-the-ashton"
+        },
+        {
+          "name": "The Ashton 3-14",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 2960,
+          "priceFrom": 1023324,
+          "priceFromFormatted": "$1,023,324",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-ashton-3-14.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/312-the-ashton-3-14"
+        },
+        {
+          "name": "The Kinburn",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 6,
+          "baths": 3.5,
+          "sqft": 3219,
+          "priceFrom": 986637,
+          "priceFromFormatted": "$986,637",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-kinburn.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/75-the-kinburn"
+        },
+        {
+          "name": "The Cooper MG",
+          "type": "Multi-Gen",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 3519,
+          "priceFrom": 981327,
+          "priceFromFormatted": "$981,327",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-cooper-mg.jpeg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/272-the-cooper"
+        },
+        {
+          "name": "The Hamilton",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 1817,
+          "priceFrom": 730000,
+          "priceFromFormatted": "$730,000",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-hamilton.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/56-the-hamilton"
+        },
+        {
+          "name": "The Paisley 2-23",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 2023,
+          "priceFrom": 863632,
+          "priceFromFormatted": "$863,632",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-paisley-2-23.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/313-the-paisley-2-23"
+        },
+        {
+          "name": "The Blackburn",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 2119,
+          "priceFrom": 777788,
+          "priceFromFormatted": "$777,788",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-blackburn.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/57-the-blackburn"
+        },
+        {
+          "name": "The Piper I 2-071",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2242,
+          "priceFrom": 923900,
+          "priceFromFormatted": "$923,900",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-piper-i-2-071.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/289-the-piper-i-2-071"
+        },
+        {
+          "name": "The Piper I",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2242,
+          "priceFrom": 804336,
+          "priceFromFormatted": "$804,336",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-piper-i.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/58-the-piper-i"
+        },
+        {
+          "name": "The Madeline",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2569,
+          "priceFrom": 818496,
+          "priceFromFormatted": "$818,496",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-madeline.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/267-the-madeline"
+        },
+        {
+          "name": "The Piper II",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 2653,
+          "priceFrom": 848584,
+          "priceFromFormatted": "$848,584",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-piper-ii.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/59-the-piper-ii"
+        },
+        {
+          "name": "The Piper II 3-15",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 2653,
+          "priceFrom": 1012929,
+          "priceFromFormatted": "$1,012,929",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-piper-ii-3-15.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/354-the-piper-ii-3-15"
+        },
+        {
+          "name": "The Elliot",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 2788,
+          "priceFrom": 955664,
+          "priceFromFormatted": "$955,664",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-elliot.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/62-the-elliot"
+        },
+        {
+          "name": "The Lucy",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2,
+          "sqft": 2799,
+          "priceFrom": 898142,
+          "priceFromFormatted": "$898,142",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-lucy.jpeg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/269-the-lucy"
+        },
+        {
+          "name": "The Oliver",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2822,
+          "priceFrom": 955664,
+          "priceFromFormatted": "$955,664",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-oliver.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/63-the-oliver"
+        },
+        {
+          "name": "The Madeline 3-319",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 5,
+          "baths": 3.5,
+          "sqft": 3003,
+          "priceFrom": 1052900,
+          "priceFromFormatted": "$1,052,900",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-madeline-3-319.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/310-the-madeline-3-319"
+        },
+        {
+          "name": "The Madeline 2-024",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 5,
+          "baths": 3.5,
+          "sqft": 3003,
+          "priceFrom": 1013900,
+          "priceFromFormatted": "$1,013,900",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-madeline-2-024.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/311-the-madeline-2-024"
+        },
+        {
+          "name": "The Cooper",
+          "type": "Single Family",
+          "l1Category": "Single Family",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 3519,
+          "priceFrom": 981327,
+          "priceFromFormatted": "$981,327",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-cooper.jpeg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/271-the-cooper"
+        },
+        {
+          "name": "The Leah",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1282,
+          "priceFrom": 711416,
+          "priceFromFormatted": "$711,416",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-leah.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/64-the-leah"
+        },
+        {
+          "name": "The Augusta",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1379,
+          "priceFrom": 786637,
+          "priceFromFormatted": "$786,637",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-augusta.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/66-the-augusta"
+        },
+        {
+          "name": "The Lennon",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1462,
+          "priceFrom": 711416,
+          "priceFromFormatted": "$711,416",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-lennon.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/65-the-lennon"
+        },
+        {
+          "name": "The Sawgrass",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1465,
+          "priceFrom": 799912,
+          "priceFromFormatted": "$799,912",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-sawgrass.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/67-the-sawgrass"
+        },
+        {
+          "name": "The Firestone",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1532,
+          "priceFrom": 827345,
+          "priceFromFormatted": "$827,345",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-firestone.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/68-the-firestone"
+        },
+        {
+          "name": "The William",
+          "type": "Bungalows",
+          "l1Category": "Single Family",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1967,
+          "priceFrom": 830885,
+          "priceFromFormatted": "$830,885",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/pathways-the-william.jpg",
+          "modelUrl": "https://eqhomes.ca/communities/pathways/floor-plan/273-the-william"
+        },
+        {
+          "name": "The Clementine CT2 19",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 2,
+          "baths": 2.5,
+          "sqft": 1147,
+          "priceFrom": 536533,
+          "priceFromFormatted": "$536,533",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-clementine-ct2-19.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/47-the-clementine-ct2-19"
+        },
+        {
+          "name": "The Clementine CT2 17",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 2,
+          "baths": 2.5,
+          "sqft": 1147,
+          "priceFrom": 551527,
+          "priceFromFormatted": "$551,527",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-clementine-ct2-17.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/265-the-clementine-ct2-17"
+        },
+        {
+          "name": "The Jude CT2 01",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 1.5,
+          "sqft": 1378,
+          "priceFrom": 578694,
+          "priceFromFormatted": "$578,694",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-jude-ct2-01.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/50-the-jude-ct2-01"
+        },
+        {
+          "name": "The Jude CT2 20",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 1.5,
+          "sqft": 1378,
+          "priceFrom": 574312,
+          "priceFromFormatted": "$574,312",
+          "status": "Move-In Ready",
+          "localImageUrl": "/images/eq/pathways-the-jude-ct2-20.jpg",
+          "modelUrl": "https://eqhomes.ca/quick-move-in-home/pathways/76-the-jude-ct2-20"
+        }
+      ],
+      "typePrices": [],
+      "priceFrom": 536533,
+      "priceFromFormatted": "$536,533",
+      "taxIncluded": false,
+      "featureSheets": [],
+      "includedFeatures": [],
+      "status": "selling",
+      "completionYear": null,
+      "description": "Pathways by EQ Homes in Findlay Creek, Ottawa.",
+      "sourceUrl": "https://eqhomes.ca/communities/pathways",
+      "sourceName": "eqhomes.ca",
+      "scrapedAt": "2026-04-17T20:36:48.180Z"
+    },
+    {
+      "id": "eq-greystone-forecourt",
+      "name": "Forecourt",
+      "builder": "EQ Homes",
+      "community": "Ottawa",
+      "address": "1737 Woodward Drive, Ottawa, ON K2C 0P9",
+      "lat": 45.3742,
+      "lng": -75.7285,
+      "homeTypes": [
+        "Townhomes"
+      ],
+      "type": "townhouse",
+      "models": [
+        {
+          "name": "Patterson B1",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1340,
+          "priceFrom": 1180900,
+          "priceFromFormatted": "$1,180,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/forecourt-patterson-b1.jpg",
+          "modelUrl": "https://greystonevillage.ca/forecourt/details/patterson-b1.html"
+        },
+        {
+          "name": "Holden B2",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1710,
+          "priceFrom": 1392900,
+          "priceFromFormatted": "$1,392,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/forecourt-holden-b2.png",
+          "modelUrl": "https://greystonevillage.ca/forecourt/details/holden-b2.html"
+        },
+        {
+          "name": "Windsor A3",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 3,
+          "sqft": 2090,
+          "priceFrom": 1605900,
+          "priceFromFormatted": "$1,605,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/forecourt-windsor-a3.png",
+          "modelUrl": "https://greystonevillage.ca/forecourt/details/windsor-a3.html"
+        },
+        {
+          "name": "Springhurst C",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1695,
+          "priceFrom": 1352900,
+          "priceFromFormatted": "$1,352,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/forecourt-springhurst-c.png",
+          "modelUrl": "https://greystonevillage.ca/forecourt/details/springhurst-c.html"
+        },
+        {
+          "name": "Brantwood A2",
+          "type": "Townhomes",
+          "l1Category": "Townhomes",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 2065,
+          "priceFrom": 1644900,
+          "priceFromFormatted": "$1,644,900",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/forecourt-brantwood-a2.png",
+          "modelUrl": "https://greystonevillage.ca/forecourt/details/brantwood-a2.html"
+        }
+      ],
+      "typePrices": [],
+      "priceFrom": 1180900,
+      "priceFromFormatted": "$1,180,900",
+      "taxIncluded": false,
+      "featureSheets": [],
+      "includedFeatures": [],
+      "status": "selling",
+      "completionYear": null,
+      "description": "Forecourt by EQ Homes in Ottawa, Ottawa.",
+      "sourceUrl": "https://greystonevillage.ca/forecourt/homes.html",
+      "sourceName": "eqhomes.ca",
+      "scrapedAt": "2026-04-17T20:36:50.347Z"
+    },
+    {
+      "id": "eq-greystone-spencer",
+      "name": "The Spencer",
+      "builder": "EQ Homes",
+      "community": "Ottawa East",
+      "address": "360 Desch\u00e2telets Ave, Ottawa, ON K1S 5Y1",
+      "lat": 45.4175,
+      "lng": -75.6712,
+      "homeTypes": [
+        "Two Bedroom + Den",
+        "Two Bedroom"
+      ],
+      "type": "condo",
+      "models": [
+        {
+          "name": "Model 13 (#302)",
+          "type": "Two Bedroom + Den",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 981,
+          "priceFrom": 865693,
+          "priceFromFormatted": "$865,693",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/the-spencer-two-bedroom-den.png",
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom---Den/302.html"
+        },
+        {
+          "name": "Model 14 (#201)",
+          "type": "Two Bedroom + Den",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 1093,
+          "priceFrom": 932000,
+          "priceFromFormatted": "$932,000",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom---Den/201.html"
+        },
+        {
+          "name": "Model 14 (#401)",
+          "type": "Two Bedroom + Den",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 1093,
+          "priceFrom": 967000,
+          "priceFromFormatted": "$967,000",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom---Den/401.html"
+        },
+        {
+          "name": "Model 14 (#601)",
+          "type": "Two Bedroom + Den",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 1093,
+          "priceFrom": 1062111,
+          "priceFromFormatted": "$1,062,111",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom---Den/601.html"
+        },
+        {
+          "name": "Model 15 (#409)",
+          "type": "Two Bedroom + Den",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 1093,
+          "priceFrom": 1075000,
+          "priceFromFormatted": "$1,075,000",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom---Den/409.html"
+        },
+        {
+          "name": "Model 13 (#602)",
+          "type": "Two Bedroom + Den",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 753,
+          "priceFrom": 948000,
+          "priceFromFormatted": "$948,000",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom---Den/602.html"
+        },
+        {
+          "name": "Model 15 (#609)",
+          "type": "Two Bedroom + Den",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 1204,
+          "priceFrom": 1288721,
+          "priceFromFormatted": "$1,288,721",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom---Den/609.html"
+        },
+        {
+          "name": "Model 23 (#806)",
+          "type": "Two Bedroom + Den",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 1663,
+          "priceFrom": 1850950,
+          "priceFromFormatted": "$1,850,950",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom---Den/806.html"
+        },
+        {
+          "name": "Model 15 (#807)",
+          "type": "Two Bedroom + Den",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 1093,
+          "priceFrom": 1350000,
+          "priceFromFormatted": "$1,350,000",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom---Den/807.html"
+        },
+        {
+          "name": "Model 12 (#311)",
+          "type": "Two Bedroom",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 920,
+          "priceFrom": 870530,
+          "priceFromFormatted": "$870,530",
+          "status": "New Construction",
+          "localImageUrl": "/images/eq/the-spencer-two-bedroom.png",
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom/311.html"
+        },
+        {
+          "name": "Model 11 (#505)",
+          "type": "Two Bedroom",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 753,
+          "priceFrom": 925000,
+          "priceFromFormatted": "$925,000",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom/505.html"
+        },
+        {
+          "name": "Model 11 (#704)",
+          "type": "Two Bedroom",
+          "l1Category": "Condo",
+          "beds": 2,
+          "baths": null,
+          "sqft": 753,
+          "priceFrom": 910636,
+          "priceFromFormatted": "$910,636",
+          "status": "New Construction",
+          "localImageUrl": null,
+          "modelUrl": "https://greystonevillage.ca/thespencer/floorplan/Two-Bedroom/704.html"
+        }
+      ],
+      "typePrices": [],
+      "priceFrom": 865693,
+      "priceFromFormatted": "$865,693",
+      "taxIncluded": false,
+      "featureSheets": [],
+      "includedFeatures": [],
+      "status": "selling",
+      "completionYear": null,
+      "description": "The Spencer by EQ Homes in Ottawa East, Ottawa.",
+      "sourceUrl": "https://greystonevillage.ca/thespencer/suites.html",
+      "sourceName": "eqhomes.ca",
+      "scrapedAt": "2026-04-17T20:36:51.928Z"
     }
   ]
 }
