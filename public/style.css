@@ -1666,6 +1666,9 @@ body.compare-mode .leaflet-interactive { cursor: crosshair !important; }
 
   #builder-legend { display: none; }
 
+  /* Push map down so legend strip doesn't overlap it */
+  #main { padding-top: 38px; }
+
   .detail-name { font-size: 20px; }
   .price-value { font-size: 28px; }
   .detail-actions { padding: 16px; }
@@ -1675,18 +1678,16 @@ body.compare-mode .leaflet-interactive { cursor: crosshair !important; }
   .models-toolbar { padding: 10px 14px 6px; }
 }
 
-/* ===== Mobile legend drawer ===== */
+/* ===== Mobile legend drawer — always visible on mobile ===== */
 #mobile-legend-drawer {
   display: none; /* shown only on mobile */
 }
 
 #btn-legend-toggle {
-  display: none; /* hidden on desktop */
+  display: none; /* no longer needed */
 }
 
 @media (max-width: 640px) {
-  #btn-legend-toggle { display: flex; }
-
   #mobile-legend-drawer {
     display: block;
     position: absolute;
@@ -1695,24 +1696,21 @@ body.compare-mode .leaflet-interactive { cursor: crosshair !important; }
     z-index: 1200;
     background: var(--bg-2);
     border-bottom: 1px solid var(--border);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.25s ease;
-  }
-  #mobile-legend-drawer.open {
-    max-height: 300px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   #builder-legend-mobile {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 6px;
-    padding: 10px 12px 12px;
+    padding: 8px 12px 10px;
+    width: max-content;
   }
 
   #builder-legend-mobile .legend-item {
     flex: 0 0 auto;
-    padding: 5px 10px;
+    padding: 4px 10px;
     border-radius: 20px;
     background: var(--bg-3);
     border: 1px solid var(--border);
