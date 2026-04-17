@@ -90,21 +90,34 @@ function displayPrice(p, formatted) {
 // If typePrices is available, show one row per type.
 // Otherwise fall back to single community-level price.
 // ─────────────────────────────────────────────
+function hasNoPrice(val) {
+  if (!val) return true;
+  const s = String(val).toLowerCase().trim();
+  return s === '' || s.includes('not available') || s === 'n/a' || s === '—';
+}
+
 function priceRows(build) {
   if (build.typePrices && build.typePrices.length) {
-    return build.typePrices.map(t => `
-    <div class="price-row">
-      <span class="price-row-label">${esc(t.type)}</span>
-      <span class="price-row-value"><span class="price-from-label">From </span>${esc(displayPrice(t.priceFrom, t.priceFromFormatted))}</span>
-    </div>`).join('');
+    return build.typePrices.map(t => {
+      const noPrice = hasNoPrice(t.priceFrom) && hasNoPrice(t.priceFromFormatted);
+      return `
+      <div class="price-row">
+        <span class="price-row-label">${esc(t.type)}</span>
+        ${noPrice
+          ? `<span class="price-row-value"><span class="price-from-label">From </span><span class="price-na">UNAVAILABLE</span></span>`
+          : `<span class="price-row-value"><span class="price-from-label">From </span>${esc(displayPrice(t.priceFrom, t.priceFromFormatted))}</span>`
+        }
+      </div>`;
+    }).join('');
   }
-  if (!build.priceFromFormatted && !build.priceFrom) return `
+  const noPrice = hasNoPrice(build.priceFrom) && hasNoPrice(build.priceFromFormatted);
+  if (noPrice) return `
   <div class="price-row">
     <span class="price-row-label">From</span>
-    <span class="price-row-value price-na">UNAVAILABLE</span>
+    <span class="price-row-value"><span class="price-na">UNAVAILABLE</span></span>
   </div>`;
   return `<div class="price-row">
-    <span class="price-row-label">Starting from</span>
+    <span class="price-row-label">From</span>
     <span class="price-row-value">${esc(displayPrice(build.priceFrom, build.priceFromFormatted))}</span>
   </div>`;
 }

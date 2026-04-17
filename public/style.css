@@ -412,10 +412,10 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
 }
 
 .price-na {
+  font-family: var(--mono);
   font-size: 13px;
-  font-style: italic;
   font-weight: 500;
-  color: #e53935;
+  color: var(--text-3);
 }
 
 /* ===== Blurred price (lead gate) ===== */
