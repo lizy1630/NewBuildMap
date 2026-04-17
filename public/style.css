@@ -691,6 +691,18 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
   flex-shrink: 0;
 }
 .btn-model-request:hover { filter: brightness(1.12); }
+.btn-model-requested {
+  background: #e8f5e9 !important;
+  color: #2e7d32 !important;
+  cursor: default !important;
+}
+.btn-model-requested:hover { filter: none !important; }
+.price-na-blur {
+  filter: none !important;
+  font-style: italic;
+  font-size: 11px !important;
+  color: var(--text-3) !important;
+}
 
 .price-change-note {
   font-family: var(--mono);

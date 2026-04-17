@@ -100,8 +100,8 @@ function priceRows(build) {
   }
   if (!build.priceFromFormatted && !build.priceFrom) return `
   <div class="price-row">
-    <span class="price-row-label">Starting from</span>
-    <span class="price-row-value price-na">Price not available</span>
+    <span class="price-row-label">From</span>
+    <span class="price-row-value price-na">UNAVAILABLE</span>
   </div>`;
   return `<div class="price-row">
     <span class="price-row-label">Starting from</span>
@@ -325,21 +325,21 @@ function modelCardHTML(m, build) {
 
   const sqftLine = m.sqft ? `<div class="model-card-sqft">${m.sqft.toLocaleString()} sqft</div>` : '';
 
-  // Price row: blurred + Request button if not yet unlocked
+  // Price row — always show, blurred + Request button if not yet unlocked
   let priceHTML = '';
-  if (m.priceFrom || m.priceFromFormatted) {
-    const formatted = fmtPrice(m.priceFrom) || esc(m.priceFromFormatted);
-    if (unlocked) {
-      priceHTML = `<div class="model-card-price">${formatted}</div>`;
-    } else {
-      priceHTML = `
-        <div class="model-price-locked">
-          <span class="model-price-blur">${formatted}</span>
-          <button class="btn-model-request">
-            ${requested ? 'Requested ✓' : '🔒 Request'}
-          </button>
-        </div>`;
-    }
+  const hasPrice = m.priceFrom || m.priceFromFormatted;
+  const formatted = hasPrice ? (fmtPrice(m.priceFrom) || esc(m.priceFromFormatted)) : 'UNAVAILABLE';
+
+  if (unlocked) {
+    priceHTML = `<div class="model-card-price${hasPrice ? '' : ' price-na'}">${formatted}</div>`;
+  } else {
+    priceHTML = `
+      <div class="model-price-locked">
+        <span class="model-price-blur${hasPrice ? '' : ' price-na-blur'}">${formatted}</span>
+        <button class="btn-model-request${requested ? ' btn-model-requested' : ''}">
+          ${requested ? 'Requested ✓' : '🔒 Request'}
+        </button>
+      </div>`;
   }
 
   return `
