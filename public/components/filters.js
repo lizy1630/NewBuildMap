@@ -118,20 +118,20 @@ export function initFilters(builds, onChange) {
 export function initLegend(builds, colorFn) {
   const builders = [...new Set(builds.map((b) => b.builder))].sort();
 
-  const html = builders.map((b) => {
-    const color = colorFn(b);
-    return `
-      <div class="legend-item" data-builder="${escAttr(b)}" title="${escAttr(b)}">
-        <span class="legend-dot" style="background:${color};box-shadow:0 0 4px ${color}88"></span>
-        <span class="legend-label">${esc(b)}</span>
-      </div>`;
-  }).join('');
-
   // Populate both desktop and mobile legend containers
   ['builder-legend', 'builder-legend-mobile'].forEach(id => {
+    const isMobile = id === 'builder-legend-mobile';
     const el = document.getElementById(id);
     if (!el) return;
-    el.innerHTML = html;
+    el.innerHTML = builders.map((b) => {
+      const color = colorFn(b);
+      const label = isMobile ? b.split(' ')[0] : b; // first word only on mobile
+      return `
+        <div class="legend-item" data-builder="${escAttr(b)}" title="${escAttr(b)}">
+          <span class="legend-dot" style="background:${color};box-shadow:0 0 4px ${color}88"></span>
+          <span class="legend-label">${esc(label)}</span>
+        </div>`;
+    }).join('');
     el.querySelectorAll('.legend-item').forEach((item) => {
       item.addEventListener('click', () => {
         const builder = item.dataset.builder;
