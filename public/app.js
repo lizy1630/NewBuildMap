@@ -297,9 +297,10 @@ function openDetailForBuild(build) {
 function buildPopupHTML(build) {
   const color = builderColor(build.builder);
   const priceVal = build.priceFromFormatted;
-  const priceHtml = priceVal && !priceVal.toLowerCase().includes('not available')
+  const hasPrice = priceVal && !priceVal.toLowerCase().includes('not available') && build.priceFrom;
+  const priceHtml = hasPrice
     ? `<span class="popup-price-from">From </span><span>${priceVal}</span>`
-    : `<span class="popup-price-na">UNAVAILABLE</span>`;
+    : `<span class="popup-price-from">From </span><span class="popup-price-na">UNAVAILABLE</span>`;
 
   // Support multiple statuses (e.g. sold-out + coming-soon)
   const statuses = build.statuses || (build.status ? [build.status] : []);
