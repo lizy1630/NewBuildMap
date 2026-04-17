@@ -199,6 +199,15 @@ export function renderDetail(build) {
       <button class="detail-builder-btn" data-builder="${esc(build.builder)}" style="color:${builderColor};border-color:${builderColor}20;background:${builderColor}12">
         ${esc(build.builder)}
       </button>
+      ${(() => {
+        const statuses = build.statuses || (build.status ? [build.status] : []);
+        return statuses.map(s => {
+          if (s === 'sold-out')    return `<span class="badge badge-sold-out" style="display:inline-block;margin-top:6px">Sold Out</span>`;
+          if (s === 'coming-soon') return `<span class="badge badge-upcoming" style="display:inline-block;margin-top:6px">Coming Soon — Phase 5</span>`;
+          if (s === 'upcoming')    return `<span class="badge badge-upcoming" style="display:inline-block;margin-top:6px">Coming Soon</span>`;
+          return '';
+        }).join(' ');
+      })()}
       ${build.description ? `<div class="detail-description">${esc(build.description)}</div>` : ''}
     </div>
 

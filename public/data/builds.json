@@ -9352,13 +9352,17 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "status": "coming-soon",
+      "status": "sold-out",
       "completionYear": null,
       "description": "Quinn's Pointe Phase 5 coming soon. Current phases are sold out.",
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Quinn-s-Pointe/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-14T04:25:04.760Z"
+      "scrapedAt": "2026-04-14T04:25:04.760Z",
+      "statuses": [
+        "sold-out",
+        "coming-soon"
+      ]
     },
     {
       "id": "minto-avalon",

@@ -288,9 +288,22 @@ function openDetailForBuild(build) {
 function buildPopupHTML(build) {
   const color = builderColor(build.builder);
   const priceVal = build.priceFromFormatted;
-  const priceHtml = priceVal
+  const priceHtml = priceVal && !priceVal.toLowerCase().includes('not available')
     ? `<span class="popup-price-from">From </span><span>${priceVal}</span>`
-    : `<span class="popup-price-na">Price not available</span>`;
+    : `<span class="popup-price-na">UNAVAILABLE</span>`;
+
+  // Support multiple statuses (e.g. sold-out + coming-soon)
+  const statuses = build.statuses || (build.status ? [build.status] : []);
+  const statusBadges = statuses.map(s => {
+    if (s === 'sold-out')    return `<span class="badge badge-sold">Sold Out</span>`;
+    if (s === 'coming-soon') return `<span class="badge badge-soon">Coming Soon</span>`;
+    if (s === 'upcoming')    return `<span class="badge badge-soon">Coming Soon</span>`;
+    return '';
+  }).join('');
+
+  const isSoldOut   = statuses.includes('sold-out');
+  const isComingSoon = statuses.includes('coming-soon') || statuses.includes('upcoming');
+
   return `
     <div class="map-popup">
       <div class="popup-header" style="border-left:3px solid ${color}">
@@ -300,13 +313,14 @@ function buildPopupHTML(build) {
       <div class="popup-body">
         <div class="popup-price">${priceHtml}</div>
         <div class="popup-meta">
+          ${statusBadges}
           ${build.completionYear ? `<span class="badge badge-year">${build.completionYear}</span>` : ''}
           ${homeTypeBadges(build)}
         </div>
         ${build.models?.length ? `<div style="font-size:11px;color:var(--text-3)">${build.models.length} floor plan${build.models.length > 1 ? 's' : ''} available</div>` : ''}
       </div>
-      ${build.status === 'upcoming'
-        ? `<div class="popup-coming-soon">Coming Soon</div>`
+      ${isSoldOut && !isComingSoon
+        ? `<div class="popup-sold-out">Sold Out</div>`
         : `<button class="popup-detail-btn" onclick="window.__mapShowDetail('${build.id}')">View Details →</button>`
       }
     </div>`;
