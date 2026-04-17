@@ -2,7 +2,7 @@
  * Sidebar component — manages open/close, tab switching, and rendering detail view.
  */
 import { openLeadModal, requestInfo, hasRequested, isUnlocked } from '../lead.js';
-import { getFilters, clearFilter, modelMatchesFilters, getArea } from './filters.js';
+import { getFilters, clearFilter, clearAllFilters, modelMatchesFilters, getArea } from './filters.js';
 
 const sidebar = document.getElementById('sidebar');
 const sidebarContent = document.getElementById('sidebar-content');
@@ -138,6 +138,7 @@ function activeFilterTagsHTML() {
   if (!tags.length) return '';
   return `<div class="active-filter-tags" id="active-filter-tags">
     ${tags.map(t => `<button class="filter-tag" data-filter-key="${esc(t.key)}">${esc(t.label)} ×</button>`).join('')}
+    <button class="filter-tag filter-tag-clear-all" data-filter-key="all">Clear All</button>
   </div>`;
 }
 
@@ -290,10 +291,10 @@ export function renderDetail(build) {
   // Filter tag × — clear that filter and re-render
   panel.querySelector('#active-filter-tags')?.addEventListener('click', (e) => {
     const tag = e.target.closest('.filter-tag');
-    if (tag) {
-      clearFilter(tag.dataset.filterKey);
-      renderDetail(_currentBuild); // re-render tags + model cards
-    }
+    if (!tag) return;
+    if (tag.dataset.filterKey === 'all') clearAllFilters();
+    else clearFilter(tag.dataset.filterKey);
+    renderDetail(_currentBuild);
   });
 }
 

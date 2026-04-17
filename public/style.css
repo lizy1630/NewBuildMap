@@ -632,6 +632,31 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
 }
 .filter-tag:hover { opacity: 1; }
 
+.filter-tag-clear-all {
+  background: transparent !important;
+  color: var(--text-3) !important;
+  border: 1px solid var(--border) !important;
+  opacity: 1;
+}
+.filter-tag-clear-all:hover { color: var(--text-1) !important; border-color: var(--border-2) !important; }
+
+/* Clear All button in topbar */
+.btn-clear-filters {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-3);
+  font-family: var(--font);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: color var(--transition), border-color var(--transition);
+}
+.btn-clear-filters:hover { color: var(--text-1); border-color: var(--border-2); }
+
 /* ===== Request Info section in sidebar ===== */
 .request-info-section {
   padding: 14px 20px 14px;

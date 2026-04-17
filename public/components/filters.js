@@ -103,8 +103,11 @@ export function initFilters(builds, onChange) {
 
   // homeType options are static in HTML (3 big categories)
   [communityEl, homeTypeEl, bedsEl, bathsEl, sqftEl, lotEl].forEach((el) =>
-    el.addEventListener('change', () => _onChange && _onChange(getFilters()))
+    el.addEventListener('change', () => { _updateClearBtn(); _onChange && _onChange(getFilters()); })
   );
+
+  // Clear all button
+  document.getElementById('btn-clear-filters')?.addEventListener('click', clearAllFilters);
 }
 
 /**
@@ -162,7 +165,22 @@ export function getFilters() {
 // Clear a single filter by key and fire onChange
 export function clearFilter(key) {
   const map = { community: communityEl, homeType: homeTypeEl, beds: bedsEl, baths: bathsEl, sqft: sqftEl, lot: lotEl };
-  if (map[key]) { map[key].value = ''; if (_onChange) _onChange(getFilters()); }
+  if (map[key]) { map[key].value = ''; _updateClearBtn(); if (_onChange) _onChange(getFilters()); }
+}
+
+// Clear all filters at once
+export function clearAllFilters() {
+  [communityEl, homeTypeEl, bedsEl, bathsEl, sqftEl, lotEl].forEach(el => { el.value = ''; });
+  _updateClearBtn();
+  if (_onChange) _onChange(getFilters());
+}
+
+function _updateClearBtn() {
+  const btn = document.getElementById('btn-clear-filters');
+  if (!btn) return;
+  const f = getFilters();
+  const active = f.community || f.homeType || f.beds || f.baths || f.sqft || f.lot;
+  btn.style.display = active ? '' : 'none';
 }
 
 // ── Per-model match helpers (used by both matchesFilters and sidebar) ──
