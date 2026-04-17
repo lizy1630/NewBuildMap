@@ -117,6 +117,9 @@ async function init() {
     subdomains: 'abcd',
   }).addTo(map);
 
+  // Force Leaflet to recalculate dimensions once DOM is settled
+  setTimeout(() => map.invalidateSize(), 0);
+
   // Init modules
   initSidebar({ onTabChange: handleTabChange });
   setBuilderColorFn(builderColor);
@@ -206,11 +209,17 @@ async function init() {
   // Lead modal
   initLeadModal();
 
-  // Hide loading screen now that everything is ready
+  // Hide loading screen and let Leaflet recalculate map size
   const loadingScreen = document.getElementById('loading-screen');
   if (loadingScreen) {
     loadingScreen.classList.add('loaded');
-    setTimeout(() => loadingScreen.remove(), 400);
+    setTimeout(() => {
+      loadingScreen.remove();
+      // Leaflet needs to know the container is now fully visible
+      map.invalidateSize();
+    }, 400);
+  } else {
+    map.invalidateSize();
   }
 
   // Theme toggle
