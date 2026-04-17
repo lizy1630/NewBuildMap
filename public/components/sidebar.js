@@ -342,9 +342,9 @@ function modelCardHTML(m, build) {
   } else {
     priceHTML = `
       <div class="model-price-locked">
-        <span class="model-price-blur${hasPrice ? '' : ' price-na-blur'}">${formatted}</span>
+        <span class="model-price-dollar">$</span><span class="model-price-blur">${hasPrice ? formatted : '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'}</span>
         <button class="btn-model-request${requested ? ' btn-model-requested' : ''}">
-          ${requested ? 'Requested ✓' : '🔒 Request'}
+          ${requested ? 'Requested ✓' : '🔒 Request Price'}
         </button>
       </div>`;
   }

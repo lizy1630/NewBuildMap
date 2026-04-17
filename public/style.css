@@ -664,6 +664,14 @@ select.filter-select:focus { outline: none; border-color: var(--accent); }
   margin: 4px 0 2px;
 }
 
+.model-price-dollar {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-3);
+  flex-shrink: 0;
+}
+
 .model-price-blur {
   font-family: var(--mono);
   font-size: 12px;
