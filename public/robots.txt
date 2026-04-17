@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://newbuildsmap.ca/sitemap.xml
+Sitemap: https://newbuildmap.ca/sitemap.xml
