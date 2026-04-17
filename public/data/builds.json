@@ -11689,10 +11689,10 @@
       "id": "uniform-copperwood-estate",
       "name": "Copperwood Estate",
       "builder": "Uniform Developments",
-      "community": "Kanata",
-      "address": "2003 Bosch Place, Kanata, ON K2W 0N4",
-      "lat": 45.345,
-      "lng": -75.912,
+      "community": "Kanata North",
+      "address": "2003 Bosch Place, Kanata, ON K2K 3A7",
+      "lat": 45.36166,
+      "lng": -75.94811,
       "homeTypes": [
         "Single Family",
         "Townhomes"
