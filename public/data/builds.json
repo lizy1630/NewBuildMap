@@ -3393,9 +3393,9 @@
       "name": "Alta Vista Quarters",
       "builder": "Claridge Homes",
       "community": "Alta Vista",
-      "address": "505 Preston St, Ottawa, ON K1S 4N7",
-      "lat": 45.4108,
-      "lng": -75.7094,
+      "address": "1900 Walkley Rd, Ottawa, ON K1H 6X9",
+      "lat": 45.3818,
+      "lng": -75.6329,
       "homeTypes": [
         "Townhomes",
         "3-Storey Townhomes"
@@ -5976,9 +5976,9 @@
       "name": "Brookline",
       "builder": "Minto Communities",
       "community": "Kanata",
-      "address": "Brookline, Kanata, Ottawa, ON",
-      "lat": 45.2956,
-      "lng": -75.918,
+      "address": "March Rd & Klondike Rd, Kanata North, Ottawa, ON",
+      "lat": 45.3635,
+      "lng": -75.9352,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -6563,9 +6563,9 @@
       "name": "Quinn's Pointe",
       "builder": "Minto Communities",
       "community": "Barrhaven",
-      "address": "Quinn's Pointe, Barrhaven, Ottawa, ON",
-      "lat": 45.2635,
-      "lng": -75.7697,
+      "address": "Barnsdale Rd & Greenbank Rd, Barrhaven, Ottawa, ON",
+      "lat": 45.2363,
+      "lng": -75.7284,
       "homeTypes": [],
       "type": "unknown",
       "models": [],
@@ -7312,9 +7312,9 @@
       "name": "Locale",
       "builder": "Mattamy Homes",
       "community": "Orléans",
-      "address": "Locale, Orléans, Ottawa, ON",
-      "lat": 45.465,
-      "lng": -75.514,
+      "address": "2370 Tenth Line Road, Orléans, Ottawa, ON K4A 1C4",
+      "lat": 45.4494,
+      "lng": -75.4818,
       "homeTypes": [
         "Condo"
       ],
@@ -7399,9 +7399,9 @@
       "name": "Northwoods",
       "builder": "Mattamy Homes",
       "community": "Kanata",
-      "address": "Northwoods, Kanata, Ottawa, ON",
-      "lat": 45.305,
-      "lng": -75.908,
+      "address": "1020 March Road, Kanata North, Ottawa, ON K2K 1X7",
+      "lat": 45.363,
+      "lng": -75.944,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -7783,9 +7783,9 @@
       "name": "Wateridge Village at Rockcliffe",
       "builder": "Mattamy Homes",
       "community": "Rockcliffe Park",
-      "address": "Wateridge Village at Rockcliffe, Rockcliffe Park, Ottawa, ON",
-      "lat": 45.427,
-      "lng": -75.654,
+      "address": "895 Montréal Road, Ottawa, ON K1K 4B9",
+      "lat": 45.4469,
+      "lng": -75.6301,
       "homeTypes": [
         "Townhomes"
       ],
@@ -8921,9 +8921,9 @@
       "name": "Pathways",
       "builder": "Richcraft Homes",
       "community": "Barrhaven",
-      "address": "Pathways, Barrhaven, Ottawa, ON",
-      "lat": 45.2654,
-      "lng": -75.7769,
+      "address": "126 Dun Skipper Drive, Ottawa, ON K1X 0G2",
+      "lat": 45.309,
+      "lng": -75.591,
       "homeTypes": [
         "Thrive Towns",
         "Bungalow Towns",
@@ -12303,9 +12303,9 @@
       "name": "Gateway Flats",
       "builder": "Richcraft Homes",
       "community": "Kanata",
-      "address": "Gateway Flats, Kanata, Ottawa, ON",
-      "lat": 45.264,
-      "lng": -75.892,
+      "address": "216 Sheaf Row, Stittsville, Ottawa, ON K2S 2T5",
+      "lat": 45.2915,
+      "lng": -75.912,
       "homeTypes": [
         "Flats"
       ],
@@ -13195,9 +13195,9 @@
       "name": "Magnolia",
       "builder": "Caivan",
       "community": "Stittsville",
-      "address": "Magnolia, Stittsville, Ottawa, ON",
-      "lat": 45.2582,
-      "lng": -75.9348,
+      "address": "1820 Shea Road, Stittsville, Ottawa, ON K2S 1K5",
+      "lat": 45.2557,
+      "lng": -75.8957,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -14810,8 +14810,8 @@
       "builder": "Uniform Developments",
       "community": "Kanata",
       "address": "2003 Bosch Place, Kanata, ON K2W 0N4",
-      "lat": 45.345,
-      "lng": -75.912,
+      "lat": 45.3617,
+      "lng": -75.9481,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -15720,9 +15720,9 @@
       "name": "EdenWylde",
       "builder": "Cardel Homes",
       "community": "Stittsville",
-      "address": "EdenWylde, Stittsville, Ottawa, ON",
-      "lat": 45.264,
-      "lng": -75.937,
+      "address": "511 Edenwylde Drive, Stittsville, Ottawa, ON K2S 1K5",
+      "lat": 45.2542,
+      "lng": -75.9007,
       "homeTypes": [
         "Townhomes"
       ],
