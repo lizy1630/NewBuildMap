@@ -1589,3 +1589,105 @@ body.compare-mode .leaflet-interactive { cursor: crosshair !important; }
   .category-tabs { padding: 0 14px 10px; gap: 5px; }
   .models-toolbar { padding: 10px 14px 6px; }
 }
+
+/* ===== Mobile legend drawer ===== */
+#mobile-legend-drawer {
+  display: none; /* shown only on mobile */
+}
+
+#btn-legend-toggle {
+  display: none; /* hidden on desktop */
+}
+
+@media (max-width: 640px) {
+  #btn-legend-toggle { display: flex; }
+
+  #mobile-legend-drawer {
+    display: block;
+    position: absolute;
+    top: var(--topbar-h);
+    left: 0; right: 0;
+    z-index: 1200;
+    background: var(--bg-2);
+    border-bottom: 1px solid var(--border);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+  }
+  #mobile-legend-drawer.open {
+    max-height: 300px;
+  }
+
+  #builder-legend-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px 12px 12px;
+  }
+
+  #builder-legend-mobile .legend-item {
+    flex: 0 0 auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: var(--bg-3);
+    border: 1px solid var(--border);
+  }
+}
+
+/* ===== Loading screen ===== */
+#loading-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.35s ease;
+}
+#loading-screen.loaded {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.loading-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-1);
+  letter-spacing: 0.02em;
+}
+
+.loading-sub {
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+/* Spinning dot ring */
+.loading-dot-ring {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.loading-dot-ring div {
+  position: absolute;
+  width: 8px; height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+  animation: loading-orbit 1.2s linear infinite;
+}
+.loading-dot-ring div:nth-child(1) { top: 0;   left: 18px; animation-delay: 0s; }
+.loading-dot-ring div:nth-child(2) { top: 18px; right: 0;  animation-delay: -0.9s; }
+.loading-dot-ring div:nth-child(3) { bottom: 0; left: 18px; animation-delay: -0.6s; }
+.loading-dot-ring div:nth-child(4) { top: 18px; left: 0;   animation-delay: -0.3s; }
+
+@keyframes loading-orbit {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.25; transform: scale(0.6); }
+}

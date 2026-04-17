@@ -13,6 +13,18 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Loading screen — hidden once app is ready -->
+  <div id="loading-screen">
+    <div class="loading-inner">
+      <div class="loading-dot-ring">
+        <div></div><div></div><div></div><div></div>
+      </div>
+      <div class="loading-title">Ottawa New Builds</div>
+      <div class="loading-sub">Loading communities…</div>
+    </div>
+  </div>
+
   <div id="app">
 
     <!-- Top Bar -->
@@ -26,6 +38,7 @@
         <div class="topbar-spacer"></div>
         <div id="count-label"><span id="count-num">–</span> builds</div>
         <button class="icon-btn" id="btn-theme" title="Toggle dark/light mode" aria-label="Toggle theme">&#9788;</button>
+        <button class="icon-btn" id="btn-legend-toggle" title="Toggle builder legend" aria-label="Toggle legend">&#11041;</button>
         <button class="icon-btn" id="btn-filters-toggle" title="Toggle filters" aria-label="Toggle filters">&#9776;</button>
       </div>
 
@@ -108,6 +121,11 @@
           <div id="tab-history" style="display:none"></div>
         </div>
       </aside>
+
+      <!-- Mobile legend drawer (hidden on desktop) -->
+      <div id="mobile-legend-drawer">
+        <div id="builder-legend-mobile"></div>
+      </div>
 
       <!-- Map -->
       <div id="map">

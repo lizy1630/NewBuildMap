@@ -225,8 +225,6 @@ export function renderDetail(build) {
 
     ${featureSheetsHTML(build)}
 
-    ${requestInfoHTML(build)}
-
     <div class="detail-actions">
       <button class="btn btn-secondary" id="btn-compare-from-detail">⇌ Compare</button>
       <a href="${esc(build.sourceUrl)}" target="_blank" rel="noopener" class="btn btn-primary">View Listing ↗</a>
@@ -246,10 +244,6 @@ export function renderDetail(build) {
     if (_builderClickFn) _builderClickFn(build.builder);
   });
 
-  // Request Info button
-  panel.querySelector('#btn-request-info')?.addEventListener('click', () => {
-    requestInfo({ id: build.id, name: build.name, community: build.community });
-  });
 }
 
 // Re-render prices after unlock

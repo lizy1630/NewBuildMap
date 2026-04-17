@@ -206,6 +206,13 @@ async function init() {
   // Lead modal
   initLeadModal();
 
+  // Hide loading screen now that everything is ready
+  const loadingScreen = document.getElementById('loading-screen');
+  if (loadingScreen) {
+    loadingScreen.classList.add('loaded');
+    setTimeout(() => loadingScreen.remove(), 400);
+  }
+
   // Theme toggle
   document.getElementById('btn-theme').addEventListener('click', toggleTheme);
 
@@ -217,6 +224,17 @@ async function init() {
       const open = filtersRow.classList.toggle('open');
       btnFilters.style.color = open ? 'var(--accent)' : '';
       btnFilters.style.borderColor = open ? 'var(--accent)' : '';
+    });
+  }
+
+  // Mobile legend toggle
+  const btnLegend = document.getElementById('btn-legend-toggle');
+  const legendDrawer = document.getElementById('mobile-legend-drawer');
+  if (btnLegend && legendDrawer) {
+    btnLegend.addEventListener('click', () => {
+      const open = legendDrawer.classList.toggle('open');
+      btnLegend.style.color = open ? 'var(--accent)' : '';
+      btnLegend.style.borderColor = open ? 'var(--accent)' : '';
     });
   }
 

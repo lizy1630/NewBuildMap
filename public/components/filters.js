@@ -68,12 +68,9 @@ export function initFilters(builds, onChange) {
  * @param {Function} colorFn     - builderColor(builder) → hex
  */
 export function initLegend(builds, colorFn) {
-  const el = document.getElementById('builder-legend');
-  if (!el) return;
-
   const builders = [...new Set(builds.map((b) => b.builder))].sort();
 
-  el.innerHTML = builders.map((b) => {
+  const html = builders.map((b) => {
     const color = colorFn(b);
     return `
       <div class="legend-item" data-builder="${escAttr(b)}" title="${escAttr(b)}">
@@ -82,18 +79,25 @@ export function initLegend(builds, colorFn) {
       </div>`;
   }).join('');
 
-  el.querySelectorAll('.legend-item').forEach((item) => {
-    item.addEventListener('click', () => {
-      const builder = item.dataset.builder;
-      if (_activeBuilders.has(builder)) {
-        _activeBuilders.delete(builder);
-        item.classList.remove('active');
-      } else {
-        _activeBuilders.add(builder);
-        item.classList.add('active');
-      }
-      // If all deselected, treat as show-all
-      if (_onChange) _onChange(getFilters());
+  // Populate both desktop and mobile legend containers
+  ['builder-legend', 'builder-legend-mobile'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.innerHTML = html;
+    el.querySelectorAll('.legend-item').forEach((item) => {
+      item.addEventListener('click', () => {
+        const builder = item.dataset.builder;
+        // Sync active state across both legends
+        const allItems = document.querySelectorAll(`.legend-item[data-builder="${escAttr(builder)}"]`);
+        if (_activeBuilders.has(builder)) {
+          _activeBuilders.delete(builder);
+          allItems.forEach(i => i.classList.remove('active'));
+        } else {
+          _activeBuilders.add(builder);
+          allItems.forEach(i => i.classList.add('active'));
+        }
+        if (_onChange) _onChange(getFilters());
+      });
     });
   });
 }
