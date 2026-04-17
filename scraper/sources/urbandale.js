@@ -37,12 +37,12 @@ mkdirSync(REPORTS_DIR, { recursive: true });
 // ── Community metadata ─────────────────────────────────────────────────────────
 // lat/lng hardcoded for known communities; null = geocoder handles
 const COMMUNITY_META = {
-  'riverside-south': { neighbourhood: 'Riverside South', address: 'Riverside South, Ottawa, ON', lat: 45.2650, lng: -75.6852 },
-  'kanata-lakes':    { neighbourhood: 'Kanata Lakes',    address: 'Kanata Lakes, Kanata, ON',    lat: 45.3127, lng: -75.9119 },
-  'bradley-commons': { neighbourhood: 'Stittsville',     address: 'Bradley Commons, Stittsville, ON', lat: null, lng: null },
-  'leitrim-flats':   { neighbourhood: 'Leitrim',         address: 'Leitrim, Ottawa, ON',         lat: null, lng: null },
-  'the-creek':       { neighbourhood: 'Barrhaven',       address: 'Urbandale The Creek, Barrhaven, Ottawa, ON', lat: null, lng: null },
-  'cowans-grove':    { neighbourhood: 'Ottawa',          address: 'Cowans Grove, Ottawa, ON',    lat: null, lng: null },
+  'riverside-south': { neighbourhood: 'Riverside South', address: 'Riverside South, Ottawa, ON',          lat: 45.2650,  lng: -75.6852  },
+  'kanata-lakes':    { neighbourhood: 'Kanata Lakes',    address: 'Kanata Lakes, Kanata, ON',              lat: 45.3127,  lng: -75.9119  },
+  'bradley-commons': { neighbourhood: 'Stittsville',     address: '560 Hazeldean Road, Stittsville, ON',   lat: 45.2892,  lng: -75.9005  },
+  'leitrim-flats':   { neighbourhood: 'Leitrim',         address: '4793 Bank Street, Ottawa, ON',          lat: 45.3193,  lng: -75.5926  },
+  'the-creek':       { neighbourhood: 'Kemptville',      address: 'Bristol Street, Kemptville, ON',        lat: 45.0301,  lng: -75.6420  },
+  'cowans-grove':    { neighbourhood: "Cowan's Grove",   address: '138 Shuttleworth Drive, Ottawa, ON',    lat: 45.3182,  lng: -75.5904  },
 };
 
 // ── Name normalization ─────────────────────────────────────────────────────────
