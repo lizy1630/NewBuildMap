@@ -3,3 +3,5 @@ node_modules/
 public/data/raw/
 .DS_Store
 *.log
+.env
+.wrangler/

@@ -9,8 +9,8 @@
       "builder": "Claridge Homes",
       "community": "Kanata North",
       "address": "2008 Bosch Place, Kanata, ON K2W 1A1",
-      "lat": 45.345,
-      "lng": -75.912,
+      "lat": 45.3617,
+      "lng": -75.9488,
       "homeTypes": [
         "Bungalows",
         "Townhomes",
@@ -560,8 +560,8 @@
       "builder": "Claridge Homes",
       "community": "Stittsville",
       "address": "571 Bobolink Ridge, Stittsville, ON K2S 1S3",
-      "lat": 45.254,
-      "lng": -75.935,
+      "lat": 45.2697,
+      "lng": -75.8945,
       "homeTypes": [
         "Bungalows",
         "Townhomes",
@@ -1059,8 +1059,8 @@
       "builder": "Claridge Homes",
       "community": "Kanata South",
       "address": "2010 Allegrini Terrace, Kanata, ON K2S 2S7",
-      "lat": 45.293,
-      "lng": -75.923,
+      "lat": 45.2706,
+      "lng": -75.8632,
       "homeTypes": [
         "Townhomes",
         "Bungalows",
@@ -1792,8 +1792,8 @@
       "builder": "Claridge Homes",
       "community": "Kanata South",
       "address": "2010 Allegrini Terrace, Kanata, ON K2S 2S7",
-      "lat": 45.285,
-      "lng": -75.918,
+      "lat": 45.2706,
+      "lng": -75.8632,
       "homeTypes": [
         "Townhomes"
       ],
@@ -2038,12 +2038,12 @@
     },
     {
       "id": "claridge-watters-pointe",
-      "name": "Watter\u2019s Pointe",
+      "name": "Watter’s Pointe",
       "builder": "Claridge Homes",
       "community": "Barrhaven",
       "address": "706 Hosta Drive, Riverside South, ON K4M 0N7",
-      "lat": 45.272,
-      "lng": -75.687,
+      "lat": 45.2609,
+      "lng": -75.6907,
       "homeTypes": [
         "Townhomes"
       ],
@@ -2171,12 +2171,12 @@
     },
     {
       "id": "claridge-rivers-edge",
-      "name": "River\u2019s Edge",
+      "name": "River’s Edge",
       "builder": "Claridge Homes",
       "community": "Riverside South",
       "address": "706 Hosta Drive, Riverside South, ON K4M 0N7",
-      "lat": 45.27,
-      "lng": -75.684,
+      "lat": 45.2609,
+      "lng": -75.6907,
       "homeTypes": [
         "Bungalows",
         "Townhomes",
@@ -2830,8 +2830,8 @@
       "builder": "Claridge Homes",
       "community": "Findlay Creek",
       "address": "3275 Findlay Creek Drive, Ottawa, ON K1T 0A9",
-      "lat": 45.329,
-      "lng": -75.599,
+      "lat": 45.3216,
+      "lng": -75.5912,
       "homeTypes": [
         "Bungalows",
         "Townhomes",
@@ -3423,8 +3423,8 @@
       "builder": "Minto Communities",
       "community": "Barrhaven",
       "address": "Riversbend at Harmony, Barrhaven, Ottawa, ON",
-      "lat": 45.2636,
-      "lng": -75.7582,
+      "lat": 45.2769,
+      "lng": -75.7002,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -4047,8 +4047,8 @@
       "builder": "Minto Communities",
       "community": "Stittsville",
       "address": "Abbott's Run, Stittsville, Ottawa, ON",
-      "lat": 45.2803,
-      "lng": -75.9009,
+      "lat": 45.2753,
+      "lng": -75.8951,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -4397,13 +4397,13 @@
         },
         {
           "name": "Minto - Abbott's Run - Urban Townhomes - feature sheet",
-          "text": "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Smooth Ceilings on First and Second Floor, Laminate Flooring on Second Floor (excludes Powder Room), Quartz Countertop in Kitchen, and\u00a0Minto Smarter Home Starter Package w/ecobee.",
+          "text": "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Smooth Ceilings on First and Second Floor, Laminate Flooring on Second Floor (excludes Powder Room), Quartz Countertop in Kitchen, and Minto Smarter Home Starter Package w/ecobee.",
           "localUrl": null
         }
       ],
       "includedFeatures": [
         "$2,500 Design Centre Bonus, 9' Smooth Ceilings on Main Floor (excludes tiled areas), Quartz Countertop in Kitchen, and Minto Smarter Home Starter Package w/ecobee.",
-        "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Smooth Ceilings on First and Second Floor, Laminate Flooring on Second Floor (excludes Powder Room), Quartz Countertop in Kitchen, and\u00a0Minto Smarter Home Starter Package w/ecobee."
+        "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Smooth Ceilings on First and Second Floor, Laminate Flooring on Second Floor (excludes Powder Room), Quartz Countertop in Kitchen, and Minto Smarter Home Starter Package w/ecobee."
       ],
       "priceReportUrl": "/data/minto-price-reports/abbott-s-run-2026-04-17T20-24-07.pdf",
       "status": "selling",
@@ -4420,8 +4420,8 @@
       "builder": "Minto Communities",
       "community": "Kanata",
       "address": "Arcadia, Kanata, Ottawa, ON",
-      "lat": 45.3015,
-      "lng": -75.9358,
+      "lat": 45.3034,
+      "lng": -75.9307,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -5977,8 +5977,8 @@
       "builder": "Minto Communities",
       "community": "Kanata",
       "address": "March Rd & Klondike Rd, Kanata North, Ottawa, ON",
-      "lat": 45.3635,
-      "lng": -75.9352,
+      "lat": 45.3484,
+      "lng": -75.9444,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -6473,8 +6473,8 @@
       "builder": "Minto Communities",
       "community": "Barrhaven",
       "address": "Anthem, Barrhaven, Ottawa, ON",
-      "lat": 45.2585,
-      "lng": -75.7592,
+      "lat": 45.2759,
+      "lng": -75.7186,
       "homeTypes": [
         "Townhomes"
       ],
@@ -6564,8 +6564,8 @@
       "builder": "Minto Communities",
       "community": "Barrhaven",
       "address": "Barnsdale Rd & Greenbank Rd, Barrhaven, Ottawa, ON",
-      "lat": 45.2363,
-      "lng": -75.7284,
+      "lat": 45.2357,
+      "lng": -75.7257,
       "homeTypes": [],
       "type": "unknown",
       "models": [],
@@ -6587,10 +6587,10 @@
       "id": "minto-avalon",
       "name": "Avalon Vista",
       "builder": "Minto Communities",
-      "community": "Orl\u00e9ans",
-      "address": "Avalon Vista, Orl\u00e9ans, Ottawa, ON",
-      "lat": 45.4494,
-      "lng": -75.4818,
+      "community": "Orléans",
+      "address": "Avalon Vista, Orléans, Ottawa, ON",
+      "lat": 45.4559,
+      "lng": -75.4768,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -7186,7 +7186,7 @@
       "featureSheets": [
         {
           "name": "Minto - Avalon Vista - 36' Single Family Homes - feature sheet",
-          "text": "$10,000 Design Centre Bonus,\u00a0Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.",
+          "text": "$10,000 Design Centre Bonus, Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.",
           "localUrl": null
         },
         {
@@ -7196,7 +7196,7 @@
         },
         {
           "name": "Minto - Avalon Vista - Avenue Townhomes - feature sheet",
-          "text": "$2,500 Design Centre Bonus, 6 appliances,\u00a0Minto Smarter Home Starter + ecobee Package, smooth ceilings on the first and second floor, and quartz countertops in the kitchen.",
+          "text": "$2,500 Design Centre Bonus, 6 appliances, Minto Smarter Home Starter + ecobee Package, smooth ceilings on the first and second floor, and quartz countertops in the kitchen.",
           "localUrl": null
         },
         {
@@ -7206,15 +7206,15 @@
         }
       ],
       "includedFeatures": [
-        "$10,000 Design Centre Bonus,\u00a0Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.",
+        "$10,000 Design Centre Bonus, Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.",
         "$10,000 Design Centre Bonus, Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in the Kitchen, Natural Gas Fireplace and Potlights in the Main Hallway.On select lots receive $15,000 Design Centre Bonus. Contact us for more information.",
-        "$2,500 Design Centre Bonus, 6 appliances,\u00a0Minto Smarter Home Starter + ecobee Package, smooth ceilings on the first and second floor, and quartz countertops in the kitchen.",
+        "$2,500 Design Centre Bonus, 6 appliances, Minto Smarter Home Starter + ecobee Package, smooth ceilings on the first and second floor, and quartz countertops in the kitchen.",
         "$5,000 Design Centre Bonus, 6 appliances, Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in Kitchen, and Potlights in the Main Hallway.On select lots receive $8,000 Design Centre Bonus. Contact us for more information."
       ],
       "priceReportUrl": "/data/minto-price-reports/avalon-vista-2026-04-17T20-24-07.pdf",
       "status": "selling",
       "completionYear": null,
-      "description": "A Minto Communities development in Orl\u00e9ans, Ottawa.",
+      "description": "A Minto Communities development in Orléans, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/Orleans-new-homes/Avalon/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
@@ -7226,8 +7226,8 @@
       "builder": "Mattamy Homes",
       "community": "Barrhaven",
       "address": "Half Moon Bay, Barrhaven, Ottawa, ON",
-      "lat": 45.2474,
-      "lng": -75.7393,
+      "lat": 45.2563,
+      "lng": -75.7432,
       "homeTypes": [
         "Condo"
       ],
@@ -7311,10 +7311,10 @@
       "id": "mattamy-locale",
       "name": "Locale",
       "builder": "Mattamy Homes",
-      "community": "Orl\u00e9ans",
-      "address": "2370 Tenth Line Road, Orl\u00e9ans, Ottawa, ON K4A 1C4",
+      "community": "Orléans",
+      "address": "2370 Tenth Line Road, Orléans, Ottawa, ON K4A 1C4",
       "lat": 45.4494,
-      "lng": -75.4818,
+      "lng": -75.4819,
       "homeTypes": [
         "Condo"
       ],
@@ -7388,7 +7388,7 @@
       "priceReportUrl": "/data/mattamy-price-reports/locale-2026-04-17T20-26-53.pdf",
       "status": "selling",
       "completionYear": null,
-      "description": "A Mattamy Homes community in Orl\u00e9ans, Ottawa.",
+      "description": "A Mattamy Homes community in Orléans, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/orleans/locale/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
@@ -7400,8 +7400,8 @@
       "builder": "Mattamy Homes",
       "community": "Kanata",
       "address": "1020 March Road, Kanata North, Ottawa, ON K2K 1X7",
-      "lat": 45.363,
-      "lng": -75.944,
+      "lat": 45.3659,
+      "lng": -75.9452,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -7649,8 +7649,8 @@
       "builder": "Mattamy Homes",
       "community": "Richmond",
       "address": "Richmond Meadows, Richmond, Ottawa, ON",
-      "lat": 45.195,
-      "lng": -75.827,
+      "lat": 45.1944,
+      "lng": -75.8388,
       "homeTypes": [
         "Single Family"
       ],
@@ -7697,8 +7697,8 @@
       "builder": "Mattamy Homes",
       "community": "Stittsville",
       "address": "Traditions II, Stittsville, Ottawa, ON",
-      "lat": 45.255,
-      "lng": -75.935,
+      "lat": 45.2425,
+      "lng": -75.9123,
       "homeTypes": [
         "Townhomes"
       ],
@@ -7782,10 +7782,10 @@
       "id": "richcraft-trailsedge",
       "name": "Trailsedge",
       "builder": "Richcraft Homes",
-      "community": "Orl\u00e9ans",
-      "address": "Trailsedge, Orl\u00e9ans, Ottawa, ON",
-      "lat": 45.4387,
-      "lng": -75.504,
+      "community": "Orléans",
+      "address": "Trailsedge, Orléans, Ottawa, ON",
+      "lat": 45.4303,
+      "lng": -75.5157,
       "homeTypes": [
         "Urban Towns",
         "Thrive Towns",
@@ -8757,7 +8757,7 @@
       "priceFromFormatted": "$521,265",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
+      "description": "A Richcraft Homes community in Orléans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
@@ -8770,8 +8770,8 @@
       "builder": "Richcraft Homes",
       "community": "Barrhaven",
       "address": "126 Dun Skipper Drive, Ottawa, ON K1X 0G2",
-      "lat": 45.309,
-      "lng": -75.591,
+      "lat": 45.3096,
+      "lng": -75.5905,
       "homeTypes": [
         "Thrive Towns",
         "Bungalow Towns",
@@ -9605,7 +9605,7 @@
       "priceFromFormatted": "$574,660",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
+      "description": "A Richcraft Homes community in Orléans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-south/pathways/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
@@ -9618,8 +9618,8 @@
       "builder": "Richcraft Homes",
       "community": "Barrhaven",
       "address": "Riverside South, Barrhaven, Ottawa, ON",
-      "lat": 45.2821,
-      "lng": -75.6858,
+      "lat": 45.2815,
+      "lng": -75.6832,
       "homeTypes": [
         "Urban Towns",
         "Thrive Towns",
@@ -10615,7 +10615,7 @@
       "priceFromFormatted": "$569,925",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
+      "description": "A Richcraft Homes community in Orléans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
@@ -10628,8 +10628,8 @@
       "builder": "Richcraft Homes",
       "community": "Kanata",
       "address": "Bradley Commons, Kanata, Ottawa, ON",
-      "lat": 45.2827,
-      "lng": -75.8962,
+      "lat": 45.2583,
+      "lng": -75.9148,
       "homeTypes": [
         "Bungalow Towns",
         "Single Family"
@@ -11133,7 +11133,7 @@
       "priceFromFormatted": "$665,658",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
+      "description": "A Richcraft Homes community in Orléans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/bradley_commons/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
@@ -11146,8 +11146,8 @@
       "builder": "Richcraft Homes",
       "community": "Kanata",
       "address": "Mapleton, Kanata, Ottawa, ON",
-      "lat": 45.291,
-      "lng": -75.9073,
+      "lat": 45.2922,
+      "lng": -75.9112,
       "homeTypes": [
         "Flats",
         "Thrive Towns",
@@ -11393,7 +11393,7 @@
       "priceFromFormatted": "$399,900",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
+      "description": "A Richcraft Homes community in Orléans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/mapleton/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
@@ -11406,8 +11406,8 @@
       "builder": "Richcraft Homes",
       "community": "Kanata",
       "address": "Kanata Lakes, Kanata, Ottawa, ON",
-      "lat": 45.3259,
-      "lng": -75.9181,
+      "lat": 45.3228,
+      "lng": -75.9319,
       "homeTypes": [
         "Bungalow Towns",
         "Single Family"
@@ -12207,7 +12207,7 @@
       "priceFromFormatted": "$399,900",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
+      "description": "A Richcraft Homes community in Orléans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/gateway-flats/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
@@ -12220,8 +12220,8 @@
       "builder": "Richcraft Homes",
       "community": "Kanata",
       "address": "Westwood, Kanata, Ottawa, ON",
-      "lat": 45.2631,
-      "lng": -75.8914,
+      "lat": 45.3448,
+      "lng": -76.0073,
       "homeTypes": [
         "Urban Towns",
         "Bungalow Towns",
@@ -13031,7 +13031,7 @@
       "priceFromFormatted": "$521,265",
       "status": "selling",
       "completionYear": null,
-      "description": "A Richcraft Homes community in Orl\u00e9ans, Ottawa.",
+      "description": "A Richcraft Homes community in Orléans, Ottawa.",
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/westwood/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
@@ -13044,8 +13044,8 @@
       "builder": "Caivan",
       "community": "Stittsville",
       "address": "1820 Shea Road, Stittsville, Ottawa, ON K2S 1K5",
-      "lat": 45.2557,
-      "lng": -75.8957,
+      "lat": 45.2492,
+      "lng": -75.8897,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -13286,8 +13286,8 @@
       "builder": "Caivan",
       "community": "Barrhaven",
       "address": "The Ridge, Barrhaven, Ottawa, ON",
-      "lat": 45.244,
-      "lng": -75.7583,
+      "lat": 45.2759,
+      "lng": -75.7186,
       "homeTypes": [
         "Single Family"
       ],
@@ -13332,8 +13332,8 @@
       "builder": "Caivan",
       "community": "Barrhaven",
       "address": "The Conservancy, Barrhaven, Ottawa, ON",
-      "lat": 45.2586,
-      "lng": -75.7552,
+      "lat": 45.2574,
+      "lng": -75.7604,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -13341,7 +13341,7 @@
       "type": "mixed",
       "models": [
         {
-          "name": "35\u2032/The Ashland",
+          "name": "35′/The Ashland",
           "type": "single-family",
           "sqft": 2159,
           "beds": 5,
@@ -13353,7 +13353,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Ashland.pdf"
         },
         {
-          "name": "35\u2032/The Hemlock - Model Home",
+          "name": "35′/The Hemlock - Model Home",
           "type": "single-family",
           "sqft": 2384,
           "beds": 5,
@@ -13365,7 +13365,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Hemlock.pdf"
         },
         {
-          "name": "35\u2032/The Olive",
+          "name": "35′/The Olive",
           "type": "single-family",
           "sqft": 2445,
           "beds": 5,
@@ -13377,7 +13377,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Olive-1.pdf"
         },
         {
-          "name": "35\u2032/The Hemlock Loft",
+          "name": "35′/The Hemlock Loft",
           "type": "single-family",
           "sqft": 2798,
           "beds": 6,
@@ -13389,7 +13389,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Hemlock_Loft.pdf"
         },
         {
-          "name": "35\u2032/The Olive Loft",
+          "name": "35′/The Olive Loft",
           "type": "single-family",
           "sqft": 2929,
           "beds": 6,
@@ -13401,7 +13401,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2024/05/Caivan_The_Conservancy_35_Collection_The_Olive_Loft-1.pdf"
         },
         {
-          "name": "41\u2032/The Wray",
+          "name": "41′/The Wray",
           "type": "single-family",
           "sqft": 2779,
           "beds": 5,
@@ -13413,7 +13413,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_41_Collection_The_Wray.pdf"
         },
         {
-          "name": "42\u2032/The Chesley",
+          "name": "42′/The Chesley",
           "type": "single-family",
           "sqft": 2831,
           "beds": 5,
@@ -13425,7 +13425,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_42_Collection_The_Chesley.pdf"
         },
         {
-          "name": "42\u2032/The Newbury",
+          "name": "42′/The Newbury",
           "type": "single-family",
           "sqft": 2572,
           "beds": 5,
@@ -13437,7 +13437,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_42_Collection_The_Newbury.pdf"
         },
         {
-          "name": "42\u2032/The Paisley",
+          "name": "42′/The Paisley",
           "type": "single-family",
           "sqft": 3067,
           "beds": 5,
@@ -13449,7 +13449,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_42_Collection_The_Paisley.pdf"
         },
         {
-          "name": "42\u2032/The Paisley Loft",
+          "name": "42′/The Paisley Loft",
           "type": "single-family",
           "sqft": 3417,
           "beds": 6,
@@ -13461,7 +13461,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_42_Collection_The_Paisley_Loft.pdf"
         },
         {
-          "name": "50\u2032/The Copperstone",
+          "name": "50′/The Copperstone",
           "type": "single-family",
           "sqft": 3119,
           "beds": 6,
@@ -13473,7 +13473,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_50_Collection_The_Copperstone.pdf"
         },
         {
-          "name": "50\u2032/The Ironridge - Model Home",
+          "name": "50′/The Ironridge - Model Home",
           "type": "single-family",
           "sqft": 3696,
           "beds": 7,
@@ -13485,7 +13485,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_50_Collection_The_Ironridge-1.pdf"
         },
         {
-          "name": "50\u2032/The Stonehaven",
+          "name": "50′/The Stonehaven",
           "type": "single-family",
           "sqft": 3885,
           "beds": 7,
@@ -13497,7 +13497,7 @@
           "modelUrl": "https://caivan.com/wp-content/uploads/2021/09/Caivan_The_Conservancy_50_Collection_The_Stonehaven-1.pdf"
         },
         {
-          "name": "50\u2032/The Stonehaven Loft - Model Home",
+          "name": "50′/The Stonehaven Loft - Model Home",
           "type": "single-family",
           "sqft": 4379,
           "beds": 8,
@@ -13595,22 +13595,22 @@
       ],
       "typePrices": [
         {
-          "type": "35\u2032 collection",
+          "type": "35′ collection",
           "priceFrom": 684947,
           "priceFromFormatted": "$684,947"
         },
         {
-          "type": "41\u2032 Collection",
+          "type": "41′ Collection",
           "priceFrom": 773442,
           "priceFromFormatted": "$773,442"
         },
         {
-          "type": "42\u2032 Collection",
+          "type": "42′ Collection",
           "priceFrom": 791142,
           "priceFromFormatted": "$791,142"
         },
         {
-          "type": "50\u2032 Collection",
+          "type": "50′ Collection",
           "priceFrom": 888487,
           "priceFromFormatted": "$888,487"
         },
@@ -13649,12 +13649,12 @@
     },
     {
       "id": "caivan-orleans-village",
-      "name": "Orl\u00e9ans Village",
+      "name": "Orléans Village",
       "builder": "Caivan",
-      "community": "Orl\u00e9ans",
-      "address": "806 Mercier Cres. Orl\u00e9ans, ON K1W 0N5",
-      "lat": 45.4402,
-      "lng": -75.52,
+      "community": "Orléans",
+      "address": "806 Mercier Cres. Orléans, ON K1W 0N5",
+      "lat": 45.4403,
+      "lng": -75.5199,
       "homeTypes": [
         "Townhomes"
       ],
@@ -13746,7 +13746,7 @@
       "includedFeatures": [],
       "status": "selling",
       "completionYear": null,
-      "description": "A Caivan community in Orl\u00e9ans, Ottawa.",
+      "description": "A Caivan community in Orléans, Ottawa.",
       "sourceUrl": "https://caivan.com/ottawa/orleans-village/",
       "sourceName": "caivan.com",
       "imageUrl": "",
@@ -13759,8 +13759,8 @@
       "builder": "HN Homes",
       "community": "Kanata",
       "address": "Kanata Lakes, Kanata, Ottawa, ON",
-      "lat": 45.325,
-      "lng": -75.9133,
+      "lat": 45.3228,
+      "lng": -75.9319,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -14107,11 +14107,11 @@
         "3-1/4\" engineered, stained or natural oak hardwood with no VOC matte finish in all main floor areas, except for main floor bedrooms and tiled areas (as per plans)",
         "Tiled foyers, laundry rooms, mudrooms and bathrooms including a selection of 12\" X 24\" floor tiles (as per plans)",
         "Stained or natural oak hardwood stairs from the main floor to second floor with signature glass panels and oak handrails to match (single storey bungalows include stained or natural oak hardwood stairs to basement)",
-        "9\u2019 ceilings on main floor, excluding dropped ceilings and bulkhead areas (model dependent)",
+        "9’ ceilings on main floor, excluding dropped ceilings and bulkhead areas (model dependent)",
         "Smooth finished painted ceilings throughout (except for gypsum board finish in the garage)",
         "Raised ceiling detail in master bedroom (model dependent)",
         "Modern linear gas fireplace in architectural enclosure, complete with fan kit",
-        "3 \u00bd\u201d wood baseboards and 2 \u00bd\u201d wood casings with modern profile and modern flush panel interior doors",
+        "3 ½” wood baseboards and 2 ½” wood casings with modern profile and modern flush panel interior doors",
         "40 oz. carpet with high density underpad in all upper hallways, bedrooms and finished basement areas",
         "Laundry rooms on first or second floor include upper cabinetry and base cabinet with stainless steel undermount sink, single lever faucet and quartz or granite countertop (as per plan)",
         "Lever handle door hardware at all interior doors",
@@ -14119,9 +14119,9 @@
         "Finished basement space provides additional multi-purpose living area (as per plan)",
         "Choice from one of 4 standard designer paint colours with Benjamin Moore Regal wall paint throughout the home",
         "KITCHEN DESIGN AND FINISHES",
-        "1 \u00bc\u201d thick quartz or granite countertops on lower cabinets and island from builder standard selections",
+        "1 ¼” thick quartz or granite countertops on lower cabinets and island from builder standard selections",
         "Selection of kitchen door styles and no VOC stain finishes from extensive collection of builder standards",
-        "Custom designed kitchens with 41\u201d upper cabinets built out over refrigerators with soft-close hardware throughout and a spacious family-sized island (Model dependent)",
+        "Custom designed kitchens with 41” upper cabinets built out over refrigerators with soft-close hardware throughout and a spacious family-sized island (Model dependent)",
         "Pot drawer and under-counter microwave cabinet in all models",
         "Bank of drawers and pantry units (model dependent)",
         "LED Valance lighting and tiled kitchen backsplash",
@@ -14131,12 +14131,12 @@
         "Single lever chrome faucets in all bathrooms, powder rooms and ensuites",
         "Primary ensuite vanities to include quartz or granite countertops complete with under-mount sinks and a bank of drawers (as per plan)",
         "Main bathrooms and secondary ensuite vanities to include quartz or granite countertops complete with under-mount sinks and a bank of drawers (model dependant)",
-        "Primary ensuite to include 5\u2019 soaker tub set in tiled tub deck with chrome tub filler, double sinks and molded shower base with sliding tempered glass doors and tiled shower walls (model dependent)",
+        "Primary ensuite to include 5’ soaker tub set in tiled tub deck with chrome tub filler, double sinks and molded shower base with sliding tempered glass doors and tiled shower walls (model dependent)",
         "Main bathrooms and secondary ensuite to include acrylic bathtubs with tiled surrounds (as per plan)",
         "Pedestal sinks in powder rooms",
         "Pressure balancing mixing valves and upgraded chrome finish shower heads in all showers",
         "Low water consumption, two piece toilets with elongated bowls in the powder room, all bathrooms and secondary ensuite",
-        "Dual flush \u201cRight Height\u201d elongated bowl toilet in primary ensuite with slow close seat and cover",
+        "Dual flush “Right Height” elongated bowl toilet in primary ensuite with slow close seat and cover",
         "Floating mirrors and wall mounted linear LED vanity lights in all bathrooms and ensuites",
         "3 piece basement bathroom rough-in",
         "Shut off valves at all accessible plumbing fixtures",
@@ -14149,7 +14149,7 @@
         "LED lighting included throughout the entire home",
         "Draft protected electrical outlets at all exterior walls",
         "LED Recessed pot lights in foyer, stairwells, kitchen, upper hall, shower and tub enclosures (as per plans)",
-        "Decora light switches and electrical outlets throughout, with light switches installed at designer height of 43\u201d",
+        "Decora light switches and electrical outlets throughout, with light switches installed at designer height of 43”",
         "2 exterior weatherproof electrical outlets",
         "2 combined USB/electrical outlets (one at kitchen island, one at primary bedroom)",
         "Fiber optic cable service available to each home",
@@ -14178,7 +14178,7 @@
         "R22 wall insulation in all exterior ground and second floor framed walls with R5 laminated OSB/foam sheathing at all living areas",
         "Spray foam insulation at ground floor header locations and around all door and window openings",
         "R12 batt insulation and R12 rigid insulation at the interior side of all foundation walls except as required at interior stairs or other details",
-        "Fully insulated garage with R12 batt insulation in all exterior garage walls, R20 where exterior wall framing consists of 2\u201d x 6\u201d framing",
+        "Fully insulated garage with R12 batt insulation in all exterior garage walls, R20 where exterior wall framing consists of 2” x 6” framing",
         "R40 batt insulation at garage ceiling below heated plenum at underside of second floor finished areas and spray foam insulation at cantilevered floor areas",
         "R20 batt insulation above all unheated garage ceiling areas",
         "Air Barrier Membrane System complete with membrane protection at window and doors sill and jamb locations",
@@ -14204,8 +14204,8 @@
       "builder": "HN Homes",
       "community": "Barrhaven",
       "address": "Riverside South, Barrhaven, Ottawa, ON",
-      "lat": 45.275,
-      "lng": -75.695,
+      "lat": 45.2815,
+      "lng": -75.6832,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -14561,11 +14561,11 @@
         "3-1/4\" engineered, stained or natural oak hardwood with no VOC matte finish in all main floor areas, except for main floor bedrooms and tiled areas (as per plans)",
         "Tiled foyers, laundry rooms, mudrooms and bathrooms including a selection of 12\" X 24\" floor tiles (as per plans)",
         "Stained or natural oak hardwood stairs from the main floor to second floor with signature glass panels and oak handrails to match (single storey bungalows include stained or natural oak hardwood stairs to basement)",
-        "9\u2019 ceilings on main floor, excluding dropped ceilings and bulkhead areas (model dependent)",
+        "9’ ceilings on main floor, excluding dropped ceilings and bulkhead areas (model dependent)",
         "Smooth finished painted ceilings throughout (except for gypsum board finish in the garage)",
         "Raised ceiling detail in master bedroom (model dependent)",
         "Modern linear gas fireplace in architectural enclosure, complete with fan kit",
-        "3 \u00bd\u201d wood baseboards and 2 \u00bd\u201d wood casings with modern profile and modern flush panel interior doors",
+        "3 ½” wood baseboards and 2 ½” wood casings with modern profile and modern flush panel interior doors",
         "40 oz. carpet with high density underpad in all upper hallways, bedrooms and finished basement areas",
         "Laundry rooms on first or second floor include upper cabinetry and base cabinet with stainless steel undermount sink, single lever faucet and quartz or granite countertop (as per plan)",
         "Lever handle door hardware at all interior doors",
@@ -14573,9 +14573,9 @@
         "Finished basement space provides additional multi-purpose living area (as per plan)",
         "Choice from one of 4 standard designer paint colours with Benjamin Moore Regal wall paint throughout the home",
         "KITCHEN DESIGN AND FINISHES",
-        "1 \u00bc\u201d thick quartz or granite countertops on lower cabinets and island from builder standard selections",
+        "1 ¼” thick quartz or granite countertops on lower cabinets and island from builder standard selections",
         "Selection of kitchen door styles and no VOC stain finishes from extensive collection of builder standards",
-        "Custom designed kitchens with 41\u201d upper cabinets built out over refrigerators with soft-close hardware throughout and a spacious family-sized island (Model dependent)",
+        "Custom designed kitchens with 41” upper cabinets built out over refrigerators with soft-close hardware throughout and a spacious family-sized island (Model dependent)",
         "Pot drawer and under-counter microwave cabinet in all models",
         "Bank of drawers and pantry units (model dependent)",
         "LED Valance lighting and tiled kitchen backsplash",
@@ -14585,12 +14585,12 @@
         "Single lever chrome faucets in all bathrooms, powder rooms and ensuites",
         "Primary ensuite vanities to include quartz or granite countertops complete with under-mount sinks and a bank of drawers (as per plan)",
         "Main bathrooms and secondary ensuite vanities to include quartz or granite countertops complete with under-mount sinks and a bank of drawers (model dependant)",
-        "Primary ensuite to include 5\u2019 soaker tub set in tiled tub deck with chrome tub filler, double sinks and molded shower base with sliding tempered glass doors and tiled shower walls (model dependent)",
+        "Primary ensuite to include 5’ soaker tub set in tiled tub deck with chrome tub filler, double sinks and molded shower base with sliding tempered glass doors and tiled shower walls (model dependent)",
         "Main bathrooms and secondary ensuite to include acrylic bathtubs with tiled surrounds (as per plan)",
         "Pedestal sinks in powder rooms",
         "Pressure balancing mixing valves and upgraded chrome finish shower heads in all showers",
         "Low water consumption, two piece toilets with elongated bowls in the powder room, all bathrooms and secondary ensuite",
-        "Dual flush \u201cRight Height\u201d elongated bowl toilet in primary ensuite with slow close seat and cover",
+        "Dual flush “Right Height” elongated bowl toilet in primary ensuite with slow close seat and cover",
         "Floating mirrors and wall mounted linear LED vanity lights in all bathrooms and ensuites",
         "3 piece basement bathroom rough-in",
         "Shut off valves at all accessible plumbing fixtures",
@@ -14603,7 +14603,7 @@
         "LED lighting included throughout the entire home",
         "Draft protected electrical outlets at all exterior walls",
         "LED Recessed pot lights in foyer, stairwells, kitchen, upper hall, shower and tub enclosures (as per plans)",
-        "Decora light switches and electrical outlets throughout, with light switches installed at designer height of 43\u201d",
+        "Decora light switches and electrical outlets throughout, with light switches installed at designer height of 43”",
         "2 exterior weatherproof electrical outlets",
         "2 combined USB/electrical outlets (one at kitchen island, one at primary bedroom)",
         "Fiber optic cable service available to each home",
@@ -14632,7 +14632,7 @@
         "R22 wall insulation in all exterior ground and second floor framed walls with R5 laminated OSB/foam sheathing at all living areas",
         "Spray foam insulation at ground floor header locations and around all door and window openings",
         "R12 batt insulation and R12 rigid insulation at the interior side of all foundation walls except as required at interior stairs or other details",
-        "Fully insulated garage with R12 batt insulation in all exterior garage walls, R20 where exterior wall framing consists of 2\u201d x 6\u201d framing",
+        "Fully insulated garage with R12 batt insulation in all exterior garage walls, R20 where exterior wall framing consists of 2” x 6” framing",
         "R40 batt insulation at garage ceiling below heated plenum at underside of second floor finished areas and spray foam insulation at cantilevered floor areas",
         "R20 batt insulation above all unheated garage ceiling areas",
         "Air Barrier Membrane System complete with membrane protection at window and doors sill and jamb locations",
@@ -15294,8 +15294,8 @@
       "builder": "Cardel Homes",
       "community": "Riverside South",
       "address": "801 Kenny Gordon Avenue, Riverside South, Ottawa, ON K4M 0N4",
-      "lat": 45.2636,
-      "lng": -75.6852,
+      "lat": 45.2547,
+      "lng": -75.6887,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -15569,8 +15569,8 @@
       "builder": "Cardel Homes",
       "community": "Stittsville",
       "address": "511 Edenwylde Drive, Stittsville, Ottawa, ON K2S 1K5",
-      "lat": 45.2542,
-      "lng": -75.9007,
+      "lat": 45.2541,
+      "lng": -75.9006,
       "homeTypes": [
         "Townhomes"
       ],
@@ -15646,8 +15646,8 @@
       "builder": "Urbandale",
       "community": "Riverside South",
       "address": "Riverside South, Ottawa, ON",
-      "lat": 45.265,
-      "lng": -75.6852,
+      "lat": 45.2815,
+      "lng": -75.6832,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes",
@@ -16186,8 +16186,8 @@
       "builder": "Urbandale",
       "community": "Kanata Lakes",
       "address": "Kanata Lakes, Kanata, ON",
-      "lat": 45.3127,
-      "lng": -75.9119,
+      "lat": 45.3228,
+      "lng": -75.9319,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes"
@@ -16644,8 +16644,8 @@
       "builder": "Urbandale",
       "community": "Stittsville",
       "address": "560 Hazeldean Road, Stittsville, ON",
-      "lat": 45.2892,
-      "lng": -75.9005,
+      "lat": 45.288,
+      "lng": -75.8976,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes"
@@ -17026,8 +17026,8 @@
       "builder": "Urbandale",
       "community": "Leitrim",
       "address": "4793 Bank Street, Ottawa, ON",
-      "lat": 45.3193,
-      "lng": -75.5926,
+      "lat": 45.3192,
+      "lng": -75.5927,
       "homeTypes": [
         "Condos"
       ],
@@ -17126,8 +17126,8 @@
       "builder": "Urbandale",
       "community": "Kemptville",
       "address": "Bristol Street, Kemptville, ON",
-      "lat": 45.0301,
-      "lng": -75.642,
+      "lat": 45.0302,
+      "lng": -75.6399,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes"
@@ -17503,12 +17503,12 @@
     },
     {
       "id": "urbandale-cowans-grove",
-      "name": "Cowan\u2019s Grove",
+      "name": "Cowan’s Grove",
       "builder": "Urbandale",
       "community": "Cowan's Grove",
       "address": "138 Shuttleworth Drive, Ottawa, ON",
       "lat": 45.3182,
-      "lng": -75.5904,
+      "lng": -75.5905,
       "homeTypes": [
         "Singles & Bungalows"
       ],
@@ -17665,7 +17665,7 @@
       "builder": "Tamarack Homes",
       "community": "Stittsville",
       "address": "533 Villanelle Road, Stittsville, Ottawa, ON",
-      "lat": 45.2552,
+      "lat": 45.2551,
       "lng": -75.9026,
       "homeTypes": [
         "Townhomes"
@@ -17814,7 +17814,7 @@
       "builder": "Tamarack Homes",
       "community": "Findlay Creek",
       "address": "3925 Kelly Farm Drive, Findlay Creek, Ottawa, ON",
-      "lat": 45.3243,
+      "lat": 45.3242,
       "lng": -75.6115,
       "homeTypes": [
         "Townhomes",
@@ -17914,10 +17914,10 @@
       "id": "tamarack-cardinal-creek-village",
       "name": "Cardinal Creek Village",
       "builder": "Tamarack Homes",
-      "community": "Orl\u00e9ans",
-      "address": "554 Avenue de la Famille Laporte, Orl\u00e9ans, Ottawa, ON",
+      "community": "Orléans",
+      "address": "554 Avenue de la Famille Laporte, Orléans, Ottawa, ON",
       "lat": 45.5016,
-      "lng": -75.4635,
+      "lng": -75.4636,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -17994,7 +17994,7 @@
       "includedFeatures": [],
       "status": "selling",
       "completionYear": null,
-      "description": "Cardinal Creek Village by Tamarack Homes in Orl\u00e9ans, Ottawa.",
+      "description": "Cardinal Creek Village by Tamarack Homes in Orléans, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/cardinal-creek-village/",
       "sourceName": "tamarackhomes.com",
       "scrapedAt": "2026-04-17T20:36:26.458Z"
@@ -18005,7 +18005,7 @@
       "builder": "Tamarack Homes",
       "community": "Stittsville",
       "address": "1045 Cope Drive, Stittsville, Ottawa, ON",
-      "lat": 45.2594,
+      "lat": 45.2595,
       "lng": -75.9069,
       "homeTypes": [
         "Townhomes"
@@ -18089,8 +18089,8 @@
       "builder": "EQ Homes",
       "community": "Kemptville",
       "address": "74 Equinelle Drive, Kemptville, ON K0G 1J0",
-      "lat": 45.0389,
-      "lng": -75.677,
+      "lat": 45.0388,
+      "lng": -75.6763,
       "homeTypes": [
         "Bungalows"
       ],
@@ -18283,10 +18283,10 @@
       "id": "eq-provence",
       "name": "Provence",
       "builder": "EQ Homes",
-      "community": "Orl\u00e9ans",
+      "community": "Orléans",
       "address": "415 Ave. du Ventoux, Ottawa, ON K4A 3R4",
       "lat": 45.4655,
-      "lng": -75.4544,
+      "lng": -75.4524,
       "homeTypes": [
         "Multi-Gen",
         "Single Family",
@@ -18824,7 +18824,7 @@
       "includedFeatures": [],
       "status": "selling",
       "completionYear": null,
-      "description": "Provence by EQ Homes in Orl\u00e9ans, Ottawa.",
+      "description": "Provence by EQ Homes in Orléans, Ottawa.",
       "sourceUrl": "https://eqhomes.ca/communities/provence",
       "sourceName": "eqhomes.ca",
       "scrapedAt": "2026-04-17T20:36:41.955Z"
@@ -18835,8 +18835,8 @@
       "builder": "EQ Homes",
       "community": "Findlay Creek",
       "address": "122 Dun Skipper Drive, Ottawa, ON K1X 0G2",
-      "lat": 45.3089,
-      "lng": -75.5922,
+      "lat": 45.3094,
+      "lng": -75.5908,
       "homeTypes": [
         "Multi-Gen",
         "Single Family",
@@ -19268,8 +19268,8 @@
       "builder": "EQ Homes",
       "community": "Ottawa",
       "address": "1737 Woodward Drive, Ottawa, ON K2C 0P9",
-      "lat": 45.3742,
-      "lng": -75.7285,
+      "lat": 45.3724,
+      "lng": -75.7513,
       "homeTypes": [
         "Townhomes"
       ],
@@ -19359,9 +19359,9 @@
       "name": "The Spencer",
       "builder": "EQ Homes",
       "community": "Ottawa East",
-      "address": "360 Desch\u00e2telets Ave, Ottawa, ON K1S 5Y1",
-      "lat": 45.4175,
-      "lng": -75.6712,
+      "address": "360 Deschâtelets Ave, Ottawa, ON K1S 5Y1",
+      "lat": 45.4089,
+      "lng": -75.6758,
       "homeTypes": [
         "Two Bedroom + Den",
         "Two Bedroom"
