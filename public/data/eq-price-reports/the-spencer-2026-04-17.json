@@ -1,0 +1,103 @@
+{
+  "community": "The Spencer",
+  "builder": "EQ Homes (Greystone Village)",
+  "date": "2026-04-17T20:36:31.933Z",
+  "models": [
+    {
+      "name": "Model 13 (#302)",
+      "type": "Two Bedroom + Den",
+      "beds": 2,
+      "baths": null,
+      "sqft": 981,
+      "price": "$865,693"
+    },
+    {
+      "name": "Model 14 (#201)",
+      "type": "Two Bedroom + Den",
+      "beds": 2,
+      "baths": null,
+      "sqft": 1093,
+      "price": "$932,000"
+    },
+    {
+      "name": "Model 14 (#401)",
+      "type": "Two Bedroom + Den",
+      "beds": 2,
+      "baths": null,
+      "sqft": 1093,
+      "price": "$967,000"
+    },
+    {
+      "name": "Model 14 (#601)",
+      "type": "Two Bedroom + Den",
+      "beds": 2,
+      "baths": null,
+      "sqft": 1093,
+      "price": "$1,062,111"
+    },
+    {
+      "name": "Model 15 (#409)",
+      "type": "Two Bedroom + Den",
+      "beds": 2,
+      "baths": null,
+      "sqft": 1093,
+      "price": "$1,075,000"
+    },
+    {
+      "name": "Model 13 (#602)",
+      "type": "Two Bedroom + Den",
+      "beds": 2,
+      "baths": null,
+      "sqft": 753,
+      "price": "$948,000"
+    },
+    {
+      "name": "Model 15 (#609)",
+      "type": "Two Bedroom + Den",
+      "beds": 2,
+      "baths": null,
+      "sqft": 1204,
+      "price": "$1,288,721"
+    },
+    {
+      "name": "Model 23 (#806)",
+      "type": "Two Bedroom + Den",
+      "beds": 2,
+      "baths": null,
+      "sqft": 1663,
+      "price": "$1,850,950"
+    },
+    {
+      "name": "Model 15 (#807)",
+      "type": "Two Bedroom + Den",
+      "beds": 2,
+      "baths": null,
+      "sqft": 1093,
+      "price": "$1,350,000"
+    },
+    {
+      "name": "Model 12 (#311)",
+      "type": "Two Bedroom",
+      "beds": 2,
+      "baths": null,
+      "sqft": 920,
+      "price": "$870,530"
+    },
+    {
+      "name": "Model 11 (#505)",
+      "type": "Two Bedroom",
+      "beds": 2,
+      "baths": null,
+      "sqft": 753,
+      "price": "$925,000"
+    },
+    {
+      "name": "Model 11 (#704)",
+      "type": "Two Bedroom",
+      "beds": 2,
+      "baths": null,
+      "sqft": 753,
+      "price": "$910,636"
+    }
+  ]
+}

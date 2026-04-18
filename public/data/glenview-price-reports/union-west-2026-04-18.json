@@ -1,0 +1,147 @@
+{
+  "community": "Union West",
+  "builder": "Glenview Homes",
+  "date": "2026-04-18T15:18:07.700Z",
+  "models": [
+    {
+      "name": "The Brighton",
+      "type": "36’ Lot Collection",
+      "lotWidth": 36,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1561,
+      "price": "$869,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Briar",
+      "type": "Townhome Collection",
+      "lotWidth": null,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1806,
+      "price": "$619,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Jasper",
+      "type": "Townhome Collection",
+      "lotWidth": null,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1887,
+      "price": "$637,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Ashton",
+      "type": "30’ Lot Collection",
+      "lotWidth": 30,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1936,
+      "price": "$776,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Bradford",
+      "type": "30’ Lot Collection",
+      "lotWidth": 30,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1936,
+      "price": "$787,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Laurel",
+      "type": "Townhome Collection",
+      "lotWidth": null,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2077,
+      "price": "$649,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Sutton",
+      "type": "30’ Lot Collection",
+      "lotWidth": 30,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2222,
+      "price": "$811,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Alder",
+      "type": "Townhome Collection",
+      "lotWidth": null,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2286,
+      "price": "$684,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Hillcrest",
+      "type": "36’ Lot Collection",
+      "lotWidth": 36,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2352,
+      "price": "$911,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Hyde (w/ Corner Option)",
+      "type": "30’ Lot Collection",
+      "lotWidth": null,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2387,
+      "price": "$820,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Hampton",
+      "type": "36’ Lot Collection",
+      "lotWidth": 36,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2498,
+      "price": "$929,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Reveli",
+      "type": "36’ Lot Collection",
+      "lotWidth": 36,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2700,
+      "price": "$957,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Blakely",
+      "type": "36’ Lot Collection",
+      "lotWidth": 36,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 3099,
+      "price": "$973,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Prescott",
+      "type": "36’ Lot Collection",
+      "lotWidth": 36,
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 3393,
+      "price": "$999,990",
+      "status": "New Construction"
+    }
+  ]
+}

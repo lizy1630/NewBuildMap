@@ -1,0 +1,257 @@
+{
+  "community": "Idylea",
+  "builder": "Tartan Homes",
+  "date": "2026-04-18T15:18:33.168Z",
+  "models": [
+    {
+      "name": "Pothos",
+      "type": "Early Occupancy",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2192,
+      "lotWidth": null,
+      "price": "$690,177",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Ivy",
+      "type": "Early Occupancy",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2358,
+      "lotWidth": null,
+      "price": "$702,566",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Palm",
+      "type": "Early Occupancy",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2543,
+      "lotWidth": null,
+      "price": "$707,876",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Ficus",
+      "type": "Early Occupancy",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2576,
+      "lotWidth": null,
+      "price": "$711,416",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Sirius",
+      "type": "Early Occupancy",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2635,
+      "lotWidth": 35,
+      "price": "$849,469",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Vega",
+      "type": "Early Occupancy",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2980,
+      "lotWidth": 35,
+      "price": "$871,593",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Altair",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2170,
+      "lotWidth": 35,
+      "price": "$796,372",
+      "status": "New Construction"
+    },
+    {
+      "name": "Capella",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2282,
+      "lotWidth": 35,
+      "price": "$809,646",
+      "status": "New Construction"
+    },
+    {
+      "name": "Sirius",
+      "type": "Early Occupancy",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2635,
+      "lotWidth": 35,
+      "price": "$849,469",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Welland",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2808,
+      "lotWidth": 44,
+      "price": "$973,363",
+      "status": "New Construction"
+    },
+    {
+      "name": "Ashton",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2976,
+      "lotWidth": 38,
+      "price": "$902,566",
+      "status": "New Construction"
+    },
+    {
+      "name": "Vega",
+      "type": "Early Occupancy",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2980,
+      "lotWidth": 35,
+      "price": "$871,593",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Turner",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 3173,
+      "lotWidth": 38,
+      "price": "$929,115",
+      "status": "New Construction"
+    },
+    {
+      "name": "Brighton",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 3245,
+      "lotWidth": 38,
+      "price": "$942,389",
+      "status": "New Construction"
+    },
+    {
+      "name": "Bradshaw",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 3.5,
+      "sqft": 3413,
+      "lotWidth": 44,
+      "price": "$1,030,629",
+      "status": "New Construction"
+    },
+    {
+      "name": "Coventry",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 3525,
+      "lotWidth": 44,
+      "price": "$1,042,930",
+      "status": "New Construction"
+    },
+    {
+      "name": "Cambridge",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 3869,
+      "lotWidth": 44,
+      "price": "$1,073,683",
+      "status": "New Construction"
+    },
+    {
+      "name": "Orion",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1736,
+      "lotWidth": 35,
+      "price": "$783,097",
+      "status": "New Construction"
+    },
+    {
+      "name": "Linden",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1994,
+      "lotWidth": 44,
+      "price": "$906,991",
+      "status": "New Construction"
+    },
+    {
+      "name": "Maple",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2119,
+      "lotWidth": 44,
+      "price": "$920,265",
+      "status": "New Construction"
+    },
+    {
+      "name": "Pothos",
+      "type": "Early Occupancy",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2192,
+      "lotWidth": null,
+      "price": "$690,177",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Ivy",
+      "type": "Early Occupancy",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2358,
+      "lotWidth": null,
+      "price": "$702,566",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Palm",
+      "type": "Early Occupancy",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2543,
+      "lotWidth": null,
+      "price": "$707,876",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Ficus",
+      "type": "Early Occupancy",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2576,
+      "lotWidth": null,
+      "price": "$711,416",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "Lotus",
+      "type": "Semi-Detached",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2632,
+      "lotWidth": null,
+      "price": "$725,575",
+      "status": "New Construction"
+    }
+  ]
+}

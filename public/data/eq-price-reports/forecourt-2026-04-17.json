@@ -1,0 +1,47 @@
+{
+  "community": "Forecourt",
+  "builder": "EQ Homes (Greystone Village)",
+  "date": "2026-04-17T20:36:31.933Z",
+  "models": [
+    {
+      "name": "Patterson B1",
+      "type": "Townhomes",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1340,
+      "price": "$1,180,900"
+    },
+    {
+      "name": "Holden B2",
+      "type": "Townhomes",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1710,
+      "price": "$1,392,900"
+    },
+    {
+      "name": "Windsor A3",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2090,
+      "price": "$1,605,900"
+    },
+    {
+      "name": "Springhurst C",
+      "type": "Townhomes",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1695,
+      "price": "$1,352,900"
+    },
+    {
+      "name": "Brantwood A2",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2065,
+      "price": "$1,644,900"
+    }
+  ]
+}

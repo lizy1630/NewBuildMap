@@ -1,0 +1,87 @@
+{
+  "community": "Ironwood",
+  "builder": "Glenview Homes",
+  "date": "2026-04-17T20:26:28.170Z",
+  "models": [
+    {
+      "name": "The Brighton",
+      "type": "38’ Lot Collection",
+      "lotWidth": 38,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1561,
+      "price": "$868,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Sutton",
+      "type": "34’ Lot Collection",
+      "lotWidth": 34,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2222,
+      "price": null,
+      "status": "New Construction"
+    },
+    {
+      "name": "The Hillcrest",
+      "type": "38’ Lot Collection",
+      "lotWidth": 38,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2352,
+      "price": "$929,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Hyde",
+      "type": "34’ Lot Collection",
+      "lotWidth": null,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2387,
+      "price": null,
+      "status": "New Construction"
+    },
+    {
+      "name": "The Hampton",
+      "type": "38’ Lot Collection",
+      "lotWidth": 38,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2498,
+      "price": "$939,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Reveli",
+      "type": "38’ Lot Collection",
+      "lotWidth": 38,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2700,
+      "price": "$956,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Blakely",
+      "type": "38’ Lot Collection",
+      "lotWidth": 38,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 3099,
+      "price": "$972,990",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Prescott",
+      "type": "38’ Lot Collection",
+      "lotWidth": 38,
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 3393,
+      "price": "$998,990",
+      "status": "New Construction"
+    }
+  ]
+}

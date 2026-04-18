@@ -1,0 +1,124 @@
+{
+  "community": "Tapestry",
+  "builder": "EQ Homes",
+  "date": "2026-04-17T20:36:31.933Z",
+  "models": [
+    {
+      "name": "The Leah 28",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1282,
+      "price": "$923,824",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Leah 25",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1282,
+      "price": "$942,468",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Lennon 30",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1462,
+      "price": "$935,622",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Lennon 27",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1462,
+      "price": "$946,831",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Firestone",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1878,
+      "price": "$972,478",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Leah",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1893,
+      "price": "$790,177",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Augusta",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1933,
+      "price": "$939,735",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Sawgrass",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2105,
+      "price": "$942,389",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Lennon",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2145,
+      "price": "$790,177",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Alexander",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2157,
+      "price": "$1,099,900",
+      "status": "New Construction"
+    },
+    {
+      "name": "The William",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2354,
+      "price": "$979,558",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Amelia",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2581,
+      "price": "$1,126,900",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Willow",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 3010,
+      "price": "$1,139,900",
+      "status": "New Construction"
+    }
+  ]
+}

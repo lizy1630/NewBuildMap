@@ -1007,5 +1007,145 @@
         "The Harmony": 805787
       }
     }
+  ],
+  "eq-tapestry": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 790177,
+      "models": {
+        "The Leah 28": 923824,
+        "The Leah 25": 942468,
+        "The Lennon 30": 935622,
+        "The Lennon 27": 946831,
+        "The Firestone": 972478,
+        "The Leah": 790177,
+        "The Augusta": 939735,
+        "The Sawgrass": 942389,
+        "The Lennon": 790177,
+        "The Alexander": 1099900,
+        "The William": 979558,
+        "The Amelia": 1126900,
+        "The Willow": 1139900
+      }
+    }
+  ],
+  "eq-provence": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 552124,
+      "models": {
+        "The Madeline": 822920,
+        "The Lucy MG": 906991,
+        "The Oliver MG": 960088,
+        "The Ashton": 906106,
+        "The Kinburn": 995487,
+        "The Riviera MG": 1318900,
+        "The Cooper MG": 990177,
+        "The Hamilton": 737965,
+        "The Kai": 659204,
+        "The Bella": 662743,
+        "The Quentin": 741504,
+        "The Quentin 4-40": 838900,
+        "The Paisley": 725575,
+        "The Asher": 734425,
+        "The Blackburn": 787522,
+        "The Hudson": 743274,
+        "The Piper I": 808761,
+        "The Piper II": 861858,
+        "The Elliot": 959204,
+        "The Lucy": 906991,
+        "The Oliver": 960088,
+        "The Riviera": 1063900,
+        "The Cooper": 990177,
+        "The Leah": 729115,
+        "The Augusta": 804336,
+        "The Lennon": 715841,
+        "The Sawgrass": 804336,
+        "The Firestone": 822035,
+        "The William": 830885,
+        "The Alexander": 1019900,
+        "The Amelia": 1037900,
+        "The Willow": 1059900,
+        "The Abbey": 552124,
+        "The Mia": 568053,
+        "The Claudia": 574248,
+        "The Nova": 623805,
+        "The Benjamin": 591947,
+        "The Benjamin T23-8": 686900,
+        "The Mia T23-9": 663900
+      }
+    }
+  ],
+  "eq-pathways": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 536533,
+      "models": {
+        "The Madeline MG": 818496,
+        "The Lucy MG": 898142,
+        "The Oliver MG": 955664,
+        "The Ashton": 897257,
+        "The Ashton 3-14": 1023324,
+        "The Kinburn": 986637,
+        "The Cooper MG": 981327,
+        "The Hamilton": 730000,
+        "The Paisley 2-23": 863632,
+        "The Blackburn": 777788,
+        "The Piper I 2-071": 923900,
+        "The Piper I": 804336,
+        "The Madeline": 818496,
+        "The Piper II": 848584,
+        "The Piper II 3-15": 1012929,
+        "The Elliot": 955664,
+        "The Lucy": 898142,
+        "The Oliver": 955664,
+        "The Madeline 3-319": 1052900,
+        "The Madeline 2-024": 1013900,
+        "The Cooper": 981327,
+        "The Leah": 711416,
+        "The Augusta": 786637,
+        "The Lennon": 711416,
+        "The Sawgrass": 799912,
+        "The Firestone": 827345,
+        "The William": 830885,
+        "The Clementine CT2 19": 536533,
+        "The Clementine CT2 17": 551527,
+        "The Jude CT2 01": 578694,
+        "The Jude CT2 20": 574312
+      }
+    }
+  ],
+  "eq-greystone-forecourt": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 1180900,
+      "models": {
+        "Patterson B1": 1180900,
+        "Holden B2": 1392900,
+        "Windsor A3": 1605900,
+        "Springhurst C": 1352900,
+        "Brantwood A2": 1644900
+      }
+    }
+  ],
+  "eq-greystone-spencer": [
+    {
+      "date": "2026-04-17",
+      "priceFrom": 865693,
+      "models": {
+        "Model 13 (#302)": 865693,
+        "Model 14 (#201)": 932000,
+        "Model 14 (#401)": 967000,
+        "Model 14 (#601)": 1062111,
+        "Model 15 (#409)": 1075000,
+        "Model 13 (#602)": 948000,
+        "Model 15 (#609)": 1288721,
+        "Model 23 (#806)": 1850950,
+        "Model 15 (#807)": 1350000,
+        "Model 12 (#311)": 870530,
+        "Model 11 (#505)": 925000,
+        "Model 11 (#704)": 910636
+      }
+    }
   ]
 }
