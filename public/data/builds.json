@@ -1792,8 +1792,8 @@
       "builder": "Claridge Homes",
       "community": "Kanata South",
       "address": "2010 Allegrini Terrace, Kanata, ON K2S 2S7",
-      "lat": 45.2706,
-      "lng": -75.8632,
+      "lat": 45.2714,
+      "lng": -75.8638,
       "homeTypes": [
         "Townhomes"
       ],
@@ -2175,8 +2175,8 @@
       "builder": "Claridge Homes",
       "community": "Riverside South",
       "address": "706 Hosta Drive, Riverside South, ON K4M 0N7",
-      "lat": 45.2609,
-      "lng": -75.6907,
+      "lat": 45.2617,
+      "lng": -75.6913,
       "homeTypes": [
         "Bungalows",
         "Townhomes",
@@ -13286,8 +13286,8 @@
       "builder": "Caivan",
       "community": "Barrhaven",
       "address": "The Ridge, Barrhaven, Ottawa, ON",
-      "lat": 45.2759,
-      "lng": -75.7186,
+      "lat": 45.2767,
+      "lng": -75.7192,
       "homeTypes": [
         "Single Family"
       ],
@@ -13759,8 +13759,8 @@
       "builder": "HN Homes",
       "community": "Kanata",
       "address": "Kanata Lakes, Kanata, Ottawa, ON",
-      "lat": 45.3228,
-      "lng": -75.9319,
+      "lat": 45.3236,
+      "lng": -75.9325,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -14204,8 +14204,8 @@
       "builder": "HN Homes",
       "community": "Barrhaven",
       "address": "Riverside South, Barrhaven, Ottawa, ON",
-      "lat": 45.2815,
-      "lng": -75.6832,
+      "lat": 45.2823,
+      "lng": -75.6838,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -15646,8 +15646,8 @@
       "builder": "Urbandale",
       "community": "Riverside South",
       "address": "Riverside South, Ottawa, ON",
-      "lat": 45.2815,
-      "lng": -75.6832,
+      "lat": 45.2807,
+      "lng": -75.6826,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes",
@@ -16186,8 +16186,8 @@
       "builder": "Urbandale",
       "community": "Kanata Lakes",
       "address": "Kanata Lakes, Kanata, ON",
-      "lat": 45.3228,
-      "lng": -75.9319,
+      "lat": 45.322,
+      "lng": -75.9313,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes"
