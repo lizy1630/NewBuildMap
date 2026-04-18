@@ -1,222 +1,312 @@
 {
   "claridge-copperwood-estate": {
     "lat": 45.3617,
-    "lng": -75.9488
+    "lng": -75.9488,
+    "name": "Copperwood Estate"
   },
   "claridge-westwood": {
     "lat": 45.2697,
-    "lng": -75.8945
+    "lng": -75.8945,
+    "name": "Westwood"
   },
   "claridge-iron-valley": {
     "lat": 45.2706,
-    "lng": -75.8632
+    "lng": -75.8632,
+    "name": "Iron Valley"
   },
   "claridge-bridlewood-trails": {
-    "lat": 45.2714,
-    "lng": -75.8638
+    "lat": 45.275,
+    "lng": -75.8673,
+    "name": "Bridlewood Trails"
   },
   "claridge-watters-pointe": {
-    "lat": 45.2609,
-    "lng": -75.6907
+    "lat": 45.2608,
+    "lng": -75.7407,
+    "name": "Watter’s Pointe"
   },
   "claridge-rivers-edge": {
-    "lat": 45.2617,
-    "lng": -75.6913
+    "lat": 45.2607,
+    "lng": -75.6906,
+    "name": "River’s Edge"
   },
   "claridge-lilythorne": {
-    "lat": 45.3216,
-    "lng": -75.5912
+    "lat": 45.321,
+    "lng": -75.5917,
+    "name": "Lilythorne"
   },
   "claridge-alta-vista-quarters": {
     "lat": 45.3818,
-    "lng": -75.6329
+    "lng": -75.6329,
+    "name": "Alta Vista Quarters"
   },
   "minto-harmony": {
-    "lat": 45.2769,
-    "lng": -75.7002
+    "lat": 45.256296,
+    "lng": -75.747515,
+    "name": "Riversbend at Harmony"
   },
   "minto-abbotts-run": {
-    "lat": 45.2753,
-    "lng": -75.8951
+    "lat": 45.2803,
+    "lng": -75.9009,
+    "name": "Abbott's Run"
   },
   "minto-arcadia": {
-    "lat": 45.3034,
-    "lng": -75.9307
+    "lat": 45.3015,
+    "lng": -75.9358,
+    "name": "Arcadia"
   },
   "minto-mahogany": {
     "lat": 45.2183,
-    "lng": -75.6741
+    "lng": -75.6741,
+    "name": "Mahogany"
   },
   "minto-brookline": {
-    "lat": 45.3484,
-    "lng": -75.9444
+    "lat": 45.3635,
+    "lng": -75.9352,
+    "name": "Brookline"
   },
   "minto-anthem": {
-    "lat": 45.2759,
-    "lng": -75.7186
+    "lat": 45.2585,
+    "lng": -75.7592,
+    "name": "Anthem"
   },
   "minto-quinn-s-pointe": {
-    "lat": 45.2357,
-    "lng": -75.7257
+    "lat": 45.2363,
+    "lng": -75.7284,
+    "name": "Quinn's Pointe"
   },
   "minto-avalon": {
-    "lat": 45.4559,
-    "lng": -75.4768
+    "lat": 45.442,
+    "lng": -75.4748,
+    "name": "Avalon Vista"
   },
   "mattamy-half-moon-bay": {
-    "lat": 45.2563,
-    "lng": -75.7432
+    "lat": 45.2522,
+    "lng": -75.7352,
+    "name": "Half Moon Bay"
   },
   "mattamy-locale": {
     "lat": 45.4494,
-    "lng": -75.4819
+    "lng": -75.4818,
+    "name": "Locale"
   },
   "mattamy-northwoods": {
-    "lat": 45.3659,
-    "lng": -75.9452
+    "lat": 45.363,
+    "lng": -75.944,
+    "name": "Northwoods"
   },
   "mattamy-richmond-meadows": {
-    "lat": 45.1944,
-    "lng": -75.8388
+    "lat": 45.1969,
+    "lng": -75.8354,
+    "name": "Richmond Meadows"
   },
   "mattamy-traditions-ii": {
-    "lat": 45.2425,
-    "lng": -75.9123
+    "lat": 45.2418,
+    "lng": -75.9126,
+    "name": "Traditions II"
+  },
+  "mattamy-wateridge-village": {
+    "lat": 45.4469,
+    "lng": -75.6301,
+    "name": "Wateridge Village at Rockcliffe"
   },
   "richcraft-trailsedge": {
-    "lat": 45.4303,
-    "lng": -75.5157
+    "lat": 45.4387,
+    "lng": -75.504,
+    "name": "Trailsedge"
   },
   "richcraft-pathways": {
-    "lat": 45.3096,
-    "lng": -75.5905
+    "lat": 45.309,
+    "lng": -75.591,
+    "name": "Pathways"
   },
   "richcraft-riverside-south": {
-    "lat": 45.2815,
-    "lng": -75.6832
+    "lat": 45.2607,
+    "lng": -75.6987,
+    "name": "Riverside South"
   },
   "richcraft-bradley_commons": {
-    "lat": 45.2583,
-    "lng": -75.9148
+    "lat": 45.2689,
+    "lng": -75.8953,
+    "name": "Bradley Commons"
   },
   "richcraft-mapleton": {
-    "lat": 45.2922,
-    "lng": -75.9112
+    "lat": 45.291,
+    "lng": -75.9073,
+    "name": "Mapleton"
   },
   "richcraft-kanata-lakes": {
-    "lat": 45.3228,
-    "lng": -75.9319
+    "lat": 45.3348,
+    "lng": -75.9225,
+    "name": "Kanata Lakes"
   },
   "richcraft-gateway-flats": {
     "lat": 45.2915,
-    "lng": -75.912
+    "lng": -75.912,
+    "name": "Gateway Flats"
   },
   "richcraft-westwood": {
-    "lat": 45.3448,
-    "lng": -76.0073
+    "lat": 45.2689,
+    "lng": -75.8953,
+    "name": "Westwood"
   },
   "caivan-magnolia": {
-    "lat": 45.2492,
-    "lng": -75.8897
+    "lat": 45.2557,
+    "lng": -75.8957,
+    "name": "Magnolia"
   },
   "caivan-fox-run": {
     "lat": 45.1871,
-    "lng": -75.8493
+    "lng": -75.8493,
+    "name": "Fox Run"
   },
   "caivan-the-ridge": {
-    "lat": 45.2767,
-    "lng": -75.7192
+    "lat": 45.2586,
+    "lng": -75.7552,
+    "name": "The Ridge"
   },
   "caivan-the-conservancy": {
-    "lat": 45.2574,
-    "lng": -75.7604
+    "lat": 45.2586,
+    "lng": -75.7552,
+    "name": "The Conservancy"
   },
   "caivan-orleans-village": {
-    "lat": 45.4403,
-    "lng": -75.5199
+    "lat": 45.4402,
+    "lng": -75.52,
+    "name": "Orléans Village"
   },
   "hn-kanata-lakes": {
-    "lat": 45.3236,
-    "lng": -75.9325
+    "lat": 45.3343,
+    "lng": -75.9202,
+    "name": "Kanata Lakes"
   },
   "hn-riverside-south": {
-    "lat": 45.2823,
-    "lng": -75.6838
+    "lat": 45.2603,
+    "lng": -75.6982,
+    "name": "Riverside South"
   },
   "uniform-copperwood-estate": {
     "lat": 45.3617,
-    "lng": -75.9481
+    "lng": -75.9481,
+    "name": "Copperwood Estate"
   },
   "cardel-ironwood": {
     "lat": 45.2547,
-    "lng": -75.6887
+    "lng": -75.6887,
+    "name": "Ironwood"
   },
   "cardel-edenwylde": {
-    "lat": 45.2541,
-    "lng": -75.9006
+    "lat": 45.2542,
+    "lng": -75.9007,
+    "name": "EdenWylde"
   },
   "urbandale-riverside-south": {
-    "lat": 45.2807,
-    "lng": -75.6826
+    "lat": 45.2685,
+    "lng": -75.7009,
+    "name": "Riverside South"
   },
   "urbandale-kanata-lakes": {
-    "lat": 45.322,
-    "lng": -75.9313
+    "lat": 45.3337,
+    "lng": -75.9263,
+    "name": "Kanata Lakes"
   },
   "urbandale-bradley-commons": {
-    "lat": 45.288,
-    "lng": -75.8976
+    "lat": 45.2892,
+    "lng": -75.9005,
+    "name": "Bradley Commons"
   },
   "urbandale-leitrim-flats": {
-    "lat": 45.3192,
-    "lng": -75.5927
+    "lat": 45.3193,
+    "lng": -75.5926,
+    "name": "Leitrim Flats"
   },
   "urbandale-the-creek": {
-    "lat": 45.0302,
-    "lng": -75.6399
+    "lat": 45.0301,
+    "lng": -75.642,
+    "name": "The Creek"
   },
   "urbandale-cowans-grove": {
     "lat": 45.3182,
-    "lng": -75.5905
+    "lng": -75.5904,
+    "name": "Cowan’s Grove"
   },
   "tamarack-the-meadows": {
-    "lat": 45.2487,
-    "lng": -75.7337
+    "lat": 45.24523506001361,
+    "lng": -75.7457350014228,
+    "name": "The Meadows"
   },
   "tamarack-westwood": {
-    "lat": 45.2551,
-    "lng": -75.9026
+    "lat": 45.26128012478662,
+    "lng": -75.8911496190729,
+    "name": "Westwood"
   },
   "tamarack-findlay-creek-village": {
-    "lat": 45.3242,
-    "lng": -75.6115
+    "lat": 45.32272975273702,
+    "lng": -75.61208655624944,
+    "name": "Findlay Creek Village"
   },
   "tamarack-cardinal-creek-village": {
-    "lat": 45.5016,
-    "lng": -75.4636
+    "lat": 45.504137615243536,
+    "lng": -75.46467795709292,
+    "name": "Cardinal Creek Village"
   },
   "tamarack-idylea": {
-    "lat": 45.2595,
-    "lng": -75.9069
+    "lat": 45.254725397363444,
+    "lng": -75.90183590301118,
+    "name": "Idylea"
   },
   "eq-tapestry": {
-    "lat": 45.0388,
-    "lng": -75.6763
+    "lat": 45.0389,
+    "lng": -75.677,
+    "name": "Tapestry"
   },
   "eq-provence": {
     "lat": 45.4655,
-    "lng": -75.4524
+    "lng": -75.4544,
+    "name": "Provence"
   },
   "eq-pathways": {
-    "lat": 45.3094,
-    "lng": -75.5908
+    "lat": 45.3089,
+    "lng": -75.5922,
+    "name": "Pathways"
   },
   "eq-greystone-forecourt": {
-    "lat": 45.3724,
-    "lng": -75.7513
+    "lat": 45.3742,
+    "lng": -75.7285,
+    "name": "Forecourt"
   },
   "eq-greystone-spencer": {
-    "lat": 45.4089,
-    "lng": -75.6758
+    "lat": 45.4175,
+    "lng": -75.6712,
+    "name": "The Spencer"
+  },
+  "glenview-ironwood": {
+    "lat": 45.2536,
+    "lng": -75.6909,
+    "name": "Ironwood"
+  },
+  "glenview-the-commons": {
+    "lat": 45.4417,
+    "lng": -75.5176,
+    "name": "The Commons"
+  },
+  "glenview-union-west": {
+    "lat": 45.2623,
+    "lng": -75.891,
+    "name": "Union West"
+  },
+  "glenview-wateridge-village": {
+    "lat": 45.4545,
+    "lng": -75.6302,
+    "name": "Wateridge Village"
+  },
+  "tartan-findlay-creek-village": {
+    "lat": 45.325312,
+    "lng": -75.608043,
+    "name": "Findlay Creek Village"
+  },
+  "tartan-idylea": {
+    "lat": 45.2555,
+    "lng": -75.9028,
+    "name": "Idylea"
   }
 }
