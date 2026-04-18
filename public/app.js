@@ -21,19 +21,25 @@ const TILES = {
 };
 
 const BUILDER_COLORS = {
-  'Minto Communities':       '#00d4ff',
-  'Mattamy Homes':           '#f59e0b',
-  'Cardel Homes':            '#22c55e',
-  'Richcraft Homes':         '#f43f5e',
-  'HN Homes':                '#a855f7',
-  'Urbandale Construction':  '#fb923c',
-  'Glenview Homes':          '#06b6d4',
-  'Tamarack Homes':          '#84cc16',
-  'Tartan Homes':            '#e879f9',
+  // 13 active builders — each on a distinct hue
+  'Caivan':                  '#3b82f6',   // blue
+  'Cardel Homes':            '#16a34a',   // forest green
+  'Claridge Homes':          '#dc2626',   // red
+  'EQ Homes':                '#ea580c',   // orange
+  'eQ Homes':                '#ea580c',
+  'Glenview Homes':          '#0891b2',   // cyan
+  'HN Homes':                '#7c3aed',   // violet
+  'Mattamy Homes':           '#d97706',   // amber
+  'Minto Communities':       '#4f46e5',   // indigo
+  'Richcraft Homes':         '#db2777',   // pink
+  'Tamarack Homes':          '#65a30d',   // lime
+  'Tartan Homes':            '#94a3b8',   // slate grey
+  'Uniform Developments':    '#0f766e',   // teal
+  'Urbandale':               '#eab308',   // yellow
+  'Urbandale Construction':  '#eab308',
+  // Other / inactive builders
   'Valecraft Homes':         '#facc15',
   'Patten Homes':            '#34d399',
-  'Caivan':                  '#60a5fa',
-  'eQ Homes':                '#f472b6',
   'Phoenix Homes':           '#38bdf8',
   'Brigil':                  '#a3e635',
 };
