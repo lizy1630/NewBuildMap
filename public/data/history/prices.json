@@ -302,6 +302,26 @@
         "Single 30ft Lot": 769000,
         "Single 36ft Lot": 899000
       }
+    },
+    {
+      "date": "2026-04-18",
+      "priceFrom": 619990,
+      "models": {
+        "The Brighton": 869990,
+        "The Briar": 619990,
+        "The Jasper": 637990,
+        "The Ashton": 776990,
+        "The Bradford": 787990,
+        "The Laurel": 649990,
+        "The Sutton": 811990,
+        "The Alder": 684990,
+        "The Hillcrest": 911990,
+        "The Hyde (w/ Corner Option)": 820990,
+        "The Hampton": 929990,
+        "The Reveli": 957990,
+        "The Blakely": 973990,
+        "The Prescott": 999990
+      }
     }
   ],
   "tamarack-westwood": [
@@ -1145,6 +1165,43 @@
         "Model 12 (#311)": 870530,
         "Model 11 (#505)": 925000,
         "Model 11 (#704)": 910636
+      }
+    }
+  ],
+  "glenview-ironwood": [
+    {
+      "date": "2026-04-18",
+      "priceFrom": 868990,
+      "models": {
+        "The Brighton": 868990,
+        "The Hillcrest": 929990,
+        "The Hampton": 939990,
+        "The Reveli": 956990,
+        "The Blakely": 972990,
+        "The Prescott": 998990
+      }
+    }
+  ],
+  "glenview-the-commons": [
+    {
+      "date": "2026-04-18",
+      "priceFrom": 446990,
+      "models": {
+        "The Harper": 446990,
+        "The Everett": 457990,
+        "The Everett End": 483990,
+        "The Sterling": 504990,
+        "The Brighton": 839990,
+        "The Bradford": 751990,
+        "The Ashton": 740990,
+        "The Madison (w/ Corner Option)": 761990,
+        "The Sutton": 792990,
+        "The Hillcrest": 849990,
+        "The Hyde (w/ Corner Option)": 784990,
+        "The Hampton": 914990,
+        "The Reveli": 951990,
+        "The Blakely": 957990,
+        "The Prescott": 994990
       }
     }
   ]

@@ -1,5 +1,168 @@
 [
   {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Quinton",
+    "oldPrice": 1409900,
+    "newPrice": 1059900,
+    "delta": -350000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Quinton w/Guest Suite",
+    "oldPrice": 1459900,
+    "newPrice": 1109900,
+    "delta": -350000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Dahlia II",
+    "oldPrice": 1394900,
+    "newPrice": 1074900,
+    "delta": -320000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Redwood II - 4 Bedroom",
+    "oldPrice": 1509900,
+    "newPrice": 1189900,
+    "delta": -320000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Redwood II - 5 Bedroom",
+    "oldPrice": 1514900,
+    "newPrice": 1194900,
+    "delta": -320000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Sable - 4 Bedroom",
+    "oldPrice": 1519900,
+    "newPrice": 1199900,
+    "delta": -320000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Sable - 5 Bedroom",
+    "oldPrice": 1524900,
+    "newPrice": 1204900,
+    "delta": -320000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Southwood - 4 Bedroom",
+    "oldPrice": 1524900,
+    "newPrice": 1204900,
+    "delta": -320000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Southwood - 5 Bedroom",
+    "oldPrice": 1529900,
+    "newPrice": 1209900,
+    "delta": -320000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Charlotte",
+    "oldPrice": 1079900,
+    "newPrice": 1399900,
+    "delta": 320000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "minto-mahogany",
+    "name": "Mahogany",
+    "builder": "Minto Communities",
+    "model": "Bellflower",
+    "oldPrice": 1119900,
+    "newPrice": 1389900,
+    "delta": 270000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "new_build",
+    "buildId": "mattamy-wateridge-village",
+    "name": "Wateridge Village at Rockcliffe",
+    "builder": "Mattamy Homes",
+    "community": "Rockcliffe Park",
+    "priceFrom": 544990
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "urbandale-riverside-south",
+    "name": "Riverside South",
+    "builder": "Urbandale",
+    "model": "Calypso",
+    "oldPrice": 676900,
+    "newPrice": 726900,
+    "delta": 50000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "urbandale-riverside-south",
+    "name": "Riverside South",
+    "builder": "Urbandale",
+    "model": "Discovery",
+    "oldPrice": 679900,
+    "newPrice": 734900,
+    "delta": 55000
+  },
+  {
+    "date": "2026-04-18",
+    "type": "price_change",
+    "buildId": "urbandale-riverside-south",
+    "name": "Riverside South",
+    "builder": "Urbandale",
+    "model": "Endeavour End",
+    "oldPrice": 739900,
+    "newPrice": 781900,
+    "delta": 42000
+  },
+  {
     "date": "2026-04-17",
     "type": "price_change",
     "buildId": "minto-mahogany",

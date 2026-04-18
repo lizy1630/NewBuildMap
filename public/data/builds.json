@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-18T15:18:33.177Z",
-  "count": 61,
-  "geocodeFailed": 4,
+  "generated": "2026-04-18T15:27:15.072Z",
+  "count": 62,
+  "geocodeFailed": 0,
   "builds": [
     {
       "id": "claridge-copperwood-estate",
@@ -9,8 +9,8 @@
       "builder": "Claridge Homes",
       "community": "Kanata North",
       "address": "2008 Bosch Place, Kanata, ON K2W 1A1",
-      "lat": 45.3617,
-      "lng": -75.9488,
+      "lat": 45.345,
+      "lng": -75.912,
       "homeTypes": [
         "Bungalows",
         "Townhomes",
@@ -545,14 +545,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/copperwood-estate-2026-04-17T20-11-16.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/copperwood-estate-2026-04-18T15-00-14.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Kanata North.",
       "sourceUrl": "https://www.claridgehomes.com/community/copperwood-estate/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:11:16.229Z"
+      "scrapedAt": "2026-04-18T15:00:14.750Z"
     },
     {
       "id": "claridge-westwood",
@@ -560,8 +560,8 @@
       "builder": "Claridge Homes",
       "community": "Stittsville",
       "address": "571 Bobolink Ridge, Stittsville, ON K2S 1S3",
-      "lat": 45.2697,
-      "lng": -75.8945,
+      "lat": 45.254,
+      "lng": -75.935,
       "homeTypes": [
         "Bungalows",
         "Townhomes",
@@ -1044,14 +1044,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/westwood-2026-04-17T20-11-16.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/westwood-2026-04-18T15-00-14.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Stittsville.",
       "sourceUrl": "https://www.claridgehomes.com/community/westwood/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:11:16.229Z"
+      "scrapedAt": "2026-04-18T15:00:14.750Z"
     },
     {
       "id": "claridge-iron-valley",
@@ -1059,8 +1059,8 @@
       "builder": "Claridge Homes",
       "community": "Kanata South",
       "address": "2010 Allegrini Terrace, Kanata, ON K2S 2S7",
-      "lat": 45.2706,
-      "lng": -75.8632,
+      "lat": 45.293,
+      "lng": -75.923,
       "homeTypes": [
         "Townhomes",
         "Bungalows",
@@ -1777,14 +1777,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/iron-valley-2026-04-17T20-11-16.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/iron-valley-2026-04-18T15-00-14.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Kanata South.",
       "sourceUrl": "https://www.claridgehomes.com/community/iron-valley/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:11:16.229Z"
+      "scrapedAt": "2026-04-18T15:00:14.750Z"
     },
     {
       "id": "claridge-bridlewood-trails",
@@ -1792,8 +1792,8 @@
       "builder": "Claridge Homes",
       "community": "Kanata South",
       "address": "2010 Allegrini Terrace, Kanata, ON K2S 2S7",
-      "lat": 45.2714,
-      "lng": -75.8638,
+      "lat": 45.285,
+      "lng": -75.918,
       "homeTypes": [
         "Townhomes"
       ],
@@ -2027,14 +2027,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/bridlewood-trails-2026-04-17T20-11-16.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/bridlewood-trails-2026-04-18T15-00-14.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Kanata South.",
       "sourceUrl": "https://www.claridgehomes.com/community/bridlewood-trails/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:11:16.229Z"
+      "scrapedAt": "2026-04-18T15:00:14.750Z"
     },
     {
       "id": "claridge-watters-pointe",
@@ -2042,8 +2042,8 @@
       "builder": "Claridge Homes",
       "community": "Barrhaven",
       "address": "706 Hosta Drive, Riverside South, ON K4M 0N7",
-      "lat": 45.2609,
-      "lng": -75.6907,
+      "lat": 45.272,
+      "lng": -75.687,
       "homeTypes": [
         "Townhomes"
       ],
@@ -2160,14 +2160,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/watter-s-pointe-2026-04-17T20-11-16.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/watter-s-pointe-2026-04-18T15-00-14.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Barrhaven.",
       "sourceUrl": "https://www.claridgehomes.com/community/watters-pointe/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:11:16.229Z"
+      "scrapedAt": "2026-04-18T15:00:14.750Z"
     },
     {
       "id": "claridge-rivers-edge",
@@ -2175,8 +2175,8 @@
       "builder": "Claridge Homes",
       "community": "Riverside South",
       "address": "706 Hosta Drive, Riverside South, ON K4M 0N7",
-      "lat": 45.2617,
-      "lng": -75.6913,
+      "lat": 45.27,
+      "lng": -75.684,
       "homeTypes": [
         "Bungalows",
         "Townhomes",
@@ -2815,14 +2815,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/river-s-edge-2026-04-17T20-11-16.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/river-s-edge-2026-04-18T15-00-14.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Riverside South.",
       "sourceUrl": "https://www.claridgehomes.com/community/rivers-edge/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:11:16.229Z"
+      "scrapedAt": "2026-04-18T15:00:14.750Z"
     },
     {
       "id": "claridge-lilythorne",
@@ -2830,8 +2830,8 @@
       "builder": "Claridge Homes",
       "community": "Findlay Creek",
       "address": "3275 Findlay Creek Drive, Ottawa, ON K1T 0A9",
-      "lat": 45.3216,
-      "lng": -75.5912,
+      "lat": 45.329,
+      "lng": -75.599,
       "homeTypes": [
         "Bungalows",
         "Townhomes",
@@ -3379,14 +3379,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/claridge-price-reports/lilythorne-2026-04-17T20-11-16.pdf",
+      "priceReportUrl": "/data/claridge-price-reports/lilythorne-2026-04-18T15-00-14.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Claridge Homes community in Findlay Creek.",
       "sourceUrl": "https://www.claridgehomes.com/community/lilythorne/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:11:16.229Z"
+      "scrapedAt": "2026-04-18T15:00:14.750Z"
     },
     {
       "id": "claridge-alta-vista-quarters",
@@ -3415,7 +3415,7 @@
       "sourceUrl": "https://www.claridgehomes.com/community/alta-vista-quarters/",
       "sourceName": "claridgehomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:11:16.229Z"
+      "scrapedAt": "2026-04-18T15:00:14.750Z"
     },
     {
       "id": "minto-harmony",
@@ -3423,8 +3423,8 @@
       "builder": "Minto Communities",
       "community": "Barrhaven",
       "address": "Riversbend at Harmony, Barrhaven, Ottawa, ON",
-      "lat": 45.2769,
-      "lng": -75.7002,
+      "lat": 45.2636,
+      "lng": -75.7582,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -4032,14 +4032,14 @@
       "includedFeatures": [
         "$10,000 Design Centre Bonus, Minto Smarter Home Starter Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor in non-tiled areas, Quartz Countertop in Kitchen, Natural Gas Fireplace, and Potlights in Main Hallway.Eligible new-build homebuyers can save thousands with the new government HST Rebate."
       ],
-      "priceReportUrl": "/data/minto-price-reports/riversbend-at-harmony-2026-04-17T20-24-07.pdf",
+      "priceReportUrl": "/data/minto-price-reports/riversbend-at-harmony-2026-04-18T15-12-59.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Barrhaven, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Harmony/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:24:07.130Z"
+      "scrapedAt": "2026-04-18T15:12:59.417Z"
     },
     {
       "id": "minto-abbotts-run",
@@ -4047,8 +4047,8 @@
       "builder": "Minto Communities",
       "community": "Stittsville",
       "address": "Abbott's Run, Stittsville, Ottawa, ON",
-      "lat": 45.2753,
-      "lng": -75.8951,
+      "lat": 45.2803,
+      "lng": -75.9009,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -4405,14 +4405,14 @@
         "$2,500 Design Centre Bonus, 9' Smooth Ceilings on Main Floor (excludes tiled areas), Quartz Countertop in Kitchen, and Minto Smarter Home Starter Package w/ecobee.",
         "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Smooth Ceilings on First and Second Floor, Laminate Flooring on Second Floor (excludes Powder Room), Quartz Countertop in Kitchen, and Minto Smarter Home Starter Package w/ecobee."
       ],
-      "priceReportUrl": "/data/minto-price-reports/abbott-s-run-2026-04-17T20-24-07.pdf",
+      "priceReportUrl": "/data/minto-price-reports/abbott-s-run-2026-04-18T15-12-59.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Stittsville, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Abbotts-Run/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:24:07.130Z"
+      "scrapedAt": "2026-04-18T15:12:59.417Z"
     },
     {
       "id": "minto-arcadia",
@@ -4420,8 +4420,8 @@
       "builder": "Minto Communities",
       "community": "Kanata",
       "address": "Arcadia, Kanata, Ottawa, ON",
-      "lat": 45.3034,
-      "lng": -75.9307,
+      "lat": 45.3015,
+      "lng": -75.9358,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -5079,14 +5079,14 @@
       "includedFeatures": [
         "Eligible new-build homebuyers can save thousands with the new government HST Rebate."
       ],
-      "priceReportUrl": "/data/minto-price-reports/arcadia-2026-04-17T20-24-07.pdf",
+      "priceReportUrl": "/data/minto-price-reports/arcadia-2026-04-18T15-12-59.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Kanata, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/Kanata-new-homes/Arcadia/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:24:07.130Z"
+      "scrapedAt": "2026-04-18T15:12:59.417Z"
     },
     {
       "id": "minto-mahogany",
@@ -5962,14 +5962,14 @@
       "includedFeatures": [
         "Eligible new-build homebuyers can save thousands with the new government HST Rebate."
       ],
-      "priceReportUrl": "/data/minto-price-reports/mahogany-2026-04-17T20-24-07.pdf",
+      "priceReportUrl": "/data/minto-price-reports/mahogany-2026-04-18T15-12-59.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Manotick, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/Manotick-new-homes/Mahogany/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:24:07.130Z"
+      "scrapedAt": "2026-04-18T15:12:59.417Z"
     },
     {
       "id": "minto-brookline",
@@ -5977,8 +5977,8 @@
       "builder": "Minto Communities",
       "community": "Kanata",
       "address": "March Rd & Klondike Rd, Kanata North, Ottawa, ON",
-      "lat": 45.3484,
-      "lng": -75.9444,
+      "lat": 45.3635,
+      "lng": -75.9352,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -6458,14 +6458,14 @@
         "$2,500 Design Centre Bonus, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in Kitchen, Minto Smarter Home Starter + ecobee Package, and Pot lights in Main Hallway.",
         "$2,500 Design Centre Bonus, 6 Appliances, 9' Ceilings on Second Floor, Quartz Countertop in Kitchen, Smooth Ceilings on First and Second Floors, Minto Smarter Home Starter + ecobee Package."
       ],
-      "priceReportUrl": "/data/minto-price-reports/brookline-2026-04-17T20-24-07.pdf",
+      "priceReportUrl": "/data/minto-price-reports/brookline-2026-04-18T15-12-59.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Kanata, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/Kanata-new-homes/Brookline/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:24:07.130Z"
+      "scrapedAt": "2026-04-18T15:12:59.417Z"
     },
     {
       "id": "minto-anthem",
@@ -6473,8 +6473,8 @@
       "builder": "Minto Communities",
       "community": "Barrhaven",
       "address": "Anthem, Barrhaven, Ottawa, ON",
-      "lat": 45.2759,
-      "lng": -75.7186,
+      "lat": 45.2585,
+      "lng": -75.7592,
       "homeTypes": [
         "Townhomes"
       ],
@@ -6549,23 +6549,23 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/minto-price-reports/anthem-2026-04-17T20-24-07.pdf",
+      "priceReportUrl": "/data/minto-price-reports/anthem-2026-04-18T15-12-59.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Barrhaven, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Anthem/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:24:07.130Z"
+      "scrapedAt": "2026-04-18T15:12:59.417Z"
     },
     {
       "id": "minto-quinn-s-pointe",
       "name": "Quinn's Pointe",
       "builder": "Minto Communities",
       "community": "Barrhaven",
-      "address": "Barnsdale Rd & Greenbank Rd, Barrhaven, Ottawa, ON",
-      "lat": 45.2357,
-      "lng": -75.7257,
+      "address": "Quinn's Pointe, Barrhaven, Ottawa, ON",
+      "lat": 45.2635,
+      "lng": -75.7697,
       "homeTypes": [],
       "type": "unknown",
       "models": [],
@@ -6581,7 +6581,7 @@
       "sourceUrl": "https://www.minto.com/ottawa/new-homes/Quinn-s-Pointe/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:24:07.130Z"
+      "scrapedAt": "2026-04-18T15:12:59.417Z"
     },
     {
       "id": "minto-avalon",
@@ -6589,8 +6589,8 @@
       "builder": "Minto Communities",
       "community": "Orléans",
       "address": "Avalon Vista, Orléans, Ottawa, ON",
-      "lat": 45.4559,
-      "lng": -75.4768,
+      "lat": 45.4494,
+      "lng": -75.4818,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -7211,14 +7211,14 @@
         "$2,500 Design Centre Bonus, 6 appliances, Minto Smarter Home Starter + ecobee Package, smooth ceilings on the first and second floor, and quartz countertops in the kitchen.",
         "$5,000 Design Centre Bonus, 6 appliances, Minto Smarter Home Starter + ecobee Package, 9' Smooth Ceilings on Main Floor, Hardwood Flooring on Main Floor (excludes tiled areas), Quartz Countertop in Kitchen, and Potlights in the Main Hallway.On select lots receive $8,000 Design Centre Bonus. Contact us for more information."
       ],
-      "priceReportUrl": "/data/minto-price-reports/avalon-vista-2026-04-17T20-24-07.pdf",
+      "priceReportUrl": "/data/minto-price-reports/avalon-vista-2026-04-18T15-12-59.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Minto Communities development in Orléans, Ottawa.",
       "sourceUrl": "https://www.minto.com/ottawa/Orleans-new-homes/Avalon/main.html",
       "sourceName": "minto.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:24:07.130Z"
+      "scrapedAt": "2026-04-18T15:12:59.417Z"
     },
     {
       "id": "mattamy-half-moon-bay",
@@ -7226,8 +7226,8 @@
       "builder": "Mattamy Homes",
       "community": "Barrhaven",
       "address": "Half Moon Bay, Barrhaven, Ottawa, ON",
-      "lat": 45.2563,
-      "lng": -75.7432,
+      "lat": 45.2474,
+      "lng": -75.7393,
       "homeTypes": [
         "Condo"
       ],
@@ -7298,14 +7298,14 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/half-moon-bay-2026-04-17T20-26-53.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/half-moon-bay-2026-04-18T15-15-47.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Mattamy Homes community in Barrhaven, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/barrhaven/half-moon-bay/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:26:53.429Z"
+      "scrapedAt": "2026-04-18T15:15:47.846Z"
     },
     {
       "id": "mattamy-locale",
@@ -7314,7 +7314,7 @@
       "community": "Orléans",
       "address": "2370 Tenth Line Road, Orléans, Ottawa, ON K4A 1C4",
       "lat": 45.4494,
-      "lng": -75.4819,
+      "lng": -75.4818,
       "homeTypes": [
         "Condo"
       ],
@@ -7385,14 +7385,14 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/locale-2026-04-17T20-26-53.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/locale-2026-04-18T15-15-47.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Mattamy Homes community in Orléans, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/orleans/locale/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:26:53.429Z"
+      "scrapedAt": "2026-04-18T15:15:47.846Z"
     },
     {
       "id": "mattamy-northwoods",
@@ -7400,8 +7400,8 @@
       "builder": "Mattamy Homes",
       "community": "Kanata",
       "address": "1020 March Road, Kanata North, Ottawa, ON K2K 1X7",
-      "lat": 45.3659,
-      "lng": -75.9452,
+      "lat": 45.363,
+      "lng": -75.944,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -7634,14 +7634,14 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/northwoods-2026-04-17T20-26-53.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/northwoods-2026-04-18T15-15-47.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Mattamy Homes community in Kanata, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/kanata/northwoods/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:26:53.429Z"
+      "scrapedAt": "2026-04-18T15:15:47.846Z"
     },
     {
       "id": "mattamy-richmond-meadows",
@@ -7649,8 +7649,8 @@
       "builder": "Mattamy Homes",
       "community": "Richmond",
       "address": "Richmond Meadows, Richmond, Ottawa, ON",
-      "lat": 45.1944,
-      "lng": -75.8388,
+      "lat": 45.195,
+      "lng": -75.827,
       "homeTypes": [
         "Single Family"
       ],
@@ -7682,14 +7682,14 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/richmond-meadows-2026-04-17T20-26-53.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/richmond-meadows-2026-04-18T15-15-47.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Mattamy Homes community in Richmond, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/richmond/richmond-meadows/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:26:53.429Z"
+      "scrapedAt": "2026-04-18T15:15:47.846Z"
     },
     {
       "id": "mattamy-traditions-ii",
@@ -7697,8 +7697,8 @@
       "builder": "Mattamy Homes",
       "community": "Stittsville",
       "address": "Traditions II, Stittsville, Ottawa, ON",
-      "lat": 45.2425,
-      "lng": -75.9123,
+      "lat": 45.255,
+      "lng": -75.935,
       "homeTypes": [
         "Townhomes"
       ],
@@ -7769,14 +7769,166 @@
       "taxIncluded": true,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/mattamy-price-reports/traditions-ii-2026-04-17T20-26-53.pdf",
+      "priceReportUrl": "/data/mattamy-price-reports/traditions-ii-2026-04-18T15-15-47.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Mattamy Homes community in Stittsville, Ottawa.",
       "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/stittsville/traditions-ii/",
       "sourceName": "mattamyhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:26:53.429Z"
+      "scrapedAt": "2026-04-18T15:15:47.846Z"
+    },
+    {
+      "id": "mattamy-wateridge-village",
+      "name": "Wateridge Village at Rockcliffe",
+      "builder": "Mattamy Homes",
+      "community": "Rockcliffe Park",
+      "address": "Wateridge Village at Rockcliffe, Rockcliffe Park, Ottawa, ON",
+      "lat": 45.427,
+      "lng": -75.654,
+      "homeTypes": [
+        "Townhomes"
+      ],
+      "type": "townhouse",
+      "models": [
+        {
+          "name": "Petal",
+          "type": "Townhomes",
+          "sqft": 1568,
+          "beds": 2,
+          "baths": 1.5,
+          "garages": null,
+          "lotWidth": null,
+          "priceFrom": 544990,
+          "available": true,
+          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/petal.jpg",
+          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/petal"
+        },
+        {
+          "name": "Tendril",
+          "type": "Townhomes",
+          "sqft": 1708,
+          "beds": 2,
+          "baths": 1.5,
+          "garages": null,
+          "lotWidth": null,
+          "priceFrom": 554990,
+          "available": true,
+          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/tendril.jpg",
+          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/tendril"
+        },
+        {
+          "name": "Bloom",
+          "type": "Townhomes",
+          "sqft": 1840,
+          "beds": 3,
+          "baths": 2.5,
+          "garages": null,
+          "lotWidth": null,
+          "priceFrom": 599990,
+          "available": true,
+          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/bloom.jpg",
+          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/bloom"
+        },
+        {
+          "name": "Bloom II",
+          "type": "Townhomes",
+          "sqft": 1840,
+          "beds": 3,
+          "baths": 2.5,
+          "garages": null,
+          "lotWidth": null,
+          "priceFrom": 604990,
+          "available": true,
+          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/bloom-ii.jpg",
+          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/bloom-ii"
+        },
+        {
+          "name": "Bellshore",
+          "type": "Townhomes",
+          "sqft": 1875,
+          "beds": 3,
+          "baths": 2.5,
+          "garages": null,
+          "lotWidth": null,
+          "priceFrom": 672990,
+          "available": true,
+          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/bellshore.jpg",
+          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/bellshore"
+        },
+        {
+          "name": "Brentland",
+          "type": "Townhomes",
+          "sqft": 1875,
+          "beds": 3,
+          "baths": 2.5,
+          "garages": null,
+          "lotWidth": null,
+          "priceFrom": 677990,
+          "available": true,
+          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/brentland.jpg",
+          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/brentland"
+        },
+        {
+          "name": "Rockcliffe",
+          "type": "Townhomes",
+          "sqft": 2015,
+          "beds": 3,
+          "baths": 2.5,
+          "garages": null,
+          "lotWidth": null,
+          "priceFrom": 687990,
+          "available": true,
+          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/rockcliffe.jpg",
+          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/rockcliffe"
+        },
+        {
+          "name": "Rockcliffe End",
+          "type": "Townhomes",
+          "sqft": 2026,
+          "beds": 3,
+          "baths": 2.5,
+          "garages": null,
+          "lotWidth": null,
+          "priceFrom": 710990,
+          "available": true,
+          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/rockcliffe-end.jpg",
+          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/rockcliffe-end"
+        },
+        {
+          "name": "Fernvalley Corner",
+          "type": "Townhomes",
+          "sqft": 1843,
+          "beds": 3,
+          "baths": 2.5,
+          "garages": null,
+          "lotWidth": null,
+          "priceFrom": null,
+          "available": false,
+          "localImageUrl": "/images/mattamy/wateridge-village-at-rockcliffe/fernvalley-corner.jpg",
+          "modelUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/fernvalley-corner"
+        }
+      ],
+      "typePrices": [
+        {
+          "type": "Townhomes",
+          "priceFrom": 544990,
+          "priceFromFormatted": "$544,990"
+        }
+      ],
+      "priceFrom": 544990,
+      "priceFromFormatted": "$544,990",
+      "taxIncluded": true,
+      "featureSheets": [],
+      "includedFeatures": [],
+      "priceReportUrl": "/data/mattamy-price-reports/wateridge-village-at-rockcliffe-2026-04-18T15-15-47.pdf",
+      "status": "selling",
+      "completionYear": null,
+      "description": "A Mattamy Homes community in Rockcliffe Park, Ottawa.",
+      "sourceUrl": "https://mattamyhomes.com/ontario/ottawa/ottawa/wateridge-village-at-rockcliffe-ii/",
+      "sourceName": "mattamyhomes.com",
+      "imageUrl": "",
+      "scrapedAt": "2026-04-18T15:15:47.846Z"
     },
     {
       "id": "richcraft-trailsedge",
@@ -7784,8 +7936,8 @@
       "builder": "Richcraft Homes",
       "community": "Orléans",
       "address": "Trailsedge, Orléans, Ottawa, ON",
-      "lat": 45.4303,
-      "lng": -75.5157,
+      "lat": 45.4387,
+      "lng": -75.504,
       "homeTypes": [
         "Urban Towns",
         "Thrive Towns",
@@ -8761,7 +8913,7 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-east/trailsedge/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:29:12.306Z",
+      "scrapedAt": "2026-04-18T15:17:01.761Z",
       "taxIncluded": true
     },
     {
@@ -8770,8 +8922,8 @@
       "builder": "Richcraft Homes",
       "community": "Barrhaven",
       "address": "126 Dun Skipper Drive, Ottawa, ON K1X 0G2",
-      "lat": 45.3096,
-      "lng": -75.5905,
+      "lat": 45.309,
+      "lng": -75.591,
       "homeTypes": [
         "Thrive Towns",
         "Bungalow Towns",
@@ -9609,7 +9761,7 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-south/pathways/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:29:23.079Z",
+      "scrapedAt": "2026-04-18T15:17:14.588Z",
       "taxIncluded": true
     },
     {
@@ -9618,8 +9770,8 @@
       "builder": "Richcraft Homes",
       "community": "Barrhaven",
       "address": "Riverside South, Barrhaven, Ottawa, ON",
-      "lat": 45.2815,
-      "lng": -75.6832,
+      "lat": 45.2821,
+      "lng": -75.6858,
       "homeTypes": [
         "Urban Towns",
         "Thrive Towns",
@@ -10619,7 +10771,7 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-south/riverside-south/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:29:34.436Z",
+      "scrapedAt": "2026-04-18T15:17:25.499Z",
       "taxIncluded": true
     },
     {
@@ -10628,8 +10780,8 @@
       "builder": "Richcraft Homes",
       "community": "Kanata",
       "address": "Bradley Commons, Kanata, Ottawa, ON",
-      "lat": 45.2583,
-      "lng": -75.9148,
+      "lat": 45.2827,
+      "lng": -75.8962,
       "homeTypes": [
         "Bungalow Towns",
         "Single Family"
@@ -11137,7 +11289,7 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/bradley_commons/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:29:43.167Z",
+      "scrapedAt": "2026-04-18T15:17:35.785Z",
       "taxIncluded": true
     },
     {
@@ -11146,8 +11298,8 @@
       "builder": "Richcraft Homes",
       "community": "Kanata",
       "address": "Mapleton, Kanata, Ottawa, ON",
-      "lat": 45.2922,
-      "lng": -75.9112,
+      "lat": 45.291,
+      "lng": -75.9073,
       "homeTypes": [
         "Flats",
         "Thrive Towns",
@@ -11397,7 +11549,7 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/mapleton/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:29:49.366Z",
+      "scrapedAt": "2026-04-18T15:17:44.574Z",
       "taxIncluded": true
     },
     {
@@ -11406,8 +11558,8 @@
       "builder": "Richcraft Homes",
       "community": "Kanata",
       "address": "Kanata Lakes, Kanata, Ottawa, ON",
-      "lat": 45.3228,
-      "lng": -75.9319,
+      "lat": 45.3259,
+      "lng": -75.9181,
       "homeTypes": [
         "Bungalow Towns",
         "Single Family"
@@ -12143,7 +12295,7 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/kanata-lakes/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:29:59.729Z",
+      "scrapedAt": "2026-04-18T15:17:55.841Z",
       "taxIncluded": true
     },
     {
@@ -12211,7 +12363,7 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/gateway-flats/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:30:05.260Z",
+      "scrapedAt": "2026-04-18T15:18:02.619Z",
       "taxIncluded": true
     },
     {
@@ -12220,8 +12372,8 @@
       "builder": "Richcraft Homes",
       "community": "Kanata",
       "address": "Westwood, Kanata, Ottawa, ON",
-      "lat": 45.3448,
-      "lng": -76.0073,
+      "lat": 45.2631,
+      "lng": -75.8914,
       "homeTypes": [
         "Urban Towns",
         "Bungalow Towns",
@@ -13035,7 +13187,7 @@
       "sourceUrl": "https://www.richcraft.com/community/ottawa-west/westwood/",
       "sourceName": "richcraft.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:30:17.138Z",
+      "scrapedAt": "2026-04-18T15:18:12.541Z",
       "taxIncluded": true
     },
     {
@@ -13044,8 +13196,8 @@
       "builder": "Caivan",
       "community": "Stittsville",
       "address": "1820 Shea Road, Stittsville, Ottawa, ON K2S 1K5",
-      "lat": 45.2492,
-      "lng": -75.8897,
+      "lat": 45.2557,
+      "lng": -75.8957,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -13060,7 +13212,7 @@
       "sourceUrl": "https://caivan.com/ottawa/magnolia/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:30:24.850Z",
+      "scrapedAt": "2026-04-18T15:18:20.969Z",
       "taxIncluded": false
     },
     {
@@ -13277,7 +13429,7 @@
       "sourceUrl": "https://caivan.com/ottawa/fox-run/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:30:48.232Z",
+      "scrapedAt": "2026-04-18T15:18:44.016Z",
       "taxIncluded": false
     },
     {
@@ -13286,8 +13438,8 @@
       "builder": "Caivan",
       "community": "Barrhaven",
       "address": "The Ridge, Barrhaven, Ottawa, ON",
-      "lat": 45.2767,
-      "lng": -75.7192,
+      "lat": 45.244,
+      "lng": -75.7583,
       "homeTypes": [
         "Single Family"
       ],
@@ -13323,7 +13475,7 @@
       "sourceUrl": "https://caivan.com/ottawa/the-ridge/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:30:55.645Z",
+      "scrapedAt": "2026-04-18T15:18:51.601Z",
       "taxIncluded": false
     },
     {
@@ -13332,8 +13484,8 @@
       "builder": "Caivan",
       "community": "Barrhaven",
       "address": "The Conservancy, Barrhaven, Ottawa, ON",
-      "lat": 45.2574,
-      "lng": -75.7604,
+      "lat": 45.2586,
+      "lng": -75.7552,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -13644,7 +13796,7 @@
       "sourceUrl": "https://caivan.com/ottawa/the-conservancy/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:31:20.520Z",
+      "scrapedAt": "2026-04-18T15:19:16.142Z",
       "taxIncluded": false
     },
     {
@@ -13653,8 +13805,8 @@
       "builder": "Caivan",
       "community": "Orléans",
       "address": "806 Mercier Cres. Orléans, ON K1W 0N5",
-      "lat": 45.4403,
-      "lng": -75.5199,
+      "lat": 45.4402,
+      "lng": -75.52,
       "homeTypes": [
         "Townhomes"
       ],
@@ -13750,7 +13902,7 @@
       "sourceUrl": "https://caivan.com/ottawa/orleans-village/",
       "sourceName": "caivan.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:31:31.118Z",
+      "scrapedAt": "2026-04-18T15:19:26.913Z",
       "taxIncluded": false
     },
     {
@@ -13759,8 +13911,8 @@
       "builder": "HN Homes",
       "community": "Kanata",
       "address": "Kanata Lakes, Kanata, Ottawa, ON",
-      "lat": 45.3236,
-      "lng": -75.9325,
+      "lat": 45.325,
+      "lng": -75.9133,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -14084,7 +14236,7 @@
         },
         {
           "name": "HN Homes - Kanata Lakes - Singles Price Report",
-          "url": "/data/hn-price-reports/kanata-lakes-singles-2026-04-17T20-31-31.pdf"
+          "url": "/data/hn-price-reports/kanata-lakes-singles-2026-04-18T15-19-27.pdf"
         }
       ],
       "includedFeatures": [
@@ -14189,14 +14341,14 @@
         "Sodded front and rear yards, wood rear step or stairs to patio stone landing (lot dependent)",
         "* Legal first and last name required to pre-register for releases"
       ],
-      "priceReportUrl": "/data/hn-price-reports/kanata-lakes-singles-2026-04-17T20-31-31.pdf",
+      "priceReportUrl": "/data/hn-price-reports/kanata-lakes-singles-2026-04-18T15-19-27.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "An HN Homes community in Kanata, Ottawa.",
       "sourceUrl": "https://hnhomes.com/communities/kanata-lakes/",
       "sourceName": "hnhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:31:31.849Z"
+      "scrapedAt": "2026-04-18T15:19:27.625Z"
     },
     {
       "id": "hn-riverside-south",
@@ -14204,8 +14356,8 @@
       "builder": "HN Homes",
       "community": "Barrhaven",
       "address": "Riverside South, Barrhaven, Ottawa, ON",
-      "lat": 45.2823,
-      "lng": -75.6838,
+      "lat": 45.275,
+      "lng": -75.695,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -14534,11 +14686,11 @@
         },
         {
           "name": "HN Homes - Riverside South - Singles Price Report",
-          "url": "/data/hn-price-reports/riverside-south-singles-2026-04-17T20-31-31.pdf"
+          "url": "/data/hn-price-reports/riverside-south-singles-2026-04-18T15-19-27.pdf"
         },
         {
           "name": "HN Homes - Riverside South - Townhomes Price Report",
-          "url": "/data/hn-price-reports/riverside-south-townhomes-2026-04-17T20-31-31.pdf"
+          "url": "/data/hn-price-reports/riverside-south-townhomes-2026-04-18T15-19-27.pdf"
         }
       ],
       "includedFeatures": [
@@ -14643,14 +14795,14 @@
         "Sodded front and rear yards, wood rear step or stairs to patio stone landing (lot dependent)",
         "* Legal first and last name required to pre-register for releases"
       ],
-      "priceReportUrl": "/data/hn-price-reports/riverside-south-singles-2026-04-17T20-31-31.pdf",
+      "priceReportUrl": "/data/hn-price-reports/riverside-south-singles-2026-04-18T15-19-27.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "An HN Homes community in Barrhaven, Ottawa.",
       "sourceUrl": "https://hnhomes.com/communities/riverside-south/",
       "sourceName": "hnhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:31:31.849Z"
+      "scrapedAt": "2026-04-18T15:19:27.625Z"
     },
     {
       "id": "uniform-copperwood-estate",
@@ -15279,14 +15431,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/uniform-price-reports/copperwood-estate-2026-04-17T20-32-00.pdf",
+      "priceReportUrl": "/data/uniform-price-reports/copperwood-estate-2026-04-18T15-19-56.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Uniform Developments community in Kanata.",
       "sourceUrl": "https://uniformdevelopments.com/community/copperwood-estate/",
       "sourceName": "uniformdevelopments.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:32:00.665Z"
+      "scrapedAt": "2026-04-18T15:19:56.178Z"
     },
     {
       "id": "cardel-ironwood",
@@ -15294,8 +15446,8 @@
       "builder": "Cardel Homes",
       "community": "Riverside South",
       "address": "801 Kenny Gordon Avenue, Riverside South, Ottawa, ON K4M 0N4",
-      "lat": 45.2547,
-      "lng": -75.6887,
+      "lat": 45.2636,
+      "lng": -75.6852,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -15554,14 +15706,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/cardel-price-reports/ironwood-2026-04-17T20-32-29.pdf",
+      "priceReportUrl": "/data/cardel-price-reports/ironwood-2026-04-18T15-20-24.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Cardel Homes community in Riverside South, Ottawa.",
       "sourceUrl": "https://www.cardelhomes.com/ottawa/communities/ironwood",
       "sourceName": "cardelhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:32:29.517Z"
+      "scrapedAt": "2026-04-18T15:20:24.917Z"
     },
     {
       "id": "cardel-edenwylde",
@@ -15569,8 +15721,8 @@
       "builder": "Cardel Homes",
       "community": "Stittsville",
       "address": "511 Edenwylde Drive, Stittsville, Ottawa, ON K2S 1K5",
-      "lat": 45.2541,
-      "lng": -75.9006,
+      "lat": 45.2542,
+      "lng": -75.9007,
       "homeTypes": [
         "Townhomes"
       ],
@@ -15631,14 +15783,14 @@
       "taxIncluded": false,
       "featureSheets": [],
       "includedFeatures": [],
-      "priceReportUrl": "/data/cardel-price-reports/edenwylde-2026-04-17T20-32-29.pdf",
+      "priceReportUrl": "/data/cardel-price-reports/edenwylde-2026-04-18T15-20-24.pdf",
       "status": "selling",
       "completionYear": null,
       "description": "A Cardel Homes community in Stittsville, Ottawa.",
       "sourceUrl": "https://www.cardelhomes.com/ottawa/communities/edenwylde",
       "sourceName": "cardelhomes.com",
       "imageUrl": "",
-      "scrapedAt": "2026-04-17T20:32:29.517Z"
+      "scrapedAt": "2026-04-18T15:20:24.917Z"
     },
     {
       "id": "urbandale-riverside-south",
@@ -15646,8 +15798,8 @@
       "builder": "Urbandale",
       "community": "Riverside South",
       "address": "Riverside South, Ottawa, ON",
-      "lat": 45.2807,
-      "lng": -75.6826,
+      "lat": 45.265,
+      "lng": -75.6852,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes",
@@ -16174,11 +16326,11 @@
       "priceFrom": 649900,
       "priceFromFormatted": "$649,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/riverside-south-2026-04-17T20-32-46.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/riverside-south-2026-04-18T15-20-41.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-riverside-south/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T20:32:46.790Z"
+      "scrapedAt": "2026-04-18T15:20:41.988Z"
     },
     {
       "id": "urbandale-kanata-lakes",
@@ -16186,8 +16338,8 @@
       "builder": "Urbandale",
       "community": "Kanata Lakes",
       "address": "Kanata Lakes, Kanata, ON",
-      "lat": 45.322,
-      "lng": -75.9313,
+      "lat": 45.3127,
+      "lng": -75.9119,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes"
@@ -16632,11 +16784,11 @@
       "priceFrom": 766900,
       "priceFromFormatted": "$766,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/kanata-lakes-2026-04-17T20-32-46.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/kanata-lakes-2026-04-18T15-20-41.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-kanata-lakes/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T20:32:46.790Z"
+      "scrapedAt": "2026-04-18T15:20:41.988Z"
     },
     {
       "id": "urbandale-bradley-commons",
@@ -16644,8 +16796,8 @@
       "builder": "Urbandale",
       "community": "Stittsville",
       "address": "560 Hazeldean Road, Stittsville, ON",
-      "lat": 45.288,
-      "lng": -75.8976,
+      "lat": 45.2892,
+      "lng": -75.9005,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes"
@@ -17014,11 +17166,11 @@
       "priceFrom": 741900,
       "priceFromFormatted": "$741,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/bradley-commons-2026-04-17T20-32-46.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/bradley-commons-2026-04-18T15-20-41.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-bradley-commons/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T20:32:46.790Z"
+      "scrapedAt": "2026-04-18T15:20:41.988Z"
     },
     {
       "id": "urbandale-leitrim-flats",
@@ -17026,8 +17178,8 @@
       "builder": "Urbandale",
       "community": "Leitrim",
       "address": "4793 Bank Street, Ottawa, ON",
-      "lat": 45.3192,
-      "lng": -75.5927,
+      "lat": 45.3193,
+      "lng": -75.5926,
       "homeTypes": [
         "Condos"
       ],
@@ -17114,11 +17266,11 @@
       "priceFrom": 419900,
       "priceFromFormatted": "$419,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/leitrim-flats-2026-04-17T20-32-46.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/leitrim-flats-2026-04-18T15-20-41.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-leitrim-flats/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T20:32:46.790Z"
+      "scrapedAt": "2026-04-18T15:20:41.988Z"
     },
     {
       "id": "urbandale-the-creek",
@@ -17126,8 +17278,8 @@
       "builder": "Urbandale",
       "community": "Kemptville",
       "address": "Bristol Street, Kemptville, ON",
-      "lat": 45.0302,
-      "lng": -75.6399,
+      "lat": 45.0301,
+      "lng": -75.642,
       "homeTypes": [
         "Singles & Bungalows",
         "Townhomes"
@@ -17495,11 +17647,11 @@
       "priceFrom": 589900,
       "priceFromFormatted": "$589,900",
       "taxIncluded": false,
-      "priceReportUrl": "/data/urbandale-price-reports/the-creek-2026-04-17T20-32-46.pdf",
+      "priceReportUrl": "/data/urbandale-price-reports/the-creek-2026-04-18T15-20-41.pdf",
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-the-creek/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T20:32:46.790Z"
+      "scrapedAt": "2026-04-18T15:20:41.988Z"
     },
     {
       "id": "urbandale-cowans-grove",
@@ -17508,7 +17660,7 @@
       "community": "Cowan's Grove",
       "address": "138 Shuttleworth Drive, Ottawa, ON",
       "lat": 45.3182,
-      "lng": -75.5905,
+      "lng": -75.5904,
       "homeTypes": [
         "Singles & Bungalows"
       ],
@@ -17555,16 +17707,16 @@
       "status": "selling",
       "sourceUrl": "https://urbandale.com/communities-cowans-grove/",
       "sourceName": "urbandale.com",
-      "scrapedAt": "2026-04-17T20:32:46.790Z"
+      "scrapedAt": "2026-04-18T15:20:41.988Z"
     },
     {
       "id": "tamarack-the-meadows",
       "name": "The Meadows",
       "builder": "Tamarack Homes",
       "community": "Nepean",
-      "address": "501 Egret Way, Nepean, Ottawa, ON",
-      "lat": 45.2487,
-      "lng": -75.7337,
+      "address": "The Meadows, Nepean, Ottawa, ON",
+      "lat": 45.24523506001361,
+      "lng": -75.7457350014228,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -17657,16 +17809,16 @@
       "description": "The Meadows by Tamarack Homes in Nepean, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/the-meadows/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T20:36:26.458Z"
+      "scrapedAt": "2026-04-18T15:25:50.602Z"
     },
     {
       "id": "tamarack-westwood",
       "name": "Westwood",
       "builder": "Tamarack Homes",
       "community": "Stittsville",
-      "address": "533 Villanelle Road, Stittsville, Ottawa, ON",
-      "lat": 45.2551,
-      "lng": -75.9026,
+      "address": "Stittsville, Ottawa, ON",
+      "lat": 45.26128012478662,
+      "lng": -75.8911496190729,
       "homeTypes": [
         "Townhomes"
       ],
@@ -17806,16 +17958,16 @@
       "description": "Westwood by Tamarack Homes in Stittsville, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/westwood/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T20:36:26.458Z"
+      "scrapedAt": "2026-04-18T15:25:50.602Z"
     },
     {
       "id": "tamarack-findlay-creek-village",
       "name": "Findlay Creek Village",
       "builder": "Tamarack Homes",
       "community": "Findlay Creek",
-      "address": "3925 Kelly Farm Drive, Findlay Creek, Ottawa, ON",
-      "lat": 45.3242,
-      "lng": -75.6115,
+      "address": "Findlay Creek, Ottawa, ON",
+      "lat": 45.32272975273702,
+      "lng": -75.61208655624944,
       "homeTypes": [
         "Townhomes",
         "Single Family"
@@ -17908,16 +18060,16 @@
       "description": "Findlay Creek Village by Tamarack Homes in Findlay Creek, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/findlay-creek-village/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T20:36:26.458Z"
+      "scrapedAt": "2026-04-18T15:25:50.602Z"
     },
     {
       "id": "tamarack-cardinal-creek-village",
       "name": "Cardinal Creek Village",
       "builder": "Tamarack Homes",
       "community": "Orléans",
-      "address": "554 Avenue de la Famille Laporte, Orléans, Ottawa, ON",
-      "lat": 45.5016,
-      "lng": -75.4636,
+      "address": "Cardinal Creek Village, Orléans, Ottawa, ON",
+      "lat": 45.504137615243536,
+      "lng": -75.46467795709292,
       "homeTypes": [
         "Single Family",
         "Townhomes"
@@ -17997,16 +18149,16 @@
       "description": "Cardinal Creek Village by Tamarack Homes in Orléans, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/cardinal-creek-village/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T20:36:26.458Z"
+      "scrapedAt": "2026-04-18T15:25:50.602Z"
     },
     {
       "id": "tamarack-idylea",
       "name": "Idylea",
       "builder": "Tamarack Homes",
       "community": "Stittsville",
-      "address": "1045 Cope Drive, Stittsville, Ottawa, ON",
-      "lat": 45.2595,
-      "lng": -75.9069,
+      "address": "Fernbank Rd & Cope Dr, Stittsville, Ottawa, ON",
+      "lat": 45.254725397363444,
+      "lng": -75.90183590301118,
       "homeTypes": [
         "Townhomes"
       ],
@@ -18081,7 +18233,7 @@
       "description": "Idylea by Tamarack Homes in Stittsville, Ottawa.",
       "sourceUrl": "https://tamarackhomes.com/ottawa/idylea/",
       "sourceName": "tamarackhomes.com",
-      "scrapedAt": "2026-04-17T20:36:26.458Z"
+      "scrapedAt": "2026-04-18T15:25:50.602Z"
     },
     {
       "id": "eq-tapestry",
@@ -18089,8 +18241,8 @@
       "builder": "EQ Homes",
       "community": "Kemptville",
       "address": "74 Equinelle Drive, Kemptville, ON K0G 1J0",
-      "lat": 45.0388,
-      "lng": -75.6763,
+      "lat": 45.0389,
+      "lng": -75.677,
       "homeTypes": [
         "Bungalows"
       ],
@@ -18277,7 +18429,7 @@
       "description": "Tapestry by EQ Homes in Kemptville, Ottawa.",
       "sourceUrl": "https://eqhomes.ca/communities/tapestry",
       "sourceName": "eqhomes.ca",
-      "scrapedAt": "2026-04-17T20:36:34.320Z"
+      "scrapedAt": "2026-04-18T15:25:58.442Z"
     },
     {
       "id": "eq-provence",
@@ -18286,7 +18438,7 @@
       "community": "Orléans",
       "address": "415 Ave. du Ventoux, Ottawa, ON K4A 3R4",
       "lat": 45.4655,
-      "lng": -75.4524,
+      "lng": -75.4544,
       "homeTypes": [
         "Multi-Gen",
         "Single Family",
@@ -18827,7 +18979,7 @@
       "description": "Provence by EQ Homes in Orléans, Ottawa.",
       "sourceUrl": "https://eqhomes.ca/communities/provence",
       "sourceName": "eqhomes.ca",
-      "scrapedAt": "2026-04-17T20:36:41.955Z"
+      "scrapedAt": "2026-04-18T15:26:06.158Z"
     },
     {
       "id": "eq-pathways",
@@ -18835,8 +18987,8 @@
       "builder": "EQ Homes",
       "community": "Findlay Creek",
       "address": "122 Dun Skipper Drive, Ottawa, ON K1X 0G2",
-      "lat": 45.3094,
-      "lng": -75.5908,
+      "lat": 45.3089,
+      "lng": -75.5922,
       "homeTypes": [
         "Multi-Gen",
         "Single Family",
@@ -19260,7 +19412,7 @@
       "description": "Pathways by EQ Homes in Findlay Creek, Ottawa.",
       "sourceUrl": "https://eqhomes.ca/communities/pathways",
       "sourceName": "eqhomes.ca",
-      "scrapedAt": "2026-04-17T20:36:48.180Z"
+      "scrapedAt": "2026-04-18T15:26:12.305Z"
     },
     {
       "id": "eq-greystone-forecourt",
@@ -19268,8 +19420,8 @@
       "builder": "EQ Homes",
       "community": "Ottawa",
       "address": "1737 Woodward Drive, Ottawa, ON K2C 0P9",
-      "lat": 45.3724,
-      "lng": -75.7513,
+      "lat": 45.3742,
+      "lng": -75.7285,
       "homeTypes": [
         "Townhomes"
       ],
@@ -19352,7 +19504,7 @@
       "description": "Forecourt by EQ Homes in Ottawa, Ottawa.",
       "sourceUrl": "https://greystonevillage.ca/forecourt/homes.html",
       "sourceName": "eqhomes.ca",
-      "scrapedAt": "2026-04-17T20:36:50.347Z"
+      "scrapedAt": "2026-04-18T15:26:14.461Z"
     },
     {
       "id": "eq-greystone-spencer",
@@ -19360,8 +19512,8 @@
       "builder": "EQ Homes",
       "community": "Ottawa East",
       "address": "360 Deschâtelets Ave, Ottawa, ON K1S 5Y1",
-      "lat": 45.4089,
-      "lng": -75.6758,
+      "lat": 45.4175,
+      "lng": -75.6712,
       "homeTypes": [
         "Two Bedroom + Den",
         "Two Bedroom"
@@ -19536,7 +19688,7 @@
       "description": "The Spencer by EQ Homes in Ottawa East, Ottawa.",
       "sourceUrl": "https://greystonevillage.ca/thespencer/suites.html",
       "sourceName": "eqhomes.ca",
-      "scrapedAt": "2026-04-17T20:36:51.928Z"
+      "scrapedAt": "2026-04-18T15:26:16.043Z"
     },
     {
       "id": "glenview-ironwood",
@@ -19676,7 +19828,7 @@
       "description": "Ironwood by Glenview Homes in Riverside South, Ottawa.",
       "sourceUrl": "https://www.glenviewhomes.com/communities/ironwood/",
       "sourceName": "glenviewhomes.com",
-      "scrapedAt": "2026-04-18T15:18:09.787Z"
+      "scrapedAt": "2026-04-18T15:26:17.481Z"
     },
     {
       "id": "glenview-the-commons",
@@ -19986,7 +20138,7 @@
       "description": "The Commons by Glenview Homes in Orléans, Ottawa.",
       "sourceUrl": "https://www.glenviewhomes.com/communities/thecommons/",
       "sourceName": "glenviewhomes.com",
-      "scrapedAt": "2026-04-18T15:18:14.474Z"
+      "scrapedAt": "2026-04-18T15:26:21.350Z"
     },
     {
       "id": "glenview-union-west",
@@ -20211,7 +20363,7 @@
       "description": "Union West by Glenview Homes in Stittsville, Ottawa.",
       "sourceUrl": "https://www.glenviewhomes.com/communities/union-west/",
       "sourceName": "glenviewhomes.com",
-      "scrapedAt": "2026-04-18T15:18:18.066Z"
+      "scrapedAt": "2026-04-18T15:26:24.317Z"
     },
     {
       "id": "glenview-wateridge-village",
@@ -20235,7 +20387,7 @@
       "description": "Wateridge Village by Glenview Homes in Ottawa East, Ottawa.",
       "sourceUrl": "https://www.glenviewhomes.com/communities/wateridge-village/",
       "sourceName": "glenviewhomes.com",
-      "scrapedAt": "2026-04-18T15:18:18.869Z"
+      "scrapedAt": "2026-04-18T15:26:25.119Z"
     },
     {
       "id": "tartan-findlay-creek-village",
@@ -20755,7 +20907,7 @@
       "description": "Findlay Creek Village by Tartan Homes in Findlay Creek, Ottawa.",
       "sourceUrl": "https://tartanhomes.com/communities/findlay-creek/",
       "sourceName": "tartanhomes.com",
-      "scrapedAt": "2026-04-18T15:18:33.168Z"
+      "scrapedAt": "2026-04-18T15:27:15.046Z"
     },
     {
       "id": "tartan-idylea",
@@ -21135,7 +21287,7 @@
       "description": "Idylea by Tartan Homes in Stittsville, Ottawa.",
       "sourceUrl": "https://tartanhomes.com/communities/idylea/",
       "sourceName": "tartanhomes.com",
-      "scrapedAt": "2026-04-18T15:18:33.168Z"
+      "scrapedAt": "2026-04-18T15:27:15.046Z"
     }
   ]
 }
