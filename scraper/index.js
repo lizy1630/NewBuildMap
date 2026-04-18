@@ -5,7 +5,7 @@
  * Runs all source scrapers sequentially, merges results,
  * geocodes missing coordinates, runs the history diff, and writes builds.json.
  */
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { scrape as scrapeClaridge } from './sources/claridge.js';
 import { scrape as scrapeNewInHomes } from './sources/newinhomes.js';
 import { scrape as scrapeMinto } from './sources/minto.js';
@@ -18,12 +18,33 @@ import { scrape as scrapeUniform } from './sources/uniform.js';
 import { scrape as scrapeCardel } from './sources/cardel.js';
 import { scrape as scrapeUrbandale } from './sources/urbandale.js';
 import { scrape as scrapeTamarack } from './sources/tamarack.js';
+import { scrape as scrapeEQ } from './sources/eq.js';
+import { scrape as scrapeGlenview } from './sources/glenview.js';
 import { geocode } from './geocode.js';
 import { runHistoryDiff } from './history.js';
 import { slugify } from './utils.js';
 
 const BUILDS_PATH = new URL('../public/data/builds.json', import.meta.url).pathname;
+const LOCK_PATH = new URL('../.coordinate-lock.json', import.meta.url).pathname;
 const RAW_DIR = new URL('../public/data/raw', import.meta.url).pathname;
+
+// Restore locked coordinates after any scraper run
+function restoreLockedCoordinates(builds) {
+  if (!existsSync(LOCK_PATH)) {
+    console.warn('  ⚠ No coordinate lock file found — skipping coordinate restoration');
+    return 0;
+  }
+  const lock = JSON.parse(readFileSync(LOCK_PATH, 'utf8'));
+  let restored = 0;
+  for (const build of builds) {
+    if (lock[build.id]) {
+      build.lat = lock[build.id].lat;
+      build.lng = lock[build.id].lng;
+      restored++;
+    }
+  }
+  return restored;
+}
 
 mkdirSync(RAW_DIR, { recursive: true });
 
@@ -40,6 +61,8 @@ const SOURCES = [
   { name: 'cardel', fn: scrapeCardel },
   { name: 'urbandale', fn: scrapeUrbandale },
   { name: 'tamarack', fn: scrapeTamarack },
+  { name: 'eq', fn: scrapeEQ },
+  { name: 'glenview', fn: scrapeGlenview },
 ];
 
 async function run() {
@@ -109,6 +132,11 @@ async function run() {
   // Run history diff
   console.log('\n--- Running history diff ---');
   const historyResult = runHistoryDiff(merged);
+
+  // Restore locked coordinates — MUST happen after geocoding, before writing
+  console.log('\n--- Restoring locked coordinates ---');
+  const restoredCount = restoreLockedCoordinates(merged);
+  console.log(`  Restored: ${restoredCount} communities from coordinate lock`);
 
   // Write final builds.json
   const output = {
