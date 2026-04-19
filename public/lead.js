@@ -27,9 +27,10 @@ export function isRegistered() {
   return !!localStorage.getItem(LEAD_KEY);
 }
 
+// Prices only unblur per-community once that community has been requested.
+// isUnlocked() is kept for API compatibility but now always returns false —
+// blur state is driven by hasRequested(buildId) in the sidebar.
 export function isUnlocked() {
-  if (_unlocked) return true;
-  if (isRegistered()) { _unlocked = true; return true; }
   return false;
 }
 
@@ -108,26 +109,12 @@ function clearDraft() {
 export async function requestInfo(build) {
   trackClick(build);
 
+  // Pre-populate draft from saved user so the modal opens with name+email filled in
   if (isRegistered()) {
-    markRequested(build.id);
-    window.dispatchEvent(new CustomEvent('request-sent', { detail: { buildId: build.id } }));
     const user = getUser();
-    fetch('/api/leads', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name:          user.name  || '—',
-        email:         user.email || '—',
-        buildId:       build.id,
-        community:     `${build.name} · ${build.community}`,
-        priceSheetUrl: build.latestPriceSheetUrl || null,
-        type:          'request',
-        clickStats:    getClickStats(),
-        ts:            new Date().toISOString(),
-      }),
-    }).catch(() => {});
-    return;
+    saveDraft(user.name || '', user.email || '');
   }
+
   _pendingBuild = build;
   openLeadModal('request');
 }
@@ -235,7 +222,6 @@ async function _handleSubmit() {
 
   localStorage.setItem(LEAD_KEY, JSON.stringify(user));
   clearDraft();
-  _unlocked = true;
   if (build) markRequested(build.id);
 
   // Send to Cloudflare Worker — handles KV storage + Resend emails to user + agent
@@ -249,20 +235,20 @@ async function _handleSubmit() {
       community:     build ? `${build.name} · ${build.community}` : '—',
       priceSheetUrl: build?.latestPriceSheetUrl || null,
       type,
-      clickStats:    getClickStats(),
       ts:            new Date().toISOString(),
     }),
   }).catch(() => {});
 
   // Success screen
-  const successMsg = build
-    ? `Price request for <strong>${esc(build.name)}</strong> sent.<br>You will receive a price sheet at your email.`
-    : 'You are now registered. Prices are unlocked.';
+  const hasPdf = !!build?.latestPriceSheetUrl;
+  const successMsg = hasPdf
+    ? `The price sheet for <strong>${esc(build.name)}</strong> is on its way to your inbox.`
+    : `Your request for <strong>${esc(build.name)}</strong> has been received. We'll get back to you with pricing shortly.`;
 
   document.getElementById('lead-modal').innerHTML = `
     <div class="lead-success">
       <div class="lead-checkmark">✓</div>
-      <h3>${build ? 'Request Sent!' : "You're In!"}</h3>
+      <h3>${hasPdf ? 'Price Sent!' : 'Request Received!'}</h3>
       <p>${successMsg}</p>
       <p class="lead-success-email">📧 ${esc(email)}</p>
     </div>`;
@@ -275,7 +261,6 @@ async function _handleSubmit() {
     if (pendingId) {
       window.dispatchEvent(new CustomEvent('request-sent', { detail: { buildId: pendingId } }));
     }
-    window.dispatchEvent(new CustomEvent('lead-unlocked'));
   }, 2200);
 }
 

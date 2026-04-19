@@ -188,12 +188,13 @@ function featureSheetsHTML(build) {
 // Shows "Requested ✓" if the user already requested this community.
 // ─────────────────────────────────────────────
 function requestInfoHTML(build) {
-  const sent = hasRequested(build.id);
+  const sent   = hasRequested(build.id);
+  const hasPdf = !!(build.latestPriceSheetUrl);
   return `
   <div class="request-info-section" id="request-info-section">
     ${sent
-      ? `<button class="btn-request-sent" disabled>Requested ✓</button>`
-      : `<button class="btn-request-info" id="btn-request-info">Request</button>`
+      ? `<button class="btn-request-sent" disabled>${hasPdf ? 'Price Sent ✓' : 'Price Requested ✓'}</button>`
+      : `<button class="btn-request-info" id="btn-request-info">Unlock the Price</button>`
     }
   </div>`;
 }
@@ -315,16 +316,9 @@ window.addEventListener('filters-changed', () => {
   }
 });
 
-// Re-render prices after unlock
-window.addEventListener('lead-unlocked', () => {
-  if (_currentBuild) renderDetail(_currentBuild);
-});
-
-// Re-render model cards when a request is sent or user registers
+// Re-render model cards when a request is sent (any community — button state changes)
 window.addEventListener('request-sent', (e) => {
-  if (_currentBuild && e.detail?.buildId === _currentBuild.id) {
-    renderModelCards();
-  }
+  if (_currentBuild) renderModelCards();
 });
 
 // ─────────────────────────────────────────────
@@ -378,8 +372,8 @@ function renderModelCards() {
 }
 
 function modelCardHTML(m, build) {
-  const unlocked  = isUnlocked();
   const requested = build ? hasRequested(build.id) : false;
+  const hasPdf    = !!(build?.latestPriceSheetUrl);
 
   const hasImage = !!m.localImageUrl;
   const name = m.modelUrl
@@ -395,20 +389,24 @@ function modelCardHTML(m, build) {
 
   const sqftLine = m.sqft ? `<div class="model-card-sqft">${m.sqft.toLocaleString()} sqft</div>` : '';
 
-  // Price row — always show, blurred + Request button if not yet unlocked
+  // Price row — always blurred until this community is requested
   let priceHTML = '';
   const hasPrice = m.priceFrom || m.priceFromFormatted;
   const formatted = hasPrice ? (fmtPrice(m.priceFrom) || esc(m.priceFromFormatted)) : 'UNAVAILABLE';
 
-  if (unlocked) {
-    priceHTML = `<div class="model-card-price${hasPrice ? '' : ' price-na'}">${formatted}</div>`;
+  if (requested) {
+    // Still blurred — price sheet was sent by email, not shown inline
+    const sentLabel = hasPdf ? 'Price Sent ✓' : 'Price Requested ✓';
+    priceHTML = `
+      <div class="model-price-locked">
+        <span class="model-price-dollar">$</span><span class="model-price-blur">${hasPrice ? formatted : '888,888'}</span>
+        <button class="btn-model-request btn-model-requested" disabled>${sentLabel}</button>
+      </div>`;
   } else {
     priceHTML = `
       <div class="model-price-locked">
         <span class="model-price-dollar">$</span><span class="model-price-blur">${hasPrice ? formatted : '888,888'}</span>
-        <button class="btn-model-request${requested ? ' btn-model-requested' : ''}">
-          ${requested ? 'Requested ✓' : '🔒 Request Price'}
-        </button>
+        <button class="btn-model-request">🔒 Unlock the Price</button>
       </div>`;
   }
 

@@ -79,13 +79,15 @@ async function sendUserEmail(apiKey, from, entry) {
     </div>
     <div style="padding:28px;">
       <h2 style="margin:0 0 8px;font-size:20px;color:#0a0a18;">
-        ${hasPdf ? 'Your price sheet is ready' : 'We received your request'}
+        ${hasPdf ? 'Your price sheet is ready' : 'We got your request!'}
       </h2>
       <p style="margin:0 0 20px;color:#505070;font-size:14px;line-height:1.6;">
         ${entry.name ? `Hi ${entry.name},<br><br>` : ''}
         ${hasPdf
-          ? `The price sheet for <strong>${entry.community}</strong> is attached below. Click the button to view or download it.`
-          : `Thanks for your interest in <strong>${entry.community}</strong>. An agent will follow up with pricing and availability shortly.`
+          ? `The price sheet for <strong>${entry.community}</strong> is ready. Click the button below to view or download it.`
+          : `Thank you for your interest in <strong>${entry.community}</strong>.<br><br>
+             We've received your request and are working on getting you the latest pricing and availability. A member of our team will be in touch with you shortly.<br><br>
+             In the meantime, feel free to explore other new build communities across Ottawa on the map.`
         }
       </p>
       ${hasPdf ? `
@@ -97,11 +99,16 @@ async function sendUserEmail(apiKey, from, entry) {
         <p style="margin:10px 0 0;font-size:12px;color:#8080a0;">
           Or copy this link: <a href="${pdfLink}" style="color:#0099cc;">${pdfLink}</a>
         </p>
-      </div>` : ''}
+      </div>` : `
+      <div style="text-align:center;margin:24px 0;">
+        <a href="${SITE_URL}"
+           style="display:inline-block;background:#0099cc;color:#fff;padding:13px 28px;border-radius:6px;text-decoration:none;font-weight:600;font-size:14px;">
+          Explore More Communities →
+        </a>
+      </div>`}
       <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
       <p style="margin:0;font-size:12px;color:#8080a0;line-height:1.6;">
-        Explore all Ottawa new build communities on the map:<br>
-        <a href="${SITE_URL}" style="color:#0099cc;">${SITE_URL}</a>
+        Ottawa New Builds Map &mdash; <a href="${SITE_URL}" style="color:#0099cc;">${SITE_URL}</a>
       </p>
     </div>
   </div>
@@ -113,7 +120,7 @@ async function sendUserEmail(apiKey, from, entry) {
     to:      [entry.email],
     subject: hasPdf
       ? `Your price sheet — ${entry.community} | Ottawa New Builds`
-      : `Price request received — ${entry.community} | Ottawa New Builds`,
+      : `We received your request — ${entry.community} | Ottawa New Builds`,
     html,
   });
 }
