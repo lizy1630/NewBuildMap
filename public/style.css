@@ -1690,7 +1690,7 @@ body.compare-mode .leaflet-interactive { cursor: crosshair !important; }
 @media (max-width: 640px) {
   #mobile-legend-drawer {
     display: block;
-    position: absolute;
+    position: fixed;
     top: var(--topbar-h);
     left: 0; right: 0;
     z-index: 1200;
