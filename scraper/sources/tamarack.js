@@ -207,7 +207,7 @@ export async function scrape() {
         unitCount: m.unitCount,
       })),
     };
-    writeFileSync(reportPath, JSON.stringify(report, null, 2));
+    writeReportOnce(reportPath, report);
     console.log(`  → ${models.length} models, from ${fmtPrice(communityPrice)}, report saved`);
 
     builds.push({

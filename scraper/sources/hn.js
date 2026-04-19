@@ -304,7 +304,7 @@ function extractMinPrice(sections) {
 
 async function generatePriceReport(browser, communityName, homeType, sections, date) {
   mkdirSync(REPORTS_DIR, { recursive: true });
-  const safeDate = date.replace(/[:.]/g, '-').slice(0, 19);
+  const safeDate = date.slice(0, 10); // date only — one PDF per community per day
   const filename = `${slugify(communityName)}-${slugify(homeType)}-${safeDate}.pdf`;
   const outPath  = `${REPORTS_DIR}/${filename}`;
   const pubPath  = `/data/hn-price-reports/${filename}`;

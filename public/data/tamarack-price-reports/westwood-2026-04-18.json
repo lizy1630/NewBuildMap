@@ -1,0 +1,97 @@
+{
+  "community": "Westwood",
+  "builder": "Tamarack Homes",
+  "date": "2026-04-18T15:25:50.602Z",
+  "models": [
+    {
+      "name": "The Camden",
+      "type": "Townhomes",
+      "status": "New Construction",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2160,
+      "price": "$717,256",
+      "unitCount": 2
+    },
+    {
+      "name": "The Abbey",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1855,
+      "price": "$671,900",
+      "unitCount": 6
+    },
+    {
+      "name": "The Samira",
+      "type": "Townhomes",
+      "status": "New Construction",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2105,
+      "price": "$687,256",
+      "unitCount": 3
+    },
+    {
+      "name": "The Harmony",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2270,
+      "price": "$740,081",
+      "unitCount": 3
+    },
+    {
+      "name": "Type B - The Brockton",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1446,
+      "price": "$543,099",
+      "unitCount": 2
+    },
+    {
+      "name": "Type A - The Ashton",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1446,
+      "price": "$545,094",
+      "unitCount": 4
+    },
+    {
+      "name": "Type A End - The Ashton",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1446,
+      "price": "$561,099",
+      "unitCount": 2
+    },
+    {
+      "name": "Type B End - The Brockton",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1446,
+      "price": "$567,930",
+      "unitCount": 2
+    },
+    {
+      "name": "Type C - The Cardiff",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1510,
+      "price": "$590,065",
+      "unitCount": 1
+    }
+  ]
+}

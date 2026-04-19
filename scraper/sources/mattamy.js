@@ -124,7 +124,7 @@ async function downloadImage(remoteUrl, communitySlug, modelName) {
 
 async function generatePriceReport(browser, communityName, models, date) {
   mkdirSync(REPORTS_DIR, { recursive: true });
-  const safeDate = date.replace(/[:.]/g, '-').slice(0, 19);
+  const safeDate = date.slice(0, 10); // date only — one PDF per community per day
   const filename = `${slugify(communityName)}-${safeDate}.pdf`;
   const outPath  = `${REPORTS_DIR}/${filename}`;
   if (existsSync(outPath)) return `/data/mattamy-price-reports/${filename}`;

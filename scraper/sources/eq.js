@@ -19,6 +19,12 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { writeFileSync, mkdirSync, existsSync } from 'fs';
+// Write report JSON only once per day — skip if today's file already exists
+function writeReportOnce(path, data) {
+  if (existsSync(path)) { console.log(`  [skip] already have ${path.split('/').pop()}`); return; }
+  writeFileSync(path, JSON.stringify(data, null, 2));
+}
+
 import { slugify, sleep } from '../utils.js';
 import { geocode } from '../geocode.js';
 
@@ -408,7 +414,7 @@ export async function scrape() {
     const models = await scrapeEQFloorPlans(
       'Tapestry', 'https://eqhomes.ca/communities/tapestry/floor-plans', 'tapestry'
     );
-    writeFileSync(`${REPORTS_DIR}/tapestry-${date}.json`,
+    writeReportOnce(`${REPORTS_DIR}/tapestry-${date}.json`,
       JSON.stringify({ community: 'Tapestry', builder: 'EQ Homes', date: now, models: models.map(m => ({
         name: m.name, type: m.type, beds: m.beds, baths: m.baths,
         sqft: m.sqft, price: m.priceFromFormatted, status: m.isQuickMove ? 'Move-In Ready' : 'New Construction',
@@ -429,7 +435,7 @@ export async function scrape() {
     const models = await scrapeEQFloorPlans(
       'Provence', 'https://eqhomes.ca/communities/provence/floor-plans', 'provence'
     );
-    writeFileSync(`${REPORTS_DIR}/provence-${date}.json`,
+    writeReportOnce(`${REPORTS_DIR}/provence-${date}.json`,
       JSON.stringify({ community: 'Provence', builder: 'EQ Homes', date: now, models: models.map(m => ({
         name: m.name, type: m.type, beds: m.beds, baths: m.baths,
         sqft: m.sqft, price: m.priceFromFormatted, status: m.isQuickMove ? 'Move-In Ready' : 'New Construction',
@@ -450,7 +456,7 @@ export async function scrape() {
     const models = await scrapeEQFloorPlans(
       'Pathways', 'https://eqhomes.ca/communities/pathways/floor-plans', 'pathways'
     );
-    writeFileSync(`${REPORTS_DIR}/pathways-${date}.json`,
+    writeReportOnce(`${REPORTS_DIR}/pathways-${date}.json`,
       JSON.stringify({ community: 'Pathways', builder: 'EQ Homes', date: now, models: models.map(m => ({
         name: m.name, type: m.type, beds: m.beds, baths: m.baths,
         sqft: m.sqft, price: m.priceFromFormatted, status: m.isQuickMove ? 'Move-In Ready' : 'New Construction',
@@ -469,7 +475,7 @@ export async function scrape() {
   console.log('\nEQ: Forecourt / Greystone Village…');
   try {
     const models = await scrapeForecourt();
-    writeFileSync(`${REPORTS_DIR}/forecourt-${date}.json`,
+    writeReportOnce(`${REPORTS_DIR}/forecourt-${date}.json`,
       JSON.stringify({ community: 'Forecourt', builder: 'EQ Homes (Greystone Village)', date: now, models: models.map(m => ({
         name: m.name, type: m.type, beds: m.beds, baths: m.baths,
         sqft: m.sqft, price: m.priceFromFormatted,
@@ -477,8 +483,8 @@ export async function scrape() {
     console.log(`  → ${models.length} models, from ${fmtPrice(Math.min(...models.map(m=>m.priceFrom).filter(Boolean)))}`);
     builds.push(buildCommunity(
       'eq-greystone-forecourt', 'Forecourt', 'EQ Homes', 'Ottawa',
-      '1737 Woodward Drive, Ottawa, ON K2C 0P9',
-      45.3742, -75.7285,
+      '313 Deschâtelets Ave., Ottawa, ON K1S 5H3',
+      45.4093, -75.6744,
       models, 'https://greystonevillage.ca/forecourt/homes.html'
     ));
   } catch (e) { console.error(`  EQ Forecourt failed: ${e.message}`); }
@@ -488,7 +494,7 @@ export async function scrape() {
   console.log('\nEQ: The Spencer / Greystone Village…');
   try {
     const models = await scrapeSpencer();
-    writeFileSync(`${REPORTS_DIR}/the-spencer-${date}.json`,
+    writeReportOnce(`${REPORTS_DIR}/the-spencer-${date}.json`,
       JSON.stringify({ community: 'The Spencer', builder: 'EQ Homes (Greystone Village)', date: now, models: models.map(m => ({
         name: m.name, type: m.type, beds: m.beds, baths: m.baths,
         sqft: m.sqft, price: m.priceFromFormatted,
@@ -496,8 +502,8 @@ export async function scrape() {
     console.log(`  → ${models.length} models, from ${fmtPrice(Math.min(...models.map(m=>m.priceFrom).filter(Boolean)))}`);
     builds.push(buildCommunity(
       'eq-greystone-spencer', 'The Spencer', 'EQ Homes', 'Ottawa East',
-      '360 Deschâtelets Ave, Ottawa, ON K1S 5Y1',
-      45.4175, -75.6712,
+      '360 Deschâtelets Ave., Ottawa, ON K1S 5Y1',
+      45.4097, -75.6765,
       models, 'https://greystonevillage.ca/thespencer/suites.html'
     ));
   } catch (e) { console.error(`  EQ The Spencer failed: ${e.message}`); }

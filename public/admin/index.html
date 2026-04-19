@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stats — Ottawa New Builds</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0f; color: #f0f0f8; font-size: 14px; min-height: 100vh; }
+
+    .topbar { background: #111118; border-bottom: 1px solid #2a2a38; padding: 14px 24px; display: flex; align-items: center; gap: 12px; }
+    .topbar-title { font-weight: 700; font-size: 15px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: #00d4ff; flex-shrink: 0; }
+
+    .login { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 80vh; gap: 12px; }
+    .login input { background: #1a1a24; border: 1px solid #2a2a38; color: #f0f0f8; padding: 10px 14px; border-radius: 6px; font-size: 14px; width: 240px; }
+    .login button { background: #00d4ff; color: #0a0a0f; font-weight: 700; border: none; padding: 10px 24px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+    .login button:hover { background: #00b8e0; }
+
+    .container { padding: 24px; max-width: 1100px; margin: 0 auto; }
+
+    .summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 28px; }
+    .card { background: #111118; border: 1px solid #2a2a38; border-radius: 8px; padding: 20px 24px; }
+    .card-label { font-size: 12px; color: #606080; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; }
+    .card-value { font-size: 32px; font-weight: 700; color: #00d4ff; }
+
+    h2 { font-size: 14px; font-weight: 600; color: #9090b0; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px; }
+
+    table { width: 100%; border-collapse: collapse; background: #111118; border: 1px solid #2a2a38; border-radius: 8px; overflow: hidden; margin-bottom: 32px; }
+    th { background: #1a1a24; padding: 10px 14px; text-align: left; font-size: 12px; color: #606080; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+    td { padding: 10px 14px; border-top: 1px solid #1a1a24; color: #e0e0f0; font-size: 13px; }
+    tr:hover td { background: #14141e; }
+
+    .bar-wrap { background: #1a1a24; border-radius: 4px; height: 6px; width: 120px; display: inline-block; vertical-align: middle; margin-left: 8px; }
+    .bar { background: #00d4ff; height: 100%; border-radius: 4px; }
+    .unique { color: #22c55e; }
+    .badge { display: inline-block; background: #1a1a24; border: 1px solid #2a2a38; border-radius: 4px; padding: 2px 8px; font-size: 11px; color: #9090b0; }
+
+    .refresh { float: right; background: transparent; border: 1px solid #2a2a38; color: #9090b0; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; margin-bottom: 12px; }
+    .refresh:hover { border-color: #00d4ff; color: #00d4ff; }
+
+    .ts { color: #505070; font-size: 12px; }
+    .error { color: #ef4444; padding: 20px; }
+
+    @media (max-width: 640px) { .summary { grid-template-columns: 1fr; } .bar-wrap { display: none; } }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="dot"></div>
+  <span class="topbar-title">Ottawa New Builds — Stats</span>
+</div>
+
+<div id="login" class="login">
+  <div style="font-size:18px;font-weight:700;margin-bottom:4px;">Enter stats token</div>
+  <div style="color:#606080;font-size:13px;margin-bottom:12px;">Set via STATS_TOKEN env var in Cloudflare</div>
+  <input type="password" id="token-input" placeholder="Token" />
+  <button onclick="load()">View Stats</button>
+  <div id="login-error" style="color:#ef4444;font-size:13px;"></div>
+</div>
+
+<div id="dashboard" style="display:none">
+  <div class="container">
+    <button class="refresh" onclick="load()">↻ Refresh</button>
+
+    <div class="summary" id="summary"></div>
+
+    <h2>Price Button Clicks by Community</h2>
+    <table id="clicks-table">
+      <thead><tr><th>Community</th><th>Builder Area</th><th>Total Clicks</th><th>Unique Visitors</th></tr></thead>
+      <tbody id="clicks-body"></tbody>
+    </table>
+
+    <h2>Leads</h2>
+    <table id="leads-table">
+      <thead><tr><th>Name</th><th>Email</th><th>Community</th><th>Price Sheet</th><th>Time</th></tr></thead>
+      <tbody id="leads-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  // Restore token from session
+  let _token = sessionStorage.getItem('nbm_stats_token') || '';
+  if (_token) { document.getElementById('token-input').value = _token; }
+
+  async function load() {
+    const token = document.getElementById('token-input').value.trim();
+    if (!token) return;
+    _token = token;
+    sessionStorage.setItem('nbm_stats_token', token);
+
+    document.getElementById('login-error').textContent = '';
+
+    const res = await fetch(`/api/stats?token=${encodeURIComponent(token)}`);
+    if (res.status === 401) {
+      document.getElementById('login-error').textContent = 'Invalid token.';
+      return;
+    }
+    const data = await res.json();
+    if (data.error) {
+      document.getElementById('login-error').textContent = data.error;
+      return;
+    }
+
+    document.getElementById('login').style.display = 'none';
+    document.getElementById('dashboard').style.display = '';
+
+    renderSummary(data.summary);
+    renderClicks(data.clicks);
+    renderLeads(data.leads);
+  }
+
+  function renderSummary(s) {
+    document.getElementById('summary').innerHTML = `
+      <div class="card"><div class="card-label">Total Clicks</div><div class="card-value">${s.totalClicks}</div></div>
+      <div class="card"><div class="card-label">Unique Visitors Clicked</div><div class="card-value">${s.totalUniqueVisitors}</div></div>
+      <div class="card"><div class="card-label">Total Leads</div><div class="card-value">${s.totalLeads}</div></div>
+    `;
+  }
+
+  function renderClicks(clicks) {
+    if (!clicks.length) { document.getElementById('clicks-body').innerHTML = '<tr><td colspan="4" style="color:#505070">No clicks yet.</td></tr>'; return; }
+    const max = clicks[0].total;
+    document.getElementById('clicks-body').innerHTML = clicks.map(c => `
+      <tr>
+        <td><strong>${esc(c.buildName)}</strong></td>
+        <td><span class="badge">${esc(c.community)}</span></td>
+        <td>
+          ${c.total}
+          <span class="bar-wrap"><span class="bar" style="width:${Math.round(c.total/max*100)}%"></span></span>
+        </td>
+        <td class="unique">${c.unique}</td>
+      </tr>`).join('');
+  }
+
+  function renderLeads(leads) {
+    if (!leads.length) { document.getElementById('leads-body').innerHTML = '<tr><td colspan="5" style="color:#505070">No leads yet.</td></tr>'; return; }
+    document.getElementById('leads-body').innerHTML = leads.map(l => `
+      <tr>
+        <td>${esc(l.name || '—')}</td>
+        <td><a href="mailto:${esc(l.email)}" style="color:#00d4ff">${esc(l.email)}</a></td>
+        <td>${esc(l.community || '—')}</td>
+        <td>${l.priceSheetUrl ? '<span style="color:#22c55e">✓ Sent</span>' : '<span style="color:#f59e0b">Agent follow-up</span>'}</td>
+        <td class="ts">${l.localTime || ''}</td>
+      </tr>`).join('');
+  }
+
+  function esc(s) {
+    return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  // Auto-load if token already stored
+  if (_token) load();
+
+  document.getElementById('token-input').addEventListener('keydown', e => { if (e.key === 'Enter') load(); });
+</script>
+</body>
+</html>

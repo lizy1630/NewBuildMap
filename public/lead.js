@@ -2,21 +2,19 @@
  * Lead capture & info-request system.
  *
  * Flow:
- *  1. "Request Info" clicked on community without a price sheet.
- *  2. Not registered → modal collects name / email / phone.
- *  3. Submit: saves to localStorage, notifies agent, marks community as requested.
- *  4. Already registered → request fires immediately, no modal.
- *  5. Same community revisited → button stays "✓ Request Sent".
- *  6. Per-model "🔒 Get price" still opens modal for price unlock.
- *
- * Email delivery: formsubmit.co (free, no backend needed).
- * First-ever submission triggers ONE verification email to the agent —
- * click that link once to activate, then all future submissions go through.
+ *  1. "Unlock the Price" clicked on a community.
+ *  2. Not registered → modal collects name + email (pre-filled from draft if returning).
+ *  3. Submit → saves to localStorage, calls /api/leads (Cloudflare Worker).
+ *  4. Worker saves to KV, sends user a confirmation email with PDF link (if available),
+ *     and notifies agent — all via Resend.
+ *  5. Already registered → request fires immediately, no modal.
+ *  6. Same community revisited → button stays "✓ Sent".
  */
 
-const AGENT_EMAIL = 'lizy1630@gmail.com';
-const LEAD_KEY    = 'nbm_lead';      // localStorage → { name, email, phone, ts }
-const REQ_KEY     = 'nbm_requests';  // localStorage → ['build-id', ...]
+const LEAD_KEY     = 'nbm_lead';      // localStorage → { name, email, ts }
+const REQ_KEY      = 'nbm_requests';  // localStorage → ['build-id', ...]
+const DRAFT_KEY    = 'nbm_draft';     // localStorage → { name, email } — pre-fills next open
+const VID_KEY      = 'nbm_vid';       // localStorage → persistent visitor UUID (one per browser)
 
 let _unlocked     = false;
 let _pendingBuild = null; // { id, name, community } set before modal opens
@@ -56,41 +54,78 @@ function markRequested(buildId) {
 }
 
 // ─────────────────────────────────────────────
-// Email via formsubmit.co (free, zero backend)
+// Visitor ID — persistent per browser
 // ─────────────────────────────────────────────
-async function sendNotification(user, build, type) {
-  const subject = type === 'request'
-    ? `[NewBuildMap] Info Request — ${build?.name || '?'} · ${build?.community || ''}`
-    : `[NewBuildMap] New Registration — ${user.name || user.email}`;
-  try {
-    await fetch(`https://formsubmit.co/ajax/${AGENT_EMAIL}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({
-        _subject:  subject,
-        _captcha:  'false',
-        _template: 'table',
-        Name:      user.name  || '—',
-        Email:     user.email || '—',
-        Phone:     user.phone || '—',
-        Community: build ? `${build.name} · ${build.community}` : '—',
-        Type:      type === 'request' ? 'Info Request' : 'New Registration',
-        Time:      new Date().toLocaleString('en-CA', { timeZone: 'America/Toronto' }),
-      }),
-    });
-  } catch (e) {
-    console.warn('[lead] notification failed:', e);
+function getVisitorId() {
+  let vid = localStorage.getItem(VID_KEY);
+  if (!vid) {
+    vid = crypto.randomUUID();
+    localStorage.setItem(VID_KEY, vid);
   }
+  return vid;
+}
+
+// ─────────────────────────────────────────────
+// Click tracking — one count per visitor per community
+// ─────────────────────────────────────────────
+function trackClick(build) {
+  const vid = getVisitorId();
+
+  // Only fire to server once per visitor per build (deduplicated in KV by key)
+  fetch('/api/track', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      vid,
+      buildId:   build.id,
+      buildName: build.name,
+      community: build.community,
+      ts:        new Date().toISOString(),
+    }),
+  }).catch(() => {});
+}
+
+export function getVisitorIdPublic() { return getVisitorId(); }
+
+// ─────────────────────────────────────────────
+// Draft helpers (pre-populate on re-open)
+// ─────────────────────────────────────────────
+function saveDraft(name, email) {
+  try { localStorage.setItem(DRAFT_KEY, JSON.stringify({ name, email })); } catch {}
+}
+
+function getDraft() {
+  try { return JSON.parse(localStorage.getItem(DRAFT_KEY)) || {}; } catch { return {}; }
+}
+
+function clearDraft() {
+  try { localStorage.removeItem(DRAFT_KEY); } catch {}
 }
 
 // ─────────────────────────────────────────────
 // requestInfo — entry point from sidebar button
 // ─────────────────────────────────────────────
 export async function requestInfo(build) {
+  trackClick(build);
+
   if (isRegistered()) {
     markRequested(build.id);
     window.dispatchEvent(new CustomEvent('request-sent', { detail: { buildId: build.id } }));
-    sendNotification(getUser(), build, 'request'); // fire-and-forget
+    const user = getUser();
+    fetch('/api/leads', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name:          user.name  || '—',
+        email:         user.email || '—',
+        buildId:       build.id,
+        community:     `${build.name} · ${build.community}`,
+        priceSheetUrl: build.latestPriceSheetUrl || null,
+        type:          'request',
+        clickStats:    getClickStats(),
+        ts:            new Date().toISOString(),
+      }),
+    }).catch(() => {});
     return;
   }
   _pendingBuild = build;
@@ -115,16 +150,22 @@ export function initLeadModal() {
 export function openLeadModal(mode = 'register') {
   _renderModal(mode);
   document.getElementById('lead-modal-backdrop').classList.add('open');
-  setTimeout(() => document.getElementById('lead-name')?.focus(), 80);
+  // Focus email if draft already has a name (less friction), otherwise name
+  const draft = getDraft();
+  setTimeout(() => {
+    const target = draft.name ? 'lead-email' : 'lead-name';
+    document.getElementById(target)?.focus();
+  }, 80);
 }
 
 // ─────────────────────────────────────────────
 // Render modal HTML
 // ─────────────────────────────────────────────
 function _renderModal(mode) {
-  const isReq = mode === 'request';
-  const cName = _pendingBuild?.name       || '';
-  const cArea = _pendingBuild?.community  || '';
+  const isReq  = mode === 'request';
+  const cName  = _pendingBuild?.name      || '';
+  const cArea  = _pendingBuild?.community || '';
+  const draft  = getDraft();
 
   document.getElementById('lead-modal').innerHTML = `
     ${isReq && cName ? `
@@ -133,29 +174,33 @@ function _renderModal(mode) {
         <strong>${esc(cName)}</strong>
         <span class="lead-badge-area">${esc(cArea)}</span>
       </div>` : ''}
-    <h2>${isReq ? 'Request Info' : 'Unlock Pricing'}</h2>
+    <h2>${isReq ? 'Unlock the Price' : 'Unlock Pricing'}</h2>
     <p class="lead-subtitle">${isReq
-      ? `Leave your details — an agent will follow up with pricing &amp; availability for <strong>${esc(cName)}</strong>.`
+      ? `Pricing for <strong>${esc(cName)}</strong> will be sent to your email shortly.`
       : 'Enter your details to see real prices for all Ottawa new builds — free, no spam.'
     }</p>
     <div class="lead-field">
       <label for="lead-name">Name</label>
-      <input type="text" id="lead-name" placeholder="Your name" autocomplete="name" />
+      <input type="text" id="lead-name" placeholder="Your name" autocomplete="name" value="${esc(draft.name || '')}" />
     </div>
     <div class="lead-field">
       <label for="lead-email">Email <span class="lead-required">*</span></label>
-      <input type="email" id="lead-email" placeholder="you@email.com" autocomplete="email" />
-    </div>
-    <div class="lead-field">
-      <label for="lead-phone">Phone <span class="lead-optional">(optional)</span></label>
-      <input type="tel" id="lead-phone" placeholder="613-555-0100" autocomplete="tel" />
+      <input type="email" id="lead-email" placeholder="you@email.com" autocomplete="email" value="${esc(draft.email || '')}" />
     </div>
     <div class="lead-actions">
       <button class="lead-btn-cancel" id="lead-modal-close">Cancel</button>
       <button class="lead-btn-submit" id="lead-modal-submit">
-        ${isReq ? 'Send Request →' : 'Get Prices →'}
+        ${isReq ? 'Unlock the price' : 'Get Prices →'}
       </button>
     </div>`;
+
+  // Save draft on every keystroke so next open is pre-filled
+  const saveDraftNow = () => saveDraft(
+    document.getElementById('lead-name')?.value  || '',
+    document.getElementById('lead-email')?.value || '',
+  );
+  document.getElementById('lead-name').addEventListener('input',  saveDraftNow);
+  document.getElementById('lead-email').addEventListener('input', saveDraftNow);
 
   document.getElementById('lead-modal-close').addEventListener('click', () => {
     document.getElementById('lead-modal-backdrop').classList.remove('open');
@@ -173,7 +218,6 @@ function _renderModal(mode) {
 async function _handleSubmit() {
   const email = document.getElementById('lead-email')?.value.trim() || '';
   const name  = document.getElementById('lead-name')?.value.trim()  || '';
-  const phone = document.getElementById('lead-phone')?.value.trim() || '';
 
   if (!email || !email.includes('@')) {
     const el = document.getElementById('lead-email');
@@ -185,25 +229,28 @@ async function _handleSubmit() {
   const submitEl = document.getElementById('lead-modal-submit');
   if (submitEl) { submitEl.disabled = true; submitEl.textContent = 'Sending…'; }
 
-  const user  = { name, email, phone, ts: new Date().toISOString() };
+  const user  = { name, email, ts: new Date().toISOString() };
   const build = _pendingBuild;
   const type  = build ? 'request' : 'register';
 
   localStorage.setItem(LEAD_KEY, JSON.stringify(user));
+  clearDraft();
   _unlocked = true;
   if (build) markRequested(build.id);
 
-  await sendNotification(user, build, type);
-
-  // Log lead to server (fire-and-forget — fails silently on static hosts)
+  // Send to Cloudflare Worker — handles KV storage + Resend emails to user + agent
   fetch('/api/leads', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      name, email, phone,
-      community: build ? `${build.name} · ${build.community}` : '—',
+      name,
+      email,
+      buildId:       build?.id       || '—',
+      community:     build ? `${build.name} · ${build.community}` : '—',
+      priceSheetUrl: build?.latestPriceSheetUrl || null,
       type,
-      ts: new Date().toISOString(),
+      clickStats:    getClickStats(),
+      ts:            new Date().toISOString(),
     }),
   }).catch(() => {});
 

@@ -22,6 +22,12 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { writeFileSync, mkdirSync, existsSync } from 'fs';
+// Write report JSON only once per day — skip if today's file already exists
+function writeReportOnce(path, data) {
+  if (existsSync(path)) { console.log(`  [skip] already have ${path.split('/').pop()}`); return; }
+  writeFileSync(path, JSON.stringify(data, null, 2));
+}
+
 import { slugify, sleep } from '../utils.js';
 
 const BASE_URL    = 'https://tartanhomes.com';
@@ -280,8 +286,7 @@ export async function scrape() {
     console.log(`[tartan] ${commCfg.name}: ${models.length} models, from ${fmtPrice(priceFrom)}`);
 
     // Price report
-    writeFileSync(
-      `${REPORTS_DIR}/${slugify(commCfg.name)}-${date}.json`,
+    writeReportOnce(`${REPORTS_DIR}/${slugify(commCfg.name)}-${date}.json`,
       JSON.stringify({
         community: commCfg.name,
         builder:   'Tartan Homes',

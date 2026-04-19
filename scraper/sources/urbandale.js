@@ -254,7 +254,7 @@ async function fetchLotWidth(page, href) {
 
 async function generatePriceReport(browser, commSlug, commName, typeGroups, date) {
   mkdirSync(REPORTS_DIR, { recursive: true });
-  const safeDate = date.replace(/[:.]/g, '-').slice(0, 19);
+  const safeDate = date.slice(0, 10); // date only — one PDF per community per day
   const filename = `${commSlug}-${safeDate}.pdf`;
   const outPath  = path.join(REPORTS_DIR, filename);
   const pubPath  = `/data/urbandale-price-reports/${filename}`;

@@ -117,7 +117,7 @@ async function downloadImage(remoteUrl, commSlug, modelSlug) {
 
 async function generatePriceReport(browser, communityName, modelsByType, date) {
   mkdirSync(REPORTS_DIR, { recursive: true });
-  const safeDate = date.replace(/[:.]/g, '-').slice(0, 19);
+  const safeDate = date.slice(0, 10); // date only — one PDF per community per day
   const filename = `${slugify(communityName)}-${safeDate}.pdf`;
   const outPath  = `${REPORTS_DIR}/${filename}`;
   const pubPath  = `/data/claridge-price-reports/${filename}`;

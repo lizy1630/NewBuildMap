@@ -1,0 +1,286 @@
+{
+  "community": "Pathways",
+  "builder": "EQ Homes",
+  "date": "2026-04-18T15:25:56.044Z",
+  "models": [
+    {
+      "name": "The Madeline MG",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2569,
+      "price": "$818,496",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Lucy MG",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2799,
+      "price": "$898,142",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Oliver MG",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2822,
+      "price": "$955,664",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Ashton",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2960,
+      "price": "$897,257",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Ashton 3-14",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2960,
+      "price": "$1,023,324",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Kinburn",
+      "type": "Multi-Gen",
+      "beds": 6,
+      "baths": 3.5,
+      "sqft": 3219,
+      "price": "$986,637",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Cooper MG",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 3519,
+      "price": "$981,327",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Hamilton",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1817,
+      "price": "$730,000",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Paisley 2-23",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2023,
+      "price": "$863,632",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Blackburn",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2119,
+      "price": "$777,788",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Piper I 2-071",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2242,
+      "price": "$923,900",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Piper I",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2242,
+      "price": "$804,336",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Madeline",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2569,
+      "price": "$818,496",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Piper II",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2653,
+      "price": "$848,584",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Piper II 3-15",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2653,
+      "price": "$1,012,929",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Elliot",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2788,
+      "price": "$955,664",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Lucy",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2799,
+      "price": "$898,142",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Oliver",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2822,
+      "price": "$955,664",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Madeline 3-319",
+      "type": "Single Family",
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 3003,
+      "price": "$1,052,900",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Madeline 2-024",
+      "type": "Single Family",
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 3003,
+      "price": "$1,013,900",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Cooper",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 3519,
+      "price": "$981,327",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Leah",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1282,
+      "price": "$711,416",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Augusta",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1379,
+      "price": "$786,637",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Lennon",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1462,
+      "price": "$711,416",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Sawgrass",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1465,
+      "price": "$799,912",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Firestone",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1532,
+      "price": "$827,345",
+      "status": "New Construction"
+    },
+    {
+      "name": "The William",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1967,
+      "price": "$830,885",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Clementine CT2 19",
+      "type": "Townhomes",
+      "beds": 2,
+      "baths": 2.5,
+      "sqft": 1147,
+      "price": "$536,533",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Clementine CT2 17",
+      "type": "Townhomes",
+      "beds": 2,
+      "baths": 2.5,
+      "sqft": 1147,
+      "price": "$551,527",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Jude CT2 01",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 1.5,
+      "sqft": 1378,
+      "price": "$578,694",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Jude CT2 20",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 1.5,
+      "sqft": 1378,
+      "price": "$574,312",
+      "status": "Move-In Ready"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "community": "Provence",
+  "builder": "EQ Homes",
+  "date": "2026-04-18T15:25:56.044Z",
+  "models": [
+    {
+      "name": "The Madeline",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2569,
+      "price": "$822,920",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Lucy MG",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2799,
+      "price": "$906,991",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Oliver MG",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2822,
+      "price": "$960,088",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Ashton",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2960,
+      "price": "$906,106",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Kinburn",
+      "type": "Multi-Gen",
+      "beds": 6,
+      "baths": 3.5,
+      "sqft": 3219,
+      "price": "$995,487",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Riviera MG",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 3400,
+      "price": "$1,318,900",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Cooper MG",
+      "type": "Multi-Gen",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 3519,
+      "price": "$990,177",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Hamilton",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1817,
+      "price": "$737,965",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Kai",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1878,
+      "price": "$659,204",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Bella",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1919,
+      "price": "$662,743",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Quentin",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1920,
+      "price": "$741,504",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Quentin 4-40",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1920,
+      "price": "$838,900",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Paisley",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2023,
+      "price": "$725,575",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Asher",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2100,
+      "price": "$734,425",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Blackburn",
+      "type": "Single Family",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2119,
+      "price": "$787,522",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Hudson",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2139,
+      "price": "$743,274",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Piper I",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2242,
+      "price": "$808,761",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Madeline",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2569,
+      "price": "$822,920",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Piper II",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2653,
+      "price": "$861,858",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Elliot",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2788,
+      "price": "$959,204",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Lucy",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2799,
+      "price": "$906,991",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Oliver",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2822,
+      "price": "$960,088",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Riviera",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 3400,
+      "price": "$1,063,900",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Cooper",
+      "type": "Single Family",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 3519,
+      "price": "$990,177",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Leah",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1282,
+      "price": "$729,115",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Augusta",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1379,
+      "price": "$804,336",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Lennon",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1462,
+      "price": "$715,841",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Sawgrass",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1465,
+      "price": "$804,336",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Firestone",
+      "type": "Bungalows",
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1532,
+      "price": "$822,035",
+      "status": "New Construction"
+    },
+    {
+      "name": "The William",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1697,
+      "price": "$830,885",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Alexander",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1740,
+      "price": "$1,019,900",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Amelia",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1833,
+      "price": "$1,037,900",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Willow",
+      "type": "Bungalows",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2159,
+      "price": "$1,059,900",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Abbey",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 1.5,
+      "sqft": 1635,
+      "price": "$552,124",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Mia",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1636,
+      "price": "$568,053",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Claudia",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1712,
+      "price": "$574,248",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Nova",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1781,
+      "price": "$623,805",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Benjamin",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1873,
+      "price": "$591,947",
+      "status": "New Construction"
+    },
+    {
+      "name": "The Benjamin T23-8",
+      "type": "Townhomes",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1873,
+      "price": "$686,900",
+      "status": "Move-In Ready"
+    },
+    {
+      "name": "The Mia T23-9",
+      "type": "Townhomes",
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2010,
+      "price": "$663,900",
+      "status": "Move-In Ready"
+    }
+  ]
+}

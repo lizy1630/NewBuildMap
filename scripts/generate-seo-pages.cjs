@@ -148,8 +148,8 @@ for (const [areaName, slug] of Object.entries(AREA_SLUGS)) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>New Builds in ${label}, Ottawa ${year} | Ottawa New Builds Map</title>
-  <meta name="description" content="Browse ${count} new construction communities in ${label}, Ottawa. Find new homes, townhomes, and condos from ${builders.slice(0,3).join(', ')} and more. Prices and floor plans updated ${today}." />
+  <title>New Builds in ${label}, Ottawa ${year} | New Homes &amp; New Construction | Ottawa New Builds Map</title>
+  <meta name="description" content="${count} new build communities in ${label}, Ottawa ${year}. Browse new homes, new construction townhomes, and condos from ${builders.slice(0,3).join(', ')} and more. Ottawa new home prices updated ${today}." />
   <link rel="canonical" href="https://newbuildmap.ca/${slug}/" />
 
   <meta property="og:type"        content="website" />
@@ -207,7 +207,7 @@ for (const [areaName, slug] of Object.entries(AREA_SLUGS)) {
     ${builders.map(b => `<span class="builder-badge">${esc(b)}</span>`).join('\n    ')}
   </div>
 
-  <h2>${count} New Build Communities</h2>
+  <h2>${count} New Build Communities in ${esc(label)}</h2>
   <table>
     <thead>
       <tr>
@@ -221,6 +221,15 @@ for (const [areaName, slug] of Object.entries(AREA_SLUGS)) {
     <tbody>${rows}
     </tbody>
   </table>
+
+  <p style="margin-top:24px;font-size:13px;color:#555;line-height:1.7;">
+    <strong>Related searches:</strong>
+    new builds ${esc(label)} Ottawa &bull;
+    new homes ${esc(label)} Ottawa ${year} &bull;
+    new construction ${esc(label)} Ottawa &bull;
+    Ottawa new build ${esc(label)} &bull;
+    ${areaBuilds.map(b => `${esc(b.name)} ${esc(b.community)}`).join(' &bull; ')}
+  </p>
 </div>
 
 <div class="footer">

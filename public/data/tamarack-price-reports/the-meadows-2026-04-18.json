@@ -1,0 +1,57 @@
+{
+  "community": "The Meadows",
+  "builder": "Tamarack Homes",
+  "date": "2026-04-18T15:25:50.602Z",
+  "models": [
+    {
+      "name": "The Camden",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2160,
+      "price": "$622,929",
+      "unitCount": 4
+    },
+    {
+      "name": "The Abbey",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1855,
+      "price": "$606,991",
+      "unitCount": 7
+    },
+    {
+      "name": "The Samira",
+      "type": "Townhomes",
+      "status": "New Construction",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2105,
+      "price": "$620,580",
+      "unitCount": 3
+    },
+    {
+      "name": "The Harmony",
+      "type": "Townhomes",
+      "status": "Under Construction",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2270,
+      "price": "$664,828",
+      "unitCount": 7
+    },
+    {
+      "name": "The Whitney",
+      "type": "Single Family",
+      "status": "Move-In Ready",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2270,
+      "price": "$789,337",
+      "unitCount": 1
+    }
+  ]
+}

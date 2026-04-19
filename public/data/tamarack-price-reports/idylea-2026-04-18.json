@@ -1,0 +1,47 @@
+{
+  "community": "Idylea",
+  "builder": "Tamarack Homes",
+  "date": "2026-04-18T15:25:50.602Z",
+  "models": [
+    {
+      "name": "The Camden",
+      "type": "Townhomes",
+      "status": "Under Construction",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2160,
+      "price": "$734,639",
+      "unitCount": 1
+    },
+    {
+      "name": "The Abbey",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 1855,
+      "price": "$663,831",
+      "unitCount": 7
+    },
+    {
+      "name": "The Samira",
+      "type": "Townhomes",
+      "status": "Move-In Ready",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2105,
+      "price": "$693,747",
+      "unitCount": 4
+    },
+    {
+      "name": "The Harmony",
+      "type": "Townhomes",
+      "status": "Under Construction",
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2270,
+      "price": "$805,787",
+      "unitCount": 1
+    }
+  ]
+}
