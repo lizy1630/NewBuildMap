@@ -1598,7 +1598,13 @@ body.compare-mode .leaflet-interactive { cursor: crosshair !important; }
 @media (max-width: 640px) {
   :root { --topbar-h: 48px; }
 
-  #topbar { z-index: 1500; }
+  #topbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1500;
+  }
+
+  #main { margin-top: var(--topbar-h); }
 
   #topbar-main {
     padding: 0 10px;
