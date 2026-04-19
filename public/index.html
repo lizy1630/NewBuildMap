@@ -2,7 +2,7 @@
 <html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ottawa New Builds Map | New Construction Homes &amp; Condos in Ottawa 2025</title>
   <meta name="description" content="Explore all new build communities in Ottawa on an interactive map. Browse new construction homes, townhomes, and condos from top Ottawa builders like Claridge, Minto, Richcraft, Mattamy, and more. Filter by price, beds, size, and location." />
   <link rel="canonical" href="https://newbuildmap.ca/" />
@@ -24,18 +24,48 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Ottawa New Builds Map",
-    "url": "https://newbuildmap.ca/",
-    "description": "Interactive map of new construction homes and communities in Ottawa, Ontario. Browse single family homes, townhomes, and condos from leading Ottawa builders.",
-    "inLanguage": "en-CA",
-    "publisher": {
-      "@type": "Organization",
-      "name": "New Builds Map",
-      "url": "https://newbuildmap.ca/"
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Ottawa New Builds Map",
+        "url": "https://newbuildmap.ca/",
+        "description": "Interactive map of new construction homes and communities in Ottawa, Ontario. Browse single family homes, townhomes, and condos from leading Ottawa builders.",
+        "inLanguage": "en-CA",
+        "publisher": {
+          "@type": "Organization",
+          "name": "New Builds Map",
+          "url": "https://newbuildmap.ca/"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://newbuildmap.ca/",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "name": "New Build Communities in Ottawa",
+        "description": "All active new construction communities in Ottawa from Claridge Homes, Minto Communities, Richcraft Homes, Mattamy Homes, Urbandale, Cardel Homes, Tamarack Homes, EQ Homes, Glenview Homes, Caivan, and more.",
+        "url": "https://newbuildmap.ca/",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1,  "name": "Barrhaven New Builds",     "url": "https://newbuildmap.ca/barrhaven/" },
+          { "@type": "ListItem", "position": 2,  "name": "Kanata New Builds",        "url": "https://newbuildmap.ca/kanata/" },
+          { "@type": "ListItem", "position": 3,  "name": "Orléans New Builds",       "url": "https://newbuildmap.ca/orleans/" },
+          { "@type": "ListItem", "position": 4,  "name": "Stittsville New Builds",   "url": "https://newbuildmap.ca/stittsville/" },
+          { "@type": "ListItem", "position": 5,  "name": "Findlay Creek New Builds", "url": "https://newbuildmap.ca/findlay-creek/" },
+          { "@type": "ListItem", "position": 6,  "name": "Richmond New Builds",      "url": "https://newbuildmap.ca/richmond/" },
+          { "@type": "ListItem", "position": 7,  "name": "Manotick New Builds",      "url": "https://newbuildmap.ca/manotick/" },
+          { "@type": "ListItem", "position": 8,  "name": "Ottawa Urban New Builds",  "url": "https://newbuildmap.ca/ottawa/" }
+        ]
+      }
+    ]
   }
   </script>
+
+  <!-- Preconnect to external origins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://unpkg.com" />
 
   <!-- Leaflet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
